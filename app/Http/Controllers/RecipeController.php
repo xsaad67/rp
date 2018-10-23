@@ -17,8 +17,7 @@ class RecipeController extends Controller
     {
 
         $recipes = Recipe::latest()->get(); 
-        
-        return view('recipes.index',compact('recipes'));
+        return view('layouts.main1',compact('recipes'));
     }
 
     /**
@@ -50,6 +49,7 @@ class RecipeController extends Controller
      */
     public function show($slug)
     {
+        
         $recipe = Recipe::with("instructions","ingridents")->where('slug',$slug)->firstOrFail();
         // return $recipe;//->instructions;
         return view("recipes.show",compact("recipe"));

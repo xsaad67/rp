@@ -50,7 +50,7 @@
   
 </head>
 
-<body class="contact-page sidebar-collapse">
+<body class="blog-post">
   <!-- Start Navbar -->
 
     @include('layouts.nav')

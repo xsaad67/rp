@@ -1,119 +1,43 @@
-<nav class="navbar navbar-expand-lg bg-white fixed-top bg-info nav-down">
-      <div class="container">
-        <div class="navbar-translate">
-          <a class="navbar-brand" href="../index.html" rel="tooltip" title="Paper Kit 2 PRO" data-placement="bottom" target="_blank">
-            Paper Kit 2 Pro
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" data-nav-image="/assets/img/blurred-image-1.jpg" data-color="orange">
-          <ul class="navbar-nav ml-auto">
-            <li class="dropdown nav-item">
-              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
-                Components </a>
-              <div class="dropdown-menu dropdown-menu-right dropdown-danger">
-                <a href="../index.html" class="dropdown-item">
-                  All Components
-                </a>
-                <a href="../docs/1.0/getting-started/introduction.html" class="dropdown-item">
-                  Documentation
-                </a>
-              </div>
+ <header class="b-header b-header__absolute-top b-header__white">
+      <div class="b-header_flex"><a class="b-header_logo" href="index.html"><img src="assets/images/logo__white.png" alt="Logo"/></a>
+        <nav class="b-header_nav">
+          <ul>
+            <li class="nav_block"><a href="index.html">Home</a>
             </li>
-            <li class="dropdown nav-item">
-              <a href="#" class="dropdown-toggle nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown">
-                Sections
-              </a>
-              <div class="dropdown-menu dropdown-menu-right dropdown-danger" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" data-scroll="true" data-id="#headers" href="../sections.html#headers">
-                  <i class="nc-icon nc-tile-56"></i> Headers
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#features" href="../sections.html#features">
-                  <i class="nc-icon nc-settings"></i> Features
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#blogs" href="../sections.html#blogs">
-                  <i class="nc-icon nc-bullet-list-67"></i> Blogs
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#teams" href="../sections.html#teams">
-                  <i class="nc-icon nc-single-02"></i> Teams
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#projects" href="../sections.html#projects">
-                  <i class="nc-icon nc-calendar-60"></i> Projects
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#pricing" href="../sections.html#pricing">
-                  <i class="nc-icon nc-money-coins"></i> Pricing
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#testimonials" href="../sections.html#testimonials">
-                  <i class="nc-icon nc-badge"></i> Testimonials
-                </a>
-                <a class="dropdown-item" data-scroll="true" data-id="#contact-us" href="../sections.html#contactus">
-                  <i class="nc-icon nc-mobile"></i> Contact Us
-                </a>
-              </div>
+            <li class="nav_block"><a href="objects_category.html">Category<i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li class="left"><a>Categories design<i class="fas fa-angle-right"></i></a>
+                  <ul>
+                    <li><a href="objects_category_with_filter.html">With filter</a></li>
+                  </ul>
+                </li>
+                <li><a href="object_default.html">Reciept page v.1</a></li>
+                <li><a href="object_nohero.html">Reciept page v.2</a></li>
+                <li><a href="object_default_with_sidebar.html">Reciept page v.3</a></li>
+              </ul>
             </li>
-            <li class="dropdown nav-item">
-              <a href="#" class="dropdown-toggle nav-link" id="navbarDropdownMenuLink1" data-toggle="dropdown">
-                Examples
-              </a>
-              <div class="dropdown-menu dropdown-menu-right dropdown-danger" aria-labelledby="navbarDropdownMenuLink1">
-                <a class="dropdown-item" href="about-us.html">
-                  <i class="nc-icon nc-bank"></i> About-us
-                </a>
-                <a class="dropdown-item" href="add-product.html">
-                  <i class="nc-icon nc-basket"></i> Add Product
-                </a>
-                <a class="dropdown-item" href="blog-post.html">
-                  <i class="nc-icon nc-badge"></i> Blog Post
-                </a>
-                <a class="dropdown-item" href="blog-posts.html">
-                  <i class="nc-icon nc-bullet-list-67"></i> Blog Posts
-                </a>
-                <a class="dropdown-item" href="contact-us.html">
-                  <i class="nc-icon nc-mobile"></i> Contact Us
-                </a>
-                <a class="dropdown-item" href="discover.html">
-                  <i class="nc-icon nc-world-2"></i> Discover
-                </a>
-                <a class="dropdown-item" href="ecommerce.html">
-                  <i class="nc-icon nc-send"></i> Ecommerce
-                </a>
-                <a class="dropdown-item" href="landing-page.html">
-                  <i class="nc-icon nc-spaceship"></i> Landing Page
-                </a>
-                <a class="dropdown-item" href="login-page.html">
-                  <i class="nc-icon nc-lock-circle-open"></i> Login Page
-                </a>
-                <a class="dropdown-item" href="product-page.html">
-                  <i class="nc-icon nc-album-2"></i> Product Page
-                </a>
-                <a class="dropdown-item" href="profile-page.html">
-                  <i class="nc-icon nc-single-02"></i> Profile Page
-                </a>
-                <a class="dropdown-item" href="register-page.html">
-                  <i class="nc-icon nc-bookmark-2"></i> Register Page
-                </a>
-                <a class="dropdown-item" href="search-with-sidebar.html">
-                  <i class="nc-icon nc-zoom-split"></i> Search Page
-                </a>
-                <a class="dropdown-item" href="settings.html">
-                  <i class="nc-icon nc-settings-gear-65"></i> Settings Page
-                </a>
-                <a class="dropdown-item" href="twitter-redesign.html">
-                  <i class="nc-icon nc-tie-bow"></i> Twitter
-                </a>
-              </div>
+            <li class="nav_block"><a>Elements<i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li><a href="pages_cards.html">Cards</a></li>
+                <li><a href="pages_delems.html">Design elements</a></li>
+                <li><a href="pages_forms.html">Forms</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="btn btn-round btn-danger" href="https://www.creative-tim.com/product/paper-kit-2-pro" target="_blank">
-                <i class="nc-icon nc-cart-simple"></i> Buy Now
-              </a>
+            <li class="nav_block"><a href="blog.html">Blog<i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li><a href="post.html">Blog page v.1</a></li>
+              </ul>
             </li>
-           
+            <li class="nav_block"><a href="pages_about.html">About</a>
+            </li>
+            <li class="nav_block"><a href="pages_contacts.html">Contacts</a>
+            </li>
           </ul>
+        </nav>
+        <div class="span" id="menu_toggle"><i class="fa fa-bars"></i></div>
+        <div class="dropdown b-header_language" data-toggle="tooltip" data-placement="left" title="Change language">
+          <button class="btn btn-light b-header_language-button" type="button" id="languageChanger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe fa-fw"></i></button>
+          <div class="dropdown-menu dropdown-menu-right b-header_language-list" aria-labelledby="languageChanger"><a class="dropdown-item b-header_language-item active" href="#"><span>En</span></a><a class="dropdown-item b-header_language-item" href="#"><span>Ru</span></a><a class="dropdown-item b-header_language-item" href="#"><span>De</span></a></div>
         </div>
       </div>
-    </nav>
+    </header>
