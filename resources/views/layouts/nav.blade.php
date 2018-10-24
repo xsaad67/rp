@@ -1,5 +1,5 @@
  <header class="b-header b-header__absolute-top b-header__white">
-      <div class="b-header_flex"><a class="b-header_logo" href="index.html"><img src="assets/images/logo__white.png" alt="Logo"/></a>
+      <div class="b-header_flex"><a class="b-header_logo" href="index.html"><img src="/images/logo__white.png" alt="Logo"/></a>
         <nav class="b-header_nav">
           <ul>
             <li class="nav_block"><a href="index.html">Home</a>

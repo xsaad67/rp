@@ -72,7 +72,7 @@
                   </div>
                
                   <div class="text-center">
-                      <button type="submit" class="">Save</button>
+                      <button type="button" class="">Save</button>
                   </div>
                 </form>
 
@@ -97,6 +97,7 @@
   <script type="text/javascript">
     
     $(function(){
+      alert("hello");
         $(window).keydown(function(event){
         if(event.keyCode == 13) {
           event.preventDefault();

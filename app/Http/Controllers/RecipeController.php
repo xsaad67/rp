@@ -15,9 +15,9 @@ class RecipeController extends Controller
      */
     public function index()
     {
-
+        
         $recipes = Recipe::latest()->get(); 
-        return view('layouts.main1',compact('recipes'));
+        return view('recipes.index',compact('recipes'));
     }
 
     /**
@@ -27,6 +27,7 @@ class RecipeController extends Controller
      */
     public function create()
     {
+        // return "hello world";
         return view('recipes.create');
     }
 

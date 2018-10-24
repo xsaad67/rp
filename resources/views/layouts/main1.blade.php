@@ -1,6 +1,4 @@
 
-<!--header-->
-<!--header END-->
 <!DOCTYPE html>
 <html lang="en">
 
