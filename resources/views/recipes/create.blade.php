@@ -3,11 +3,6 @@
 @section('css')
 
 <style>
-  .box{
-    background:#fff;
-    padding:20px;
-  }
-
 .image-preview {
     width: 200px;
     height: 200px;
@@ -46,24 +41,21 @@
 @endsection
 
 @section('content')
-  
-  <div class="section section-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 ml-auto mr-auto text-center">
-            
-            <div class="box">
-              <h1>Create</h1>
 
-              <br>
+
+<section class="container py-3">
+        <div class="row mb-5">
+          <div class="col-12 col-lg-10 ml-auto mr-auto text-center">
+            <div class="g-block__three-rounds bg-white px-4 py-4">
+
             <form method="POST" action="{{action('RecipeController@store')}}">
-            @csrf
+                  @csrf
                <div class="form-group" id="ing-section">
                       <input type="text" class="form-control border-input ing" id="ing" name="ing[]" >
-                  </div>
+                </div>
             
                   <div class="form-group" id="inst-section">
-                      <input type="text" class="form-control border-input inst" id="inst" name="inst[]">
+                      <input type="text" class=" inst" id="inst" name="inst[]">
 
                       <div class="image-preview" id="preview">
                         <label for="image-upload" class="image-label">Choose File</label>
@@ -72,20 +64,16 @@
                   </div>
                
                   <div class="text-center">
-                      <button type="button" class="">Save</button>
+                      <button type="button" class="btn btn-primary">Save</button>
                   </div>
-                </form>
+            </form>
 
+              
             </div>
-
-
           </div>
+       
         </div>
-        
-
-      </div>
-
-    </div>
+      </section>
 
 @endsection
 
@@ -97,7 +85,6 @@
   <script type="text/javascript">
     
     $(function(){
-      alert("hello");
         $(window).keydown(function(event){
         if(event.keyCode == 13) {
           event.preventDefault();
