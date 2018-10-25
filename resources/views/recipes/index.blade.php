@@ -33,6 +33,12 @@ span.bookmark-icon {
     padding-right:0 !important;
 }
 
+.featured-img{
+    min-width: 100%;
+    max-height: 100%;
+    height:250px;
+}
+
 </style>
 
 @endsection
@@ -137,7 +143,9 @@ span.bookmark-icon {
 
             <!-- Job Listing Details -->
             <div class="post-details">
-                <img src="images/blog-06a.jpg" alt="">
+                
+                <img src="images/blog-06a.jpg" alt="" class="featured-img">
+                
             </div>
 
             <!-- Job Listing Footer -->
