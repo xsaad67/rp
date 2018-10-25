@@ -1,43 +1,77 @@
-
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title>Home page
-    </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--decorative-->
-    <meta name="theme-color" content="#d44f68">
-    <!--decorative END-->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/preload.css">
 
-    <link rel="stylesheet" href="/css/style.css">
+<!-- Basic Page Needs -->
 
-    @yield('css')
+<title>Dummy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/colors/blue.css">
+
+@yield('css')
 </head>
+<body>
 
-  <body>
+<!-- Wrapper -->
+<div id="wrapper">
 
-   @include('layouts.nav')
+<!-- Header Container-->
 
-    <main style="padding-top:100px;">
-        
-     @yield('content')
+    @include('layouts.nav')
 
-    </main>
+<!-- Header Container / End -->
+
+
+
+<!-- Content-->
+
+    @yield('content')
+    
+
+<!-- Footer -->
 
     @include('layouts.footer')
-    <!--Base style-->
-    <!--Base js-->
-    <script src="/js/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!--App js-->
-    <script src="/js/script.js"></script>
-    <!-- Enable tooltips-->
-    <script>$(function () { $('[data-toggle="tooltip"]').tooltip() })</script>
-    @yield('footer')
-  </body>
+
+<!-- Footer / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+<!-- Scripts
+================================================== -->
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/jquery-migrate-3.0.0.min.js"></script>
+<script src="/js/mmenu.min.js"></script>
+<script src="/js/tippy.all.min.js"></script>
+<script src="/js/simplebar.min.js"></script>
+<script src="/js/bootstrap-slider.min.js"></script>
+<script src="/js/bootstrap-select.min.js"></script>
+<script src="/js/snackbar.js"></script>
+<script src="/js/clipboard.min.js"></script>
+<script src="/js/counterup.min.js"></script>
+<script src="/js/magnific-popup.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/custom.js"></script>
+
+<!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
+<script>
+// Snackbar for user status switcher
+$('#snackbar-user-status label').click(function() { 
+    Snackbar.show({
+        text: 'Your status has been changed!',
+        pos: 'bottom-center',
+        showAction: false,
+        actionText: "Dismiss",
+        duration: 3000,
+        textColor: '#fff',
+        backgroundColor: '#383838'
+    }); 
+}); 
+</script>
+
+</body>
 
 </html>
