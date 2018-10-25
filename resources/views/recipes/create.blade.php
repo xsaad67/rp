@@ -36,6 +36,41 @@
   margin: auto;
   text-align: center;
 }
+
+
+#featured-preview {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f3eeee;
+    color: #ecf0f1;
+}
+#featured-preview input {
+  line-height: 200px;
+  font-size: 200px;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+#featured-preview label {
+  position: absolute;
+  z-index: 5;
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: #bdc3c7;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
 </style>
 
 @endsection
@@ -44,36 +79,53 @@
 
 
 <section class="container py-3">
-        <div class="row mb-5">
-          <div class="col-12 col-lg-10 ml-auto mr-auto text-center">
-            <div class="g-block__three-rounds bg-white px-4 py-4">
 
-            <form method="POST" action="{{action('RecipeController@store')}}">
-                  @csrf
-               <div class="form-group" id="ing-section">
-                      <input type="text" class="form-control border-input ing" id="ing" name="ing[]" >
-                </div>
-            
-                  <div class="form-group" id="inst-section">
-                      <input type="text" class=" inst" id="inst" name="inst[]">
+  <div class="row mb-5">
+      <div class="col-12 col-lg-10 ml-auto mr-auto text-center">
+        <div class="g-block__three-rounds bg-white px-4 py-4">
 
-                      <div class="image-preview" id="preview">
-                        <label for="image-upload" class="image-label">Choose File</label>
-                        <input type="file" name="instImage[]" class="image-upload" id="uploading" />
-                      </div>
-                  </div>
-               
-                  <div class="text-center">
-                      <button type="button" class="btn btn-primary">Save</button>
-                  </div>
-            </form>
+        <form method="POST" action="{{action('RecipeController@store')}}">
+              @csrf
 
-              
-            </div>
+
+          
+
+
+          <div class="form-group">
+            <input type="text" class="form-control" name="title" placeholder="Title">
           </div>
-       
+
+           <div id="featured-preview">
+              <label for="image-upload" id="featured-label">Choose File</label>
+              <input type="file" name="featured" id="featured-uploading" id="uploading" />
+            </div>
+
+            <br>
+
+           <div class="form-group" id="ing-section">
+                  <input type="text" class="form-control border-input ing" id="ing" name="ing[]" >
+            </div>
+        
+              <div class="form-group" id="inst-section">
+                  <input type="text" class="form-control inst" id="inst" name="inst[]">
+
+                  <div class="image-preview" id="preview">
+                    <label for="image-upload" class="image-label">Choose File</label>
+                    <input type="file" name="instImage[]" class="image-upload" id="uploading" />
+                  </div>
+              </div>
+           
+              <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Save</button>
+              </div>
+        </form>
+
+          
         </div>
-      </section>
+      </div>
+  </div>
+
+</section>
 
 @endsection
 
@@ -93,6 +145,12 @@
       });
   
   var count =1; 
+
+     $.uploadPreview({
+      input_field: "#featured-uploading",
+      preview_box: "#featured-preview",
+      label_field: "#featured-label"
+    });
       
     $.uploadPreview({
       input_field: "#uploading",

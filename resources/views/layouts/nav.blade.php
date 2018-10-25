@@ -1,4 +1,4 @@
-<header class="b-header ">
+<header class="b-header fixed-top">
       <div class="b-header_flex"><a class="b-header_logo" href="index.html"><img src="/images/logo.png" alt="Logo"/></a>
         <nav class="b-header_nav">
           <ul>

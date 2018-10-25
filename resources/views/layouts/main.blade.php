@@ -21,7 +21,7 @@
 
    @include('layouts.nav')
 
-    <main>
+    <main style="padding-top:100px;">
         
      @yield('content')
 

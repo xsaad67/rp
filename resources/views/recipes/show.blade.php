@@ -29,7 +29,8 @@
       <article class="container g-block__three-rounds bg-white mb-3 p-md-5 p-3">
 
         <div class="row">
-          <div class="col-12 col-md-6"><img class="img-fluid mb-3" src="/images/reciept_2_card.jpg" alt="How to cook jalapeno sauce"></div>
+          <div class="col-12 col-md-6">
+            <img class="img-fluid mb-3" src="/images/reciept_2_card.jpg" alt="How to cook jalapeno sauce"></div>
           <div class="col-12 col-md-6">
             <h1>How to cook jalapeno sauce</h1>
             <hr>
@@ -49,8 +50,9 @@
                 <h4>Ingridients</h4>
                 <div class="b-list_item custom-control custom-checkbox">
                   <input class="custom-control-input" type="checkbox" id="listItem0">
-                  <label class="b-list_item-title custom-control-label" for="listItem0"><span>Fish</span></label>
-                  <div class="b-list_item-value"><span>350 g.</span></div>
+                  <label class="b-list_item-title custom-control-label" for="listItem0"><span>10 g. Fish</span></label>
+                  {{-- <div class="b-list_item-value"><span>350 g.</span>
+                  </div> --}}
                 </div>
                 <div class="b-list_item custom-control custom-checkbox">
                   <input class="custom-control-input" type="checkbox" id="listItem1">

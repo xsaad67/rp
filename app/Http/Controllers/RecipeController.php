@@ -39,7 +39,7 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       
     }
 
     /**
