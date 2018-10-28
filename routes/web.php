@@ -12,7 +12,11 @@
 */
 
 
-Route::get('/','RecipeController@index');
+Route::get('/','CrawlController@getIng');
+
+Route::get('/ing',function(){
+	return view('ingridents.ing');
+});
 
 Route::get('/recipe/create','RecipeController@create');
 Route::post('/recipe/store','RecipeController@store');

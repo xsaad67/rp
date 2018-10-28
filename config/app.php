@@ -152,6 +152,8 @@ return [
          * Package Service Providers...
          */
 
+        Weidner\Goutte\GoutteServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -210,6 +212,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Input' => Illuminate\Support\Facades\Input::class,
+        'Goutte' => Weidner\Goutte\GoutteFacade::class,
     ],
 
 ];

@@ -1,76 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 
 <head>
 
-<!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Webpixels">
 
-<title>Dummy</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/colors/blue.css">
+    <title>@yield('title')</title>
 
-@yield('css')
+    <!-- Favicon -->
+    <link rel="icon" href="/img/brand/favicon.png" type="image/png">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800">
+
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="/vendor/fortawesome/fontawesome-pro/css/all.min.css">
+
+
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/css/theme.min.css">
+
+    @yield('css')
+
+    <style>
+
+        .mg-tp-100{
+            margin-top:100px;
+        }
+    </style>
+
+
 </head>
+
 <body>
 
-<!-- Wrapper -->
-<div id="wrapper">
 
-<!-- Header Container-->
-
-    @include('layouts.nav')
-
-<!-- Header Container / End -->
+  @include('layouts.nav')
 
 
 
-<!-- Content-->
 
-    @yield('content')
-    
 
-<!-- Footer -->
+<main class="mg-tp-100">
+
+  @yield('content')
+
+      <section class="slice py-5 bg-secondary delimiter-top">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-center">
+
+                    <div class="col-lg-4">
+                        <div class="pr-lg-5 text-center text-lg-right">
+                            <h5 class="mb-0">Sign up for the daily newsletter:</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-group shadow mb-0">
+                                <div class="input-group input-group-transparent input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white border-right-0"><i class="far fa-envelope-open"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control border-left-0" placeholder="Enter your email ...">
+                                    <div class="input-group-append">
+                                        <button type="button" class="btn btn-dark">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</main>
 
     @include('layouts.footer')
 
-<!-- Footer / End -->
+    <!-- Core -->
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/in-view/dist/in-view.min.js"></script>
 
-</div>
-<!-- Wrapper / End -->
 
-<!-- Scripts
-================================================== -->
-<script src="/js/jquery-3.3.1.min.js"></script>
-<script src="/js/jquery-migrate-3.0.0.min.js"></script>
-<script src="/js/mmenu.min.js"></script>
-<script src="/js/tippy.all.min.js"></script>
-<script src="/js/simplebar.min.js"></script>
-<script src="/js/bootstrap-slider.min.js"></script>
-<script src="/js/bootstrap-select.min.js"></script>
-<script src="/js/snackbar.js"></script>
-<script src="/js/clipboard.min.js"></script>
-<script src="/js/counterup.min.js"></script>
-<script src="/js/magnific-popup.min.js"></script>
-<script src="/js/slick.min.js"></script>
-<script src="/js/custom.js"></script>
 
-<!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
-<script>
-// Snackbar for user status switcher
-$('#snackbar-user-status label').click(function() { 
-    Snackbar.show({
-        text: 'Your status has been changed!',
-        pos: 'bottom-center',
-        showAction: false,
-        actionText: "Dismiss",
-        duration: 3000,
-        textColor: '#fff',
-        backgroundColor: '#383838'
-    }); 
-}); 
-</script>
+
+    <!-- Page plugins -->
+    <script src="/vendor/autosize/dist/autosize.min.js"></script>
+
+
+    <!-- Theme JS -->
+
+    <script src="/js/theme.min.js"></script>
+
+
+    @yield('footer')
+  
 
 </body>
 

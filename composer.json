@@ -11,7 +11,7 @@
         "laravel/tinker": "^1.0",
         "laravolt/avatar": "^2.0",
         "stevebauman/location": "^3.0",
-        "weidner/goutte": "^1.0"
+        "weidner/goutte": "1.0.*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
