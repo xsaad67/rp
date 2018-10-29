@@ -12,7 +12,7 @@
 */
 
 
-Route::get('/','RecipeController@index');
+Route::get('/','CrawlLinksController@epicriciousSingle');
 
 Route::post('/newsletter','NewsLetterController@store');
 

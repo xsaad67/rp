@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Goutte;
 use App\Ingrident;
+use App\CrawlLinks;
 
 ini_set('max_execution_time', 180);
 
@@ -24,7 +25,7 @@ class CrawlController extends Controller
 	    		$isRecipe = explode("/",$link);
 	    		// dump($link);
 	    		if($isRecipe[1]==="recipes"){
-	    			session()->push("links", ["link"=> $link, "title" => $node->attr("title"), "website"=>"epicurious",""] );
+	    			// session()->push("links", ["link"=> $link, "title" => $node->attr("title"), "website"=>"epicurious",""] );
 	    		}
 	    	});
     	}
