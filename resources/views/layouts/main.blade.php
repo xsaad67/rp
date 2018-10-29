@@ -60,18 +60,23 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <form>
+                        <form method="POST" action="{{action('NewsLetterController@store')}}">
+                            @csrf
                             <div class="form-group shadow mb-0">
                                 <div class="input-group input-group-transparent input-group-lg">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-white border-right-0"><i class="far fa-envelope-open"></i></span>
                                     </div>
-                                    <input type="text" class="form-control border-left-0" placeholder="Enter your email ...">
+                                    <input type="text" class="form-control border-left-0" name="nemail" placeholder="Enter your email ...">
                                     <div class="input-group-append">
-                                        <button type="button" class="btn btn-dark">Subscribe</button>
+                                        <button type="submit" class="btn btn-dark">Subscribe</button>
                                     </div>
                                 </div>
                             </div>
+                            @if ($errors->has('email'))
+                                 <span class="error">{{ $errors->first('email') }}</span>
+                            @endif
+                           
                         </form>
                     </div>
                 </div>
