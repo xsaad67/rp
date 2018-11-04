@@ -16,18 +16,20 @@ class CreateRecipesTable extends Migration
         Schema::create('recipes', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id');
-            $table->integer('category_id');
-            $table->integer('cuisine_id');
+            $table->integer('category')->nullable();
+            $table->integer('cuisine')->nullable();
             $table->string('title');
             $table->string('slug');
-            $table->text('description');
-            $table->string('features')->nullable();
+            $table->text('description')->nullable();
             $table->string('serves')->nullable();
             $table->string('difficulty')->nullable();
-            $table->string('preprationTime');
-            $table->string('cookingTime');
+            $table->string('preprationTime')->nullable();
+            $table->string('cookingTime')->nullable();
             $table->string('cookingTemprature')->nullable();
             $table->string('featuredImage')->nullable();
+            $table->longText('ingridents')->nullable();
+            // $table->longText('instructions')->nullable();
+            // $table->longText('features')->nullable();
             $table->timestamps();
         });
     }

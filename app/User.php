@@ -4,11 +4,32 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Overtrue\LaravelFollow\Traits\CanFavorite;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, CanFavorite;
 
+        public static function boot()
+      {
+         parent::boot();
+
+         static::creating(function($model) {
+             $model->slug = str_slug($model->name);
+
+             $latestSlug =
+                 static::whereRaw("slug = '$model->slug' or slug LIKE '$model->slug-%'")
+                     ->latest('id')
+                     ->value('slug');
+             if ($latestSlug) {
+                 $pieces = explode('-', $latestSlug);
+
+                 $number = intval(end($pieces));
+
+                 $model->slug .= '-' . ($number + 1);
+             }
+         });
+      }
     /**
      * The attributes that are mass assignable.
      *

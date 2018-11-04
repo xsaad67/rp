@@ -30,7 +30,7 @@ $factory->define(App\Recipe::class, function (Faker $faker) {
         'user_id' => rand(1,20),
         'title' => $faker->sentence,
         'category_id'=> rand(1,20),
-        'cuisine_id' => rand(1,20),
+        'cuisine' => rand(1,20),
         'slug' => $faker->slug,
         'description' => $faker->paragraph,
         'serves' => rand(1,4), 

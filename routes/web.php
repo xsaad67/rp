@@ -11,11 +11,17 @@
 |
 */
 
-
-Route::get('/','CrawlLinksController@epicriciousSingle');
+Auth::routes();
+Route::get('/','RecipeController@index');
 
 Route::post('/newsletter','NewsLetterController@store');
 
 Route::get('/recipe/create','RecipeController@create');
 Route::post('/recipe/store','RecipeController@store');
 Route::get('/recipe/{slug}','RecipeController@show');
+
+Route::get('/search','SearchController@index');
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');

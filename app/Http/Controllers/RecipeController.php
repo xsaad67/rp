@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Recipe;
 use Illuminate\Http\Request;
+use App\Ingrident;
 // use Avatar;
 
 class RecipeController extends Controller
@@ -39,7 +40,17 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-       
+        $bits = explode("\n", $request->hello); 
+
+        $newstring = "<ol>";
+        foreach($bits as $bit)
+        {
+          $newstring .= "<li>" . $bit . "</li>";
+        }
+        $newstring .= "</ol>";
+
+        echo $newstring;
+
     }
 
     /**
@@ -51,7 +62,17 @@ class RecipeController extends Controller
     public function show($slug)
     {
         
-        $recipe = Recipe::with("instructions","ingridents")->where('slug',$slug)->firstOrFail();
+         $recipe = Recipe::with("instructions","ingridents")->where('slug',$slug)->firstOrFail();
+
+        // return $recipe;
+
+         // return Ingrident::pluck('name');
+         // foreach($recipe->ingridents as $instructions){
+         //     if(containsWord($instructions->note,'olive')==1){
+         //         echo str_replace('olive','hello',$instructions->note);
+                 
+         //     }
+         // }
         // return $recipe;//->instructions;
         return view("recipes.show",compact("recipe"));
     }

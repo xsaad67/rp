@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Recipe;
 
 class HomeController extends Controller
 {
@@ -23,7 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return auth()->user();
-        return view('home');
+        // $user = auth()->user();
+        // $recipe = Recipe::find(1);
+
+        // $user->favorite($recipe);
+        // return $favorited;
+        // return $user;
+
+         return view('home');
     }
 }

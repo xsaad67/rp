@@ -14,7 +14,7 @@ ini_set('max_execution_time', 380);
 class CrawlLinksController extends Controller
 {
     public function insertingData(){
-
+ 	
 
 
     	for($i=200;$i<=210;$i++){

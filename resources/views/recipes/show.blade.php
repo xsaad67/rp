@@ -1,195 +1,416 @@
 @extends('layouts.main')
 
 @section('css')
+<style>
+.single-ingredients {
+    background-color: #faf5f1;
+    padding: 40px 60px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
 
-<link rel="stylesheet" type="text/css" href="/css/hr.css">
+.single-ingredients table.ingredients-table {
+    width: 100%;
+}
 
-<style type="text/css">
-    .cpost{
-        border:2px dashed #ccc;
-        height:250px;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.single-ingredients table.ingredients-table td.ingredient-action {
+    cursor: pointer;
+    width: 40px;
+    padding: 10px 5px;
+    text-align: center;
+    border-right: 1px solid #efe0d3;
+}
+
+.single-ingredients table.ingredients-table td {
+    border-bottom: 1px solid #efe0d3;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+    font-weight: 400;
+}
+
+
+
+.big-meta-box {
+    /*border: 1px solid rgba(0,0,0,0.1);*/
+    background-color: #fff;
+    padding: 20px 0px;
+    /*font-weight: 200;*/
+    margin-bottom:25px;
+}
+
+.big-meta-box ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.big-meta-box ul li {
+    display: inline-block;
+    padding: 5px 25px;
+    font-weight: 600;
+    font-size:20px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+        color: #510fa8;
+}
+.big-meta-box ul  li:last-child { border-right: none; }
+
+
+.description{
+    font-size: 22px;
+    line-height: 1.4;
+    padding: 70px 80px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
     }
-
 </style>
 
 @endsection
 
+
 @section('content')
 
+        <section class="slice slice-lg">
+            <div class="container pt-lg">
+                <div class="row">
+
+                 
 
 
-      <div class="container py-3">
-        <div class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="#">Recieps</a></li>
-          <li class="breadcrumb-item"><a href="#">Fish</a></li>
-          <li class="breadcrumb-item active">Amazing fish steak</li>
-        </div>
-      </div>
-      <article class="container g-block__three-rounds bg-white mb-3 p-md-5 p-3">
 
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <img class="img-fluid mb-3" src="/images/reciept_2_card.jpg" alt="How to cook jalapeno sauce"></div>
-          <div class="col-12 col-md-6">
-            <h1>How to cook jalapeno sauce</h1>
-            <hr>
-            <h4>Short info</h4>
-            <p class="text-muted"><span><i class="fas fa-clock"></i> 2 hour, </span><span><i class="fas fa-heartbeat"></i> 135 calories</span></p>
-            <p><strong>Autor : <a href="index.html">John Doe</a></strong></p>
-            <hr><a class="btn btn-primary mb-3" href="#"><i class="fas fa-bookmark mr-2"></i> bookmark</a>
-          </div>
-        </div>
-        <hr class="style16">
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-4">
+                    <div class="col-md-9">
+                        <h1 class="lh-150 mb-3">{{$recipe->title}}</h1>
+                        {{-- <p class="lead text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.</p> --}}
+                        <div class="media align-items-center mt-5">
+                            <img alt="Image placeholder" src="/img/prv/team-7-800x800.jpg" class="avatar avatar-sm mr-3">
+                            <div class="media-body">
+                                <span class="h6 mb-0 float-left">{{$recipe->chef->name}}</span>
+                                <span class="text-small text-muted float-right">{{$recipe->created_at->diffForHumans()}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <div class="sticky-top">
-              <div class="b-list b-list__bordered b-list__white">
-                <h4>Ingridients</h4>
-                <div class="b-list_item custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listItem0">
-                  <label class="b-list_item-title custom-control-label" for="listItem0"><span>10 g. Fish</span></label>
-                  {{-- <div class="b-list_item-value"><span>350 g.</span>
-                  </div> --}}
+        @if(!is_null($recipe->featuredImage))
+        <section class="bg-cover bg-size--cover" style="height: 600px; background-image: url('/img/backgrounds/img-14.jpg'); background-position: top center;"></section>
+        @endif
+
+        <form method="POST" action="{{action('RecipeController@store')}}">
+            @csrf
+
+            <textarea name="hello"></textarea>
+
+            <button type="submit">adf</button>
+
+        </form>
+        
+
+        <section class="slice">
+
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-lg-9">
+                        <!-- Article body -->
+                        <article>
+
+
+                            <div class="big-meta-box col-12">
+                                <ul>
+                                    <li class="single-meta-views">
+                                        <span><i class="fas fa-eye"></i> 14,235 Views</span>
+                                    </li>
+
+                                    <li class="single-meta-views">
+                                      <span><i class="far fa-heart" ></i> 14,235 Love</span>
+                                    </li>
+                                    
+
+                                    <li class="single-meta-views">
+                                        <span><i class="fas fa-utensils"></i> Serves 15</span>
+                                    </li>
+
+                                    
+                                    
+                                </ul>
+                            </div>
+                            {!! !is_null($recipe->description) ? '<p class="description">'.$recipe->description.'</p>' : '' !!}
+
+
+                            
+
+
+
+
+                            <div class="row">
+                            <div class="single-ingredients  offset-md-1 offset-lg-1 col-lg-10 col-md-10 col-12">
+                                <h3><i class="fas fa-book-open" style="color:#e5f3eb"></i> Ingredients</h3>
+
+                                <table class="ingredients-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="ingredient-action">
+                                                <span class="ingredient-mark-icon"><i class="fa fa-utensils"></i></span>
+                                            </td>
+                                            <td>
+                                                <span class="ingredient-name"> Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world </span>
+                                            </td>
+                                        </tr>
+
+
+                                      
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                            <ul>
+                        	@foreach($recipe->ingridents as $ingrident)
+                            	<li id="{{$recipe->id.'ing'.$ingrident->id}}">
+                            		{{$ingrident->note}}	
+                            	</li>
+                        	@endforeach
+                            </ul>
+                            <hr>
+                            <h3>Recipe Instruction</h3>
+
+
+                            <ul>
+                        	@forelse($recipe->instructions as $instructions)
+                            	<li>
+                            		{{$instruction->note}}	
+                            	</li>
+                            @empty 
+                            	
+                            	<div class="container">
+								  <div class="row">
+								    <div class="col-12 text-center">
+								      <a href="{{$recipe->crawlLink}}" target="_blank" class="btn btn-sm btn-primary btn-circle btn-lg btn-icon d-lg-inline-flex text-center">
+			                                {{-- <span class="btn-inner--icon"><i class="far fa-shopping-cart"></i></span> --}}
+			                                <span class="btn-inner--text">Read Recipe Instruction From {{ucwords($recipe->chef->name)}}</span>
+			                           </a>
+								    </div>
+								  </div>
+								</div>
+                        	@endforelse
+                            </ul>
+
+                            
+                        </article>
+
+                        <hr>
+                        <h5 class="mb-4">Comments</h5>
+                        <div class="p-5 bg-secondary border rounded">
+                            <div class="media">
+                                <img alt="Image placeholder" class="rounded-circle shadow mr-4" src="/img/prv/team-1-800x800.jpg" style="width: 64px;">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Media heading</h5>
+                                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                        lacinia congue felis in faucibus.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#" class="text-muted">Like</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-muted">Reply</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-muted">Report</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="media mt-5">
+                                        <a class="pr-4" href="#">
+                                            <img alt="Image placeholder" src="/img/prv/team-2-800x800.jpg" class="rounded-circle shadow" style="width: 64px;">
+                                        </a>
+                                        <div class="media-body">
+                                            <h5 class="mt-0">Media heading</h5>
+                                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                                                Donec lacinia congue felis in faucibus.</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><a href="#" class="text-muted">Like</a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#" class="text-muted">Reply</a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#" class="text-muted">Report</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media mt-5">
+                                <img alt="Image placeholder" class="rounded-circle shadow mr-4" src="/img/prv/team-3-800x800.jpg" style="width: 64px;">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Media heading</h5>
+                                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                        lacinia congue felis in faucibus.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#" class="text-muted">Like</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-muted">Reply</a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#" class="text-muted">Report</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Comment form -->
+                            <h5 class="mt-5 mb-4">Add you comment</h5>
+                            <form class="form-secondary">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="sr-only">Your name</label>
+                                            <input class="form-control" placeholder="Your name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="sr-only">Email address</label>
+                                            <input class="form-control" placeholder="Email address" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only">Phone number</label>
+                                    <input class="form-control" placeholder="Phone number" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only">Type your message</label>
+                                    <textarea class="form-control textarea-autosize" rows="3" placeholder="Type your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-block btn-primary shadow mt-4">Reply</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-3">
+
+                        <div data-toggle="sticky" data-sticky-offset="100" data-negative-margin=".card-profile-cover">
+
+                            
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="b-list_item custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listItem1">
-                  <label class="b-list_item-title custom-control-label" for="listItem1"><span>Salt</span></label>
-                  <div class="b-list_item-value"><span>10 g.</span></div>
+            </div>
+        </section>
+
+        <section class="slice slice-lg bg-secondary" data-delimiter-before="1" data-delimiter-after="1">
+            <div class="container">
+                <div class="mb-md text-center">
+                    <h3 class="heading h2">Latest from the blog</h3>
+                    <div class="fluid-paragraph mt-3">
+                        <p class="lead">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                    </div>
                 </div>
-                <div class="b-list_item custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listItem2">
-                  <label class="b-list_item-title custom-control-label" for="listItem2"><span>Sugar</span></label>
-                  <div class="b-list_item-value"><span>15 g.</span></div>
+                <div class="row row-grid">
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm shadow--hover">
+                            <img alt="Image placeholder" src="/img/prv/img-1-800x600.jpg" class="card-img-top">
+                            <div class="card-body py-5 text-center">
+                                <a href="#" class="h5 lh-150">Choose the best solution for your business</a>
+                                <h6 class="text-muted mt-4 mb-0">25 April, 2018</h6>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-muted"><i class="far fa-share mr-1 text-muted"></i> 131</a>
+                                            </li>
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-muted"><i class="far fa-eye mr-1 text-muted"></i> 255</a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="text-muted"><i class="far fa-comments mr-1 text-muted"></i> 14</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm shadow--hover">
+                            <img alt="Image placeholder" src="/img/prv/img-2-800x600.jpg" class="card-img-top">
+                            <div class="card-body py-5 text-center">
+                                <a href="#" class="h5 lh-150">How to find the right design for your specific product</a>
+                                <h6 class="text-muted mt-4 mb-0">25 April, 2018</h6>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-muted"><i class="far fa-share mr-1 text-muted"></i> 131</a>
+                                            </li>
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-muted"><i class="far fa-eye mr-1 text-muted"></i> 255</a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="text-muted"><i class="far fa-comments mr-1 text-muted"></i> 14</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm shadow--hover">
+                            <img alt="Image placeholder" src="/img/prv/img-3-800x600.jpg" class="card-img-top">
+                            <div class="card-body py-5 text-center">
+                                <a href="#" class="h5 lh-150">How to win buyers and influence sales with marketing</a>
+                                <h6 class="text-muted mt-4 mb-0">25 April, 2018</h6>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-muted"><i class="far fa-share mr-1 text-muted"></i> 131</a>
+                                            </li>
+                                            <li class="list-inline-item pr-4">
+                                                <a href="#" class="text-muted"><i class="far fa-eye mr-1 text-muted"></i> 255</a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="text-muted"><i class="far fa-comments mr-1 text-muted"></i> 14</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="b-list_item custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listItem3">
-                  <label class="b-list_item-title custom-control-label" for="listItem3"><span>Water</span></label>
-                  <div class="b-list_item-value"><span>400 ml.</span></div>
-                </div>
-              </div>
             </div>
-            <div class="g-tag-list my-3"><a class="g-tag-list_item" href="#">fish</a><a class="g-tag-list_item" href="#">like a boss</a><a class="g-tag-list_item" href="#">salt</a></div>
-          </div>
-          <div class="col-12 col-lg-8">
-            <h2>How to cook</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            <hr>
-            <div class="d-flex align-items-center">
-              <h6 class="col" data-toggle="collapse" href="#stage1" role="button" aria-expanded="true" aria-controls="stage1"> 
-                <div class="custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listStage0">
-                  <label class="b-list_item-title custom-control-label" for="listStage0"><strong>Stage 1: Get a fish</strong></label>
-                </div>
-              </h6>
-            </div>
-            <div class="collapse show" id="stage1">
-              <p>If it really difficult to fish, you can steal it.</p>
-            </div>
-            <div class="d-flex align-items-center">
-              <h6 class="col" data-toggle="collapse" href="#stage2" role="button" aria-expanded="true" aria-controls="stage2"> 
-                <div class="custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listStage2">
-                  <label class="b-list_item-title custom-control-label" for="listStage2"><strong>Stage 2: Clean it</strong></label>
-                </div>
-              </h6>
-            </div>
-            <div class="collapse show" id="stage2">
-              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-            </div>
-            <div class="d-flex align-items-center">
-              <h6 class="col" data-toggle="collapse" href="#stage3" role="button" aria-expanded="true" aria-controls="stage3"> 
-                <div class="custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listStage3">
-                  <label class="b-list_item-title custom-control-label" for="listStage3"><strong>Stage 3: Cook it</strong></label>
-                </div>
-              </h6>
-            </div>
-            <div class="collapse show" id="stage3">
-              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-            </div>
-            <div class="d-flex align-items-center">
-              <h6 class="col" data-toggle="collapse" href="#stage4" role="button" aria-expanded="true" aria-controls="stage4"> 
-                <div class="custom-control custom-checkbox">
-                  <input class="custom-control-input" type="checkbox" id="listStage4">
-                  <label class="b-list_item-title custom-control-label" for="listStage4"><strong>Stage 4: Finish</strong></label>
-                </div>
-              </h6>
-            </div>
-            <div class="collapse show" id="stage4"><img class="img-fluid my-3" src="/images/reciept_1_card.jpg" alt="Amazing fish steak">
-              <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!--simple items section-->
-      <section class="container py-3">
-        <h2 class="h1">Simple</h2>
-        <div class="row">
-          <div class="b-card col-12 col-md-6 col-xl-3">
-            <div class="b-card_inner">
-              <div class="b-card_image" style="background-image:url(/images/reciept_1_card.jpg)"><a class="b-card_image-link" href="object_default.html"></a>
-                <div class="b-card_image-info-top"><span class="g-badge" style="background-color:#d44f68">Fish</span><span class="g-views"><i class="fa fa-eye"></i>12</span><span class="g-likes"><i class="fa fa-heart"></i>5</span></div>
-                <div class="b-card_image-info-bottom"></div>
-              </div>
-              <div class="b-card_description">
-                <h3 class="b-card_title"><a href="object_default.html">Amazing fish steak</a></h3>
-                <div class="b-card_text">
-                  <p>Pure some sugar on me.</p>
-                </div>
-                <div class="g-autor"><a href="index.html">Rambo</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="b-card col-12 col-md-6 col-xl-3">
-            <div class="b-card_inner">
-              <div class="b-card_image" style="background-image:url(/images/reciept_2_card.jpg)"><a class="b-card_image-link" href="object_nohero.html"></a>
-                <div class="b-card_image-info-top"><span class="g-badge" style="background-color:#7d6dad">Spice</span><span class="g-views"><i class="fa fa-eye"></i>0</span><span class="g-likes"><i class="fa fa-heart"></i>0</span></div>
-                <div class="b-card_image-info-bottom"></div>
-              </div>
-              <div class="b-card_description">
-                <h3 class="b-card_title"><a href="object_nohero.html">How to cook jalapeno sauce</a></h3>
-                <div class="b-card_text">
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                </div>
-                <div class="g-autor"><a href="index.html">John Doe</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="b-card col-12 col-md-6 col-xl-3">
-            <div class="b-card_inner">
-              <div class="b-card_image" style="background-image:url(/images/reciept_3_card.jpg)"><a class="b-card_image-link" href="object_default_with_sidebar.html"></a>
-                <div class="b-card_image-info-top"><span class="g-badge" style="background-color:#d24a43">Meat</span><span class="g-views"><i class="fa fa-eye"></i>6</span><span class="g-likes"><i class="fa fa-heart"></i>30</span></div>
-                <div class="b-card_image-info-bottom"></div>
-              </div>
-              <div class="b-card_description">
-                <h3 class="b-card_title"><a href="object_default_with_sidebar.html">Fineness of cooking medium rare steak</a></h3>
-                <div class="b-card_text">
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="g-autor"><a href="index.html">Rambo</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="b-card col-12 col-md-6 col-xl-3">
-            <div class="b-card_inner">
-              <div class="b-card_image" style="background-image:url(/images/reciept_4_card.jpg)"><a class="b-card_image-link" href="object_default.html"></a>
-                <div class="b-card_image-info-top"><span class="g-badge" style="background-color:#e8a765">Fruits</span><span class="g-views"><i class="fa fa-eye"></i>6</span><span class="g-likes"><i class="fa fa-heart"></i>30</span></div>
-                <div class="b-card_image-info-bottom"></div>
-              </div>
-              <div class="b-card_description">
-                <h3 class="b-card_title"><a href="object_default.html">Healthy food in the morning</a></h3>
-                <div class="b-card_text">
-                  <p></p>
-                </div>
-                <div class="g-autor"><a href="index.html">John Doe</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--simple items section END-->
+        </section>
+
+   
+
+@endsection
+
+
+@section('plugin')
+
+
+<script type="text/javascript" src="/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
 
 @endsection

@@ -4,17 +4,17 @@
         <div id="search-main" class="navbar-search">
             <div class="container">
                 <!-- Search form -->
-                <form class="navbar-search-form" role="form">
+                <form class="navbar-search-form" role="form" method="GET" action='{{action("SearchController@index")}}'>
                     <div class="form-group">
                         <div class="input-group input-group-transparent">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="far fa-search"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Type and hit enter ...">
+                            <input type="text" class="form-control" name="q" placeholder="Type and hit enter ...">
                         </div>
                     </div>
                 </form>
-                <div class="navbar-search-suggestions">
+                {{-- <div class="navbar-search-suggestions">
                     <h6>Search Suggestions</h6>
                     <div class="row">
                         <div class="col-sm-6">
@@ -52,7 +52,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 
@@ -178,10 +178,10 @@
                             <a class="nav-link" href="../docs/changelog.html" target="_blank">Changelog</a>
                         </li>
                         <li class="nav-item mr-0">
-                            <a href="https://themes.getbootstrap.com/product/purpose-website-ui-kit/" target="_blank" class="nav-link d-lg-none">Purchase now</a>
-                            <a href="https://themes.getbootstrap.com/product/purpose-website-ui-kit/" target="_blank" class="btn btn-sm btn-primary btn-circle btn-icon d-none d-lg-inline-flex">
-                                <span class="btn-inner--icon"><i class="far fa-shopping-cart"></i></span>
-                                <span class="btn-inner--text">Purchase now</span>
+                            <a   class="nav-link d-lg-none">Purchase now</a>
+                            <a href="#" data-action="search-open" data-target="#search-main" class="btn btn-sm btn-primary btn-circle btn-icon d-none d-lg-inline-flex">
+                                <span class="btn-inner--icon"><i class="far fa-search"></i></span>
+                                <span class="btn-inner--text">Search</span>
                             </a>
                         </li>
                     </ul>

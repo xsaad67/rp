@@ -46,7 +46,7 @@
 
 
 
-<main class="mg-tp-100">
+<main>
 
   @yield('content')
 
@@ -96,7 +96,11 @@
 
 
     <!-- Page plugins -->
-    <script src="/vendor/autosize/dist/autosize.min.js"></script>
+    {{-- <script src="/vendor/autosize/dist/autosize.min.js"></script> --}}
+
+
+    @yield('plugin')
+  
 
 
     <!-- Theme JS -->
