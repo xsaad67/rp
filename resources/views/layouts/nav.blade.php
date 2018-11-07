@@ -107,7 +107,7 @@
 
         <!-- Main navbar -->
 
-        <nav class="navbar navbar-main navbar-expand-lg navbar-sticky navbar-transparent navbar-light bg-white" id="navbar-main">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-sticky navbar-transparent navbar-dark bg-dark" id="navbar-main">
             <div class="container">
                 <a class="navbar-brand mr-lg-5" href="../index-2.html">
                     <img alt="Image placeholder" src="/img/brand/dark.png" style="height: 50px;">
@@ -179,7 +179,7 @@
                         </li>
                         <li class="nav-item mr-0">
                             <a   class="nav-link d-lg-none">Purchase now</a>
-                            <a href="#" data-action="search-open" data-target="#search-main" class="btn btn-sm btn-primary btn-circle btn-icon d-none d-lg-inline-flex">
+                            <a href="#" data-action="search-open" data-target="#search-main" class="btn btn-sm btn-danger btn-circle btn-icon d-none d-lg-inline-flex">
                                 <span class="btn-inner--icon"><i class="far fa-search"></i></span>
                                 <span class="btn-inner--text">Search</span>
                             </a>

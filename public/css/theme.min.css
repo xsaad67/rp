@@ -33,6 +33,7 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace
 }
 
+
 *,
 ::after,
 ::before {
@@ -14760,7 +14761,7 @@ textarea[resize=horizontal] {
 
 .header-transparent .navbar:not(.sticky):not(.navbar-collapsed) {
     border: 0;
-    background-color: transparent!important;
+    background-color: #510fa8!important;
     box-shadow: none
 }
 
@@ -17750,6 +17751,11 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 .swiper-button.swiper-button-next {
     margin-left: 10px
+}
+
+
+.bg-eee{
+    background:#eee !important;
 }
 
 

@@ -13,7 +13,7 @@ ini_set('max_execution_time', 380);
 
 class CrawlLinksController extends Controller
 {
-    public function insertingData(){
+    public function epicuriousData(){
  	
 
 

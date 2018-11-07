@@ -13,8 +13,12 @@
 
 Auth::routes();
 Route::get('/','RecipeController@index');
+Route::prefix('crawl')->group(function () {
+    Route::get('/epicurious','CrawlLinksController@epicuriousData');
+});
 
 Route::post('/newsletter','NewsLetterController@store');
+
 
 Route::get('/recipe/create','RecipeController@create');
 Route::post('/recipe/store','RecipeController@store');
