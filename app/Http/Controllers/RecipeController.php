@@ -40,6 +40,18 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
+
+        dd($request->all());
+
+        $recipe = new Recipe();
+
+        $recipe->user_id = auth()->id();
+        $recipe->cuisine = implode(",",$request->cuisine);
+        $recipe->category = implode(",",$request->category);
+        $recipe->description = $recipe->description;
+        
+
+        $recipe = new Recipe();
         $bits = explode("\n", $request->hello); 
 
         $newstring = "<ol>";
