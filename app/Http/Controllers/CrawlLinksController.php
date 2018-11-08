@@ -9,7 +9,7 @@ use App\RecipeIngridents;
 
 use Goutte;
 
-ini_set('max_execution_time', 380);
+ini_set('max_execution_time', 480);
 
 class CrawlLinksController extends Controller
 {
@@ -47,7 +47,7 @@ class CrawlLinksController extends Controller
     public function epicriciousSingle(){
 
     	
-        $links = CrawlLinks::where('isActive','0')->limit(50)->get();
+        $links = CrawlLinks::where('isActive','0')->get();
         
 
         foreach($links as $link){
