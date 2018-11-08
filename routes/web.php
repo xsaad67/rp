@@ -29,3 +29,10 @@ Route::get('/search','SearchController@index');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+/** Community ROutes **/
+
+Route::get('/favorite','FollowableController@favorite');
+Route::post('/unfavorite','FollowableController@unfavorite');
+
