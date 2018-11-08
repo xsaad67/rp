@@ -3,23 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
-=======
 use App\User;
->>>>>>> 404f8fc9b102d9cda044104086ab121b55f27dc5
 use App\Recipe;
 
 class FollowableController extends Controller
 {
     
-<<<<<<< HEAD
-
-    public function favorite(Request $request){
-    	$user = auth()->user();
-    	$recipe = Recipe::findOrFail(decrypt($request->recipe));
-    	$user->favorited($recipe);
-    	return $user->favorites()->get();
-=======
     public function favorite(){
 
     	$user = User::find(1);
@@ -45,6 +34,7 @@ class FollowableController extends Controller
 	    }
 
 
->>>>>>> 404f8fc9b102d9cda044104086ab121b55f27dc5
     }
 }
+
+?>
