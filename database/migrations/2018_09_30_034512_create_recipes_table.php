@@ -28,8 +28,9 @@ class CreateRecipesTable extends Migration
             $table->string('cookingTemprature')->nullable();
             $table->string('featuredImage')->nullable();
             $table->longText('ingridents')->nullable();
-            // $table->longText('instructions')->nullable();
-            // $table->longText('features')->nullable();
+            $table->longText('instructions')->nullable();
+            $table->longText('features')->nullable();
+            $table->text('apiLink')->nullable();
             $table->timestamps();
         });
     }
