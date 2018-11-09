@@ -11,7 +11,11 @@ class FollowableController extends Controller
     
     public function favorite(Request $request){
 
-    	$user = User::find(1);
+    	if(!auth()->check()){
+    		return response()->json(['unauth'=>1,'redirect'=>url("/").'/login']);
+    	}
+
+    	$user = auth()->user();
     	$recipe = Recipe::find($request->id);
     	if($recipe){
 	    	$favorited = $user->toggleFavorite($recipe);
@@ -24,7 +28,6 @@ class FollowableController extends Controller
 	    	}else if(isset($favorited['detached'][0]) && $favorited['detached'][0]==$recipe->id){
 	    	
 	    		$totalVotes = $recipe->favoriters()->count();
-
 	    		return response()->json(['success'=>true,'class'=>'unfavorited', 'totalVotes'=>$totalVotes]);
 	    	}
 

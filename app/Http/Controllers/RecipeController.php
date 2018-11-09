@@ -16,8 +16,8 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        
-        $recipes = Recipe::latest()->get(); 
+        $recipes = Recipe::with('favoriters')->get(); 
+        // return $recipes;
         return view('recipes.index',compact('recipes'));
     }
 

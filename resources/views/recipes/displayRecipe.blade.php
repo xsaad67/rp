@@ -10,7 +10,7 @@
                 <div class="col text-center">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item pr-4">
-                            <a href="#" class="text-muted bookmark" data-id='{{$recipe->id}}'><i class="far fa-bookmark mr-1 text-muted" style="color:#000;"></i> 131</a>
+                            <a href="#" class="text-muted {{$recipe->favoriters->contains('id',auth()->id()) ? 'bookmarked' : 'bookmark'}} " data-id='{{$recipe->id}}'><i class="{{$recipe->favoriters->contains('id',auth()->id()) ? 'fas' : 'far' }} fa-bookmark mr-1 text-muted" style="color:#000;"></i> {{count($recipe->favoriters)}}</a>
                         </li>
                         <li class="list-inline-item pr-4">
                             <a href="#" class="text-muted"><i class="far fa-eye mr-1 text-muted"></i> 255</a>
@@ -56,9 +56,6 @@
                     }
                 }
             });
-
-
-          
             
             
         });
@@ -68,7 +65,7 @@
 
             e.preventDefault();
 
-            var id = $(this).data(id);
+            var id = $(this).data("id");
             $.ajax({
                 type:'POST',
                 url:'/favorite',
