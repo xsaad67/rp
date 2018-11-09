@@ -10,7 +10,7 @@
                 <div class="col text-center">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item pr-4">
-                            <button href="#" class="text-muted" type="submit" data-id='{{$recipe->id}}'><i class="far fa-bookmark mr-1 text-muted" style="color:#000;"></i> 131</button>
+                            <a href="#" class="text-muted bookmark" data-id='{{$recipe->id}}'><i class="far fa-bookmark mr-1 text-muted" style="color:#000;"></i> 131</a>
                         </li>
                         <li class="list-inline-item pr-4">
                             <a href="#" class="text-muted"><i class="far fa-eye mr-1 text-muted"></i> 255</a>
@@ -22,3 +22,74 @@
         </div>
     </div>
 </div>
+
+
+@section('footer')
+
+<script>
+    $(function(){
+
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+            }
+        });
+
+        $(".card-footer").on('click','.bookmark',function(e){
+            e.preventDefault();
+            var id = $(this).data("id");
+            $.ajax({
+                type:'POST',
+                url:'/favorite',
+                data:{ id: id },
+                context: this,
+                success:function(data){
+                if(data.unauth==1){ window.location.href = '/login'; }
+                    else
+                    {
+                        $(this).removeClass('bookmark').addClass('bookmarked');
+                        $(this).find('i').removeClass('far').addClass('fas'); 
+                        $(this).contents().filter(function(){ 
+                            return this.nodeType == 3; 
+                        })[0].nodeValue = data.totalVotes;
+                    }
+                }
+            });
+
+
+          
+            
+            
+        });
+
+
+        $(".card-footer").on('click','.bookmarked',function(e){
+
+            e.preventDefault();
+
+            var id = $(this).data(id);
+            $.ajax({
+                type:'POST',
+                url:'/favorite',
+                data:{ id: id },
+                context: this,
+                success:function(data){
+                if(data.unauth==1){ window.location.href = '/login'; }
+                    else
+                    {
+                        $(this).removeClass('bookmarked').addClass('bookmark');
+                        $(this).find('i').removeClass('fas').addClass('far'); 
+                        $(this).contents().filter(function(){ 
+                            return this.nodeType == 3; 
+                        })[0].nodeValue = data.totalVotes;
+                    }
+                }
+            });
+
+        });
+
+
+    });
+</script>
+@endsection

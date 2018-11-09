@@ -9,12 +9,11 @@ use App\Recipe;
 class FollowableController extends Controller
 {
     
-    public function favorite(){
+    public function favorite(Request $request){
 
     	$user = User::find(1);
-    	$recipe = Recipe::find(24);
+    	$recipe = Recipe::find($request->id);
     	if($recipe){
-
 	    	$favorited = $user->toggleFavorite($recipe);
 	    	if( isset($favorited['attached'][0]) && $favorited['attached'][0]==$recipe->id){
 

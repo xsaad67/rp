@@ -12,7 +12,7 @@ $(function(){
         $("#count"+id).html('<img src="/images/loader.gif" style="margin-left:5px;">');  
         $.ajax({
             type:'POST',
-            url:'/voteup',
+            url:'/favorite',
             data:{ id: id },
             context: this,
             success:function(data){

@@ -28,7 +28,7 @@ Route::get('/recipe/{slug}','RecipeController@show');
 Route::get('/search','SearchController@index');
 
 
-Route::get('favorite','FollowableController@favorite');
+Route::post('favorite','FollowableController@favorite');
 Route::post('follow','FollowableController@follow');
 Route::post('unfollow','FollowableController@unfollow');
 Route::post('voteup','FollowableController@voteup');
