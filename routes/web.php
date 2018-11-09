@@ -16,6 +16,7 @@ Route::get('/','RecipeController@index');
 Route::prefix('crawl')->group(function () {
     Route::get('/epicurious','CrawlLinksController@epicuriousData');
     Route::get('/epicsingle','CrawlLinksController@epicriciousSingle');
+    Route::get('/ing','IngridentController@index');
 });
 
 Route::post('/newsletter','NewsLetterController@store');
@@ -35,5 +36,5 @@ Route::post('voteup','FollowableController@voteup');
 Route::post('votedown','FollowableController@votedown');
 
 
-
 Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/ing-search','');
