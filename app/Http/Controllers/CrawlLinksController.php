@@ -60,7 +60,7 @@ class CrawlLinksController extends Controller
             $recipe->apiLink = $link->link;
             
             $serving = $crawler->filter('dd[itemprop="recipeYield"]')->count() > 0 ? $crawler->filter('dd[itemprop="recipeYield"]')->text() : NULL;
-            $recipe->serves =  preg_replace('/[^0-9.]/','',$serving);
+            $recipe->serves =  preg_match('(\d+[\/\d. ]*|\d)',$serving,$matches) ? $matches[0] : '';
             $recipe->user_id =1;
             $recipe->cuisine =1;
             

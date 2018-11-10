@@ -17,8 +17,7 @@ class IngridentController extends Controller
     {
        $ingridents = Ingrident::pluck("name");
        $recipeIng = RecipeIngridents::where('recipe_id',1)->pluck("note");
-       $note = "1 pound dried navy beans picked over and rinsed";
-
+       
         foreach($recipeIng as $note){
 
            foreach($ingridents as $ing){
