@@ -41,27 +41,40 @@ class RecipeController extends Controller
     public function store(Request $request)
     {
 
-        dd($request->all());
+        $userId = auth()->id();
+
+        dd(Recipe::find(1));
+         dd($request->all());
 
         $recipe = new Recipe();
 
-        $recipe->user_id = auth()->id();
+
+        $recipe->user_id = $userId;
         $recipe->cuisine = implode(",",$request->cuisine);
         $recipe->category = implode(",",$request->category);
-        $recipe->description = $recipe->description;
+        $recipe->description = $request->description;
+        $recipe->serves =  $request->yield;
         
+        // $recipe->
 
-        $recipe = new Recipe();
-        $bits = explode("\n", $request->hello); 
 
-        $newstring = "<ol>";
-        foreach($bits as $bit)
-        {
-          $newstring .= "<li>" . $bit . "</li>";
-        }
-        $newstring .= "</ol>";
+        // dd(breakStringLine($request->ingredients));
 
-        echo $newstring;
+        // $recipe->save();
+
+
+
+        // $recipe = new Recipe();
+        // $bits = explode("\n", $request->hello); 
+
+        // $newstring = "<ol>";
+        // foreach($bits as $bit)
+        // {
+        //   $newstring .= "<li>" . $bit . "</li>";
+        // }
+        // $newstring .= "</ol>";
+
+        // echo $newstring;
 
     }
 

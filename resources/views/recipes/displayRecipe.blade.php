@@ -1,9 +1,11 @@
-<div class="col-lg-3" style="margin-bottom:25px;">
-    <div class="card shadow-sm shadow--hover">
-        <img alt="Image placeholder" src="{{$recipe->image}}" class="card-img-top">
-        <div class="card-body py-5 text-center">
-            <a href="{{$recipe->link}}" class="h5 lh-150">{{$recipe->title}}</a>
-            <h6 class="text-muted mt-4 mb-0">{{$recipe->created_at->diffForHumans()}}</h6>
+<div class="col-lg-3 d-flex align-items-stretch" style="margin-bottom:25px;" >
+    <div class="card shadow-sm shadow--hover " style="width:100%;">
+        <img alt="Image placeholder" src="{{asset('img/any.jpg')}}" class="card-img-top">
+        <div class="card-body row">
+
+            <a href="{{$recipe->link}}" class="col-12 text-truncate">{{$recipe->title}}</a>
+            <span class="stars" data-rating="{{2}}" data-num-stars="5" ></span>
+            {{-- <h6 class="text-muted mt-4 mb-0">{{$recipe->created_at->diffForHumans()}}</h6> --}}
         </div>
         <div class="card-footer">
             <div class="row">
@@ -28,6 +30,27 @@
 
 <script>
     $(function(){
+
+
+    $.fn.stars = function() {
+        return $(this).each(function() {
+
+            var rating = $(this).data("rating");
+
+            var numStars = $(this).data("numStars");
+
+            var fullStar = new Array(Math.floor(rating + 1)).join('<i class="fa fa-star"></i>');
+
+            var halfStar = ((rating%1) !== 0) ? '<i class="fa fa-star-half-empty"></i>': '';
+
+            var noStar = new Array(Math.floor(numStars + 1 - rating)).join('<i class="fa fa-star-o"></i>');
+
+            $(this).html(fullStar + halfStar + noStar);
+
+        });
+    }
+    
+    $('.stars').stars();
 
 
         $.ajaxSetup({

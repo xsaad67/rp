@@ -16,9 +16,23 @@ if(!function_exists('userLatLon')){
 
 }
 
-function containsWord($str, $word)
-{
-    return !!preg_match('#\\b' . preg_quote($word, '#') . '\\b#i', $str);
+// function containsWord($str, $word)
+// {
+//     return !!preg_match('#\\b' . preg_quote($word, '#') . '\\b#i', $str);
+// }
+
+if(!function_exists('breakStringLine')){
+	
+	function breakStringLine($string){
+		$array =[];
+		$string = explode("\n", $string);
+
+		foreach($string as $key=>$row){
+			$array[]= $row;
+		} 
+		return $array;
+	}
+
 }
 
 ?>
