@@ -271,8 +271,8 @@ table {
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label class="sr-only">Email address</label>
-                                            <input class="form-control" placeholder="Email address" type="text">
+                                            <span class="my-rating" data-rating="2"></span>
+                                            <span class="live-rating"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -393,23 +393,8 @@ table {
                     </div>
                 </div>
             </div>
-              <span class="my-rating-9" data-rating="2"></span>
-                            <span class="live-rating"></span>
-                            <br>
-
-                            <span class="my-rating-9" data-rating="6"></span>
-                            <span class="live-rating"></span>
-                            <br>
-                            <span class="my-rating-9" data-rating="1"></span>
-                            <span class="live-rating"></span>
-                            <br>
-
-                            <span class="my-rating-9" data-rating="3"></span>
-                            <span class="live-rating"></span>
-                            <br>
-                            <span class="my-rating-9" data-rating="4"></span>
-                            <span class="live-rating"></span>
-                            <br>
+                
+                       
         </section>
 
 
@@ -425,23 +410,20 @@ table {
 
 <script>
     $(document).ready(function(){
-          // $(".my-rating-9").starRating({
-          //   initialRating: $(this).data("rating"),
-          //   disableAfterRate: false,
-          //   onHover: function(currentIndex, currentRating, $el){
-          //     $('.live-rating').text(currentIndex);
-          //   },
-          //   onLeave: function(currentIndex, currentRating, $el){
-          //     $('.live-rating').text(currentRating);
-          //   }
-          // });
-
-
-             $(".my-rating-9").starRating({
-                initialRating: $(this).data("rating"),
-                starShape: 'rounded',
-                readOnly: true
-            });
+         
+        $(".my-rating").starRating({
+          totalStars: 5,
+          emptyColor: 'lightgray',
+          starShape: 'rounded',
+          initialRating: 0,
+          strokeWidth: 0,
+          useGradient: false,
+          callback: function(currentRating, $el){
+            alert('rated ' + currentRating);
+            console.log('DOM element ', $el);
+          }
+        });
+            
 
 
     })
