@@ -7,8 +7,8 @@ use App\Traits\FullTextSearch;
 
 class RecipeIngridents extends Model
 {
-	use FullTextSearch;
-	protected $searchable = ['note'];
+	 use FullTextSearch;
+	 protected $searchable = ['note'];
 
 
     public function recipe(){

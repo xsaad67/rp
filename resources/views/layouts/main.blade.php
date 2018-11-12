@@ -25,6 +25,8 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="/css/theme.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="{{asset('css/star-rating.css')}}">
 
     @yield('css')
 

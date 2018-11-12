@@ -9,6 +9,12 @@ use App\Ingrident;
 
 class RecipeController extends Controller
 {
+    private $savePath="";
+
+    public function __construct(){
+        $this->savePath = public_path('/recipes');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -41,40 +47,35 @@ class RecipeController extends Controller
     public function store(Request $request)
     {
 
-        $userId = auth()->id();
+        $userId = is_null(auth()->id()) ? 1 : auth()->id();
 
-        dd(Recipe::find(1));
-         dd($request->all());
+
+        // dd($request->all());
+
+        if (!is_dir($this->savePath)) {
+            mkdir($this->savePath, 0777);
+        }
+        // dd($request->file('image'));
+
+        $photo = $request->file('image');
+        $saveName = sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
+        $photo->move($this->savePath, $saveName);
+
+        
 
         $recipe = new Recipe();
 
-
         $recipe->user_id = $userId;
-        $recipe->cuisine = implode(",",$request->cuisine);
-        $recipe->category = implode(",",$request->category);
+        $recipe->title = $request->title;
+        $recipe->cuisine = $request->cuisine;
+        $recipe->category = $request->category;
         $recipe->description = $request->description;
         $recipe->serves =  $request->yield;
-        
-        // $recipe->
-
-
-        // dd(breakStringLine($request->ingredients));
-
-        // $recipe->save();
-
-
-
-        // $recipe = new Recipe();
-        // $bits = explode("\n", $request->hello); 
-
-        // $newstring = "<ol>";
-        // foreach($bits as $bit)
-        // {
-        //   $newstring .= "<li>" . $bit . "</li>";
-        // }
-        // $newstring .= "</ol>";
-
-        // echo $newstring;
+        $recipe->preprationTime = $request->preptime;
+        $recipe->cookingTime = $request->cooktime;
+        $recipe->cookingTemprature = $request->cooktemp;
+        $recipe->featuredImage = $saveName;
+        $isSave = $recipe->save();
 
     }
 
@@ -87,18 +88,8 @@ class RecipeController extends Controller
     public function show($slug)
     {
         
-         $recipe = Recipe::with("instructions","ingridents")->where('slug',$slug)->firstOrFail();
-
-        // return $recipe;
-
-         // return Ingrident::pluck('name');
-         // foreach($recipe->ingridents as $instructions){
-         //     if(containsWord($instructions->note,'olive')==1){
-         //         echo str_replace('olive','hello',$instructions->note);
-                 
-         //     }
-         // }
-        // return $recipe;//->instructions;
+        $recipe = Recipe::with("rIngridents")->where('slug',$slug)->firstOrFail();
+        // return $recipe->with('ingridents')->where('slug',$slug)->firstOrFail();
         return view("recipes.show",compact("recipe"));
     }
 

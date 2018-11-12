@@ -1,8 +1,14 @@
 @extends('layouts.main')
 
 @section('css')
-
-
+<style>
+.jq-star{
+    cursor:default !important;
+}
+.no-padding{
+    padding:0 !important;
+}
+</style>
 
 @endsection
 

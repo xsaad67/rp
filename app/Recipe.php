@@ -41,12 +41,12 @@ class Recipe extends Model
     	return $this->belongsTo(User::class,'user_id');
     }
 
-    public function ingridents(){
+    public function rIngridents(){
     	return $this->hasMany(RecipeIngridents::class);
     }
 
 
-    public function instructions(){
+    public function rInstructions(){
     	return $this->hasMany(RecipeInstruction::class);
     }
    

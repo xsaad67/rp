@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
 @section('css')
+
+<link rel="stylesheet" type="text/css" href="{{asset('css/star-rating.css')}}">
+
 <style>
 .single-ingredients {
     background-color: #faf5f1;
@@ -106,16 +109,6 @@ table {
         <section class="bg-cover bg-size--cover" style="height: 600px; background-image: url('/img/backgrounds/img-14.jpg'); background-position: top center;"></section>
         @endif
 
-        <form method="POST" action="{{action('RecipeController@store')}}">
-            @csrf
-
-            <textarea name="hello"></textarea>
-
-            <button type="submit">adf</button>
-
-        </form>
-        
-
         <section class="slice">
 
             <div class="container">
@@ -149,10 +142,6 @@ table {
                             {!! !is_null($recipe->description) ? '<p class="description">'.$recipe->description.'</p>' : '' !!}
 
 
-                            
-
-
-
 
                             <div class="row">
                             <div class="single-ingredients  offset-md-1 offset-lg-1 col-lg-10 col-md-10 col-12">
@@ -160,14 +149,17 @@ table {
 
                                 <table class="ingredients-table">
                                     <tbody>
-                                        <tr>
-                                            <td class="ingredient-action">
-                                                <span class="ingredient-mark-icon"><i class="fa fa-utensils"></i></span>
-                                            </td>
-                                            <td>
-                                                <span class="ingredient-name"> Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world  Hello world </span>
-                                            </td>
-                                        </tr>
+
+                                        @foreach($recipe->rIngridents as $ingrident)
+                                            <tr>
+                                                <td class="ingredient-action">
+                                                    <span class="ingredient-mark-icon"><i class="fa fa-utensils"></i></span>
+                                                </td>
+                                                <td>
+                                                    <span class="ingredient-name">{{$ingrident->note}}</span>
+                                                </td>
+                                            </tr>
+                                        @endforeach
 
 
                                       
@@ -179,18 +171,18 @@ table {
 
 
                             <ul>
-                        	@foreach($recipe->ingridents as $ingrident)
+                        	{{-- @foreach($recipe->ingridents as $ingrident)
                             	<li id="{{$recipe->id.'ing'.$ingrident->id}}">
                             		{{$ingrident->note}}	
                             	</li>
-                        	@endforeach
+                        	@endforeach --}}
                             </ul>
                             <hr>
                             <h3>Recipe Instruction</h3>
 
 
                             <ul>
-                        	@forelse($recipe->instructions as $instructions)
+                        	{{-- @forelse($recipe->instructions as $instructions)
                             	<li>
                             		{{$instruction->note}}	
                             	</li>
@@ -200,13 +192,12 @@ table {
 								  <div class="row">
 								    <div class="col-12 text-center">
 								      <a href="{{$recipe->crawlLink}}" target="_blank" class="btn btn-sm btn-primary btn-circle btn-lg btn-icon d-lg-inline-flex text-center">
-			                                {{-- <span class="btn-inner--icon"><i class="far fa-shopping-cart"></i></span> --}}
 			                                <span class="btn-inner--text">Read Recipe Instruction From {{ucwords($recipe->chef->name)}}</span>
 			                           </a>
 								    </div>
 								  </div>
 								</div>
-                        	@endforelse
+                        	@endforelse --}}
                             </ul>
 
                             
@@ -268,13 +259,14 @@ table {
                             </div>
 
                             <!-- Comment form -->
-                            <h5 class="mt-5 mb-4">Add you comment</h5>
+                            <h5 class="mt-5 mb-4">Add you Review</h5>
+
                             <form class="form-secondary">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label class="sr-only">Your name</label>
-                                            <input class="form-control" placeholder="Your name" type="text">
+                                            <input class="form-control" placeholder="Your name" type="text" value="">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -401,16 +393,57 @@ table {
                     </div>
                 </div>
             </div>
+              <span class="my-rating-9" data-rating="2"></span>
+                            <span class="live-rating"></span>
+                            <br>
+
+                            <span class="my-rating-9" data-rating="6"></span>
+                            <span class="live-rating"></span>
+                            <br>
+                            <span class="my-rating-9" data-rating="1"></span>
+                            <span class="live-rating"></span>
+                            <br>
+
+                            <span class="my-rating-9" data-rating="3"></span>
+                            <span class="live-rating"></span>
+                            <br>
+                            <span class="my-rating-9" data-rating="4"></span>
+                            <span class="live-rating"></span>
+                            <br>
         </section>
 
-   
 
+   
+                          
 @endsection
 
 
 @section('plugin')
 
-
 <script type="text/javascript" src="/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+<script type="text/javascript" src="/js/star-rating.min.js"></script>
 
+<script>
+    $(document).ready(function(){
+          // $(".my-rating-9").starRating({
+          //   initialRating: $(this).data("rating"),
+          //   disableAfterRate: false,
+          //   onHover: function(currentIndex, currentRating, $el){
+          //     $('.live-rating').text(currentIndex);
+          //   },
+          //   onLeave: function(currentIndex, currentRating, $el){
+          //     $('.live-rating').text(currentRating);
+          //   }
+          // });
+
+
+             $(".my-rating-9").starRating({
+                initialRating: $(this).data("rating"),
+                starShape: 'rounded',
+                readOnly: true
+            });
+
+
+    })
+</script>
 @endsection

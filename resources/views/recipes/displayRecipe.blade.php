@@ -1,10 +1,14 @@
+
+
 <div class="col-lg-3 d-flex align-items-stretch" style="margin-bottom:25px;" >
     <div class="card shadow-sm shadow--hover " style="width:100%;">
         <img alt="Image placeholder" src="{{asset('img/any.jpg')}}" class="card-img-top">
         <div class="card-body row">
 
-            <a href="{{$recipe->link}}" class="col-12 text-truncate">{{$recipe->title}}</a>
-            <span class="stars" data-rating="{{2}}" data-num-stars="5" ></span>
+            <a href="{{$recipe->link}}" class="col-12 text-truncate no-padding">{{$recipe->title}}</a>
+          
+            <span class="my-rating" data-rating="2.3"></span>
+         
             {{-- <h6 class="text-muted mt-4 mb-0">{{$recipe->created_at->diffForHumans()}}</h6> --}}
         </div>
         <div class="card-footer">
@@ -28,29 +32,18 @@
 
 @section('footer')
 
+<script type="text/javascript" src="/js/star-rating.min.js"></script>
 <script>
+
     $(function(){
 
-
-    $.fn.stars = function() {
-        return $(this).each(function() {
-
-            var rating = $(this).data("rating");
-
-            var numStars = $(this).data("numStars");
-
-            var fullStar = new Array(Math.floor(rating + 1)).join('<i class="fa fa-star"></i>');
-
-            var halfStar = ((rating%1) !== 0) ? '<i class="fa fa-star-half-empty"></i>': '';
-
-            var noStar = new Array(Math.floor(numStars + 1 - rating)).join('<i class="fa fa-star-o"></i>');
-
-            $(this).html(fullStar + halfStar + noStar);
-
-        });
-    }
     
-    $('.stars').stars();
+        $(".my-rating").starRating({
+            starSize: 20,
+            initialRating: $(this).data("rating"),
+            starShape: 'rounded',
+            readOnly: true
+        });
 
 
         $.ajaxSetup({

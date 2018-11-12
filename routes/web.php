@@ -25,6 +25,10 @@ Route::post('/newsletter','NewsLetterController@store');
 Route::get('/recipe/create','RecipeController@create');
 Route::post('/recipe/store','RecipeController@store');
 Route::get('/recipe/{slug}','RecipeController@show');
+Route::get('recipe/edit/{id}','RecipeController@edit');
+Route::post('recipe/update/{id}','RecipeController@update');
+Route::post('recipe/delete','RecipeController@delete');
+
 
 Route::get('/search','SearchController@index');
 
@@ -37,4 +41,3 @@ Route::post('votedown','FollowableController@votedown');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
-// Route::get('/ing-search','');
