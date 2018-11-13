@@ -86,6 +86,45 @@ class CrawlLinksController extends Controller
     }
 
 
+     public function randomUsers(){
+
+        //Get User Info first and put them into session array
+        $array  = [];
+        $html = "https://randomuser.me/api/?results=100&inc=name,gender,nat,picture,email&nat=us,dk,fr,gb";
+        $json = json_decode(file_get_contents($html));
+
+        foreach($json->results as $key=>$row){
+
+            $array[] = [
+                        "name" => $row->name->first . " " .$row->name->last,
+                        "email" => $row->email,
+                        "avatar" => $row->picture->medium
+                    ];
+        }
+
+        //Putting data into session array
+        session()->put("users",$array);
+
+
+        //Save stored session into user table
+        foreach(session()->get('users') as $key=>$row){
+
+            $fileName = createFileName($row['avatar'],'avatar');
+            $user = new User();
+            $user->name = $row['name'];
+            $user->email = $row['email'];
+            $user->avatar = $fileName;
+            $user->password = bcrypt("secret");
+            $folderName = "img/avatar/";
+            $image = file_get_contents($row['avatar']);
+
+            file_put_contents(public_path($folderName.$fileName), $image);
+            $user->save();
+         }
+    
+    }
+
+
 
   
 }
