@@ -123,7 +123,7 @@ class RecipesTableSeeder extends Seeder
                 'user_id' => 1,
                 'category' => NULL,
                 'cuisine' => 1,
-                'title' => 'Watercress, Pear and Walnut Salad with Poppy Seed Dressing ',
+                'title' => 'Watercress, Pear and Walnut Salad with Poppy Seed Dressing',
                 'slug' => 'watercress-pear-and-walnut-salad-with-poppy-seed-dressing',
                 'description' => 'The Pennsylvania Dutch settled in the places where they found the most black walnut trees. Toasted walnuts add crunch and flavor to this terrific salad.',
                 'serves' => '8',

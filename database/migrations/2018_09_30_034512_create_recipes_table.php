@@ -18,7 +18,7 @@ class CreateRecipesTable extends Migration
             $table->integer('user_id');
             $table->string('category')->nullable();
             $table->string('cuisine')->nullable();
-            $table->boolean('published')->default(1);
+            $table->boolean('isPublished')->default(0);
             $table->string('title');
             $table->string('slug');
             $table->text('description')->nullable();
@@ -28,10 +28,11 @@ class CreateRecipesTable extends Migration
             $table->string('cookingTime')->nullable();
             $table->string('cookingTemprature')->nullable();
             $table->string('featuredImage')->nullable();
-            $table->longText('ingridents')->nullable();
-            $table->longText('instructions')->nullable();
+            $table->longText('tags')->nullable();
             $table->longText('features')->nullable();
-            $table->text('apiLink')->nullable();
+            $table->boolean('isApi')->default(0);
+            $table->string('thumbnail')->nullable();
+            $table->string('source')->nullable();
             $table->timestamps();
         });
     }

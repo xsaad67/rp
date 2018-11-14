@@ -22,7 +22,7 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        $recipes = Recipe::with('favoriters')->get(); 
+        $recipes = Recipe::with('favoriters')->take(20)->get(); 
         // return $recipes;
         return view('recipes.index',compact('recipes'));
     }
