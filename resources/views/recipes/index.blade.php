@@ -2,20 +2,31 @@
 
 @section('css')
 <style>
-.jq-star{
-    cursor:default !important;
+
+.cornerimage { 
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 50%;
+    margin: 10px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:#fff;
+    background-color: rgba(0,0,0,0.5);
 }
-.no-padding{
-    padding:0 !important;
-}
+.cornerimage > i{ padding-top:2px; }
+.cornerimage:hover{ background-color: #dc2430; }
+.favorited{ background-color: #dc2430; }
+.favorited:hover{ background-color: rgba(0,0,0,0.5); }
 </style>
 
 @endsection
 
 @section('content')
-
-
-
 
 
 <section class="main-highlight">
@@ -275,7 +286,7 @@
                 </div>
 
             </div>
-        </section>
+</section>
         <section class="main-content">
             <div class="main-content-wrapper">
                 <div class="content-body">
@@ -298,7 +309,8 @@
                             <div class="timeline-item">
                                 <div class="timeline-left">
                                     <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
+                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology">
+                                            <i class="material-icons">&#xE894;</i></a>
                                         <span class="timeline-date">3 min ago</span>
                                     </div>
                                 </div>
@@ -306,6 +318,11 @@
                                     <div class="timeline-post-image">
                                         <a href="#">
                                             <img src="img/news-test-images/news-img8.jpg" width="260">
+
+                                            <span class="cornerimage favorited" data-zebra-tooltip="" title="Add to favorite">
+                                                <i class="material-icons">favorite</i>
+                                            </span>
+
                                         </a>
                                     </div>
                                     <div class="timeline-post-content">
