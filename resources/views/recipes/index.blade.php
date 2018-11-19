@@ -2,20 +2,34 @@
 
 @section('css')
 <style>
-.jq-star{
-    cursor:default !important;
+
+.cornerimage { 
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 50%;
+    margin: 10px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color:#fff;
+    background-color: rgba(0,0,0,0.5);
 }
-.no-padding{
-    padding:0 !important;
-}
+.cornerimage > i{ padding-top:2px; }
+.cornerimage:hover{ background-color: #dc2430; }
+.favorited{ background-color: #dc2430; }
+.favorited:hover{ background-color: rgba(0,0,0,0.5); }
+.article-share.post-share{ display:flex; }
+.article-share.post-share > a{ margin-right:5px; margin-top:10px; }
+
 </style>
 
 @endsection
 
 @section('content')
-
-
-
 
 
 <section class="main-highlight">
@@ -41,6 +55,9 @@
                                             <abbr class="published updated" title="December 4, 2017">12 November 2018</abbr>
                                         </span>
                                     </div>
+
+                                    
+
                                 </div>
                             </div>
                             <a href="#" class="post-overlayLink"></a>
@@ -276,6 +293,7 @@
 
             </div>
 </section>
+<<<<<<< HEAD
 
 <section class="main-content">
     <div class="main-content-wrapper">
@@ -292,11 +310,28 @@
                     </select>
                 </div>
                 --}}
+=======
+        <section class="main-content">
+            <div class="main-content-wrapper">
+                <div class="content-body">
+                    <div class="content-timeline">
+                        <!--Timeline header area start -->
+                        <div class="post-list-header">
+                            <span class="post-list-title">Latest stories</span>
+                            <select class="frm-input">
+                                <option value="1">Technology</option>
+                                <option value="1">Book</option>
+                                <option value="1">Cinema</option>
+                            </select>
+                        </div>
+                        <!--Timeline header area end -->
+>>>>>>> c07d2968d776e426f6bd681bc982cf6eaffac056
 
 
                 <!--Timeline items start -->
                 <div class="timeline-items">
 
+<<<<<<< HEAD
                     @foreach($recipes as $recipe)
 
                         <div class="timeline-item">
@@ -319,10 +354,58 @@
                                     </a>
 
 
+=======
+                            @foreach($recipes as $recipe)
+
+                            <div class="timeline-item">
+                                <div class="timeline-left">
+                                    <div class="timeline-left-wrapper">
+                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology">
+                                            <i class="material-icons">&#xE894;</i></a>
+                                        <span class="timeline-date">3 min ago</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-right">
+                                    <div class="timeline-post-image">
+                                        <a href="#">
+                                            <img src="img/news-test-images/news-img8.jpg" width="260">
+
+                                            <span class="cornerimage favorited" data-zebra-tooltip="" title="Add to favorite">
+                                                <i class="material-icons">favorite</i>
+                                            </span>
+
+                                        </a>
+                                    </div>
+                                    <div class="timeline-post-content">
+                                        <a href="#" class="timeline-category-name">Technology</a>
+                                        <a href="#">
+                                            <h3 class="timeline-post-title">{{$recipe->title}}</h3>
+                                        </a>
+                                        {{-- <div class="timeline-post-info">
+                                            <a href="#" class="author">Tevrat Gündoğdu</a>
+                                            <span class="dot"></span>
+                                            <span class="comment">32 comments</span>
+                                        </div> --}}
+
+                                        <div class="blog-author">
+                                            <span class="author-avatar">
+                                                <img alt="avatar" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y" class="avatar" height="24" width="24" style="border-radius:50%;">
+                                            </span>
+                                            <a href="#" class="author-name">{{$recipe->chef->name}}</a>
+                                        </div>
+
+                                        <div class="article-share post-share">
+                                            <a href="#" class="facebook"></a>
+                                            <a href="#" class="twitter"></a>
+                                            <a href="#" class="google-plus"></a>
+                                        </div>
+                                    </div>
+>>>>>>> c07d2968d776e426f6bd681bc982cf6eaffac056
                                 </div>
                             </div>
                         </div>
 
+<<<<<<< HEAD
                     @endforeach
 
                    
@@ -388,6 +471,24 @@
                             </a>
                         </li>
                     </ul>
+=======
+                            @endforeach
+
+
+                        </div>
+                        <!--Timeline items end -->
+
+                        <!--Data load more button start  -->
+                        <div class="load-more">
+                            <button class="load-more-button material-button" type="button">
+                                <i class="material-icons">&#xE5D5;</i>
+                                <span>Load More</span>
+                            </button>
+                        </div>
+                        <!--Data load more button start  -->
+                    </div>
+
+>>>>>>> c07d2968d776e426f6bd681bc982cf6eaffac056
                 </div>
 
                 <div class="seperator"></div>
