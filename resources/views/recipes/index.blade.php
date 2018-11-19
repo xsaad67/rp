@@ -14,7 +14,7 @@
     cursor: pointer;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 5px;
     color:#fff;
     background-color: rgba(0,0,0,0.5);
 }
@@ -22,6 +22,9 @@
 .cornerimage:hover{ background-color: #dc2430; }
 .favorited{ background-color: #dc2430; }
 .favorited:hover{ background-color: rgba(0,0,0,0.5); }
+.article-share.post-share{ display:flex; }
+.article-share.post-share > a{ margin-right:5px; margin-top:10px; }
+
 </style>
 
 @endsection
@@ -52,6 +55,9 @@
                                             <abbr class="published updated" title="December 4, 2017">12 November 2018</abbr>
                                         </span>
                                     </div>
+
+                                    
+
                                 </div>
                             </div>
                             <a href="#" class="post-overlayLink"></a>
@@ -306,6 +312,8 @@
                         <!--Timeline items start -->
                         <div class="timeline-items">
 
+                            @foreach($recipes as $recipe)
+
                             <div class="timeline-item">
                                 <div class="timeline-left">
                                     <div class="timeline-left-wrapper">
@@ -328,287 +336,32 @@
                                     <div class="timeline-post-content">
                                         <a href="#" class="timeline-category-name">Technology</a>
                                         <a href="#">
-                                            <h3 class="timeline-post-title">It has roots in a piece of classical Latin literature from making it over</h3>
+                                            <h3 class="timeline-post-title">{{$recipe->title}}</h3>
                                         </a>
-                                        <div class="timeline-post-info">
+                                        {{-- <div class="timeline-post-info">
                                             <a href="#" class="author">Tevrat Gündoğdu</a>
                                             <span class="dot"></span>
                                             <span class="comment">32 comments</span>
+                                        </div> --}}
+
+                                        <div class="blog-author">
+                                            <span class="author-avatar">
+                                                <img alt="avatar" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y" class="avatar" height="24" width="24" style="border-radius:50%;">
+                                            </span>
+                                            <a href="#" class="author-name">{{$recipe->chef->name}}</a>
+                                        </div>
+
+                                        <div class="article-share post-share">
+                                            <a href="#" class="facebook"></a>
+                                            <a href="#" class="twitter"></a>
+                                            <a href="#" class="google-plus"></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img7.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">Increase Your Health One Salad at a Time</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
 
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img6.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">Responsive Web Design & Workflows for Todays Web</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img5.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">The Towering Success Of Skyscrapers: Primrose Hill Estate Agents Take A View</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img4.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">Educational Toys For Toddlers Are</h3>
-                                            <p class="timeline-post-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img3.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">How Meal Replacements Stop Your Weight From Coming on the Rebound</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img2.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">Web Design and Web Development: Know the Basics</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img1.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">The Importance Of Letting Your Kids Join After School Activities</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img3.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">How Meal Replacements Stop Your Weight From Coming on the Rebound</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img2.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">Web Design and Web Development: Know the Basics</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology"><i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="#">
-                                            <img src="img/news-test-images/news-img1.jpg" width="260">
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">The Importance Of Letting Your Kids Join After School Activities</h3>
-                                        </a>
-                                        <div class="timeline-post-info">
-                                            <a href="#" class="author">Tevrat Gündoğdu</a>
-                                            <span class="dot"></span>
-                                            <span class="comment">32 comments</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                         <!--Timeline items end -->
