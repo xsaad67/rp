@@ -55,7 +55,7 @@
 
             <!-- Detail parallax start -->
             <div class="parallax-box">
-                <div class="parallax-image" style="background-image: url(/img/news-test-images/news-img7.jpg);"></div>
+                <div class="parallax-image" style="background-image: url({{$recipe->featuredImage}});"></div>
                 <article class="post-box">
                     <div class="post-overlay">
                         <div class="post-overlay-inner">

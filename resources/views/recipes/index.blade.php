@@ -7,6 +7,7 @@
     display: block;
     width: 50px;
     height: 50px;
+    z-index: 9;
     text-align: center;
     padding: 11px;
     border-radius: 50%;
@@ -308,75 +309,26 @@
                                 <option value="1">Cinema</option>
                             </select>
                         </div>
-                        <!--Timeline header area end -->
-
-
-                        <!--Timeline items start -->
-                       {{--  <div class="timeline-items">
-
-                            @foreach($recipes as $recipe)
-
-                            <div class="timeline-item">
-                                <div class="timeline-left">
-                                    <div class="timeline-left-wrapper">
-                                        <a href="#" class="timeline-category" data-zebra-tooltip title="Technology">
-                                            <i class="material-icons">&#xE894;</i></a>
-                                        <span class="timeline-date">3 min ago</span>
-                                    </div>
-                                </div>
-                                <div class="timeline-right">
-                                    <div class="timeline-post-image">
-                                        <a href="{{$recipe->link}}" class="post-class-hovr">
-                                            <img src="img/news-test-images/news-img8.jpg" width="260">
-
-                                            <span class="cornerimage favorited" data-zebra-tooltip="" title="Add to favorite">
-                                                <i class="material-icons">favorite</i>
-                                            </span>
-
-                                        </a>
-                                    </div>
-                                    <div class="timeline-post-content">
-                                        <a href="#" class="timeline-category-name">Technology</a>
-                                        <a href="#">
-                                            <h3 class="timeline-post-title">{{$recipe->title}}</h3>
-                                        </a>
-                                        <div class="blog-author">
-                                            <span class="author-avatar">
-                                                <img alt="avatar" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y" class="avatar" height="24" width="24" style="border-radius:50%;">
-                                            </span>
-                                            <a href="#" class="author-name">{{$recipe->chef->name}}</a>
-                                        </div>
-
-                                        <div class="article-share post-share">
-                                            <a href="#" class="facebook"></a>
-                                            <a href="#" class="twitter"></a>
-                                            <a href="#" class="google-plus"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            @endforeach
-
-
-                        </div> --}}
-
-
-
+                      
                         <div class="post-lists">
                             @foreach($recipes as $recipe)
                                 <div class="columns column-2">
                                     <div class="post-list-item">
                                         <div class="post-top">
-                                            <img class="post-image" src="img/news-test-images/news-img3.jpg">
+                                            <img class="post-image" src="{{$recipe->featuredImage}}">
+                                             <span class="cornerimage unfavorite" data-zebra-tooltip="" title="Add to favorite">
+                                                <i class="material-icons">favorite</i>
+                                            </span>
                                             <h3 class="post-title">
-                                                <a href="#"><span>There are many variations of passages of Lorem Ipsum available</span></a>
+                                                <a href="{{$recipe->link}}">
+                                                    <span>{{$recipe->title}}</span>
+                                                </a>
                                             </h3>
                                         </div>
                                         <div class="post-bottom">
                                             <div class="post-author-box">
                                                 <span class="author-avatar"><img alt="avatar" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y" class="avatar" height="24" width="24"></span>
-                                                <a href="#" class="author-name">Bill Gates</a>
+                                                <a href="#" class="author-name">{{ucwords($recipe->chef->name)}}</a>
                                                 <span class="post-date">{{$recipe->created_at->diffForHumans()}}</span>
 
                                             </div>

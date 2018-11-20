@@ -22,7 +22,7 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        $recipes = Recipe::with('favoriters')->take(20)->get(); 
+        $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->take(21)->get(); 
 
 
         // foreach($recipes as $key=>&$recipe){
