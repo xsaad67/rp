@@ -85,15 +85,27 @@
                     <li>
                         <a href="#" class="material-button search-toggle"><i class="material-icons">&#xE8B6;</i></a>
                     </li>
+                    @guest
                     <li>
-                        <a href="#" class="material-button submenu-toggle"><i class="material-icons">&#xE7FD;</i> <span class="hide-on-tablet">Account</span></a>
+                        <a href="#" data-modal="loginModal">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" data-modal="registerModal">Register</a>
+                    </li>
+                    @endguest
+                    @auth
+                    <li>
+                        <a href="#" class="material-button submenu-toggle"><i class="material-icons">&#xE7FD;</i> 
+                            <span class="hide-on-tablet">{{ucwords(auth()->user()->name)}}<i class="material-icons">&#xE313;</i></span></a>
                         <div class="header-submenu">
                             <ul>
-                                <li><a href="#" data-modal="loginModal">Login</a></li>
-                                <li><a href="#" data-modal="registerModal">Register</a></li>
+                                <li><a href="/recipe/create">Create Recipe</a></li>
+                                <li><a href="/my-favorites">My Favorites</a></li>
+                                <li><a href="">My Favorites</a></li>
                             </ul>
                         </div>
                     </li>
+                    @endauth
                     <li class="hide-on-mobile"><a href="#" class="material-button" data-modal="newsletterModal"><i class="material-icons">&#xE0E1;</i></a></li>
                 </ul>
                 <!-- header right menu end -->
