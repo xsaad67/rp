@@ -13,21 +13,19 @@ class User extends Authenticatable
     use Notifiable, CanFavorite,CanBeFollowed;
 
     public static function boot(){
-         parent::boot();
+        parent::boot();
 
-         static::creating(function($model) {
+        static::creating(function($model) {
             $model->slug = str_slug($model->name);
 
             $latestSlug =
                 static::whereRaw("slug = '$model->slug' or slug LIKE '$model->slug-%'")
-                     ->latest('id')
-                     ->value('slug');
+                    ->latest('id')
+                    ->value('slug');
             if ($latestSlug) {
-                 $pieces = explode('-', $latestSlug);
-
-                 $number = intval(end($pieces));
-
-                 $model->slug .= '-' . ($number + 1);
+                $pieces = explode('-', $latestSlug);
+                $number = intval(end($pieces));
+                $model->slug .= '-' . ($number + 1);
             }
         });
     }
@@ -50,8 +48,8 @@ class User extends Authenticatable
     ];
 
 
-    public function getLinkAttribute()
-    {
-        return $this->name; 
+    public function getLinkAttribute(){
+        return url("/") . '/chef/'.$this->slug;
     }
+    
 }

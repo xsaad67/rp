@@ -31,6 +31,7 @@ class HomeController extends Controller
         // return $favorited;
         // return $user;
 
+        // return auth()->user();
          return view('home');
     }
 }
