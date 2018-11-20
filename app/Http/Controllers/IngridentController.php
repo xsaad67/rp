@@ -16,22 +16,44 @@ class IngridentController extends Controller
     public function index()
     {
        $ingridents = Ingrident::pluck("name");
-       $recipeIng = RecipeIngridents::where('recipe_id',1)->pluck("note");
        
-        foreach($recipeIng as $note){
+        // dd($recipeIng);
+        
+        // $recipeIng = RecipeIngridents::where('recipe_id',1)->pluck("note");
+       
+        // foreach($recipeIng as $key=>&$note){
 
-           foreach($ingridents as $ing){
-            
-                if(preg_match('/\b'.$ing.'\b/',$note)){
-                    $url = "<a href='/ingridients/".urlencode(trim($ing))."'>".trim($ing)."</a>";
-                    $note= str_replace($ing," ".$url." ",$note);
-                }
+        //    foreach($ingridents as $ing){
+                
+        //         if(preg_match('/\b'.$ing.'\b/',$note)){
+        //             $url = "<a href='/ingridients/".urlencode(trim($ing))."'>".trim($ing)."</a>";
+        //             $note= str_replace($ing," ".$url." ",$note);
+        //         }
 
-            }
-            echo $note."<br>";
+        //     }
+        //     echo $note."<br>";
+        // }
+
+
+
+        $recipeIng = RecipeIngridents::where('recipe_id',1)->get();
+       
+        foreach($recipeIng as $rIng){
+
+           // foreach($ingridents as $ing){
+                
+           //      if(preg_match('/\b'.$ing.'\b/',$rIng->note)){
+           //          $url = "<a href='/ingridients/".urlencode(trim($ing))."'>".trim($ing)."</a>";
+           //          $rIng->note= str_replace($ing," ".$url." ",$rIng->note);
+           //      }
+
+           //  }
+            // $rIng->note = strip_tags($rIng->note);
+            var_dump(parserIndgredient($rIng->note));//."<br>";
+            // $rIng->save();
         }
 
-
+        
     }
 
     /**

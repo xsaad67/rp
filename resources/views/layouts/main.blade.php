@@ -82,6 +82,29 @@
     </div>
     <!-- Login popup html source end -->
 
+    <!-- Newsletter popup html source start -->
+    <div class="m-modal-box" id="newsletterModal">
+        <div class="m-modal-overlay"></div>
+        <div class="m-modal-content small">
+            <div class="m-modal-header">
+                <h3 class="m-modal-title">Newsletter</h3>
+                <span class="m-modal-close"><i class="material-icons">&#xE5CD;</i></span>
+            </div>
+            <div class="m-modal-body">
+                <p>Submit to our newsletter to receive exclusive stories delivered to you inbox!</p>
+                <form>
+                    <div class="frm-row">
+                        <input class="frm-input" type="text" name="email" placeholder="Email address">
+                    </div>
+                    <div class="frm-row">
+                        <button class="frm-button material-button full" type="button">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter popup html source end -->
+
     <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
 
     <!-- Tooltip plugin (zebra) js file -->
@@ -96,6 +119,15 @@
     @yield('footer')
     <script>
         $(function(){
+
+            // $('#newsletterModal').show();
+            // 
+        
+        $(window).scroll(function() {
+            if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+                $('#newsletterModal').show();
+            }
+        });
 
         $.ajaxSetup({
             headers: {
