@@ -30,6 +30,7 @@ class CreateRecipesTable extends Migration
             $table->string('featuredImage')->nullable();
             $table->longText('tags')->nullable();
             $table->longText('features')->nullable();
+            $table->integer('views')->default(1);
             $table->boolean('isApi')->default(0);
             $table->string('thumbnail')->nullable();
             $table->string('source')->nullable();

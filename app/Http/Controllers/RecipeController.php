@@ -23,8 +23,25 @@ class RecipeController extends Controller
     public function index()
     {
         $recipes = Recipe::with('favoriters')->take(20)->get(); 
+
+
+        // foreach($recipes as $key=>&$recipe){
+        //    echo $recipe->title;
+        //     echo "<br>";
+        //     $recipes->forget($key);
+        //     if($key ==5){
+                
+        //         break;
+                
+        //     }
+        // }
+        // echo "<br>";
+        // foreach($recipes as $recipe){
+        //     echo $recipe->title;
+        //     echo "<br>";
+        // }
         // return $recipes;
-        return view('recipes.index',compact('recipes'));
+         return view('recipes.index',compact('recipes'));
     }
 
     /**
