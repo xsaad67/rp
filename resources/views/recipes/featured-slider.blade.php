@@ -2,7 +2,8 @@
         <div class="highlight-carousel">
             
             <div class="owl-carousel" id="postCarousel">
-                
+            
+
                 @foreach($featuredRecipes as $key=>&$featured)
                 
                 <div class="item">
@@ -31,7 +32,6 @@
                         </div>
                         <a href="#" class="post-overlayLink"></a>
                     </article>
-
                 </div>
                 @php
                     $featuredRecipes->forget($key);

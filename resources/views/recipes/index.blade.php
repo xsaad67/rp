@@ -35,7 +35,7 @@
                                 <div class="columns column-2">
                                     <div class="post-list-item">
                                         <div class="post-top">
-                                            <img class="post-image lazy" data-src="{{$recipe->featuredImage}}">
+                                            <img class="post-image lazy" data-src="{{--$recipe->featuredImage--}}">
                                              <span class="cornerimage unfavorite" data-zebra-tooltip="" title="Add to favorite">
                                                 <i class="material-icons">favorite</i>
                                             </span>

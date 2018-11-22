@@ -23,7 +23,7 @@ class RecipeController extends Controller
     public function index()
     {
         $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->take(21)->get(); 
-
+        $featuredRecipes = Recipe::popular()->take(15)->get();
 
         // foreach($recipes as $key=>&$recipe){
         //    echo $recipe->title;
@@ -41,7 +41,9 @@ class RecipeController extends Controller
         //     echo "<br>";
         // }
         // return $recipes;
-         return view('recipes.index',compact('recipes'));
+        // 
+        
+         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
     /**
@@ -106,7 +108,7 @@ class RecipeController extends Controller
     {
         
         $recipe = Recipe::with("rIngridents")->where('slug',$slug)->firstOrFail();
-        return $recipe;
+        // return $recipe;
         // return $recipe->with('ingridents')->where('slug',$slug)->firstOrFail();
         return view("recipes.show",compact("recipe"));
     }

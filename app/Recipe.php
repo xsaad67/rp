@@ -49,5 +49,11 @@ class Recipe extends Model
     public function rInstructions(){
     	return $this->hasMany(RecipeInstruction::class);
     }
+
+
+    public function scopePopular($query){
+        return $query->orderBy('created_at','Desc');
+    }
+  
    
 }
