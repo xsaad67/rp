@@ -2,7 +2,7 @@
 
 
                         <!--Timeline items start -->
-                       {{--  <div class="timeline-items">
+                        <div class="timeline-items">
 
                             @foreach($recipes as $recipe)
 
@@ -49,4 +49,4 @@
                             @endforeach
 
 
-                        </div> --}}
+                        </div>

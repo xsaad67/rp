@@ -1,8 +1,20 @@
-Recipe Reviews
-Update delete
-author profile
-author's recipe
-search
+Image Lazy Load --Done
+Subscribe modal working ajax --Done
+Unsubscribe Page --Done without backend
+Show Recipe --Need to crawl Result
+Author's Recipes --Done
+Seprate Sidebar
+Recipe Reviews 
+Author's Profile
+Search
+Create Recipe
+Update delete Result
+My Reviews
+
+
+
+--Features--
 forum
 threads
 participate
+Avery Konrad

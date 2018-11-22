@@ -87,11 +87,12 @@
                     </li>
                     @guest
                     <li>
-                        <a href="#" data-modal="loginModal">Login</a>
+                         <a href="#" data-modal="loginModal" class="hide-on-tablet"><i class="material-icons">&#xE7FD;</i> 
+                        </a>
                     </li>
-                    <li>
+                   {{--  <li>
                         <a href="#" data-modal="registerModal">Register</a>
-                    </li>
+                    </li> --}}
                     @endguest
                     @auth
                     <li>
@@ -106,7 +107,7 @@
                         </div>
                     </li>
                     @endauth
-                    <li class="hide-on-mobile"><a href="#" class="material-button" data-modal="newsletterModal"><i class="material-icons">&#xE0E1;</i></a></li>
+                    {{-- <li class="hide-on-mobile"><a href="#" class="material-button" data-modal="newsletterModal"><i class="material-icons">&#xE0E1;</i></a></li> --}}
                 </ul>
                 <!-- header right menu end -->
 

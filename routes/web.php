@@ -19,6 +19,15 @@ Route::prefix('crawl')->group(function () {
     Route::get('/ing','IngridentController@index');
 });
 
+Route::prefix('page')->group(function () {
+    Route::get('/unsub','NewsLetterController@edit');
+});
+
+
+Route::prefix('chef')->group(function () {
+    Route::get('/{slug}','ProfileController@show');
+});
+
 Route::post('/newsletter','NewsLetterController@store');
 
 

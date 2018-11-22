@@ -2828,4 +2828,41 @@ textarea.frm-input{
 .md-checkbox input[type="checkbox"]:disabled:checked + label:before {
   background: rgba(0, 0, 0, 0.26);
 }
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top:10px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.cornerimage { display: block; width: 50px; height: 50px; z-index: 9;text-align: center;padding: 11px; border-radius: 50%;margin: 10px 0;cursor: pointer;position: absolute;top: 0;right: 5px;color:#fff;background-color: rgba(0,0,0,0.5);
+}
+.cornerimage > i{ padding-top:2px; }
+.cornerimage:hover{ background-color: #dc2430; }
+.favorited{ background-color: #dc2430; }
+.favorited:hover{ background-color: rgba(0,0,0,0.5); }
+.article-share.post-share{ display:flex; }
+.article-share.post-share > a{ margin-right:5px; margin-top:10px; background-size: 14px !important; width:35px !important; height:35px !important;}
 /*end of part 26---------------------------------------------------*/

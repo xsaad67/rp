@@ -40,13 +40,16 @@ class NewsLetterController extends Controller
         $request->validate([
             'email' => 'required|unique:news_letters|email',
         ]);
-
-
+        
         $subscribe = new NewsLetter();
 
         $subscribe->email = $request->email;
         $subscribe->isGuest = $isGuest;
-        $subscribe->save();
+        $isSave = $subscribe->save();
+
+        if($isSave){
+           return response()->json(['success'=>true]);
+        }
         
     }
 
@@ -67,9 +70,10 @@ class NewsLetterController extends Controller
      * @param  \App\NewsLetter  $newsLetter
      * @return \Illuminate\Http\Response
      */
-    public function edit(NewsLetter $newsLetter)
+    public function edit()
     {
-        //
+        
+        return view('pages.unsub');
     }
 
     /**

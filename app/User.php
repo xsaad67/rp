@@ -52,4 +52,7 @@ class User extends Authenticatable
         return url("/") . '/chef/'.$this->slug;
     }
     
+    public function recipes(){
+        return $this->hasMany(Recipe::class, 'user_id');
+    }
 }

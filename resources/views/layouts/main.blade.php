@@ -83,7 +83,7 @@
     <!-- Login popup html source end -->
 
     <!-- Newsletter popup html source start -->
-    <div class="m-modal-box" id="newsletterModal">
+    <div class="m-modal-box" id="newsletterModal" displayed="false">
         <div class="m-modal-overlay"></div>
         <div class="m-modal-content small">
             <div class="m-modal-header">
@@ -91,13 +91,15 @@
                 <span class="m-modal-close"><i class="material-icons">&#xE5CD;</i></span>
             </div>
             <div class="m-modal-body">
-                <p>Submit to our newsletter to receive exclusive stories delivered to you inbox!</p>
+                <p>Submit to our newsletter to receive exclusive recipes delivered to your inbox!</p>
                 <form>
                     <div class="frm-row">
-                        <input class="frm-input" type="text" name="email" placeholder="Email address">
+                        <input class="frm-input" id="nemail" type="text" name="email" placeholder="Email address">
+
+                    <div id="subscribe-errors"></div>
                     </div>
                     <div class="frm-row">
-                        <button class="frm-button material-button full" type="button">Send</button>
+                        <button class="frm-button material-button full" id="newsLetter" type="button">Send</button>
                     </div>
                 </form>
             </div>
@@ -115,17 +117,20 @@
 
     <!-- Ideabox theme js file. you have to add all pages. -->
     <script src="{{asset('js/main-script.js')}}"></script>
+    <script src="{{asset('js/lazy-load.min.js')}}"></script>
 
     @yield('footer')
     <script>
         $(function(){
-
-            // $('#newsletterModal').show();
-            // 
         
+        $('.lazy').Lazy({
+            placeholder: "/img/logo.png"
+        });
+
         $(window).scroll(function() {
-            if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+            if($(document).scrollTop() > 3000 && $("#newsletterModal").attr("displayed") === "false") {
                 $('#newsletterModal').show();
+                $("#newsletterModal").attr("displayed","true");
             }
         });
 
@@ -134,6 +139,26 @@
                 'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
             }
         });
+
+        $("#newsLetter").click(function(){
+            var email = $("#nemail").val();
+            $.ajax({
+                type:'POST',
+                url:'/newsletter',
+                data:{ email: email},
+                context: this,
+                success:function(data){
+                     $('#subscribe-errors').html('<div class="alert alert-success">Thank you for subscription</a>');
+                },
+                error: function (xhr) {
+                   $('#subscribe-errors').html('');
+                   $.each(xhr.responseJSON.errors, function(key,value) {
+                     $('#subscribe-errors').append('<div class="alert alert-danger">'+value+'</div');
+                 }); 
+                },
+            });
+    
+        });  
 
 
         $("#login-btn").click(function(){
