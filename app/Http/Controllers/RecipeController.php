@@ -6,7 +6,7 @@ use App\Recipe;
 use Illuminate\Http\Request;
 use App\Ingrident;
 // use Avatar;
-
+use DonatelloZa\RakePlus\RakePlus;
 class RecipeController extends Controller
 {
     private $savePath="";
@@ -22,28 +22,24 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->take(21)->get(); 
-        $featuredRecipes = Recipe::popular()->take(15)->get();
+        // $text = "Apple and Poppy Seed Slaw";
 
-        // foreach($recipes as $key=>&$recipe){
-        //    echo $recipe->title;
-        //     echo "<br>";
-        //     $recipes->forget($key);
-        //     if($key ==5){
-                
-        //         break;
-                
-        //     }
-        // }
-        // echo "<br>";
-        // foreach($recipes as $recipe){
-        //     echo $recipe->title;
-        //     echo "<br>";
-        // }
-        // return $recipes;
-        // 
+        //     $phrases = RakePlus::create($text)->get();
+
+        //  return $phrases;
+
+        $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->get(); 
+
+        foreach($recipes as $recipe){
+            $phrases = RakePlus::create($recipe->title)->get();
+            dump($phrases);
+            echo "<br>";
+        }
+
+        // $featuredRecipes = Recipe::popular()->take(15)->get();
+
         
-         return view('recipes.index',compact('recipes','featuredRecipes'));
+         // return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
     /**

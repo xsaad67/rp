@@ -13,7 +13,8 @@
         "overtrue/laravel-follow": "^1.1",
         "stevebauman/location": "^3.0",
         "weidner/goutte": "1.0.*",
-        "orangehill/iseed": "dev-master"
+        "orangehill/iseed": "dev-master",
+        "donatello-za/rake-php-plus": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
