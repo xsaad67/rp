@@ -13,7 +13,7 @@
 
 @section('content')
         
-
+        
         @include('recipes.featured-slider')
 
         <section class="main-content">
@@ -81,6 +81,8 @@
 
                 </div>
                @include('layouts.main-sidebar')
+
+              
             </div>
         </section>
 

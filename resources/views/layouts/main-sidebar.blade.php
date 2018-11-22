@@ -6,9 +6,11 @@
 
         <div class="widget-item">
             <h4 class="w-title">Populer Posts</h4>
+
              @php
-                        dd($user); 
-                        @endphp
+                dump($featuredRecipes); 
+            @endphp 
+             
             <ul class="w-post-list">
                 <li>
                     <a href="#">
