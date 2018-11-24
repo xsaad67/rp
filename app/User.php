@@ -7,28 +7,17 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Overtrue\LaravelFollow\Traits\CanFavorite;
 use Overtrue\LaravelFollow\Traits\CanFollow;
 use Overtrue\LaravelFollow\Traits\CanBeFollowed;
+use App\Traits\Sluggable;
 
 class User extends Authenticatable
 {
-    use Notifiable, CanFavorite,CanBeFollowed;
+    use Notifiable, CanFavorite,CanBeFollowed, Sluggable;
 
-    public static function boot(){
-        parent::boot();
-
-        static::creating(function($model) {
-            $model->slug = str_slug($model->name);
-
-            $latestSlug =
-                static::whereRaw("slug = '$model->slug' or slug LIKE '$model->slug-%'")
-                    ->latest('id')
-                    ->value('slug');
-            if ($latestSlug) {
-                $pieces = explode('-', $latestSlug);
-                $number = intval(end($pieces));
-                $model->slug .= '-' . ($number + 1);
-            }
-        });
+    public function sluggable() {
+        return [ 'source' => 'name' ];
     }
+
+    
     /**
      * The attributes that are mass assignable.
      *
