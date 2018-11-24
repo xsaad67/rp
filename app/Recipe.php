@@ -4,32 +4,17 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Overtrue\LaravelFollow\Traits\CanBeFavorited;
+use App\Traits\Sluggable;
 
 class Recipe extends Model
 {
 
-  use CanBeFavorited;
+  use CanBeFavorited, Sluggable;
   
-  public static function boot()
-  {
-     parent::boot();
+    public function sluggable() {
+        return [ 'source' => 'name' ];
+    }
 
-     static::creating(function($model) {
-         $model->slug = str_slug($model->title);
-
-         $latestSlug =
-             static::whereRaw("slug = '$model->slug' or slug LIKE '$model->slug-%'")
-                 ->latest('id')
-                 ->value('slug');
-         if ($latestSlug) {
-             $pieces = explode('-', $latestSlug);
-
-             $number = intval(end($pieces));
-
-             $model->slug .= '-' . ($number + 1);
-         }
-     });
-  }
 
     protected $with =['chef'];
 
