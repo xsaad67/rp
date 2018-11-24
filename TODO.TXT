@@ -3,10 +3,11 @@ Subscribe modal working ajax --Done
 Unsubscribe Page --Done without backend
 Show Recipe --Need to crawl Result
 Author's Recipes --Done
+Search
 Seprate Sidebar
 Recipe Reviews 
 Author's Profile
-Search
+
 Create Recipe
 Update delete Result
 My Reviews

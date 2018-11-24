@@ -28,18 +28,20 @@ class RecipeController extends Controller
 
         //  return $phrases;
 
+
+        // foreach($recipes as $recipe){
+        //     $phrases = RakePlus::create($recipe->title)->get();
+        //     dump($phrases);
+        //     echo "<br>";
+        // }
+        // 
+        
         $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->get(); 
 
-        foreach($recipes as $recipe){
-            $phrases = RakePlus::create($recipe->title)->get();
-            dump($phrases);
-            echo "<br>";
-        }
-
-        // $featuredRecipes = Recipe::popular()->take(15)->get();
+        $featuredRecipes = Recipe::popular()->take(15)->get();
 
         
-         // return view('recipes.index',compact('recipes','featuredRecipes'));
+        return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
     /**
