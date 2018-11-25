@@ -19,6 +19,7 @@ class CreateIngridentsTable extends Migration
             $table->integer('parent_id')->nullable();
             $table->string('icon')->nullable();
             $table->string('image')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

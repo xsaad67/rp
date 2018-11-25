@@ -11,14 +11,23 @@ class SearchController extends Controller
     
     public function simpleLikeSearch(Request $request){
     	
-		Recipe::where('title','LIKE','%'.$request->q.'%')->OrWhere('description','LIKE','%'.$request->q.'%')->get();
-
-    	$recipeIng=RecipeIngridents::select('recipe_id')->where('note', 'LIKE','%'.$request->q.'%')->groupBy('recipe_id')->pluck('recipe_id');
+		$recipes = Recipe::where('title','LIKE','%'.$request->search.'%')
+                ->OrWhere('description','LIKE','%'.$request->search.'%')
+                ->get();
+          
+          
+    	$recipeIng=RecipeIngridents::select('recipe_id')
+                    ->where('note', 'LIKE','%'.$request->search.'%')
+                    ->groupBy('recipe_id')
+                    ->pluck('recipe_id');
+                    
+                    
     	if(!empty($recipeIng)){
-
-    		$recipes = Recipe::whereIn('id',$recipeIng)->get();
-    		return $recipes;
+    		$ingredientRecipes = Recipe::whereIn('id',$recipeIng)->get();
+    		 
     	}
+        $searchCount = count($recipes) + count($ingredientRecipes);
+        return view('pages.search',compact('recipes','ingredientRecipes','searchCount'));
 
 
     }
@@ -26,7 +35,10 @@ class SearchController extends Controller
 
     public function index(Request $request){
 
-    	$fullTextSearch = RecipeIngridents::select('recipe_id')->search($request->q)->groupBy('recipe_id')->pluck('recipe_id');
+    	$fullTextSearch=RecipeIngridents::select('recipe_id')
+                        ->search($request->q)
+                        ->groupBy('recipe_id')
+                        ->pluck('recipe_id');
     	return $fullTextSearch;
 
     }

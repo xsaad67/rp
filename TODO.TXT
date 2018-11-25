@@ -3,7 +3,7 @@ Subscribe modal working ajax --Done
 Unsubscribe Page --Done without backend
 Show Recipe --Need to crawl Result
 Author's Recipes --Done
-Search
+Search --Done
 Seprate Sidebar
 Recipe Reviews 
 Author's Profile

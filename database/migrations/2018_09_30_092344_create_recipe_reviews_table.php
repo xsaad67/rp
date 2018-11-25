@@ -20,6 +20,7 @@ class CreateRecipeReviewsTable extends Migration
             $table->string('title');
             $table->string('rating');
             $table->string('review');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

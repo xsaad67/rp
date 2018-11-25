@@ -102,11 +102,14 @@
 
 	<div class="bottom">
 		<h2 class="title">Do you want to unsubscribe?</h2>
+		<span id="unique" style="display:none;">{{ request('email') }}</span>
 		<p class="subtitle">If you unsubscribe, you will stop receiving our weekly newsletter.
 			<p/>
+			
 			<div class="buttons">
 
-				<button class="frm-button google material-button large">Unsubscribe</button>
+				<button class="frm-button google material-button large" id="btn-unsub">Unsubscribe</button>
+				<div id="unsub-message"></div>
 				
 			</div>
 	</div>
@@ -117,5 +120,41 @@
 
 
 @section('footer')
+<script>
+	$(document).ready(function(){
+
+		$.ajaxSetup({
+	        headers: {
+	            'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+	        }
+   		});
+
+		$("#btn-unsub").click(function(){
+		alert('helloworld');
+		var email = $("#unique").html();
+	 	$.ajax({
+            type:'POST',
+            url:'/page/unsub',
+            data:{ email: email},
+            context: this,
+            success:function(data){
+            	console.log("yes");
+                $('#unsub-message').html('<div class="alert alert-success">Your unsubscription request completed</a>');
+            },
+            error: function (xhr) {
+               $('#unsub-message').html('');
+               $.each(xhr.responseJSON.errors, function(key,value) {
+                 $('#unsub-message').append('<div class="alert alert-danger">'+value+'</div>');
+             }); 
+            },
+        });
+
+
+		});
+	});
+
+</script>
 <script src="{{asset('js/unsub.js')}}"></script>
+
+
 @endsection

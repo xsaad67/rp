@@ -4,6 +4,9 @@
 
 @section('css')
 
+<link rel="stylesheet" type="text/css" href="/css/bootstrap_components/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap_components/form-css.css">
+
 <style type="text/css">
 
     #image-preview {
@@ -57,7 +60,7 @@
         @csrf
         <div class="container">
             <div class="row row-grid">
-                <div class="col-lg-4">
+                <div class="col-lg-4 order-last order-sm-0">
 
                     <div class="form-group">
                         <label class="form-control-label">Upload Image</label>
@@ -100,7 +103,7 @@
                     </div>
                 
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-auto">
                   
                         <div class="form-group">
                             <label class="form-control-label">Recipe Title</label>
@@ -139,13 +142,12 @@
                             <label class="form-control-label">Steps/Directions</label>
                             <textarea name="steps" value="{{old('steps')}}" class="form-control" rows="6" placeholder="Steps to make recipe (One by one Line)"></textarea>
                         </div>
-
-
-                        <button class="btn btn-primary offset-lg-5" type="submit"><i class="fas fa-paper-plane"></i> Submit Recipe</button>
-                                                  
-                 
-
                 </div>
+            </div>
+
+            <div class="row">
+               
+                        <button class="btn btn-primary offset-lg-5" type="submit"><i class="fas fa-paper-plane"></i> Submit Recipe</button>
             </div>
         </div>
 
@@ -159,10 +161,9 @@
 
 
 
-@section('plugin')
+@section('footer')
 
-<script src="/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
-<script src="/js/upload-preview.min.js"></script>
+<script src="/asset/js/upload-preview.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   $.uploadPreview({

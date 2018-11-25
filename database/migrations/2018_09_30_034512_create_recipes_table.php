@@ -34,6 +34,7 @@ class CreateRecipesTable extends Migration
             $table->boolean('isApi')->default(0);
             $table->string('thumbnail')->nullable();
             $table->string('source')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

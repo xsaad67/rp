@@ -21,6 +21,7 @@ Route::prefix('crawl')->group(function () {
 
 Route::prefix('page')->group(function () {
     Route::get('/unsub','NewsLetterController@edit');
+    Route::post('/unsub','NewsLetterController@destroy');
 });
 
 
@@ -39,7 +40,7 @@ Route::post('recipe/update/{id}','RecipeController@update');
 Route::post('recipe/delete','RecipeController@delete');
 
 
-Route::get('/search','SearchController@index');
+Route::get('/search','SearchController@simpleLikeSearch');
 
 
 Route::post('favorite','FollowableController@favorite');
@@ -47,6 +48,10 @@ Route::post('follow','FollowableController@follow');
 Route::post('unfollow','FollowableController@unfollow');
 Route::post('voteup','FollowableController@voteup');
 Route::post('votedown','FollowableController@votedown');
+
+Route::group(['prefix' => 'area51', 'middleware' => ['admin']], function(){
+    Route::get('dashboard','AdminController@index');
+});
 
 
 Route::get('/home', 'HomeController@index')->name('home');

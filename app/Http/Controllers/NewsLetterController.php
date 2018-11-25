@@ -73,7 +73,17 @@ class NewsLetterController extends Controller
     public function edit()
     {
         
-        return view('pages.unsub');
+        if(!empty(request('email'))){
+
+            $email = request('email');
+           
+            if (NewsLetter::where('email', '=', $email)->exists()) {
+                // Subscriber exist 
+                return view('pages.unsub',compact('email'));
+            }else{ abort(404); }
+
+        }else{ abort(404); }
+
     }
 
     /**
@@ -94,8 +104,11 @@ class NewsLetterController extends Controller
      * @param  \App\NewsLetter  $newsLetter
      * @return \Illuminate\Http\Response
      */
-    public function destroy(NewsLetter $newsLetter)
+    public function destroy(Request $request)
     {
-        //
+        $email = $request->email;
+        $newsletter = NewsLetter::where('email', '=', $email)->firstOrFail();
+        $newsletter->delete();
+        
     }
 }

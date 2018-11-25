@@ -17,7 +17,7 @@ class CreateNewsLettersTable extends Migration
             $table->increments('id');
             $table->string('email')->unique();
             $table->boolean('isGuest')->default(1);
-            $table->boolean('unSub')->default(0);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

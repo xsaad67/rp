@@ -115,10 +115,10 @@
 
             <!--header search panel start -->
             <div class="search-bar">
-                <form class="search-form">
+                <form class="search-form" action="{{action('SearchController@simpleLikeSearch')}}" method="GET">
                     <div class="search-input-wrapper">
-                        <input type="text" name="qq" placeholder="search something..." class="search-input">
-                        <button type="submit" name="search" class="search-submit"><i class="material-icons">&#xE5C8;</i></button>
+                        <input type="text" name="search" placeholder="search something..." class="search-input">
+                        <button type="submit" class="search-submit"><i class="material-icons">&#xE5C8;</i></button>
                     </div>
                     <span class="search-close search-toggle">
                         <i class="material-icons">&#xE5CD;</i>
