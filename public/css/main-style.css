@@ -2865,4 +2865,6 @@ textarea.frm-input{
 .favorited:hover{ background-color: rgba(0,0,0,0.5); }
 .article-share.post-share{ display:flex; }
 .article-share.post-share > a{ margin-right:5px; margin-top:10px; background-size: 14px !important; width:35px !important; height:35px !important;}
-/*end of part 26---------------------------------------------------*/
+.error{color:red; font-weight: 600;}
+.hide{display:none;}
+.show{display:block;}

@@ -105,7 +105,7 @@ class RecipeController extends Controller
     public function show($slug)
     {
         
-        $recipe = Recipe::with("rIngridents")->where('slug',$slug)->firstOrFail();
+        $recipe = Recipe::with("ingridents")->where('slug',$slug)->firstOrFail();
         // return $recipe;
         // return $recipe->with('ingridents')->where('slug',$slug)->firstOrFail();
         return view("recipes.show",compact("recipe"));

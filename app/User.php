@@ -8,6 +8,7 @@ use Overtrue\LaravelFollow\Traits\CanFavorite;
 use Overtrue\LaravelFollow\Traits\CanFollow;
 use Overtrue\LaravelFollow\Traits\CanBeFollowed;
 use App\Traits\Sluggable;
+// use Avatar;
 
 class User extends Authenticatable
 {
@@ -39,6 +40,13 @@ class User extends Authenticatable
 
     public function getLinkAttribute(){
         return url("/") . '/chef/'.$this->slug;
+    }
+
+    public function getAvatarAttribute(){
+
+        // return $this->avatar;
+      
+         return is_null($this->dp) ? \Avatar::create($this->name)->toBase64(): asset('img/avatars/'.$this->dp);
     }
     
     public function recipes(){

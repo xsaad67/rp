@@ -26,18 +26,22 @@ class Recipe extends Model
     	return $this->belongsTo(User::class,'user_id');
     }
 
-    public function rIngridents(){
+    public function ingridents(){
     	return $this->hasMany(RecipeIngridents::class);
     }
 
 
-    public function rInstructions(){
+    public function instructions(){
     	return $this->hasMany(RecipeInstruction::class);
     }
 
 
     public function scopePopular($query){
         return $query->orderBy('created_at','Desc');
+    }
+
+    public function reviews(){
+        return $this->hasMany(RecipeReviews::class);
     }
   
    

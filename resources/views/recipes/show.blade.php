@@ -17,7 +17,7 @@
                 <div class="post-overlay">
                     <div class="post-overlay-inner">
                         <a href="#" class="post-category" title="Title of blog post" rel="tag">Technology</a>
-                        <h1 class="post-title">{{$recipe->title}}</h1>
+                        <h1 class="post-title">{{$recipe->title}} {{$recipe->id}}</h1>
                         <div class="post-meta">
                             <div class="post-meta-author-avatar">
                                 <img alt="avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" class="avatar" height="24" width="24">
@@ -226,12 +226,42 @@
 <script>
 
     $(function(){
+        var rating = "";
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+            }
+        });
+
+
         $(".my-rating").starRating({
           totalStars: 5,
           starShape: 'rounded',
           starSize: 40,
           activeColor: '#000',
           disableAfterRate: false,
+            onLeave: function(currentIndex, currentRating, $el){
+              rating = currentRating;
+
+            }
+        });
+
+        $("#reviewBtn").click(function(){
+        
+        $("#reviewTxt").val();
+
+        $.ajax({
+            type:'POST',
+            url:'/reviews/save',
+            data:{ rating: rating },
+            context: this,
+            success:function(data){
+
+            }
+        });
+
+        
         });
     });
 </script>

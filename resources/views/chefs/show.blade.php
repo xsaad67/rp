@@ -5,9 +5,6 @@
 @section('content')
 
 
-
-
-
         <section class="main-highlight">
             
         </section>

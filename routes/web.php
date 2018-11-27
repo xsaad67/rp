@@ -24,6 +24,10 @@ Route::prefix('page')->group(function () {
     Route::post('/unsub','NewsLetterController@destroy');
 });
 
+Route::prefix('reviews')->group(function () {
+    Route::post('/save','RecipeReviewsController@store');
+});
+
 
 Route::prefix('chef')->group(function () {
     Route::get('/{slug}','ProfileController@show');
