@@ -36,10 +36,9 @@ class RecipeReviewsController extends Controller
     public function store(Request $request)
     {
 
-        $review = RecipeReviews();
+        $review = new RecipeReviews();
         $request->validate([
             "rating" => 'required|numeric|max:5|not_in:0',
-            "review" => 'required',
         ]);
 
         $review->recipe_id = decrypt($request->recipeId);

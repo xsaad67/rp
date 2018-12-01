@@ -176,6 +176,18 @@ var GetIEVersion = function() {
 		return 0; //It is not IE
 }
 
+var loadStarSvg = function(){
+
+	$(".item-rated").starRating({
+        totalStars: 5,
+        initialRating: $(this).data("rating"),
+        starShape: 'rounded',
+        starSize: 20,
+        activeColor: '#000',
+        readOnly: true,  
+	});
+		
+}
 
 
 $(document).ready(function(){
@@ -187,6 +199,11 @@ $(document).ready(function(){
 		'hide_delay':0,
 		'show_delay':0
 	});
+
+	if($(".item-rated").length > 0){
+
+		loadStarSvg();		
+	}
 
 	//first creating mobile menu for mobile screen sizes
 	createMobileMenu();

@@ -46,10 +46,11 @@ class User extends Authenticatable
 
         // return $this->avatar;
       
-         return is_null($this->dp) ? \Avatar::create($this->name)->toBase64(): asset('img/avatars/'.$this->dp);
+         return is_null($this->dp) ? \Avatar::create($this->name)->setBorder(0,'adf'): asset('img/avatars/'.$this->dp);
     }
     
     public function recipes(){
         return $this->hasMany(Recipe::class, 'user_id');
     }
+
 }

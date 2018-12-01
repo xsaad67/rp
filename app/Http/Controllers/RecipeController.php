@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use App\Recipe;
 use Illuminate\Http\Request;
 use App\Ingrident;
-// use Avatar;
-use DonatelloZa\RakePlus\RakePlus;
+use App\Rating;
+
 class RecipeController extends Controller
 {
     private $savePath="";
@@ -22,19 +22,7 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        // $text = "Apple and Poppy Seed Slaw";
-
-        //     $phrases = RakePlus::create($text)->get();
-
-        //  return $phrases;
-
-
-        // foreach($recipes as $recipe){
-        //     $phrases = RakePlus::create($recipe->title)->get();
-        //     dump($phrases);
-        //     echo "<br>";
-        // }
-        // 
+        
         
         $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->get(); 
 
@@ -106,8 +94,6 @@ class RecipeController extends Controller
     {
         
         $recipe = Recipe::with("ingridents")->where('slug',$slug)->firstOrFail();
-        // return $recipe;
-        // return $recipe->with('ingridents')->where('slug',$slug)->firstOrFail();
         return view("recipes.show",compact("recipe"));
     }
 

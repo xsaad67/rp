@@ -2868,3 +2868,6 @@ textarea.frm-input{
 .error{color:red; font-weight: 600;}
 .hide{display:none;}
 .show{display:block;}
+.item-rated > .jq-star{
+    cursor:inherit !important;
+}

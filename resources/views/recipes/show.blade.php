@@ -4,6 +4,10 @@
 
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/star-rating/star-rating.css')}}">
 
+<style>
+
+</style>
+
 @endsection
 
 @section('content')
@@ -205,8 +209,54 @@
                             </div>
                         </div>
                         <!-- More article unit end -->
+                   
+                        <!--article comment area start -->
+                            <div class="article-comments">
+                                <div class="w-header">
+                                    <div class="w-title">Reviews ({{count($recipe->ratings)}})</div>
+                                    <div class="w-seperator"></div>
+                                </div>
+                                @auth
+                                <div class="comment-form">
+                                    <form>
+                                        <div class="comment-columns">
+                                           
+                                            <div class="frm-row">
+                                                <div class="my-rating" data-rating="0"></div>
+                                                <span class= "error hide" id="ratedErr"></span>
+                                            </div>
+                                        </div>
+                                        <div class="frm-row">
+                                            <textarea class="frm-input" id="reviewTxt" rows="4" placeholder="Your Review.."></textarea>
+                                            <span class= "error hide" id="reviewErr"></span>
+                                        </div>
+                                        <div class="frm-row">
+                                        
+                                            <div class="columns column-2">
+                                                <button type="button" class="frm-button full material-button" id="reviewBtn">Your Review</button>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
 
-                        @include('comments.index')
+                                    </form>
+                                </div>
+                                @endauth
+
+                                @guest You must be <a href="/login">Logged In</a> to write a review @endguest
+                                <div class="all-comments">
+                                
+                                    @foreach($recipe->ratings as $review)
+                                        <!-- comment item start -->
+                                        @include('reviews.show')
+                                        <!-- comment item end -->
+                                    @endforeach
+
+
+                                </div>
+                            </div>
+                        <!-- article comment area start -->
+
+                       
 
                     </div>
                 </article>
@@ -222,18 +272,17 @@
 
 @section('footer')
 
-<script src="{{asset('plugins/star-rating/star-rating.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('plugins/star-rating/star-rating.min.js')}}"></script>
 <script>
 
     $(function(){
+
+        //Initialize Rating plugin
+
         var rating = "";
+        var recipeId = "{{$recipe->id}}";
 
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
-            }
-        });
-
+        var reviewLink = "/reviews/recipe/"+recipeId;
 
         $(".my-rating").starRating({
           totalStars: 5,
@@ -247,18 +296,36 @@
             }
         });
 
+        //Ends Initialize
+        
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+            }
+        });
+
+
         $("#reviewBtn").click(function(){
         
         $("#reviewTxt").val();
 
         $.ajax({
             type:'POST',
-            url:'/reviews/save',
-            data:{ rating: rating },
+            url:reviewLink,
+            data:{ rating: rating, review: $("#reviewTxt").val() },
             context: this,
             success:function(data){
-
-            }
+                $(".all-comments").prepend(data.html);
+                loadStarSvg();
+    
+            },
+            error: function (xhr) {
+               $('#validation-errors').html('');
+               $.each(xhr.responseJSON.errors, function(key,value) {
+                 $('#validation-errors').append('<div class="alert alert-danger">'+value+'</div');
+             }); 
+            },
         });
 
         

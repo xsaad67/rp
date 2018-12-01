@@ -14,8 +14,10 @@ class ProfileController extends Controller
     	$user = User::where('slug',$slug)->firstOrFail();
     	$recipes = $user->recipes()->latest()->paginate(5);
     	return view('chefs.show',compact('recipes'));
-
     }
 
+    public function edit(User $user){
+    	return view('chefs.edit');
+    }
 
 }

@@ -8,8 +8,8 @@
     <title@yield('title')</title>
     <meta name="_token" content="{{csrf_token()}}">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    {{-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet"> --}}
+    {{-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> --}}
 
     <!-- Tooltip plugin (zebra) css file -->
     <link rel="stylesheet" type="text/css" href="{{asset('plugins/zebra-tooltip/zebra_tooltips.min.css')}}">

@@ -40,8 +40,8 @@ class Recipe extends Model
         return $query->orderBy('created_at','Desc');
     }
 
-    public function reviews(){
-        return $this->hasMany(RecipeReviews::class);
+    public function ratings(){
+        return $this->morphMany('App\Rating','rateable')->newest();
     }
   
    

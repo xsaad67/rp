@@ -19,18 +19,23 @@ Route::prefix('crawl')->group(function () {
     Route::get('/ing','IngridentController@index');
 });
 
+
+
 Route::prefix('page')->group(function () {
     Route::get('/unsub','NewsLetterController@edit');
     Route::post('/unsub','NewsLetterController@destroy');
 });
 
 Route::prefix('reviews')->group(function () {
+
+	Route::post('/{model}/{id}','RatingController@store');
     Route::post('/save','RecipeReviewsController@store');
 });
 
 
 Route::prefix('chef')->group(function () {
     Route::get('/{slug}','ProfileController@show');
+     Route::get('/edit/{user}','ProfileController@edit');
 });
 
 Route::post('/newsletter','NewsLetterController@store');

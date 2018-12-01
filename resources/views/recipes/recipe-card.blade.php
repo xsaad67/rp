@@ -13,7 +13,9 @@
         </div>
         <div class="post-bottom">
             <div class="post-author-box">
-                <a class="author-avatar" href="{{$recipe->chef->link}}"><img alt="avatar" data-src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y" class="avatar lazy" height="24" width="24"></a>
+                <a class="author-avatar" href="{{$recipe->chef->link}}">
+                    <img alt="avatar" data-src="{{$recipe->chef->avatar}}" class="avatar lazy" height="24" width="24">
+                </a>
                 <a href="{{$recipe->chef->link}}" class="author-name">{{ucwords($recipe->chef->name)}}</a>
                 <span class="post-date">{{$recipe->created_at->diffForHumans()}}</span>
 

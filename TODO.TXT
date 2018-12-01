@@ -1,12 +1,4 @@
-Image Lazy Load --Done
-Subscribe modal working ajax --Done
-Unsubscribe Page --Done without backend
-Show Recipe --Need to crawl Result
-Author's Recipes --Done
-Search --Done
-Seprate Sidebar
-Recipe Reviews 
-Author's Profile
+
 
 Create Recipe
 Update delete Result
@@ -19,3 +11,10 @@ forum
 threads
 participate
 Avery Konrad
+
+
+
+--Remember Points
+
+
+use DonatelloZa\RakePlus\RakePlus; for extracting tags
