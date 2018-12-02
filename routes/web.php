@@ -17,6 +17,9 @@ Route::prefix('crawl')->group(function () {
     Route::get('/epicurious','CrawlLinksController@epicuriousData');
     Route::get('/epicsingle','CrawlLinksController@epicriciousSingle');
     Route::get('/ing','IngridentController@index');
+    Route::get('/category','CrawlController@getCat');
+    Route::get('/cuisine','CrawlController@getCuisine');
+    Route::get('/microdata','CrawlController@crawlMicroData');
 });
 
 
@@ -36,6 +39,7 @@ Route::prefix('reviews')->group(function () {
 Route::prefix('chef')->group(function () {
     Route::get('/{slug}','ProfileController@show');
      Route::get('/edit/{user}','ProfileController@edit');
+     Route::get('/update/{user}','ProfileController@update');
 });
 
 Route::post('/newsletter','NewsLetterController@store');

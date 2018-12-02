@@ -1,20 +1,8 @@
 
-
 Create Recipe
 Update delete Result
 My Reviews
 
-
-
---Features--
-forum
-threads
-participate
-Avery Konrad
-
-
-
 --Remember Points
-
 
 use DonatelloZa\RakePlus\RakePlus; for extracting tags

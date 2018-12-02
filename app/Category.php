@@ -7,6 +7,10 @@ use App\Traits\Sluggable;
 
 class Category extends Model
 {
+	use Sluggable;
+
+	protected $fillable = ['name'];
+
     public function sluggable() {
         return [ 'source' => 'name' ];
     }

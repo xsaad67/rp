@@ -18,7 +18,8 @@ class CreateRecipeIngridentsTable extends Migration
             $table->string('recipe_id');
             $table->string('ingrident')->nullable();
             $table->string('amount')->nullable();
-            $table->string('note')->nullable();
+            $table->text('note')->nullable();
+            $table->text('displayNote')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

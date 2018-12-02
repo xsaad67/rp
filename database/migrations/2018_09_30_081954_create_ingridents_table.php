@@ -16,6 +16,7 @@ class CreateIngridentsTable extends Migration
         Schema::create('ingridents', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('slug')->nullable();
             $table->integer('parent_id')->nullable();
             $table->string('icon')->nullable();
             $table->string('image')->nullable();

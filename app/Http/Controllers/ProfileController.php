@@ -17,7 +17,12 @@ class ProfileController extends Controller
     }
 
     public function edit(User $user){
-    	return view('chefs.edit');
+    	return view('chefs.edit',compact('user'));
     }
 
+
+    public function update(User $user)
+    {
+    	return $user;
+    }
 }

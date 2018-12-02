@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use Goutte;
 use App\Ingrident;
 use App\CrawlLinks;
+use App\Category;
 
 ini_set('max_execution_time', 180);
 
@@ -76,13 +77,89 @@ class CrawlController extends Controller
 
 
 
+    public function getCat()
+    {
+
+        $link = "https://myfoodbook.com.au/recipes/categories?sort_by=name&sort_order=DESC";
+        $crawler = Goutte::request('GET',$link);
+
+        $crawler->filter('div.field-item > h2 > a')->each(function($node){
+
+
+            $catName = ucwords(strtolower($node->text()));
+
+            $cat = Category::firstOrNew(['name'=>$catName]);
+            $cat->save();
+
+        });
 
 
 
 
+        
+
+    
+    }
+
+    /**
+    *   This method is to crawl campbells recipe categories 
+    *    But Right now in no use just maintaining it for legacy 
+    *    so in future if supposed to have a need
+    *
+    **/
+    public function campbellsRecipeCategory(){
+
+        $link = "https://www.campbells.com/kitchen/categories/";
+
+        $crawler = Goutte::request('GET',$link);
+        $crawler->filter('div.other-category')->eq(2)->each(function($node){
+
+            $catName = ucwords(strtolower($node->filter('p.category-title')->text()));
+            // dd($catName);
+            $parent = Category::firstOrNew(['name'=>$catName]);
+            $parent->save();
+            $parent_id = $parent->id;
+
+            $node->filter('ul > li > a')->each(function($hello) use($parent_id){
+                $cat = Category::firstOrNew(['name'=>$hello->text()]);
+                $cat->parent_id=$parent_id;
+                $cat->save();
+                dump($hello->text());
+            });
+
+
+        });
+    }
 
 
 
+    public function getCuisine()
+    {
+        $link = "https://www.listchallenges.com/world-cuisines";
+
+        $crawler = Goutte::request('GET',$link);
+
+        $crawler->filter('div.item-name')->each(function($node){
+
+            $cuiName = trim(str_replace(" Food","", $node->text()));
+
+            $cuisine = \App\Cuisine::firstOrNew(['name'=>$cuiName]);
+            $cuisine->save();
+            dump($cuiName); 
+        });
+        
+    }
+
+    public function crawlMicroData(){
+        $url="https://www.allrecipes.com/recipe/219874/italian-turkey-meatballs";
+
+        $crawler = Goutte::request('GET',$url);
+
+        $crawler->filter('body')->each(function($node){
+            $title = $node->filter('h1[itemprop="name"]')->text();
+            dump($title);
+        });
+    }
 
 
 }

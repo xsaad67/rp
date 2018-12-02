@@ -16,6 +16,22 @@ if(!function_exists('userLatLon')){
 
 }
 
+
+if(!function_exists('getDomainName')){
+
+	function getDomainName($url)
+	{
+	      $urlobj=parse_url($url);
+	      if(!array_key_exists('host', $urlobj)) { return false; }
+	      $domain=$urlobj['host'];
+	      if (preg_match('/(?P<domain>[a-z0-9][a-z0-9\-]{1,63}\.[a-z\.]{2,6})$/i', $domain, $regs)) {
+	        return $regs['domain'];
+	      }
+	      return false;
+	}
+
+}
+
 // function containsWord($str, $word)
 // {
 //     return !!preg_match('#\\b' . preg_quote($word, '#') . '\\b#i', $str);
