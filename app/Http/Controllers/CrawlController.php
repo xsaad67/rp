@@ -150,15 +150,36 @@ class CrawlController extends Controller
         
     }
 
-    public function crawlMicroData(){
+    public function crawlAllRecipe(){
         $url="https://www.allrecipes.com/recipe/219874/italian-turkey-meatballs";
 
         $crawler = Goutte::request('GET',$url);
+        $title = $crawler->filter('h1[itemprop="name"]')->text();
+        $description = $crawler->filter('div[itemprop="description"]')->text();
+        $image = $crawler->filter('img[itemprop="image"]')->attr("src");
 
-        $crawler->filter('body')->each(function($node){
-            $title = $node->filter('h1[itemprop="name"]')->text();
-            dump($title);
+
+        
+
+        $crawler->filter('span[itemprop="recipeIngredient"]')->each(function($node){
+          
+           $ingrident = trim($node->text());
+
+           dump($ingrident);
         });
+
+        $crawler->filter('span.recipe-directions__list--item')->each(function($node){
+          
+           $step = trim($node->text());
+
+           dump($step);
+        });
+
+        dump($title);
+
+        dump($description);
+
+        dump($image);
     }
 
 

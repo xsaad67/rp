@@ -63,7 +63,15 @@ class IngridentController extends Controller
      */
     public function create()
     {
-        //
+        $ingridents = Ingrident::where('slug',NULL)->get();
+        
+        foreach($ingridents as $ing){
+            $hello = Ingrident::find($ing->id);
+            $hello->slug=str_slug($ing->name);
+            $hello->save();
+            echo str_slug($ing->name);
+            echo "<br>";
+        }
     }
 
     /**

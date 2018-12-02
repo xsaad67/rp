@@ -9,7 +9,7 @@ use App\Traits\Sluggable;
 class Recipe extends Model
 {
 
-  use CanBeFavorited, Sluggable;
+    use CanBeFavorited, Sluggable;
   
     public function sluggable() {
         return [ 'source' => 'name' ];
