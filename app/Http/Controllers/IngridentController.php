@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 
 class IngridentController extends Controller
 {
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -15,43 +18,15 @@ class IngridentController extends Controller
      */
     public function index()
     {
-       $ingridents = Ingrident::pluck("name","slug");
+        $ingridents = Ingrident::pluck("name","slug");
        
         $recipeIng = RecipeIngridents::where('recipe_id',1)->pluck("note");
-       
+
         foreach($recipeIng as $key=>&$note){
-
-           foreach($ingridents as $ingKey=>$ing){
-                
-                if(preg_match('/\b'.$ing.'\b/',$note)){
-                    $url = "<a href='/ingridients/".urlencode(trim($ingKey))."'>".trim($ing)."</a>";
-                    $note= str_replace($ing," ".$url." ",$note);
-                }
-
-            }
-            echo $note."<br>";
+            echo ingredientsToLink($ingridents,$note);
+            echo "<br>";
         }
 
-
-
-        // $recipeIng = RecipeIngridents::where('recipe_id',1)->get();
-       
-        // foreach($recipeIng as $rIng){
-
-           // foreach($ingridents as $ing){
-                
-           //      if(preg_match('/\b'.$ing.'\b/',$rIng->note)){
-           //          $url = "<a href='/ingridients/".urlencode(trim($ing))."'>".trim($ing)."</a>";
-           //          $rIng->note= str_replace($ing," ".$url." ",$rIng->note);
-           //      }
-
-           //  }
-            // $rIng->note = strip_tags($rIng->note);
-            // var_dump(parserIndgredient($rIng->note));//."<br>";
-            // $rIng->save();
-        // }
-
-        
     }
 
     /**
@@ -61,15 +36,7 @@ class IngridentController extends Controller
      */
     public function create()
     {
-        $ingridents = Ingrident::where('slug',NULL)->get();
         
-        foreach($ingridents as $ing){
-            $hello = Ingrident::find($ing->id);
-            $hello->slug=str_slug($ing->name);
-            $hello->save();
-            echo str_slug($ing->name);
-            echo "<br>";
-        }
     }
 
     /**

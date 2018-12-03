@@ -32,6 +32,39 @@ if(!function_exists('getDomainName')){
 
 }
 
+
+
+/**@ingredients array in form ["slug"=>"name"] 
+*@String 
+*Return String with link
+*
+*This helper Funtion takes an array of Ingredients
+*To give ingredients you can do 
+*Ingrident::pluck("name","slug");
+*
+**/
+
+if(!function_exists('ingredientsToLink')){
+
+	function ingredientsToLink($ingredients,$string){
+
+   foreach($ingredients as $ingKey=>$ing){
+        
+        if(preg_match('/\b'.$ing.'\b/',$string)){
+            $url = "<a href='/ingridients/".urlencode(trim($ingKey))."'>".trim($ing)."</a>";
+            $string= str_replace($ing," ".$url." ",$string);
+        }
+
+    }
+
+    return $string;
+}
+
+}
+
+
+
+
 // function containsWord($str, $word)
 // {
 //     return !!preg_match('#\\b' . preg_quote($word, '#') . '\\b#i', $str);

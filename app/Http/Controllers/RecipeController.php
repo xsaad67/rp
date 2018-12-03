@@ -6,6 +6,7 @@ use App\Recipe;
 use Illuminate\Http\Request;
 use App\Ingrident;
 use App\Rating;
+use App\Http\Requests\StoreRecipe;
 
 class RecipeController extends Controller
 {
@@ -22,13 +23,8 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        
-        
         $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->get(); 
-
         $featuredRecipes = Recipe::popular()->take(15)->get();
-
-        
         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
@@ -39,7 +35,6 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        // return "hello world";
         return view('recipes.create');
     }
 
@@ -49,18 +44,17 @@ class RecipeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreRecipe $request)
     {
 
         $userId = is_null(auth()->id()) ? 1 : auth()->id();
 
 
-        // dd($request->all());
+        dd($request->all());
 
         if (!is_dir($this->savePath)) {
             mkdir($this->savePath, 0777);
         }
-        // dd($request->file('image'));
 
         $photo = $request->file('image');
         $saveName = sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();

@@ -4,7 +4,7 @@
 
 @section('css')
 
-<link rel="stylesheet" type="text/css" href="/css/bootstrap_components/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/css/bootstrap_components/form-css.css">
 
 <style type="text/css">
@@ -43,6 +43,19 @@
       text-align: center;
     }
 
+    .mb-50{
+      margin-bottom: 50px;
+    }
+
+    .btn-design{
+    background: #dc2430;
+    color: #fff;
+    font-weight: 700;
+    }
+
+    .form-control-label{
+      font-weight: 600;
+    }
 </style>
 
 @endsection
@@ -59,6 +72,16 @@
     <form method="POST" action="{{action('RecipeController@store')}}" enctype="multipart/form-data">
         @csrf
         <div class="container">
+            <h1 class="text-center mb-50" style="color:#cd283f;">Create Your amazing Recipe</h1>
+            @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
             <div class="row row-grid">
                 <div class="col-lg-4 order-last order-sm-0">
 
@@ -74,14 +97,14 @@
                         <div class="col-lg-6">
                              <div class="form-group">
                                 <label class="form-control-label">Cooking Time</label>
-                                <input class="form-control form-control-sm" type="text" name="cooktime" placeholder="In Minutes" value="{{old('cooktime')}}">
+                                <input class="form-control form-control-sm" type="text" name="cooktime" placeholder="22:34" value="{{old('cooktime')}}">
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                              <div class="form-group">
                                 <label class="form-control-label">Prepration Time</label>
-                                <input class="form-control form-control-sm" type="text" name="preptime" placeholder="In Minutes" value="{{old('preptime')}}">
+                                <input class="form-control form-control-sm" type="text" name="preptime" placeholder="22:34" value="{{old('preptime')}}">
                             </div>
                         </div>
                     </div>
@@ -97,13 +120,13 @@
                         <div class="col-lg-6">
                              <div class="form-group">
                                 <label class="form-control-label">Cooking Temprature</label>
-                                <input class="form-control form-control-sm" type="text" name="cooktemp" placeholder="Temprature" value="{{old('cooktemp')}}">
+                                <input class="form-control form-control-sm" type="text" name="cooktemp" placeholder="Celsius" value="{{old('cooktemp')}}">
                             </div>
                         </div>
                     </div>
                 
                 </div>
-                <div class="col-lg-8 col-auto">
+                <div class="col-lg-8">
                   
                         <div class="form-group">
                             <label class="form-control-label">Recipe Title</label>
@@ -112,7 +135,7 @@
 
                         <div class="form-group">
                             <label class="form-control-label">Short Description</label>
-                            <textarea name="description" value="{{old('description')}}" class="form-control" placeholder="Short Description"></textarea>
+                            <textarea name="description"  class="form-control" placeholder="Short Description">{{old('description')}}</textarea>
                         </div>
 
 
@@ -120,14 +143,25 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-control-label">Cuisine</label>
-                                    <input class="form-control form-control-sm" type="text" name="cuisine" placeholder="Cuisine" value="{{old('cuisine')}}">
+                                    <select class="form-control" name="cuisine">
+                                      <option value="">Select a Cuisine</option>
+                                      @foreach(App\Cuisine::orderBy('name')->get() as $cuisine )
+                                        <option value="{{$cuisine->id}}" {{ (old("cuisine") == $cuisine->id ? "selected":"") }}>{{$cuisine->name}}</option>
+                                      @endforeach
+                                    </select>
+                                   
                                 </div>  
                             </div> 
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="form-control-label">Meal Category</label>
-                                    <input class="form-control form-control-sm" type="text" name="category" placeholder="Meal Category" value="{{old('category')}}">
+                                    <label class="form-control-label">Recipe Category</label>
+                                    <select class="form-control" name="category">
+                                    <option value="">Select a Category</option>
+                                      @foreach(App\Category::orderBy('name')->get() as $category )
+                                        <option value="{{$category->id}}" {{ (old("category") == $category->id ? "selected":"") }}>{{$category->name}}</option>
+                                      @endforeach
+                                    </select>
                                 </div>  
                             </div>
 
@@ -135,19 +169,20 @@
 
                         <div class="form-group">
                             <label class="form-control-label">Ingredients</label>
-                            <textarea name="ingredients" value="{{old('ingredients')}}" class="form-control" rows="6" placeholder="Ingredients (One by one Line)"></textarea>
+                            <textarea name="ingredients" class="form-control" rows="6" placeholder="Ingredients (One by one Line)">{{old('ingredients')}}</textarea>
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Steps/Directions</label>
-                            <textarea name="steps" value="{{old('steps')}}" class="form-control" rows="6" placeholder="Steps to make recipe (One by one Line)"></textarea>
+                            <textarea name="steps" class="form-control" rows="6" placeholder="Steps to make recipe (One by one Line)">{{old('steps')}}</textarea>
                         </div>
                 </div>
             </div>
 
-            <div class="row">
-               
-                        <button class="btn btn-primary offset-lg-5" type="submit"><i class="fas fa-paper-plane"></i> Submit Recipe</button>
+            <div class="row mb-50">
+               <div class="col-12 text-center">
+                <button class="btn btn-default btn-lg btn-design" type="submit"><i class="fas fa-paper-plane"></i> Submit Recipe</button>
+              </div>
             </div>
         </div>
 
@@ -164,8 +199,13 @@
 @section('footer')
 
 <script src="/asset/js/upload-preview.min.js"></script>
+<script src="/plugins/dirty/dirty.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
+
+  // $('form').dirtyForms();
+
+  
   $.uploadPreview({
     input_field: "#image-upload",   // Default: .image-upload
     preview_box: "#image-preview",  // Default: .image-preview
