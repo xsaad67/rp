@@ -497,6 +497,18 @@ class CuisinesTableSeeder extends Seeder
                 'created_at' => '2018-12-02 07:03:23',
                 'updated_at' => '2018-12-02 07:03:23',
             ),
+            40 => 
+            array (
+                'id' => 41,
+                'name' => 'Miscellaneous',
+                'slug' => 'miscellaneous',
+                'image' => NULL,
+                'parent_id' => NULL,
+                'description' => NULL,
+                'icon' => NULL,
+                'created_at' => '2018-12-02 07:03:23',
+                'updated_at' => '2018-12-02 07:03:23',
+            ),
         ));
         
         

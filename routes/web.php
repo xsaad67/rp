@@ -16,7 +16,7 @@ Route::get('/','RecipeController@index');
 Route::prefix('crawl')->group(function () {
     Route::get('/epicurious','CrawlLinksController@epicuriousData');
     Route::get('/epicsingle','CrawlLinksController@epicriciousSingle');
-    Route::get('/ing','IngridentController@create');
+    Route::get('/ing','IngridentController@index');
     Route::get('/category','CrawlController@getCat');
     Route::get('/cuisine','CrawlController@getCuisine');
     Route::get('/microdata','CrawlController@crawlMicroData');

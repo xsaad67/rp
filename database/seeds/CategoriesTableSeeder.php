@@ -420,6 +420,20 @@ class CategoriesTableSeeder extends Seeder
                 'created_at' => '2018-12-02 05:44:55',
                 'updated_at' => '2018-12-02 05:44:55',
             ),
+            31 => 
+            array (
+                'id' => 34,
+                'name' => 'Miscellaneous',
+                'slug' => 'miscellaneous',
+                'icon' => NULL,
+                'image' => NULL,
+                'description' => NULL,
+                'parent_id' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-02 05:44:55',
+                'updated_at' => '2018-12-02 05:44:55',
+            ),
+
         ));
         
         
