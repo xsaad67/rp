@@ -13,7 +13,10 @@ class RecipeController extends Controller
     private $savePath="";
 
     public function __construct(){
-        $this->savePath = public_path('/recipes');
+        $this->savePath = public_path('/images/recipes');
+        if (!is_dir($this->savePath)) {
+            mkdir($this->savePath, 0777);
+        }
     }
 
     /**
@@ -44,30 +47,23 @@ class RecipeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreRecipe $request)
+    public function store(Request $request)
     {
 
         $userId = is_null(auth()->id()) ? 1 : auth()->id();
 
-
-        dd($request->all());
-
-        if (!is_dir($this->savePath)) {
-            mkdir($this->savePath, 0777);
-        }
+        
 
         $photo = $request->file('image');
         $saveName = sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
         $photo->move($this->savePath, $saveName);
 
-        
-
         $recipe = new Recipe();
 
         $recipe->user_id = $userId;
         $recipe->title = $request->title;
-        $recipe->cuisine = $request->cuisine;
-        $recipe->category = $request->category;
+        $recipe->cuisine_id = $request->cuisine;
+        $recipe->category_id = $request->category;
         $recipe->description = $request->description;
         $recipe->serves =  $request->yield;
         $recipe->preprationTime = $request->preptime;
@@ -75,7 +71,28 @@ class RecipeController extends Controller
         $recipe->cookingTemprature = $request->cooktemp;
         $recipe->featuredImage = $saveName;
         $isSave = $recipe->save();
+        if($isSave){
 
+            $ingredientArray = \App\Ingrident::pluck("name","slug");
+
+            foreach(breakStringLine($request->ingredients) as $ingridents){
+                $ingrident = new \App\RecipeIngridents();
+
+                $taggedIng =ingredientsToLink($ingredientArray,$ingridents);
+                $ingrident->note =  $ingridents;
+                $ingrident->displayNote = $taggedIng['note'];
+                $ingrident->ingrident = $taggedIng['matched'];
+                $ingrident->recipe_id = $recipe->id;
+                $ingrident->save();
+            }
+          
+            foreach(breakStringLine($request->steps) as $instructions){
+                $step = new \App\RecipeInstruction();
+                $step->description = $instructions;
+                $step->recipe_id = $recipe->id;
+                $step->save();
+            }
+        }
     }
 
     /**

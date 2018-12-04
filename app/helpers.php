@@ -46,18 +46,22 @@ if(!function_exists('getDomainName')){
 
 if(!function_exists('ingredientsToLink')){
 
-	function ingredientsToLink($ingredients,$string){
-
+function ingredientsToLink($ingredients,$string){
+	$string = strtolower($string);
+	$matchedWord = "";
    foreach($ingredients as $ingKey=>$ing){
         
-        if(preg_match('/\b'.$ing.'\b/',$string)){
+        if(preg_match('/\b'.$ing.'\b/',$string,$matches)){
+        	$matchedWord = $matches[0];
             $url = "<a href='/ingridients/".urlencode(trim($ingKey))."'>".trim($ing)."</a>";
             $string= str_replace($ing," ".$url." ",$string);
         }
 
     }
+    $notesIng = ["matched"=>$matchedWord, "note" => $string];
 
-    return $string;
+
+    return $notesIng;
 }
 
 }
