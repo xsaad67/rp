@@ -30,7 +30,7 @@ class StoreRecipe extends FormRequest
             'category' => 'required|exists:categories,id',
             'ingredients' => 'required',
             'steps' => 'required',
-            'image' => 'required|image',
+            'image' => 'sometimes|nullable|image',
             'cooktime' => 'sometimes|nullable|date_format:H:i',
             'preptime' => 'sometimes|nullable|date_format:H:i',
             'yield' => 'required|numeric',

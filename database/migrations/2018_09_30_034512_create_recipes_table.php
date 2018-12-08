@@ -30,9 +30,10 @@ class CreateRecipesTable extends Migration
             $table->string('featuredImage')->nullable();
             $table->longText('tags')->nullable();
             $table->longText('features')->nullable();
+            $table->longText('dirtyIng')->nullable()->comment('will be removed once design changed');
+            $table->longText('dirtyIns')->nullable()->comment('will be removed once design changed');
             $table->integer('views')->default(1);
             $table->boolean('isApi')->default(0);
-            $table->string('thumbnail')->nullable();
             $table->string('source')->nullable();
             $table->softDeletes();
             $table->timestamps();

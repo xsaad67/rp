@@ -16,6 +16,10 @@ if(!function_exists('userLatLon')){
 
 }
 
+function getFeaturedMedia($filename="",$template="medium"){
+    return url("/img/cache")."/".$template."/".$filename;
+}
+
 
 if(!function_exists('getDomainName')){
 
@@ -66,7 +70,9 @@ function ingredientsToLink($ingredients,$string){
 
 }
 
-
+function stringIsNullOrWhitespace($text){
+    return ctype_space($text) || $text === "" || $text === null;
+}
 
 
 // function containsWord($str, $word)
@@ -81,7 +87,10 @@ if(!function_exists('breakStringLine')){
 		$string = explode("\n", $string);
 
 		foreach($string as $key=>$row){
-			$array[]= $row;
+
+			if(!stringIsNullOrWhitespace($row)){
+				$array[]= $row;
+			}
 		} 
 		return $array;
 	}

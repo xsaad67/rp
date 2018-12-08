@@ -13,6 +13,7 @@ class RecipeController extends Controller
     private $savePath="";
 
     public function __construct(){
+        $this->middleware('auth')->except(['index','show']);
         $this->savePath = public_path('/images/recipes');
         if (!is_dir($this->savePath)) {
             mkdir($this->savePath, 0777);
@@ -47,7 +48,7 @@ class RecipeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreRecipe $request)
     {
 
         $userId = is_null(auth()->id()) ? 1 : auth()->id();
@@ -70,6 +71,8 @@ class RecipeController extends Controller
         $recipe->cookingTime = $request->cooktime;
         $recipe->cookingTemprature = $request->cooktemp;
         $recipe->featuredImage = $saveName;
+        $recipe->dirtyIng = $request->ingredients;
+        $recipe->dirtyIns = $request->steps;
         $isSave = $recipe->save();
         if($isSave){
 
@@ -92,6 +95,11 @@ class RecipeController extends Controller
                 $step->recipe_id = $recipe->id;
                 $step->save();
             }
+
+            return $recipe;
+
+        }else{
+              return abort('500');
         }
     }
 
@@ -116,7 +124,7 @@ class RecipeController extends Controller
      */
     public function edit(Recipe $recipe)
     {
-        //
+        return view('recipes.edit',compact('recipe'));
     }
 
     /**
@@ -126,9 +134,43 @@ class RecipeController extends Controller
      * @param  \App\Recipe  $recipe
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Recipe $recipe)
+    public function update(StoreRecipe $request, Recipe $recipe)
     {
-        //
+
+        $recipe->user_id = auth()->id();
+        $recipe->title = $request->title;
+        $recipe->cuisine_id = $request->cuisine;
+        $recipe->category_id = $request->category;
+        $recipe->description = $request->description;
+        $recipe->serves =  $request->yield;
+        $recipe->preprationTime = $request->preptime;
+        $recipe->cookingTime = $request->cooktime;
+        $recipe->cookingTemprature = $request->cooktemp;
+        $recipe->dirtyIng = $request->ingredients;
+        $recipe->dirtyIns = $request->steps;
+
+        if($request->has('image')){
+            $photo = $request->file('image');
+            $saveName = sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
+            $photo->move($this->savePath, $saveName);
+            $request->featuredImage = $saveName;
+        }
+        // $recipe->save();
+
+        if($recipe->isDirty("dirtyIns")){
+           $recipe->instructions()->delete();
+            foreach(breakStringLine($request->steps) as $instructions){
+                $step = new \App\RecipeInstruction();
+                $step->description = $instructions;
+                $step->recipe_id = $recipe->id;
+
+                echo $step->description;
+                echo "<br><br>";
+                // $step->save();
+            }
+        }
+
+      
     }
 
     /**

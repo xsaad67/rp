@@ -12,7 +12,7 @@ class Recipe extends Model
     use CanBeFavorited, Sluggable;
   
     public function sluggable() {
-        return [ 'source' => 'name' ];
+        return [ 'source' => 'title' ];
     }
 
 
@@ -26,8 +26,8 @@ class Recipe extends Model
     	return $this->belongsTo(User::class,'user_id');
     }
 
-    public function ingridents(){
-    	return $this->hasMany(RecipeIngridents::class);
+    public function ingredients(){
+        return $this->hasMany(RecipeIngridents::class);
     }
 
 
@@ -43,6 +43,10 @@ class Recipe extends Model
     public function ratings(){
         return $this->morphMany('App\Rating','rateable')->newest();
     }
+
+    
+
+   
   
    
 }

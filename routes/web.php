@@ -12,6 +12,7 @@
 */
 
 Auth::routes();
+
 Route::get('/','RecipeController@index');
 Route::prefix('crawl')->group(function () {
     Route::get('/epicurious','CrawlLinksController@epicuriousData');
@@ -49,8 +50,8 @@ Route::post('/newsletter','NewsLetterController@store');
 Route::get('/recipe/create','RecipeController@create');
 Route::post('/recipe/store','RecipeController@store');
 Route::get('/recipe/{slug}','RecipeController@show');
-Route::get('recipe/edit/{id}','RecipeController@edit');
-Route::post('recipe/update/{id}','RecipeController@update');
+Route::get('recipe/edit/{recipe}','RecipeController@edit');
+Route::post('recipe/update/{recipe}','RecipeController@update');
 Route::post('recipe/delete','RecipeController@delete');
 
 

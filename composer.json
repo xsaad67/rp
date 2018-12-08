@@ -9,6 +9,7 @@
         "donatello-za/rake-php-plus": "^1.0",
         "fideloper/proxy": "^4.0",
         "intervention/image": "^2.4",
+        "intervention/imagecache": "^2.3",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
         "laravolt/avatar": "^2.0",

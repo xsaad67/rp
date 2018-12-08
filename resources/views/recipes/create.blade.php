@@ -91,6 +91,13 @@
                           <label for="image-upload" id="image-label">Choose File</label>
                           <input type="file" name="image" id="image-upload" />
                         </div>
+
+                        @if($errors->has('image'))
+                            <div class="alert alert-danger">
+                                {{$errors->first('image')}}
+                            </div>
+                        @endif
+
                     </div>
 
                     <div class="row">
@@ -98,6 +105,12 @@
                              <div class="form-group">
                                 <label class="form-control-label">Cooking Time</label>
                                 <input class="form-control form-control-sm" type="text" name="cooktime" placeholder="22:34" value="{{old('cooktime')}}">
+
+                                @if($errors->has('cooktime'))
+                                    <div class="alert alert-danger">
+                                        {{$errors->first('cooktime')}}
+                                    </div>
+                                @endif
                             </div>
                         </div>
 
@@ -105,6 +118,13 @@
                              <div class="form-group">
                                 <label class="form-control-label">Prepration Time</label>
                                 <input class="form-control form-control-sm" type="text" name="preptime" placeholder="22:34" value="{{old('preptime')}}">
+
+                                @if($errors->has('preptime'))
+                                    <div class="alert alert-danger">
+                                        {{$errors->first('preptime')}}
+                                    </div>
+                                @endif
+                                
                             </div>
                         </div>
                     </div>
@@ -114,6 +134,13 @@
                              <div class="form-group">
                                 <label class="form-control-label">Number of Servings</label>
                                 <input class="form-control form-control-sm" type="text" name="yield" placeholder="Yield(Servings)" value="{{old('yield')}}">
+
+                                @if($errors->has('yield'))
+                                    <div class="alert alert-danger">
+                                        {{$errors->first('yield')}}
+                                    </div>
+                                @endif
+                                
                             </div>
                         </div>
 
@@ -121,6 +148,13 @@
                              <div class="form-group">
                                 <label class="form-control-label">Cooking Temprature</label>
                                 <input class="form-control form-control-sm" type="text" name="cooktemp" placeholder="Celsius" value="{{old('cooktemp')}}">
+
+                                @if($errors->has('cooktemp'))
+                                    <div class="alert alert-danger">
+                                        {{$errors->first('cooktemp')}}
+                                    </div>
+                                @endif
+                                
                             </div>
                         </div>
                     </div>
@@ -131,11 +165,22 @@
                         <div class="form-group">
                             <label class="form-control-label">Recipe Title</label>
                             <input class="form-control form-control-sm" type="text" name="title" placeholder="Title" value="{{old('title')}}">
+                            @if($errors->has('title'))
+                                <div class="alert alert-danger">
+                                    {{$errors->first('title')}}
+                                </div>
+                            @endif
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Short Description</label>
                             <textarea name="description"  class="form-control" placeholder="Short Description">{{old('description')}}</textarea>
+
+                            @if($errors->has('description'))
+                                <div class="alert alert-danger">
+                                    {{$errors->first('description')}}
+                                </div>
+                            @endif
                         </div>
 
 
@@ -149,7 +194,13 @@
                                         <option value="{{$cuisine->id}}" {{ (old("cuisine") == $cuisine->id ? "selected":"") }}>{{$cuisine->name}}</option>
                                       @endforeach
                                     </select>
-                                   
+
+                                    @if($errors->has('cuisine'))
+                                        <div class="alert alert-danger">
+                                            {{$errors->first('cuisine')}}
+                                        </div>
+                                    @endif   
+                                           
                                 </div>  
                             </div> 
 
@@ -162,6 +213,12 @@
                                         <option value="{{$category->id}}" {{ (old("category") == $category->id ? "selected":"") }}>{{$category->name}}</option>
                                       @endforeach
                                     </select>
+
+                                    @if($errors->has('category'))
+                                        <div class="alert alert-danger">
+                                            {{$errors->first('category')}}
+                                        </div>
+                                    @endif   
                                 </div>  
                             </div>
 
@@ -170,11 +227,25 @@
                         <div class="form-group">
                             <label class="form-control-label">Ingredients</label>
                             <textarea name="ingredients" class="form-control" rows="6" placeholder="Ingredients (One by one Line)">{{old('ingredients')}}</textarea>
+
+                            @if($errors->has('ingredients'))
+                                <div class="alert alert-danger">
+                                    {{$errors->first('ingredients')}}
+                                </div>
+                            @endif  
+
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Steps/Directions</label>
                             <textarea name="steps" class="form-control" rows="6" placeholder="Steps to make recipe (One by one Line)">{{old('steps')}}</textarea>
+
+                            @if($errors->has('steps'))
+                                <div class="alert alert-danger">
+                                    {{$errors->first('steps')}}
+                                </div>
+                            @endif  
+
                         </div>
                 </div>
             </div>

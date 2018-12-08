@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title@yield('title')</title>
+    <title>@yield('title')</title>
     <meta name="_token" content="{{csrf_token()}}">
 
     {{-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet"> --}}

@@ -1,15 +1,5 @@
 @extends('layouts.main')
 
-@section('css')
-<style>
-
-
-
-
-
-</style>
-
-@endsection
 
 @section('content')
         

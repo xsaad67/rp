@@ -4,7 +4,11 @@
 
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/star-rating/star-rating.css')}}">
 
+
+
 <style>
+
+
 
 </style>
 
@@ -13,6 +17,7 @@
 @section('content')
 
     <section class="sub-highlight">
+
 
         <!-- Detail parallax start -->
         <div class="parallax-box">
@@ -275,7 +280,12 @@
 <script type="text/javascript" src="{{asset('plugins/star-rating/star-rating.min.js')}}"></script>
 <script>
 
+   
+
     $(function(){
+
+        printToast();
+
 
         //Initialize Rating plugin
 
