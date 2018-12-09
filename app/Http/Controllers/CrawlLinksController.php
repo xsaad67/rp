@@ -13,6 +13,8 @@ ini_set('max_execution_time', 480);
 
 class CrawlLinksController extends Controller
 {
+
+
     public function epicuriousData(){
  	
 
@@ -38,6 +40,11 @@ class CrawlLinksController extends Controller
 	    	});
     	}
 
+    }
+
+
+    public function allRecipesData(){
+        
     }
 
 

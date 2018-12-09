@@ -35,18 +35,22 @@ class Recipe extends Model
     	return $this->hasMany(RecipeInstruction::class);
     }
 
-
-    public function scopePopular($query){
-        return $query->orderBy('created_at','Desc');
-    }
-
     public function ratings(){
         return $this->morphMany('App\Rating','rateable')->newest();
     }
 
-    
 
-   
-  
+
+    public function scopePopular($query,$count=8){
+        return $query->where('isPublished',1)
+                    ->orderBy('views','Desc')
+                    ->take($count)
+                    ->get();
+    }
+
+    public function scopePublished($query){
+        return $query->where('isPublished',1)
+                    ->latest();
+    }
    
 }

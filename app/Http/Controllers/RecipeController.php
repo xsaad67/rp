@@ -27,8 +27,9 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        $recipes = Recipe::with('favoriters')->whereNotNull('featuredImage')->latest()->get(); 
-        $featuredRecipes = Recipe::popular()->take(15)->get();
+
+        $recipes = Recipe::with('favoriters')->published()->get(); 
+        $featuredRecipes =  Recipe::popular(15);
         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
@@ -153,21 +154,39 @@ class RecipeController extends Controller
             $photo = $request->file('image');
             $saveName = sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
             $photo->move($this->savePath, $saveName);
-            $request->featuredImage = $saveName;
+            $recipe->featuredImage = $saveName;
         }
-        // $recipe->save();
+        
+        $recipe->save();
 
         if($recipe->isDirty("dirtyIns")){
+
            $recipe->instructions()->delete();
             foreach(breakStringLine($request->steps) as $instructions){
                 $step = new \App\RecipeInstruction();
                 $step->description = $instructions;
                 $step->recipe_id = $recipe->id;
-
-                echo $step->description;
-                echo "<br><br>";
-                // $step->save();
+                $step->save();
             }
+
+        }
+
+        if($recipe->isDirty("dirtyIng")){
+
+           $recipe->ingredients()->delete();
+            $ingredientArray = \App\Ingrident::pluck("name","slug");
+
+            foreach(breakStringLine($request->ingredients) as $ingridents){
+                $ingrident = new \App\RecipeIngridents();
+
+                $taggedIng =ingredientsToLink($ingredientArray,$ingridents);
+                $ingrident->note =  $ingridents;
+                $ingrident->displayNote = $taggedIng['note'];
+                $ingrident->ingrident = $taggedIng['matched'];
+                $ingrident->recipe_id = $recipe->id;
+                $ingrident->save();
+            }
+            
         }
 
       
