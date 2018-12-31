@@ -6,12 +6,22 @@ use Goutte;
 use App\Ingrident;
 use App\CrawlLinks;
 use App\Category;
+use DOMDocument;
+use DOMXpath;
+use App\Recipe;
+use App\RecipeInstruction;
+use App\RecipeIngridents;
+
 
 ini_set('max_execution_time', 180);
 
 class CrawlController extends Controller
 {
-    
+    private $ingredientsArray;
+
+    public function __construct(){
+        $this->ingredientsArray = Ingrident::pluck("name","slug");
+    }
 
     public function index(){
 
@@ -24,17 +34,12 @@ class CrawlController extends Controller
 
 	    		$link = $node->attr("href");
 	    		$isRecipe = explode("/",$link);
-	    		// dump($link);
 	    		if($isRecipe[1]==="recipes"){
 	    			// session()->push("links", ["link"=> $link, "title" => $node->attr("title"), "website"=>"epicurious",""] );
 	    		}
 	    	});
     	}
-
-
     }
-
-
 
     public function epicriciousSingle(){
 
@@ -56,7 +61,6 @@ class CrawlController extends Controller
          });
     }
 
-
     public function getIng(){
 
 
@@ -75,8 +79,6 @@ class CrawlController extends Controller
             });
     }
 
-
-
     public function getCat()
     {
 
@@ -92,13 +94,6 @@ class CrawlController extends Controller
             $cat->save();
 
         });
-
-
-
-
-        
-
-    
     }
 
     /**
@@ -150,17 +145,108 @@ class CrawlController extends Controller
         
     }
 
+
+
+    public function crawlJson(){
+        $url = "https://www.allrecipes.com/recipe/247233/roti-canaiparatha-indian-pancake/?internalSource=staff%20pick&referringId=233&referringContentType=Recipe%20Hub";
+        $jsonRespone = $this->scrapeJsonSchema($url);
+        dd($jsonRespone);
+    }  
+
+
+    public function scrapeJsonSchema($url,$lookUp = 0){
+        $html = file_get_contents($url);
+        $dom  = new DOMDocument();
+        libxml_use_internal_errors(1);
+        $dom->loadHTML( $html );
+        $xpath = new DOMXpath($dom);
+
+        $jsonScripts = $xpath->query('//script[@type="application/ld+json"]');
+        @$json = trim($jsonScripts->item(0)->nodeValue);
+
+        $data = json_decode($json);
+
+        return $data;
+    }
+
+
+
+    public function crawlFoodNetwork()
+    {
+        $url = "https://www.foodnetwork.com/recipes/ina-garten/16-bean-pasta-e-fagioli-3612570";
+        dd($this->scrapeJsonSchema($url));
+    }
+
+    public function crawlYummly(){
+        $url = "https://www.yummly.com/recipe/Healthy-Green-Smoothie-1031235";
+         dd($this->scrapeJsonSchema($url)); 
+    }
+
+    public function crawlGeniusKitchen(){
+        $url = "https://www.geniuskitchen.com/recipe/april-fools-day-jiggly-juice-288334";
+        dd($this->scrapeJsonSchema($url));
+    }
+
+    public function crawlKraftRecipe(){
+        // dd(extractFractionOrNumber("adf"));
+
+        // dd("$p");
+
+        $crawlLinks = CrawlLinks::where("website","kraftrecipes.com")->get();
+        // return $crawlLinks;
+
+
+        //foreach($crawlLinks as $crawlLink){
+
+            $url="https://www.kraftrecipes.com/recipe/051520/baked-potato-soup-bacon";
+            // session()->put("getRecipe",$this->scrapeJsonSchema($url));
+
+            $scrapeRecipe = session()->get("getRecipe");
+    
+            // dd($scrapeRecipe);
+            
+            $recipe = new Recipe();
+            $recipe->title = issetOrNull($scrapeRecipe->name);
+            $recipe->description = issetOrNull($scrapeRecipe->description);
+            $recipe->image = issetOrNull($scrapeRecipe->image);
+            $recipe->user_id = rand(1,20);
+            $recipe->description = issetOrNull($scrapeRecipe->description);
+            $recipe->features = ["nutrition"=>issetOrNull($scrapeRecipe->nutrition)];
+            
+            if(isset($scrapeRecipe->recipeIngredient)){
+                $this->savingIngredients($scrapeRecipe->recipeIngredient,4);
+            }
+
+
+    }
+
+    public function savingIngredients($scrapeIngredients,$recipeId){
+
+        foreach($scrapeIngredients as $ingredient){
+
+            $recipeIngrident = new RecipeIngridents();
+            $taggedIng =ingredientsToLink($this->ingredientsArray,$ingredient);
+            $recipeIngrident->note =  $ingredient;
+            $recipeIngrident->displayNote = $taggedIng['note'];
+            $recipeIngrident->ingrident = $taggedIng['matched'];
+            $recipeIngrident->recipe_id = $recipeId;
+            $recipeIngrident->save();
+        }
+
+    }
+
+
+
+
     public function crawlAllRecipe(){
         $url="https://www.allrecipes.com/recipe/219874/italian-turkey-meatballs";
 
         $crawler = Goutte::request('GET',$url);
         $title = $crawler->filter('h1[itemprop="name"]')->text();
+        dd($title);
         $description = $crawler->filter('div[itemprop="description"]')->text();
         $image = $crawler->filter('img[itemprop="image"]')->attr("src");
-
-
         
-
         $crawler->filter('span[itemprop="recipeIngredient"]')->each(function($node){
           
            $ingrident = trim($node->text());
@@ -181,6 +267,7 @@ class CrawlController extends Controller
 
         dump($image);
     }
+
 
 
 }

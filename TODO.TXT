@@ -6,3 +6,10 @@ My Reviews
 --Remember Points
 
 use DonatelloZa\RakePlus\RakePlus; for extracting tags
+
+
+Crawl
+
+AllRecipes
+FoodNetwork
+Yummly

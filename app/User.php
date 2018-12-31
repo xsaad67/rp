@@ -44,8 +44,6 @@ class User extends Authenticatable
 
     public function getAvatarAttribute(){
 
-        // return $this->avatar;
-      
          return is_null($this->dp) ? \Avatar::create($this->name)->setBorder(0,'adf'): asset('img/avatars/'.$this->dp);
     }
     
@@ -53,4 +51,7 @@ class User extends Authenticatable
         return $this->hasMany(Recipe::class, 'user_id');
     }
 
+    public function isAdmin(){
+        return $user->is_admin ==1 ? TRUE : FALSE;
+    }
 }

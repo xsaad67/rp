@@ -9,7 +9,6 @@ class Cuisine extends Model
 {
    	use Sluggable;
 
-	protected $fillable = ['name'];
 
     public function sluggable() {
         return [ 'source' => 'name' ];
@@ -17,5 +16,9 @@ class Cuisine extends Model
 
     public function recipes(){
     	return $this->hasMany(Recipe::class);
+    }
+
+    public function link(){
+    	return url("/cuisines/".$this->slug);
     }
 }

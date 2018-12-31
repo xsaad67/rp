@@ -16,6 +16,15 @@ if(!function_exists('userLatLon')){
 
 }
 
+function issetOrNull(&$property){
+	return $property =  isset($property) ? $property : NULL;
+}
+
+function extractFractionOrNumber($serving){
+	$serving = preg_match('(\d+[\/\d. ]*|\d)',$serving,$matches) ? $matches[0] : NULL;
+	return trim($serving);
+}
+
 function getFeaturedMedia($filename="",$template="medium"){
     return url("/img/cache")."/".$template."/".$filename;
 }
@@ -74,11 +83,6 @@ function stringIsNullOrWhitespace($text){
     return ctype_space($text) || $text === "" || $text === null;
 }
 
-
-// function containsWord($str, $word)
-// {
-//     return !!preg_match('#\\b' . preg_quote($word, '#') . '\\b#i', $str);
-// }
 
 if(!function_exists('breakStringLine')){
 	
@@ -210,6 +214,17 @@ function getCookingUnits(){
 	$Units[] = "L"; 
 	
 	return $Units;	
+}
+
+function generateUniqueFileName() { 
+    $s = strtoupper(md5(uniqid(rand(),true))); 
+    $guidText = 
+        substr($s,0,8) . '-' . 
+        substr($s,8,4) . '-' . 
+        substr($s,12,4). '-' . 
+        substr($s,16,4). '-' . 
+        substr($s,20); 
+    return $guidText;
 }
 
 

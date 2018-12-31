@@ -15,10 +15,11 @@ class CrawlLinksController extends Controller
 {
 
 
-    public function epicuriousData(){
+
+    public function epicuriousData(Request $request){
+
+        
  	
-
-
     	for($i=200;$i<=210;$i++){
 	    	$page = "https://www.epicurious.com/search/?cuisine=american&page=".$i;
 
@@ -28,14 +29,12 @@ class CrawlLinksController extends Controller
 
 	    		$link = $node->attr("href");
 	    		$isRecipe = explode("/",$link);
-	    		// dump($link);
+
 	    		if($isRecipe[1]==="recipes"){
 	    			$links = CrawlLinks::firstOrNew(['link'=>"https://www.epicurious.com".$link]);
 	    			$links->website = "epicurious";
 	    			$links->cuisine = 'american';
 	    			$links->save();
-
-	    			// session()->push("links", ["link"=> $link, "title" => $node->attr("title"), "website"=>"epicurious",""] );
 	    		}
 	    	});
     	}

@@ -14,46 +14,50 @@
 Auth::routes();
 
 Route::get('/','RecipeController@index');
-Route::prefix('crawl')->group(function () {
-    Route::get('/epicurious','CrawlLinksController@epicuriousData');
-    Route::get('/epicsingle','CrawlLinksController@epicriciousSingle');
-    Route::get('/ing','IngridentController@index');
-    Route::get('/category','CrawlController@getCat');
-    Route::get('/cuisine','CrawlController@getCuisine');
-    Route::get('/microdata','CrawlController@crawlMicroData');
 
+Route::prefix('recipes')->group(function() {
+    Route::get('/create','RecipeController@create');
+    Route::post('/store','RecipeController@store');
+    Route::get('/{slug}','RecipeController@show');
+    Route::get('/edit/{recipe}','RecipeController@edit');
+    Route::post('/update/{recipe}','RecipeController@update');
+    Route::post('/delete/{recipe}','RecipeController@delete');
+});
+
+
+Route::resource('cuisines','CuisineController');
+Route::resource('meals','CategoryController');
+
+Route::prefix('crawl')->group(function () {
+    // Route::get('/epicurious','CrawlLinksController@epicuriousData');
+    // Route::get('/epicsingle','CrawlLinksController@epicriciousSingle');
+    // Route::get('/ing','IngridentController@index');
+    // Route::get('/category','CrawlController@getCat');
+    // Route::get('/cuisine','CrawlController@getCuisine');
+    // Route::get('/microdata','CrawlController@crawlMicroData');
+    // Route::get('/random-users','CrawlLinksController@randomUsers');
+    Route::get("/json","CrawlController@crawlKraftRecipe");
 });
 
 
 
 Route::prefix('page')->group(function () {
-    Route::get('/unsub','NewsLetterController@edit');
+    Route::post('/newsletter','NewsLetterController@store');
     Route::post('/unsub','NewsLetterController@destroy');
 });
 
-Route::prefix('reviews')->group(function () {
 
-	Route::post('/{model}/{id}','RatingController@store');
-    Route::post('/save','RecipeReviewsController@store');
+Route::group(['prefix' => 'member/', 'middleware' => ['auth']], function(){
+    Route::get('reviews','RatingController@index');
+    Route::post('/{model}/{id}','RatingController@store');
+    Route::get('/edit/{user}','ProfileController@edit');
+    Route::get('/update/{user}','ProfileController@update');
 });
 
 
 Route::prefix('chef')->group(function () {
     Route::get('/{slug}','ProfileController@show');
-     Route::get('/edit/{user}','ProfileController@edit');
-     Route::get('/update/{user}','ProfileController@update');
 });
-
-Route::post('/newsletter','NewsLetterController@store');
-
-
-Route::get('/recipe/create','RecipeController@create');
-Route::post('/recipe/store','RecipeController@store');
-Route::get('/recipe/{slug}','RecipeController@show');
-Route::get('recipe/edit/{recipe}','RecipeController@edit');
-Route::post('recipe/update/{recipe}','RecipeController@update');
-Route::post('recipe/delete','RecipeController@delete');
-
 
 Route::get('/search','SearchController@simpleLikeSearch');
 
@@ -64,8 +68,14 @@ Route::post('unfollow','FollowableController@unfollow');
 Route::post('voteup','FollowableController@voteup');
 Route::post('votedown','FollowableController@votedown');
 
+
+// All admin Routes here
+
 Route::group(['prefix' => 'area51', 'middleware' => ['admin']], function(){
-    Route::get('dashboard','AdminController@index');
+    Route::resource('/','Admin\AdminController');
+    Route::resource("/cuisine","Admin\CuisineController");
+    Route::resource("/category","Admin\CategoryController");
+    Route::resource("/recipes","Admin\RecipeController");
 });
 
 

@@ -35,7 +35,7 @@ class CuisineController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
