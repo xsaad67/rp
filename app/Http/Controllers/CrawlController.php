@@ -2,15 +2,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Goutte;
-use App\Ingrident;
+
 use App\CrawlLinks;
-use App\Category;
-use DOMDocument;
-use DOMXpath;
-use App\Recipe;
-use App\RecipeInstruction;
-use App\RecipeIngridents;
+use App\Service\Crawl\CrawlService;
+
 
 
 ini_set('max_execution_time', 180);
@@ -19,9 +14,7 @@ class CrawlController extends Controller
 {
     private $ingredientsArray;
 
-    public function __construct(){
-        $this->ingredientsArray = Ingrident::pluck("name","slug");
-    }
+   
 
     public function index(){
 
@@ -188,55 +181,21 @@ class CrawlController extends Controller
     }
 
     public function crawlKraftRecipe(){
-        // dd(extractFractionOrNumber("adf"));
 
-        // dd("$p");
-
-        $crawlLinks = CrawlLinks::where("website","kraftrecipes.com")->get();
-        // return $crawlLinks;
+        // $crawlLinks = CrawlLinks::where("website","kraftrecipes.com")->get();
 
 
-        //foreach($crawlLinks as $crawlLink){
+        $url="https://www.kraftrecipes.com/recipe/051520/baked-potato-soup-bacon";
+        $jsonService = new CrawlService();
+        $isSave = $jsonService->saveJsonRecipe($url);
+        return $isSave;
+        
+           
 
-            $url="https://www.kraftrecipes.com/recipe/051520/baked-potato-soup-bacon";
-            // session()->put("getRecipe",$this->scrapeJsonSchema($url));
-
-            $scrapeRecipe = session()->get("getRecipe");
-    
-            // dd($scrapeRecipe);
             
-            $recipe = new Recipe();
-            $recipe->title = issetOrNull($scrapeRecipe->name);
-            $recipe->description = issetOrNull($scrapeRecipe->description);
-            $recipe->image = issetOrNull($scrapeRecipe->image);
-            $recipe->user_id = rand(1,20);
-            $recipe->description = issetOrNull($scrapeRecipe->description);
-            $recipe->features = ["nutrition"=>issetOrNull($scrapeRecipe->nutrition)];
-            
-            if(isset($scrapeRecipe->recipeIngredient)){
-                $this->savingIngredients($scrapeRecipe->recipeIngredient,4);
-            }
-
-
     }
 
-    public function savingIngredients($scrapeIngredients,$recipeId){
-
-        foreach($scrapeIngredients as $ingredient){
-
-            $recipeIngrident = new RecipeIngridents();
-            $taggedIng =ingredientsToLink($this->ingredientsArray,$ingredient);
-            $recipeIngrident->note =  $ingredient;
-            $recipeIngrident->displayNote = $taggedIng['note'];
-            $recipeIngrident->ingrident = $taggedIng['matched'];
-            $recipeIngrident->recipe_id = $recipeId;
-            $recipeIngrident->save();
-        }
-
-    }
-
-
-
+           
 
     public function crawlAllRecipe(){
         $url="https://www.allrecipes.com/recipe/219874/italian-turkey-meatballs";

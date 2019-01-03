@@ -15,6 +15,8 @@ class Recipe extends Model
         return [ 'source' => 'title' ];
     }
 
+    protected $casts = ['features' => 'array'];
+
 
     protected $with =['chef'];
 
@@ -51,6 +53,11 @@ class Recipe extends Model
     public function scopePublished($query){
         return $query->where('isPublished',1)
                     ->latest();
+    }
+
+    public function tags()
+    {
+        return $this->morphToMany('App\Tag', 'taggable');
     }
    
 }

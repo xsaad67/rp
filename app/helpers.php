@@ -16,6 +16,21 @@ if(!function_exists('userLatLon')){
 
 }
 
+function convertIsoToNormal($string){
+	try{
+		$time = new DateInterval($string);
+		$hour = ($time->h==0) ? "00:" : $time->h.":";
+		$minute = ($time->i==0) ? "00:" : $time->i.":";
+		$seconds = ($time->s==0) ? "00" : $time->s;
+		
+		$time = date("Y-m-d")." ".$hour.$minute.$seconds;
+		return $time;
+
+	}catch(Exception $ex){
+		return NULL;
+	}
+}
+
 function issetOrNull(&$property){
 	return $property =  isset($property) ? $property : NULL;
 }

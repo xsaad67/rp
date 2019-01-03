@@ -18,6 +18,8 @@ class CreateRecipesTable extends Migration
             $table->integer('user_id');
             $table->integer('category_id')->nullable();
             $table->integer('cuisine_id')->nullable();
+            $table->string('cuisine_txt')->nullable();
+            $table->string('category_txt')->nullable();
             $table->boolean('isPublished')->default(0);
             $table->string('title');
             $table->string('slug');
