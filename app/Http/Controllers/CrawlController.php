@@ -16,42 +16,50 @@ class CrawlController extends Controller
 
    
 
-    public function index(){
+    
+  
 
-    	for($i=200;$i<=210;$i++){
-	    	$page = "https://www.epicurious.com/search/?cuisine=american&page=".$i;
 
-	    	$crawler = Goutte::request('GET', $page);
-
-	    	$crawler->filter('.view-complete-item')->each(function($node) use (&$links,$i){
-
-	    		$link = $node->attr("href");
-	    		$isRecipe = explode("/",$link);
-	    		if($isRecipe[1]==="recipes"){
-	    			// session()->push("links", ["link"=> $link, "title" => $node->attr("title"), "website"=>"epicurious",""] );
-	    		}
-	    	});
-    	}
-    }
 
     public function epicriciousSingle(){
 
-    	// dd(session("links"));
     	
-    	$link = "https://www.epicurious.com/recipes/food/views/sourdough-bread-with-marinated-manchego-cheese-and-roasted-peppers-107684";
-        $crawler = Goutte::request('GET', $link);
+        $links = CrawlLinks::where('isActive','0')->get();
+        
 
-        $image = $crawler->filter("img.photo")->count() > 0 ? $crawler->filter("img.photo")->attr("src") :  NULL;
-        dd($image);
-    
-    	 $title = $crawler->filter('h1[itemprop="name"]')->text();
-    	
-    	
-    	 $ingridents = $crawler->filter("ul.ingredients");
+        foreach($links as $link){
 
-    	 $ingridents->filter("li")->each(function($in){
-    		$ing= $in->text();
-         });
+            $recipe= new Recipe();
+            $crawler = Goutte::request('GET', $link->link);
+            $recipe->description = $crawler->filter("div.dek > p")->count() > 0 ? $crawler->filter("div.dek > p")->text() :  'nope';
+            $recipe->featuredImage = $crawler->filter("img.photo")->count() > 0 ? $crawler->filter("img.photo")->attr("srcset") :  NULL;
+            $recipe->title = $crawler->filter('h1[itemprop="name"]')->text();
+            $recipe->apiLink = $link->link;
+            
+            $serving = $crawler->filter('dd[itemprop="recipeYield"]')->count() > 0 ? $crawler->filter('dd[itemprop="recipeYield"]')->text() : NULL;
+            $recipe->serves =  preg_match('(\d+[\/\d. ]*|\d)',$serving,$matches) ? $matches[0] : '';
+            $recipe->user_id =1;
+            $recipe->cuisine =1;
+            
+            $isSave=$recipe->save();
+
+            $lastSaveId= $recipe->id;
+            $ingridents = $crawler->filter("ul.ingredients");
+            $ingridents->filter("li")->each(function($in) use ($lastSaveId){
+                $ingridents = new RecipeIngridents();
+                $ingridents->note = $in->text();
+                $ingridents->recipe_id = $lastSaveId;
+                $ingridents->save();
+            });
+
+            if($isSave){
+                $link->isActive =1;
+                $link->save();
+            }
+
+        }
+    	
+         
     }
 
     public function getIng(){
@@ -160,13 +168,19 @@ class CrawlController extends Controller
 
     public function crawlKraftRecipe(){
 
-        // $crawlLinks = CrawlLinks::where("website","kraftrecipes.com")->get();
 
+    	$getLinks = CrawlLinks::where('isPublished',0)
+    							->where('website','kraftrecipes')
+    							->take(2)->get();
+  
+    	foreach($getLinks as $url){
+	        $jsonService = new CrawlService();
+	        $isSave = $jsonService->saveJsonRecipe($url->link,$url->website);
+	        dump($isSave);
+	        $getLinks->isPublished=1;
+	        $getLinks->save();
 
-        $url="https://www.kraftrecipes.com/recipe/051520/baked-potato-soup-bacon";
-        $jsonService = new CrawlService();
-        $isSave = $jsonService->saveJsonRecipe($url);
-        return $isSave;
+    	}
             
     }
 

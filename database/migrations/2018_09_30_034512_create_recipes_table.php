@@ -25,7 +25,6 @@ class CreateRecipesTable extends Migration
             $table->string('slug');
             $table->text('description')->nullable();
             $table->string('serves')->nullable();
-            $table->string('difficulty')->nullable();
             $table->string('preprationTime')->nullable();
             $table->string('cookingTime')->nullable();
             $table->string('cookingTemprature')->nullable();
@@ -35,7 +34,7 @@ class CreateRecipesTable extends Migration
             $table->longText('dirtyIng')->nullable()->comment('will be removed once design changed');
             $table->longText('dirtyIns')->nullable()->comment('will be removed once design changed');
             $table->integer('views')->default(1);
-            $table->boolean('isApi')->default(0);
+            $table->string('website')->nullable();
             $table->string('source')->nullable();
             $table->softDeletes();
             $table->timestamps();

@@ -36,8 +36,8 @@ Route::prefix('crawl')->group(function () {
     // Route::get('/cuisine','CrawlController@getCuisine');
     // Route::get('/microdata','CrawlController@crawlMicroData');
     // Route::get('/random-users','CrawlLinksController@randomUsers');
-    Route::get('/genius','CrawlLinksController@scrapeMicro');
-    Route::get("/json","CrawlController@crawlGeniusKitchen");
+    Route::get('/genius','CrawlLinksController@kraft');
+    Route::get("/kraft","CrawlController@crawlKraftRecipe");
 });
 
 

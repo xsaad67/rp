@@ -79,7 +79,7 @@ class CrawlService{
     }
 
 
-	public function SaveJsonRecipe($url){
+	public function SaveJsonRecipe($url,$website){
 
 		$scrapeRecipe = $this->scrapeJsonSchema($url);
 		$recipe = new Recipe();
@@ -96,7 +96,7 @@ class CrawlService{
 	    $recipe->tags = issetOrNull($scrapeRecipe->keywords);
 	    $recipe->category_txt = issetOrNull($scrapeRecipe->recipeCategory);
 	    $recipe->featuredImage = issetOrNull($scrapeRecipe->image);
-	    $recipe->isApi =1;
+	    $recipe->website =$website;
 	    $recipe->source = $url;
 
 	    $isSave = $recipe->save();
@@ -113,7 +113,7 @@ class CrawlService{
 	        if(isset($scrapeRecipe->keywords)){
 	            $this->savingTags($scrapeRecipe->keywords,$recipe->id);
 	        }
-	        return "saved";
+	        return true;
 	    }
 	}
 

@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
             IngridentsTableSeeder::class,
             CategoriesTableSeeder::class,
             CuisinesTableSeeder::class,
+            CrawlLinksTableSeeder::class,
         ]);
     }
 }
