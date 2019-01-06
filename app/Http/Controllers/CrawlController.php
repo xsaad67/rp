@@ -140,44 +140,22 @@ class CrawlController extends Controller
 
 
 
-    public function crawlJson(){
-        $url = "https://www.allrecipes.com/recipe/247233/roti-canaiparatha-indian-pancake/?internalSource=staff%20pick&referringId=233&referringContentType=Recipe%20Hub";
-        $jsonRespone = $this->scrapeJsonSchema($url);
-        dd($jsonRespone);
-    }  
-
-
-    public function scrapeJsonSchema($url,$lookUp = 0){
-        $html = file_get_contents($url);
-        $dom  = new DOMDocument();
-        libxml_use_internal_errors(1);
-        $dom->loadHTML( $html );
-        $xpath = new DOMXpath($dom);
-
-        $jsonScripts = $xpath->query('//script[@type="application/ld+json"]');
-        @$json = trim($jsonScripts->item(0)->nodeValue);
-
-        $data = json_decode($json);
-
-        return $data;
-    }
-
 
 
     public function crawlFoodNetwork()
     {
         $url = "https://www.foodnetwork.com/recipes/ina-garten/16-bean-pasta-e-fagioli-3612570";
-        dd($this->scrapeJsonSchema($url));
+        $jsonService = new CrawlService();
+        $isSave = $jsonService->scrapeJsonSchema($url);
+        dd($isSave);
     }
 
-    public function crawlYummly(){
-        $url = "https://www.yummly.com/recipe/Healthy-Green-Smoothie-1031235";
-         dd($this->scrapeJsonSchema($url)); 
-    }
 
     public function crawlGeniusKitchen(){
-        $url = "https://www.geniuskitchen.com/recipe/april-fools-day-jiggly-juice-288334";
-        dd($this->scrapeJsonSchema($url));
+        $url = "https://www.geniuskitchen.com/recipe/kittencals-moist-cheddar-garlic-oven-fried-chicken-breast-82102";
+        $jsonService = new CrawlService();
+        $isSave = $jsonService->scrapeJsonSchema($url);
+        dd($isSave);
     }
 
     public function crawlKraftRecipe(){
@@ -189,9 +167,6 @@ class CrawlController extends Controller
         $jsonService = new CrawlService();
         $isSave = $jsonService->saveJsonRecipe($url);
         return $isSave;
-        
-           
-
             
     }
 

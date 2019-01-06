@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class CrawlLinks extends Model
 {
     protected $fillable = ["link"];
+    protected $guarded  = [];
 }

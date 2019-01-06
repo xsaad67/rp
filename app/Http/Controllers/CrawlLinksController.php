@@ -15,7 +15,98 @@ class CrawlLinksController extends Controller
 {
 
 
+    public function geniusKitchen(){
 
+        for($i=40;$i<=500;$i+=10){
+
+            echo "Iteration is: ".$i."<br>";
+
+           
+            $url = "https://api.geniuskitchen.com/services/mobile/fdc/search/sectionfront?pn=".$i."&numRecords=30&recordType=Recipe&collectionId=1";
+
+            $xmlstr = file_get_contents($url);
+            $js = json_decode($xmlstr);
+
+            foreach($js->response->results as $result){
+                $link = $result->record_url;
+                $links = CrawlLinks::firstOrNew(['link'=>$link]);
+                $links->website = "geniuskitchen";
+                $links->save();
+                echo $links->id."<br><br>";
+            }
+        }
+       
+
+        
+    }
+
+    public function foodnetwork()
+    {
+            $url="https://www.foodnetwork.com/recipes/recipes-a-z/d";
+            $crawler = Goutte::request('GET',$url);
+            $paginate=$crawler->filter('li.o-Pagination__a-ListItem:nth-last-child(2)')->first()->text();
+            $crawler->filter("li.m-PromoList__a-ListItem > a")->each(function($node){
+                $link = $node->attr("href");
+                $links = CrawlLinks::firstOrNew(['link'=>$link]);
+                $links->website = "foodnetwork";
+                $links->save();
+            });
+
+            if($paginate>1){
+                for($i=2;$i<=$paginate;$i++){
+                   
+                    $url.="/p/".$i;
+                    $crawler = Goutte::request('GET',$url);
+                    $crawler->filter("li.m-PromoList__a-ListItem > a")->each(function($node){
+                        $link = $node->attr("href");
+                        $links = CrawlLinks::firstOrNew(['link'=>$link]);
+                        $links->website = "foodnetwork";
+                        $links->save();
+                    });
+                }
+
+            }
+
+    }
+
+
+    public function scrapeMicro()
+    {
+        $url = "http://www.rottentomatoes.com/m/jurassic_world/";
+        $crawler = Goutte::request('GET', $url);
+        $microdata_arr = array();
+
+        //xpath expression to retrieve several attributes
+        $crawler->filterXPath("//*[@itemtype='http://www.schema.org/Movie']//*[contains('image genre actors director', @itemprop)]")
+                ->each(function($node) use (&$microdata_arr){
+                    $ret = $this->getNodeStructuredData($node, 'microdata');           
+                    $microdata_arr[$ret['property']][] = $ret['value'];
+                });
+        dump($microdata_arr);  
+    }
+
+    
+
+
+    public function allrecipes()
+    {
+        $url = "https://www.allrecipes.com/";
+        for($i=1; $i<=3;$i++){
+            if($i>1){
+                $url = "https://www.allrecipes.com/?page=".$i;
+            }
+            $crawler = Goutte::request('GET',$url);
+            $crawler->filter('h3.fixed-recipe-card__h3 > a')->each(function($node){
+                $link=$node->attr('href');
+                $links = CrawlLinks::firstOrNew(['link'=>$link]);
+                $links->website = "allrecipes";
+                $links->save();
+                echo $links->id."<br><br>";
+            });
+
+
+        }
+    }
     public function epicuriousData(Request $request){
 
         

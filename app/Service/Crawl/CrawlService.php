@@ -17,6 +17,8 @@ use App\Taggable;
 
 class CrawlService{
 
+	private $ingredientsArray;
+	
 	public function __construct(){
 	    $this->ingredientsArray = Ingrident::pluck("name","slug");
 	}
