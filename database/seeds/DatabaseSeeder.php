@@ -17,5 +17,11 @@ class DatabaseSeeder extends Seeder
             CuisinesTableSeeder::class,
             CrawlLinksTableSeeder::class,
         ]);
+        $this->call(CrawlLinksTableSeeder::class);
+        $this->call(RecipesTableSeeder::class);
+        $this->call(TagsTableSeeder::class);
+        $this->call(TaggablesTableSeeder::class);
+        $this->call(RecipeIngridentsTableSeeder::class);
+        $this->call(RecipeInstructionsTableSeeder::class);
     }
 }

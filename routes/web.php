@@ -29,15 +29,8 @@ Route::resource('cuisines','CuisineController');
 Route::resource('meals','CategoryController');
 
 Route::prefix('crawl')->group(function () {
-    // Route::get('/epicurious','CrawlLinksController@epicuriousData');
-    // Route::get('/epicsingle','CrawlLinksController@epicriciousSingle');
-    // Route::get('/ing','IngridentController@index');
-    // Route::get('/category','CrawlController@getCat');
-    // Route::get('/cuisine','CrawlController@getCuisine');
-    // Route::get('/microdata','CrawlController@crawlMicroData');
-    // Route::get('/random-users','CrawlLinksController@randomUsers');
-    Route::get('/genius','CrawlLinksController@kraft');
     Route::get("/kraft","CrawlController@crawlKraftRecipe");
+    Route::get('/genius','CrawlController@crawlGeniusKitchen');
 });
 
 

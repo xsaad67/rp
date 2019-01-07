@@ -20,7 +20,7 @@ class CrawlLinksTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/old-fashioned-linguine-with-white-clam-sauce-17722',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -28,12 +28,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:33',
-                'updated_at' => '2019-01-05 17:47:33',
+                'updated_at' => '2019-01-07 02:04:10',
             ),
             1 => 
             array (
                 'id' => 2,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/italian-salad-dressing-43522',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -41,12 +41,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:33',
-                'updated_at' => '2019-01-05 17:47:33',
+                'updated_at' => '2019-01-07 02:04:12',
             ),
             2 => 
             array (
                 'id' => 3,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/korean-roast-chicken-thighs-83203',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -54,12 +54,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:33',
-                'updated_at' => '2019-01-05 17:47:33',
+                'updated_at' => '2019-01-07 02:04:16',
             ),
             3 => 
             array (
                 'id' => 4,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/mama-iuliuccis-famous-meat-a-balls-italian-meatballs-32618',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -67,12 +67,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:33',
-                'updated_at' => '2019-01-05 17:47:33',
+                'updated_at' => '2019-01-07 02:04:20',
             ),
             4 => 
             array (
                 'id' => 5,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/spinach-feta-stuffed-chicken-breast-quick-easy-224947',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -80,12 +80,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:33',
-                'updated_at' => '2019-01-05 17:47:33',
+                'updated_at' => '2019-01-07 02:04:22',
             ),
             5 => 
             array (
                 'id' => 6,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/caramelized-chicken-wings-44888',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -93,12 +93,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:34',
-                'updated_at' => '2019-01-05 17:47:34',
+                'updated_at' => '2019-01-07 02:05:49',
             ),
             6 => 
             array (
                 'id' => 7,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/simple-sweet-scones-66409',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -106,12 +106,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:34',
-                'updated_at' => '2019-01-05 17:47:34',
+                'updated_at' => '2019-01-07 02:05:53',
             ),
             7 => 
             array (
                 'id' => 8,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/best-twice-baked-potatoes-79595',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -119,12 +119,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:34',
-                'updated_at' => '2019-01-05 17:47:34',
+                'updated_at' => '2019-01-07 02:05:55',
             ),
             8 => 
             array (
                 'id' => 9,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/german-apple-cake-16883',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -132,12 +132,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:34',
-                'updated_at' => '2019-01-05 17:47:34',
+                'updated_at' => '2019-01-07 02:05:59',
             ),
             9 => 
             array (
                 'id' => 10,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/oatmeal-cottage-cheese-pancakes-43072',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -145,12 +145,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:47:34',
-                'updated_at' => '2019-01-05 17:47:34',
+                'updated_at' => '2019-01-07 02:06:02',
             ),
             10 => 
             array (
                 'id' => 11,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/dark-chocolate-cake-2496',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -158,12 +158,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:23',
-                'updated_at' => '2019-01-05 17:50:23',
+                'updated_at' => '2019-01-07 02:06:05',
             ),
             11 => 
             array (
                 'id' => 12,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/chewy-chocolate-cookies-5049',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -171,12 +171,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:23',
-                'updated_at' => '2019-01-05 17:50:23',
+                'updated_at' => '2019-01-07 02:06:07',
             ),
             12 => 
             array (
                 'id' => 13,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/kittencals-chocolate-frosting-icing-89207',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -184,12 +184,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:23',
-                'updated_at' => '2019-01-05 17:50:23',
+                'updated_at' => '2019-01-07 02:06:10',
             ),
             13 => 
             array (
                 'id' => 14,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/cinnamon-cookies-48241',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -197,12 +197,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:23',
-                'updated_at' => '2019-01-05 17:50:23',
+                'updated_at' => '2019-01-07 02:06:12',
             ),
             14 => 
             array (
                 'id' => 15,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/baked-salmon-28199',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -210,12 +210,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:23',
-                'updated_at' => '2019-01-05 17:50:23',
+                'updated_at' => '2019-01-07 02:06:16',
             ),
             15 => 
             array (
                 'id' => 16,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/oreo-balls-52035',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -223,12 +223,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:24',
-                'updated_at' => '2019-01-05 17:50:24',
+                'updated_at' => '2019-01-07 02:06:20',
             ),
             16 => 
             array (
                 'id' => 17,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/cheesy-ham-and-potato-soup-262140',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -236,12 +236,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:24',
-                'updated_at' => '2019-01-05 17:50:24',
+                'updated_at' => '2019-01-07 02:06:22',
             ),
             17 => 
             array (
                 'id' => 18,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/bevs-spaghetti-sauce-26217',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -249,12 +249,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:24',
-                'updated_at' => '2019-01-05 17:50:24',
+                'updated_at' => '2019-01-07 02:06:27',
             ),
             18 => 
             array (
                 'id' => 19,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-only-chocolate-cake-recipe-youll-ever-need-devils-food-26370',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -262,12 +262,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:24',
-                'updated_at' => '2019-01-05 17:50:24',
+                'updated_at' => '2019-01-07 02:06:30',
             ),
             19 => 
             array (
                 'id' => 20,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/ground-beef-stuffed-green-bell-peppers-with-cheese-1356',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -275,12 +275,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:24',
-                'updated_at' => '2019-01-05 17:50:24',
+                'updated_at' => '2019-01-07 02:06:35',
             ),
             20 => 
             array (
                 'id' => 21,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-best-browned-beef-stew-ever-36984',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -288,12 +288,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:06:41',
             ),
             21 => 
             array (
                 'id' => 22,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/macaroni-salad-63733',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -301,12 +301,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:06:44',
             ),
             22 => 
             array (
                 'id' => 23,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/chilis-salsa-59635',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -314,12 +314,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:06:48',
             ),
             23 => 
             array (
                 'id' => 24,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/southern-sweet-iced-tea-63785',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -327,12 +327,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:06:51',
             ),
             24 => 
             array (
                 'id' => 25,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-cheesecake-factory-pumpkin-cheesecake-by-todd-wilbur-46780',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -340,12 +340,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:06:55',
             ),
             25 => 
             array (
                 'id' => 26,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/slow-cooker-beef-short-ribs-32147',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -353,12 +353,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:07:00',
             ),
             26 => 
             array (
                 'id' => 27,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/puppy-chow-or-monkey-munch-74048',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -366,12 +366,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:07:02',
             ),
             27 => 
             array (
                 'id' => 28,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/easy-moist-banana-blueberry-muffins-153642',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -379,12 +379,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:07:05',
             ),
             28 => 
             array (
                 'id' => 29,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/impossible-peanut-butter-cookies-15411',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -392,12 +392,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:07:07',
             ),
             29 => 
             array (
                 'id' => 30,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-very-best-salisbury-steak-56694',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -405,12 +405,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:30',
-                'updated_at' => '2019-01-05 17:50:30',
+                'updated_at' => '2019-01-07 02:07:10',
             ),
             30 => 
             array (
                 'id' => 31,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/unbelievably-easy-potato-soup-74275',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -418,12 +418,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:14',
             ),
             31 => 
             array (
                 'id' => 32,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/green-bean-casserole-47102',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -431,12 +431,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:22',
             ),
             32 => 
             array (
                 'id' => 33,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/creamy-turkey-tetrazzini-57505',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -444,12 +444,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:27',
             ),
             33 => 
             array (
                 'id' => 34,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/old-fashioned-vegetable-beef-soup-58901',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -457,12 +457,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:33',
             ),
             34 => 
             array (
                 'id' => 35,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/vegan-cornbread-115929',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -470,12 +470,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:39',
             ),
             35 => 
             array (
                 'id' => 36,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/quot-ant-quot-kellys-london-broil-marinade-155959',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -483,12 +483,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:44',
             ),
             36 => 
             array (
                 'id' => 37,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/greek-salad-dressing-57642',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -496,12 +496,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:51',
             ),
             37 => 
             array (
                 'id' => 38,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/pumpkin-chocolate-chip-muffins-3564',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -509,12 +509,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:37',
-                'updated_at' => '2019-01-05 17:50:37',
+                'updated_at' => '2019-01-07 02:07:56',
             ),
             38 => 
             array (
                 'id' => 39,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/barilla-no-boil-lasagna-80435',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -522,12 +522,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:38',
-                'updated_at' => '2019-01-05 17:50:38',
+                'updated_at' => '2019-01-07 02:07:59',
             ),
             39 => 
             array (
                 'id' => 40,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/dumplings-30965',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -535,12 +535,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:50:38',
-                'updated_at' => '2019-01-05 17:50:38',
+                'updated_at' => '2019-01-07 02:08:02',
             ),
             40 => 
             array (
                 'id' => 41,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/peanut-butter-no-bake-cookies-129040',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -548,12 +548,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:08',
             ),
             41 => 
             array (
                 'id' => 42,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/real-english-fish-and-chips-with-yorkshire-beer-batter-183399',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -561,12 +561,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:13',
             ),
             42 => 
             array (
                 'id' => 43,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/alfredo-sauce-64196',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -574,12 +574,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:26',
             ),
             43 => 
             array (
                 'id' => 44,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/alton-browns-baked-brown-rice-177017',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -587,12 +587,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:31',
             ),
             44 => 
             array (
                 'id' => 45,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/potato-kielbasa-skillet-34688',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -600,12 +600,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:35',
             ),
             45 => 
             array (
                 'id' => 46,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/chocolate-eclair-dessert-9240',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -613,12 +613,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:41',
             ),
             46 => 
             array (
                 'id' => 47,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/naan-203261',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -626,12 +626,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:36',
-                'updated_at' => '2019-01-05 17:51:36',
+                'updated_at' => '2019-01-07 02:08:48',
             ),
             47 => 
             array (
                 'id' => 48,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/waldorf-astoria-red-velvet-cake-8972',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -639,12 +639,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:37',
-                'updated_at' => '2019-01-05 17:51:37',
+                'updated_at' => '2019-01-07 02:08:55',
             ),
             48 => 
             array (
                 'id' => 49,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/red-chili-sauce-to-be-used-with-traditional-tamales-15301',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -652,12 +652,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:37',
-                'updated_at' => '2019-01-05 17:51:37',
+                'updated_at' => '2019-01-07 02:08:58',
             ),
             49 => 
             array (
                 'id' => 50,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/cauliflower-popcorn-roasted-cauliflower-115153',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -665,12 +665,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:37',
-                'updated_at' => '2019-01-05 17:51:37',
+                'updated_at' => '2019-01-07 02:09:01',
             ),
             50 => 
             array (
                 'id' => 51,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/skylike-chili-skyline-chili-copycat-110548',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -678,12 +678,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:39',
-                'updated_at' => '2019-01-05 17:51:39',
+                'updated_at' => '2019-01-07 02:09:03',
             ),
             51 => 
             array (
                 'id' => 52,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/kittencals-extreme-chocolate-brownies-87925',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -691,12 +691,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:39',
-                'updated_at' => '2019-01-05 17:51:39',
+                'updated_at' => '2019-01-07 02:09:06',
             ),
             52 => 
             array (
                 'id' => 53,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/roast-beef-horseradish-spirals-14106',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -704,12 +704,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:39',
-                'updated_at' => '2019-01-05 17:51:39',
+                'updated_at' => '2019-01-07 02:09:09',
             ),
             53 => 
             array (
                 'id' => 54,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/breakfast-casserole-supreme-35775',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -717,12 +717,12 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:39',
-                'updated_at' => '2019-01-05 17:51:39',
+                'updated_at' => '2019-01-07 02:09:14',
             ),
             54 => 
             array (
                 'id' => 55,
-                'isPublished' => 0,
+                'isPublished' => 1,
                 'link' => 'https://www.geniuskitchen.com/recipe/cross-rib-roast-61718',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -730,7 +730,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'cuisine_id' => NULL,
                 'cuisine_txt' => NULL,
                 'created_at' => '2019-01-05 17:51:39',
-                'updated_at' => '2019-01-05 17:51:39',
+                'updated_at' => '2019-01-07 02:09:19',
             ),
             55 => 
             array (
@@ -22894,7 +22894,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1760,
                 'isPublished' => 0,
-                'link' => '/recipe/104772/philadelphia-smoked-salmon-cream-cheese-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/104772/philadelphia-smoked-salmon-cream-cheese-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22907,7 +22907,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1761,
                 'isPublished' => 0,
-                'link' => '/recipe/050441/fluffy-tapioca-cream?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/050441/fluffy-tapioca-cream?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22920,7 +22920,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1762,
                 'isPublished' => 0,
-                'link' => '/recipe/115794/six-layer-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115794/six-layer-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22933,7 +22933,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1763,
                 'isPublished' => 0,
-                'link' => '/recipe/055713/fudgy-walnut-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055713/fudgy-walnut-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22946,7 +22946,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1764,
                 'isPublished' => 0,
-                'link' => '/recipe/122689/deep-dish-layered-banana-pudding?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/122689/deep-dish-layered-banana-pudding?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22959,7 +22959,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1765,
                 'isPublished' => 0,
-                'link' => '/recipe/064181/berry-fruit-tart?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064181/berry-fruit-tart?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22972,7 +22972,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1766,
                 'isPublished' => 0,
-                'link' => '/recipe/107413/lentil-soup?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107413/lentil-soup?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22985,7 +22985,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1767,
                 'isPublished' => 0,
-                'link' => '/recipe/075629/speedy-barbecue-beef-stir-fry?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075629/speedy-barbecue-beef-stir-fry?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -22998,7 +22998,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1768,
                 'isPublished' => 0,
-                'link' => '/recipe/120158/bacon-wrapped-stuffed-pork-loin?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120158/bacon-wrapped-stuffed-pork-loin?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23011,7 +23011,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1769,
                 'isPublished' => 0,
-                'link' => '/recipe/131234/creamy-mushroom-tartlets?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/131234/creamy-mushroom-tartlets?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23024,7 +23024,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1770,
                 'isPublished' => 0,
-                'link' => '/recipe/109212/fruit-almond-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/109212/fruit-almond-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23037,7 +23037,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1771,
                 'isPublished' => 0,
-                'link' => '/recipe/132487/pineapple-topped-new-york-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/132487/pineapple-topped-new-york-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23050,7 +23050,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1772,
                 'isPublished' => 0,
-                'link' => '/recipe/114044/raspberry-angel-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114044/raspberry-angel-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23063,7 +23063,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1773,
                 'isPublished' => 0,
-                'link' => '/recipe/126723/apple-crisp-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126723/apple-crisp-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23076,7 +23076,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1774,
                 'isPublished' => 0,
-                'link' => '/recipe/114095/apple-monster-mouths?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114095/apple-monster-mouths?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23089,7 +23089,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1775,
                 'isPublished' => 0,
-                'link' => '/recipe/075325/apricot-crumble-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075325/apricot-crumble-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23102,7 +23102,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1776,
                 'isPublished' => 0,
-                'link' => '/recipe/098075/chicken-in-cilantro-peanut-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/098075/chicken-in-cilantro-peanut-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23115,7 +23115,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1777,
                 'isPublished' => 0,
-                'link' => '/recipe/064293/easy-black-bean-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064293/easy-black-bean-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23128,7 +23128,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1778,
                 'isPublished' => 0,
-                'link' => '/recipe/133842/frozen-cheesecake-squares?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133842/frozen-cheesecake-squares?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23141,7 +23141,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1779,
                 'isPublished' => 0,
-                'link' => '/recipe/124525/grilled-garden-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124525/grilled-garden-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23154,7 +23154,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1780,
                 'isPublished' => 0,
-                'link' => '/recipe/155141/mocha-cheesecake-minis?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155141/mocha-cheesecake-minis?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23167,7 +23167,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1781,
                 'isPublished' => 0,
-                'link' => '/recipe/124151/oreo-raspberry-cookie-balls?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124151/oreo-raspberry-cookie-balls?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23180,7 +23180,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1782,
                 'isPublished' => 0,
-                'link' => '/recipe/120738/pumpkin-spice-cake-brown-sugar-frosting?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120738/pumpkin-spice-cake-brown-sugar-frosting?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23193,7 +23193,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1783,
                 'isPublished' => 0,
-                'link' => '/recipe/106666/spicy-bbq-shrimp-kabobs?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106666/spicy-bbq-shrimp-kabobs?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23206,7 +23206,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1784,
                 'isPublished' => 0,
-                'link' => '/recipe/063607/vanilla-chiller?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063607/vanilla-chiller?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23219,7 +23219,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1785,
                 'isPublished' => 0,
-                'link' => '/recipe/196036/watermelon-agua-fresca?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/196036/watermelon-agua-fresca?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23232,7 +23232,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1786,
                 'isPublished' => 0,
-                'link' => '/recipe/119250/bbq-beef-brisket-sandwiches-coleslaw?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/119250/bbq-beef-brisket-sandwiches-coleslaw?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23245,7 +23245,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1787,
                 'isPublished' => 0,
-                'link' => '/recipe/118555/bbq-grilled-ribs-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118555/bbq-grilled-ribs-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23258,7 +23258,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1788,
                 'isPublished' => 0,
-                'link' => '/recipe/138550/bbq-steakhouse-chili?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138550/bbq-steakhouse-chili?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23271,7 +23271,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1789,
                 'isPublished' => 0,
-                'link' => '/recipe/054389/black-magic-parfait?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054389/black-magic-parfait?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23284,7 +23284,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1790,
                 'isPublished' => 0,
-                'link' => '/recipe/148377/dark-chocolate-ganache-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/148377/dark-chocolate-ganache-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23297,7 +23297,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1791,
                 'isPublished' => 0,
-                'link' => '/recipe/150593/easy-caramel-apple-bread-pudding?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/150593/easy-caramel-apple-bread-pudding?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23310,7 +23310,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1792,
                 'isPublished' => 0,
-                'link' => '/recipe/155126/easy-peanut-butter-chocolate-chip-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155126/easy-peanut-butter-chocolate-chip-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23323,7 +23323,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1793,
                 'isPublished' => 0,
-                'link' => '/recipe/166321/green-enchilada-pork-chili?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/166321/green-enchilada-pork-chili?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23336,7 +23336,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1794,
                 'isPublished' => 0,
-                'link' => '/recipe/135726/high-speed-salmon-grill?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/135726/high-speed-salmon-grill?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23349,7 +23349,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1795,
                 'isPublished' => 0,
-                'link' => '/recipe/106228/homemade-ice-cream-sandwiches?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106228/homemade-ice-cream-sandwiches?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23362,7 +23362,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1796,
                 'isPublished' => 0,
-                'link' => '/recipe/133264/make-ahead-smoky-chipotle-chicken-chili?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133264/make-ahead-smoky-chipotle-chicken-chili?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23375,7 +23375,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1797,
                 'isPublished' => 0,
-                'link' => '/recipe/118839/mini-shortbread-smores?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118839/mini-shortbread-smores?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23388,7 +23388,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1798,
                 'isPublished' => 0,
-                'link' => '/recipe/128132/peanut-butter-cookie-santas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/128132/peanut-butter-cookie-santas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23401,7 +23401,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1799,
                 'isPublished' => 0,
-                'link' => '/recipe/150610/salted-chocolate-pecan-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/150610/salted-chocolate-pecan-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23414,7 +23414,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1800,
                 'isPublished' => 0,
-                'link' => '/recipe/123048/steakhouse-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123048/steakhouse-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23427,7 +23427,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1801,
                 'isPublished' => 0,
-                'link' => '/recipe/144696/sundae-cone-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144696/sundae-cone-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23440,7 +23440,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1802,
                 'isPublished' => 0,
-                'link' => '/recipe/089962/vanilla-berry-trifle-in-a-cloud?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/089962/vanilla-berry-trifle-in-a-cloud?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23453,7 +23453,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1803,
                 'isPublished' => 0,
-                'link' => '/recipe/145441/velveeta-creamy-beef-stroganoff-skillet?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/145441/velveeta-creamy-beef-stroganoff-skillet?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23466,7 +23466,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1804,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00487262/banana-split-poke-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00487262/banana-split-poke-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23479,7 +23479,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1805,
                 'isPublished' => 0,
-                'link' => '/recipe/121453/bears-on-cloud-nine?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121453/bears-on-cloud-nine?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23492,7 +23492,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1806,
                 'isPublished' => 0,
-                'link' => '/recipe/120327/brined-turkey-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120327/brined-turkey-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23505,7 +23505,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1807,
                 'isPublished' => 0,
-                'link' => '/recipe/114504/cabo-beach-cheeseburger?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114504/cabo-beach-cheeseburger?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23518,7 +23518,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1808,
                 'isPublished' => 0,
-                'link' => '/recipe/054697/caribbean-fudge-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054697/caribbean-fudge-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23531,7 +23531,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1809,
                 'isPublished' => 0,
-                'link' => '/recipe/167559/chicken-bacon-pot-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/167559/chicken-bacon-pot-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23544,7 +23544,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1810,
                 'isPublished' => 0,
-                'link' => '/recipe/122507/denver-style-morning-burrito?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/122507/denver-style-morning-burrito?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23557,7 +23557,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1811,
                 'isPublished' => 0,
-                'link' => '/recipe/162251/easy-german-potato-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/162251/easy-german-potato-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23570,7 +23570,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1812,
                 'isPublished' => 0,
-                'link' => '/recipe/060771/easy-jell-o-terrarium?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/060771/easy-jell-o-terrarium?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23583,7 +23583,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1813,
                 'isPublished' => 0,
-                'link' => '/recipe/051824/feta-cheese-pesto-torta?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/051824/feta-cheese-pesto-torta?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23596,7 +23596,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1814,
                 'isPublished' => 0,
-                'link' => '/recipe/121898/fluffy-layered-orange-dessert?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121898/fluffy-layered-orange-dessert?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23609,7 +23609,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1815,
                 'isPublished' => 0,
-                'link' => '/recipe/094173/fluffy-marshmallow-bunny-cupcakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/094173/fluffy-marshmallow-bunny-cupcakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23622,7 +23622,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1816,
                 'isPublished' => 0,
-                'link' => '/recipe/120711/garlic-herb-crusted-prime-rib?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120711/garlic-herb-crusted-prime-rib?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23635,7 +23635,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1817,
                 'isPublished' => 0,
-                'link' => '/recipe/115341/ginger-applesauce-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115341/ginger-applesauce-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23648,7 +23648,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1818,
                 'isPublished' => 0,
-                'link' => '/recipe/125638/green-bean-bacon-shallot-saute?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/125638/green-bean-bacon-shallot-saute?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23661,7 +23661,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1819,
                 'isPublished' => 0,
-                'link' => '/recipe/118842/grilled-cheese-vegetable-baguette?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118842/grilled-cheese-vegetable-baguette?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23674,7 +23674,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1820,
                 'isPublished' => 0,
-                'link' => '/recipe/106672/grilled-spicy-flank-steak-cucumber-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106672/grilled-spicy-flank-steak-cucumber-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23687,7 +23687,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1821,
                 'isPublished' => 0,
-                'link' => '/recipe/052429/ham-sandwich-nectarine-salsa?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052429/ham-sandwich-nectarine-salsa?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23700,7 +23700,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1822,
                 'isPublished' => 0,
-                'link' => '/recipe/120187/herb-cheese-stuffed-roast-chicken?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120187/herb-cheese-stuffed-roast-chicken?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23713,7 +23713,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1823,
                 'isPublished' => 0,
-                'link' => '/recipe/121572/honey-nut-cookie-balls?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121572/honey-nut-cookie-balls?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23726,7 +23726,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1824,
                 'isPublished' => 0,
-                'link' => '/recipe/200368/italian-sausage-sheet-pan-supper?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/200368/italian-sausage-sheet-pan-supper?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23739,7 +23739,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1825,
                 'isPublished' => 0,
-                'link' => '/recipe/052175/layered-orange-pineapple-mold?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052175/layered-orange-pineapple-mold?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23752,7 +23752,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1826,
                 'isPublished' => 0,
-                'link' => '/recipe/124150/lemon-blossom-oreo-cookie-balls?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124150/lemon-blossom-oreo-cookie-balls?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23765,7 +23765,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1827,
                 'isPublished' => 0,
-                'link' => '/recipe/184830/loaded-totchos?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/184830/loaded-totchos?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23778,7 +23778,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1828,
                 'isPublished' => 0,
-                'link' => '/recipe/057072/low-fat-mandarin-mousse-mold?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/057072/low-fat-mandarin-mousse-mold?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23791,7 +23791,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1829,
                 'isPublished' => 0,
-                'link' => '/recipe/112210/marinated-antipasto-appetizers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/112210/marinated-antipasto-appetizers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23804,7 +23804,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1830,
                 'isPublished' => 0,
-                'link' => '/recipe/179782/mexican-shrimp-cocktail-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/179782/mexican-shrimp-cocktail-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23817,7 +23817,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1831,
                 'isPublished' => 0,
-                'link' => '/recipe/186441/mini-loaded-tater-tots-appetizers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/186441/mini-loaded-tater-tots-appetizers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23830,7 +23830,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1832,
                 'isPublished' => 0,
-                'link' => '/recipe/117984/no-drip-strawberry-ice-pops?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/117984/no-drip-strawberry-ice-pops?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23843,7 +23843,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1833,
                 'isPublished' => 0,
-                'link' => '/recipe/120122/oreo-chocolate-raspberry-truffle-cups?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120122/oreo-chocolate-raspberry-truffle-cups?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23856,7 +23856,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1834,
                 'isPublished' => 0,
-                'link' => '/recipe/180401/parmesan-roasted-cauliflower?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/180401/parmesan-roasted-cauliflower?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23869,7 +23869,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1835,
                 'isPublished' => 0,
-                'link' => '/recipe/132491/parmesan-herb-bread-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/132491/parmesan-herb-bread-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23882,7 +23882,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1836,
                 'isPublished' => 0,
-                'link' => '/recipe/143393/pasta-asparagus?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/143393/pasta-asparagus?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23895,7 +23895,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1837,
                 'isPublished' => 0,
-                'link' => '/recipe/166302/perfect-stuffed-pork-loin-roast?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/166302/perfect-stuffed-pork-loin-roast?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23908,7 +23908,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1838,
                 'isPublished' => 0,
-                'link' => '/recipe/113714/piano-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/113714/piano-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23921,7 +23921,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1839,
                 'isPublished' => 0,
-                'link' => '/recipe/052581/raisin-bran-cereal-muffins?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052581/raisin-bran-cereal-muffins?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23934,7 +23934,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1840,
                 'isPublished' => 0,
-                'link' => '/recipe/133616/ranch-style-beans?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133616/ranch-style-beans?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23947,7 +23947,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1841,
                 'isPublished' => 0,
-                'link' => '/recipe/107421/serrano-orange-glazed-salmon?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107421/serrano-orange-glazed-salmon?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23960,7 +23960,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1842,
                 'isPublished' => 0,
-                'link' => '/recipe/075239/shrimp-cucumber-noodle-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075239/shrimp-cucumber-noodle-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23973,7 +23973,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1843,
                 'isPublished' => 0,
-                'link' => '/recipe/062602/smoked-ham-roasted-red-pepper-quesadilla?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062602/smoked-ham-roasted-red-pepper-quesadilla?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23986,7 +23986,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1844,
                 'isPublished' => 0,
-                'link' => '/recipe/118701/southwest-black-bean-burgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118701/southwest-black-bean-burgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -23999,7 +23999,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1845,
                 'isPublished' => 0,
-                'link' => '/recipe/056155/spanish-potato-omelet?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056155/spanish-potato-omelet?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24012,7 +24012,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1846,
                 'isPublished' => 0,
-                'link' => '/recipe/118214/super-smoothie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118214/super-smoothie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24025,7 +24025,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1847,
                 'isPublished' => 0,
-                'link' => '/recipe/184590/tender-eye-of-round-roast?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/184590/tender-eye-of-round-roast?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24038,7 +24038,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1848,
                 'isPublished' => 0,
-                'link' => '/recipe/060909/turkey-vegetable-tostadas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/060909/turkey-vegetable-tostadas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24051,7 +24051,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1849,
                 'isPublished' => 0,
-                'link' => '/recipe/136315/wedge-salad-blue-cheese-bacon?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/136315/wedge-salad-blue-cheese-bacon?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24064,7 +24064,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1850,
                 'isPublished' => 0,
-                'link' => '/recipe/062574/white-chocolate-mousse?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062574/white-chocolate-mousse?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24077,7 +24077,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1851,
                 'isPublished' => 0,
-                'link' => '/recipe/064951/wrapped-up-dogs?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064951/wrapped-up-dogs?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24090,7 +24090,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1852,
                 'isPublished' => 0,
-                'link' => '/recipe/112630/a-colorful-bunch-of-balloons?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/112630/a-colorful-bunch-of-balloons?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24103,7 +24103,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1853,
                 'isPublished' => 0,
-                'link' => '/recipe/118254/asian-sesame-salad-blackened-shrimp?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118254/asian-sesame-salad-blackened-shrimp?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24116,7 +24116,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1854,
                 'isPublished' => 0,
-                'link' => '/recipe/133633/bacon-blue-cheese-burgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133633/bacon-blue-cheese-burgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24129,7 +24129,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1855,
                 'isPublished' => 0,
-                'link' => '/recipe/129751/baked-chicken-nachos?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/129751/baked-chicken-nachos?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24142,7 +24142,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1856,
                 'isPublished' => 0,
-                'link' => '/recipe/182828/baked-ziti-squash-mushrooms?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/182828/baked-ziti-squash-mushrooms?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24155,7 +24155,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1857,
                 'isPublished' => 0,
-                'link' => '/recipe/179790/barbecue-pork-noodle-bowl?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/179790/barbecue-pork-noodle-bowl?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24168,7 +24168,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1858,
                 'isPublished' => 0,
-                'link' => '/recipe/090332/basque-style-chicken?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090332/basque-style-chicken?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24181,7 +24181,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1859,
                 'isPublished' => 0,
-                'link' => '/recipe/129972/bistro-beef-jack-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/129972/bistro-beef-jack-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24194,7 +24194,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1860,
                 'isPublished' => 0,
-                'link' => '/recipe/110587/philly-fruity-bagel?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110587/philly-fruity-bagel?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24207,7 +24207,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1861,
                 'isPublished' => 0,
-                'link' => '/recipe/120334/prime-rib-marsala-mushroom-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120334/prime-rib-marsala-mushroom-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24220,7 +24220,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1862,
                 'isPublished' => 0,
-                'link' => '/recipe/138284/quick-bbq-pork-cheesy-potatoes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138284/quick-bbq-pork-cheesy-potatoes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24233,7 +24233,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1863,
                 'isPublished' => 0,
-                'link' => '/recipe/112665/raspberry-brie-ritz-toppers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/112665/raspberry-brie-ritz-toppers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24246,7 +24246,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1864,
                 'isPublished' => 0,
-                'link' => '/recipe/127688/red-cabbage-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127688/red-cabbage-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24259,7 +24259,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1865,
                 'isPublished' => 0,
-                'link' => '/recipe/136568/rocky-road-parfaits?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/136568/rocky-road-parfaits?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24272,7 +24272,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1866,
                 'isPublished' => 0,
-                'link' => '/recipe/090945/santa-ana-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090945/santa-ana-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24285,7 +24285,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1867,
                 'isPublished' => 0,
-                'link' => '/recipe/056004/shake-n-bake-chicken-nuggets?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056004/shake-n-bake-chicken-nuggets?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24298,7 +24298,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1868,
                 'isPublished' => 0,
-                'link' => '/recipe/130027/southwest-grilled-cheese?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/130027/southwest-grilled-cheese?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24311,7 +24311,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1869,
                 'isPublished' => 0,
-                'link' => '/recipe/138503/sparkling-raspberry-jigglers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138503/sparkling-raspberry-jigglers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24324,7 +24324,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1870,
                 'isPublished' => 0,
-                'link' => '/recipe/109243/spring-jell-o-jigglers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/109243/spring-jell-o-jigglers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24337,7 +24337,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1871,
                 'isPublished' => 0,
-                'link' => '/recipe/063180/steak-asparagus-wraps?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063180/steak-asparagus-wraps?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24350,7 +24350,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1872,
                 'isPublished' => 0,
-                'link' => '/recipe/090337/strawberries-cream?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090337/strawberries-cream?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24363,7 +24363,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1873,
                 'isPublished' => 0,
-                'link' => '/recipe/162266/stuffed-poblano-peppers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/162266/stuffed-poblano-peppers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24376,7 +24376,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1874,
                 'isPublished' => 0,
-                'link' => '/recipe/055158/sweet-ricotta-topping?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055158/sweet-ricotta-topping?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24389,7 +24389,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1875,
                 'isPublished' => 0,
-                'link' => '/recipe/123476/thai-peanut-chikn-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123476/thai-peanut-chikn-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24402,7 +24402,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1876,
                 'isPublished' => 0,
-                'link' => '/recipe/107447/tilapia-salsa-tepachona?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107447/tilapia-salsa-tepachona?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24415,7 +24415,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1877,
                 'isPublished' => 0,
-                'link' => '/recipe/107512/tomato-cheese-canapes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107512/tomato-cheese-canapes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24428,7 +24428,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1878,
                 'isPublished' => 0,
-                'link' => '/recipe/128163/vanilla-cream-pomegranate-raspberry-stars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/128163/vanilla-cream-pomegranate-raspberry-stars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24441,7 +24441,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1879,
                 'isPublished' => 0,
-                'link' => '/recipe/153723/velveeta-spicy-pizza-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/153723/velveeta-spicy-pizza-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24454,7 +24454,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1880,
                 'isPublished' => 0,
-                'link' => '/recipe/195334/velveeta-easy-spicy-chicken-spaghetti?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/195334/velveeta-easy-spicy-chicken-spaghetti?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24467,7 +24467,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1881,
                 'isPublished' => 0,
-                'link' => '/recipe/111131/warm-italian-vegetable-cheese-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111131/warm-italian-vegetable-cheese-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24480,7 +24480,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1882,
                 'isPublished' => 0,
-                'link' => '/recipe/136879/warm-philly-mexican-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/136879/warm-philly-mexican-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24493,7 +24493,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1883,
                 'isPublished' => 0,
-                'link' => '/recipe/148791/watermelon-kool-aid-cupcakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/148791/watermelon-kool-aid-cupcakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24506,7 +24506,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1884,
                 'isPublished' => 0,
-                'link' => '/recipe/106656/zesty-summer-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106656/zesty-summer-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24519,7 +24519,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1885,
                 'isPublished' => 0,
-                'link' => '/recipe/053521/30-minutes-homemade-surejell-strawberry-blueberry-freezer-jam?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053521/30-minutes-homemade-surejell-strawberry-blueberry-freezer-jam?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24532,7 +24532,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1886,
                 'isPublished' => 0,
-                'link' => '/recipe/111474/5-minute-caramel-pear-crumble?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111474/5-minute-caramel-pear-crumble?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24545,7 +24545,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1887,
                 'isPublished' => 0,
-                'link' => '/recipe/052477/a-better-bologna-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052477/a-better-bologna-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24558,7 +24558,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1888,
                 'isPublished' => 0,
-                'link' => '/recipe/054762/almond-cherry-mold?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054762/almond-cherry-mold?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24571,7 +24571,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1889,
                 'isPublished' => 0,
-                'link' => '/recipe/090526/apple-cheddar-empanadas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090526/apple-cheddar-empanadas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24584,7 +24584,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1890,
                 'isPublished' => 0,
-                'link' => '/recipe/050284/apple-cobbler-cheddar-cheese-biscuit?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/050284/apple-cobbler-cheddar-cheese-biscuit?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24597,7 +24597,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1891,
                 'isPublished' => 0,
-                'link' => '/recipe/200381/apple-brussels-sprouts-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/200381/apple-brussels-sprouts-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24610,7 +24610,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1892,
                 'isPublished' => 0,
-                'link' => '/recipe/154341/apple-cranberry-crumb-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154341/apple-cranberry-crumb-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24623,7 +24623,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1893,
                 'isPublished' => 0,
-                'link' => '/recipe/113130/avocado-bacon-ham-cheese-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/113130/avocado-bacon-ham-cheese-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24636,7 +24636,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1894,
                 'isPublished' => 0,
-                'link' => '/recipe/148789/baby-shower-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/148789/baby-shower-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24649,7 +24649,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1895,
                 'isPublished' => 0,
-                'link' => '/recipe/171293/bacon-cheeseburger-3-ways?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/171293/bacon-cheeseburger-3-ways?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24662,7 +24662,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1896,
                 'isPublished' => 0,
-                'link' => '/recipe/069143/baked-black-bean-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/069143/baked-black-bean-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24675,7 +24675,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1897,
                 'isPublished' => 0,
-                'link' => '/recipe/110137/barley-bean-soup-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110137/barley-bean-soup-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24688,7 +24688,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1898,
                 'isPublished' => 0,
-                'link' => '/recipe/154359/bbq-braised-short-ribs?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154359/bbq-braised-short-ribs?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24701,7 +24701,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1899,
                 'isPublished' => 0,
-                'link' => '/recipe/174746/bbq-mini-meatloaves?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/174746/bbq-mini-meatloaves?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24714,7 +24714,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1900,
                 'isPublished' => 0,
-                'link' => '/recipe/120181/berry-clafoutis?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120181/berry-clafoutis?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24727,7 +24727,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1901,
                 'isPublished' => 0,
-                'link' => '/recipe/132977/betty-the-butterfly-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/132977/betty-the-butterfly-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24740,7 +24740,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1902,
                 'isPublished' => 0,
-                'link' => '/recipe/120150/blackened-tilapia?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120150/blackened-tilapia?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24753,7 +24753,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1903,
                 'isPublished' => 0,
-                'link' => '/recipe/061707/boca-burgers-salsa-fresca?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/061707/boca-burgers-salsa-fresca?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24766,7 +24766,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1904,
                 'isPublished' => 0,
-                'link' => '/recipe/118798/boo-tiful-jell-o-cups?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118798/boo-tiful-jell-o-cups?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24779,7 +24779,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1905,
                 'isPublished' => 0,
-                'link' => '/recipe/090772/bread-pudding-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090772/bread-pudding-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24792,7 +24792,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1906,
                 'isPublished' => 0,
-                'link' => '/recipe/210334/brownie-cheesecake-ball?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/210334/brownie-cheesecake-ball?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24805,7 +24805,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1907,
                 'isPublished' => 0,
-                'link' => '/recipe/113961/buccaneer-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/113961/buccaneer-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24818,7 +24818,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1908,
                 'isPublished' => 0,
-                'link' => '/recipe/124707/caesar-spinach-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124707/caesar-spinach-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24831,7 +24831,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1909,
                 'isPublished' => 0,
-                'link' => '/recipe/127227/candied-pumpkin-topped-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127227/candied-pumpkin-topped-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24844,7 +24844,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1910,
                 'isPublished' => 0,
-                'link' => '/recipe/090762/fruited-chicken-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090762/fruited-chicken-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24857,7 +24857,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1911,
                 'isPublished' => 0,
-                'link' => '/recipe/118934/garden-lovers-turkey-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118934/garden-lovers-turkey-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24870,7 +24870,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1912,
                 'isPublished' => 0,
-                'link' => '/recipe/121844/garlic-spinach-cheddar-fondue?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121844/garlic-spinach-cheddar-fondue?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24883,7 +24883,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1913,
                 'isPublished' => 0,
-                'link' => '/recipe/062756/gelatin-in-a-cloud?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062756/gelatin-in-a-cloud?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24896,7 +24896,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1914,
                 'isPublished' => 0,
-                'link' => '/recipe/063170/ginger-beef-warm-wich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063170/ginger-beef-warm-wich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24909,7 +24909,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1915,
                 'isPublished' => 0,
-                'link' => '/recipe/181022/glazed-lemon-sticky-buns?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/181022/glazed-lemon-sticky-buns?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24922,7 +24922,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1916,
                 'isPublished' => 0,
-                'link' => '/recipe/205351/grandmas-reinvented-potato-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/205351/grandmas-reinvented-potato-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24935,7 +24935,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1917,
                 'isPublished' => 0,
-                'link' => '/recipe/128453/greek-spinach-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/128453/greek-spinach-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24948,7 +24948,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1918,
                 'isPublished' => 0,
-                'link' => '/recipe/175629/grilled-cheese-roll-ups?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/175629/grilled-cheese-roll-ups?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24961,7 +24961,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1919,
                 'isPublished' => 0,
-                'link' => '/recipe/118541/grilled-tilapia-chimichurri-mayo?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118541/grilled-tilapia-chimichurri-mayo?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24974,7 +24974,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1920,
                 'isPublished' => 0,
-                'link' => '/recipe/149066/healthy-living-strawberry-whipped-sensation?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/149066/healthy-living-strawberry-whipped-sensation?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -24987,7 +24987,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1921,
                 'isPublished' => 0,
-                'link' => '/recipe/089037/hearty-vegetable-beef-soup?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/089037/hearty-vegetable-beef-soup?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25000,7 +25000,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1922,
                 'isPublished' => 0,
-                'link' => '/recipe/119406/holiday-gingerbread-house?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/119406/holiday-gingerbread-house?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25013,7 +25013,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1923,
                 'isPublished' => 0,
-                'link' => '/recipe/065894/honey-nut-fruit-empanadas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/065894/honey-nut-fruit-empanadas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25026,7 +25026,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1924,
                 'isPublished' => 0,
-                'link' => '/recipe/211991/hot-crab-corn-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/211991/hot-crab-corn-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25039,7 +25039,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1925,
                 'isPublished' => 0,
-                'link' => '/recipe/074654/island-fish?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074654/island-fish?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25052,7 +25052,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1926,
                 'isPublished' => 0,
-                'link' => '/recipe/185106/jell-o-cranberry-pineapple-relish?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185106/jell-o-cranberry-pineapple-relish?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25065,7 +25065,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1927,
                 'isPublished' => 0,
-                'link' => '/recipe/174672/jell-o-strawberry-poke-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/174672/jell-o-strawberry-poke-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25078,7 +25078,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1928,
                 'isPublished' => 0,
-                'link' => '/recipe/154959/layered-coconut-chocolate-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154959/layered-coconut-chocolate-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25091,7 +25091,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1929,
                 'isPublished' => 0,
-                'link' => '/recipe/144714/layered-fiesta-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144714/layered-fiesta-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25104,7 +25104,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1930,
                 'isPublished' => 0,
-                'link' => '/recipe/143453/layered-ribbon-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/143453/layered-ribbon-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25117,7 +25117,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1931,
                 'isPublished' => 0,
-                'link' => '/recipe/191168/loaded-shoestring-potato-bake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/191168/loaded-shoestring-potato-bake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25130,7 +25130,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1932,
                 'isPublished' => 0,
-                'link' => '/recipe/171321/mac-your-way-blt-mac?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/171321/mac-your-way-blt-mac?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25143,7 +25143,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1933,
                 'isPublished' => 0,
-                'link' => '/recipe/122113/mango-pork-tenderloin?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/122113/mango-pork-tenderloin?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25156,7 +25156,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1934,
                 'isPublished' => 0,
-                'link' => '/recipe/118233/market-fresh-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118233/market-fresh-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25169,7 +25169,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1935,
                 'isPublished' => 0,
-                'link' => '/recipe/115160/mexican-bread-pudding?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115160/mexican-bread-pudding?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25182,7 +25182,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1936,
                 'isPublished' => 0,
-                'link' => '/recipe/156463/microwave-peanut-butter-fudge-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/156463/microwave-peanut-butter-fudge-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25195,7 +25195,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1937,
                 'isPublished' => 0,
-                'link' => '/recipe/114608/migas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114608/migas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25208,7 +25208,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1938,
                 'isPublished' => 0,
-                'link' => '/recipe/144092/miniature-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144092/miniature-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25221,7 +25221,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1939,
                 'isPublished' => 0,
-                'link' => '/recipe/207130/morning-scramble-hash-brown-pizza?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/207130/morning-scramble-hash-brown-pizza?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25234,7 +25234,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1940,
                 'isPublished' => 0,
-                'link' => '/recipe/111476/muffuletta-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111476/muffuletta-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25247,7 +25247,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1941,
                 'isPublished' => 0,
-                'link' => '/recipe/066308/nachos?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/066308/nachos?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25260,7 +25260,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1942,
                 'isPublished' => 0,
-                'link' => '/recipe/212146/no-churn-blueberry-cheesecake-ice-cream?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/212146/no-churn-blueberry-cheesecake-ice-cream?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25273,7 +25273,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1943,
                 'isPublished' => 0,
-                'link' => '/recipe/111238/no-cook-kabob?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111238/no-cook-kabob?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25286,7 +25286,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1944,
                 'isPublished' => 0,
-                'link' => '/recipe/074225/nutty-frozen-yogurt-treats?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074225/nutty-frozen-yogurt-treats?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25299,7 +25299,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1945,
                 'isPublished' => 0,
-                'link' => '/recipe/185180/one-pan-artichoke-chicken-provencal?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185180/one-pan-artichoke-chicken-provencal?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25312,7 +25312,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1946,
                 'isPublished' => 0,
-                'link' => '/recipe/210094/one-pan-roasted-salmon-squash?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/210094/one-pan-roasted-salmon-squash?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25325,7 +25325,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1947,
                 'isPublished' => 0,
-                'link' => '/recipe/074897/orange-chicken?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074897/orange-chicken?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25338,7 +25338,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1948,
                 'isPublished' => 0,
-                'link' => '/recipe/168160/orange-ginger-carrot-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/168160/orange-ginger-carrot-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25351,7 +25351,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1949,
                 'isPublished' => 0,
-                'link' => '/recipe/144649/orange-marshmallow-pops?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144649/orange-marshmallow-pops?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25364,7 +25364,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1950,
                 'isPublished' => 0,
-                'link' => '/recipe/126886/orzo-broccoli-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126886/orzo-broccoli-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25377,7 +25377,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1951,
                 'isPublished' => 0,
-                'link' => '/recipe/169198/oven-roasted-root-vegetables-apples?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/169198/oven-roasted-root-vegetables-apples?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25390,7 +25390,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1952,
                 'isPublished' => 0,
-                'link' => '/recipe/208094/overnight-banana-oatmeal?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/208094/overnight-banana-oatmeal?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25403,7 +25403,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1953,
                 'isPublished' => 0,
-                'link' => '/recipe/056142/paella-valenciana?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056142/paella-valenciana?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25416,7 +25416,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1954,
                 'isPublished' => 0,
-                'link' => '/recipe/182865/pan-roasted-chicken-shiitake-mushrooms?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/182865/pan-roasted-chicken-shiitake-mushrooms?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25429,7 +25429,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1955,
                 'isPublished' => 0,
-                'link' => '/recipe/130396/panini-turkey-cheese?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/130396/panini-turkey-cheese?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25442,7 +25442,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1956,
                 'isPublished' => 0,
-                'link' => '/recipe/127080/parmesan-panzanella-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127080/parmesan-panzanella-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25455,7 +25455,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1957,
                 'isPublished' => 0,
-                'link' => '/recipe/179750/passion-fruit-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/179750/passion-fruit-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25468,7 +25468,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1958,
                 'isPublished' => 0,
-                'link' => '/recipe/132478/peanut-butter-rice-krispies-treats?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/132478/peanut-butter-rice-krispies-treats?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25481,7 +25481,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1959,
                 'isPublished' => 0,
-                'link' => '/recipe/056936/peanut-butter-caramel-almond-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056936/peanut-butter-caramel-almond-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25494,7 +25494,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1960,
                 'isPublished' => 0,
-                'link' => '/recipe/125623/turkey-bacon-wrapped-scallops-wilted-spinach?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/125623/turkey-bacon-wrapped-scallops-wilted-spinach?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25507,7 +25507,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1961,
                 'isPublished' => 0,
-                'link' => '/recipe/063126/turkey-club-sandwich-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063126/turkey-club-sandwich-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25520,7 +25520,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1962,
                 'isPublished' => 0,
-                'link' => '/recipe/063840/turkey-cobb-lettuce-wraps?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063840/turkey-cobb-lettuce-wraps?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25533,7 +25533,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1963,
                 'isPublished' => 0,
-                'link' => '/recipe/106812/tuscan-summer-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106812/tuscan-summer-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25546,7 +25546,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1964,
                 'isPublished' => 0,
-                'link' => '/recipe/109448/tuxedo-strawberries?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/109448/tuxedo-strawberries?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25559,7 +25559,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1965,
                 'isPublished' => 0,
-                'link' => '/recipe/123683/velveeta-shepherds-pie-skillet?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123683/velveeta-shepherds-pie-skillet?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25572,7 +25572,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1966,
                 'isPublished' => 0,
-                'link' => '/recipe/056384/walnut-meringue-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056384/walnut-meringue-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25585,7 +25585,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1967,
                 'isPublished' => 0,
-                'link' => '/recipe/129361/white-beans-bacon-garlicky-greens?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/129361/white-beans-bacon-garlicky-greens?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25598,7 +25598,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1968,
                 'isPublished' => 0,
-                'link' => '/recipe/204577/white-chocolate-macadamia-nut-cookie-brittle?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/204577/white-chocolate-macadamia-nut-cookie-brittle?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25611,7 +25611,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1969,
                 'isPublished' => 0,
-                'link' => '/recipe/118964/white-chocolate-raspberry-trifle-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118964/white-chocolate-raspberry-trifle-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25624,7 +25624,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1970,
                 'isPublished' => 0,
-                'link' => '/recipe/055953/yellow-rice?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055953/yellow-rice?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25637,7 +25637,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1971,
                 'isPublished' => 0,
-                'link' => '/recipe/153299/yogurt-blueberry-cream-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/153299/yogurt-blueberry-cream-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25650,7 +25650,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1972,
                 'isPublished' => 0,
-                'link' => '/recipe/104769/yuca-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/104769/yuca-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25663,7 +25663,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1973,
                 'isPublished' => 0,
-                'link' => '/recipe/167498/zesty-lima-bean-slaw?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/167498/zesty-lima-bean-slaw?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25676,7 +25676,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1974,
                 'isPublished' => 0,
-                'link' => '/recipe/060572/zesty-roast-beef-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/060572/zesty-roast-beef-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25689,7 +25689,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1975,
                 'isPublished' => 0,
-                'link' => '/recipe/060950/french-dip-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/060950/french-dip-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25702,7 +25702,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1976,
                 'isPublished' => 0,
-                'link' => '/recipe/200479/banana-split-pudding?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/200479/banana-split-pudding?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25715,7 +25715,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1977,
                 'isPublished' => 0,
-                'link' => '/recipe/161780/20-minute-one-pot-pasta-primavera?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/161780/20-minute-one-pot-pasta-primavera?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25728,7 +25728,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1978,
                 'isPublished' => 0,
-                'link' => '/recipe/155813/5-minute-bacon-cheddar-sour-cream-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155813/5-minute-bacon-cheddar-sour-cream-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25741,7 +25741,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1979,
                 'isPublished' => 0,
-                'link' => '/recipe/165500/a1-cheesesteak-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/165500/a1-cheesesteak-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25754,7 +25754,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1980,
                 'isPublished' => 0,
-                'link' => '/recipe/167836/a1-crispy-tofu-super-flatbreads?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/167836/a1-crispy-tofu-super-flatbreads?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25767,7 +25767,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1981,
                 'isPublished' => 0,
-                'link' => '/recipe/211797/air-fryer-boneless-buffalo-chicken?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/211797/air-fryer-boneless-buffalo-chicken?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25780,7 +25780,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1982,
                 'isPublished' => 0,
-                'link' => '/recipe/182901/all-in-one-meatball-tater-tots-packets?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/182901/all-in-one-meatball-tater-tots-packets?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25793,7 +25793,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1983,
                 'isPublished' => 0,
-                'link' => '/recipe/144640/angel-lush-on-a-stick?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144640/angel-lush-on-a-stick?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25806,7 +25806,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1984,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00430278/angels-strawberry-delight?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00430278/angels-strawberry-delight?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25819,7 +25819,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1985,
                 'isPublished' => 0,
-                'link' => '/recipe/063110/apple-cheddar-melt?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063110/apple-cheddar-melt?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25832,7 +25832,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1986,
                 'isPublished' => 0,
-                'link' => '/recipe/156944/apple-pie-cheesecakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/156944/apple-pie-cheesecakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25845,7 +25845,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1987,
                 'isPublished' => 0,
-                'link' => '/recipe/144160/apple-cinnamon-pancakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144160/apple-cinnamon-pancakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25858,7 +25858,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1988,
                 'isPublished' => 0,
-                'link' => '/recipe/114251/apricot-dijon-ham-griller?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114251/apricot-dijon-ham-griller?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25871,7 +25871,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1989,
                 'isPublished' => 0,
-                'link' => '/recipe/075326/apricot-raspberry-trifle?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075326/apricot-raspberry-trifle?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25884,7 +25884,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1990,
                 'isPublished' => 0,
-                'link' => '/recipe/056568/arequipa-raisin-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056568/arequipa-raisin-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25897,7 +25897,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1991,
                 'isPublished' => 0,
-                'link' => '/recipe/177841/ashley-whitneys-yellow-squash-tomato-packet?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/177841/ashley-whitneys-yellow-squash-tomato-packet?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25910,7 +25910,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1992,
                 'isPublished' => 0,
-                'link' => '/recipe/125635/asian-style-turkey-bacon-appetizers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/125635/asian-style-turkey-bacon-appetizers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25923,7 +25923,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1993,
                 'isPublished' => 0,
-                'link' => '/recipe/187029/asparagus-appetizers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/187029/asparagus-appetizers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25936,7 +25936,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1994,
                 'isPublished' => 0,
-                'link' => '/recipe/208074/asparagus-beef-ramen-bowl?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/208074/asparagus-beef-ramen-bowl?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25949,7 +25949,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1995,
                 'isPublished' => 0,
-                'link' => '/recipe/113202/avocado-grilled-cheese?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/113202/avocado-grilled-cheese?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25962,7 +25962,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1996,
                 'isPublished' => 0,
-                'link' => '/recipe/175488/avocado-bacon-open-faced-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/175488/avocado-bacon-open-faced-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25975,7 +25975,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1997,
                 'isPublished' => 0,
-                'link' => '/recipe/070408/bacon-tomato-pizza?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/070408/bacon-tomato-pizza?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -25988,7 +25988,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1998,
                 'isPublished' => 0,
-                'link' => '/recipe/186525/bacon-wrapped-sweet-potato-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/186525/bacon-wrapped-sweet-potato-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26001,7 +26001,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 1999,
                 'isPublished' => 0,
-                'link' => '/recipe/114201/bacon-berry-flatbread-wrap?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114201/bacon-berry-flatbread-wrap?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26014,7 +26014,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2000,
                 'isPublished' => 0,
-                'link' => '/recipe/166923/bacon-wrapped-chicken-on-the-barbecue?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/166923/bacon-wrapped-chicken-on-the-barbecue?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26029,7 +26029,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2001,
                 'isPublished' => 0,
-                'link' => '/recipe/166317/baked-asian-chicken-thighs?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/166317/baked-asian-chicken-thighs?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26042,7 +26042,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2002,
                 'isPublished' => 0,
-                'link' => '/recipe/181845/baked-pasta-primavera?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/181845/baked-pasta-primavera?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26055,7 +26055,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2003,
                 'isPublished' => 0,
-                'link' => '/recipe/165838/bakers-caramel-bacon-brownies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/165838/bakers-caramel-bacon-brownies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26068,7 +26068,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2004,
                 'isPublished' => 0,
-                'link' => '/recipe/125136/banana-baskets?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/125136/banana-baskets?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26081,7 +26081,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2005,
                 'isPublished' => 0,
-                'link' => '/recipe/210238/banana-bread-applesauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/210238/banana-bread-applesauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26094,7 +26094,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2006,
                 'isPublished' => 0,
-                'link' => '/recipe/168215/banana-waffle-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/168215/banana-waffle-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26107,7 +26107,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2007,
                 'isPublished' => 0,
-                'link' => '/recipe/120300/banana-caramel-bread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120300/banana-caramel-bread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26120,7 +26120,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2008,
                 'isPublished' => 0,
-                'link' => '/recipe/163707/basil-parmesan-corn-on-the-cob?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/163707/basil-parmesan-corn-on-the-cob?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26133,7 +26133,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2009,
                 'isPublished' => 0,
-                'link' => '/recipe/171609/bbq-beef-stew?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/171609/bbq-beef-stew?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26146,7 +26146,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2010,
                 'isPublished' => 0,
-                'link' => '/recipe/188971/cheesy-tater-tots-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/188971/cheesy-tater-tots-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26159,7 +26159,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2011,
                 'isPublished' => 0,
-                'link' => '/recipe/122828/cherry-cheesecake-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/122828/cherry-cheesecake-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26172,7 +26172,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2012,
                 'isPublished' => 0,
-                'link' => '/recipe/177531/cherry-limeade-punch?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/177531/cherry-limeade-punch?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26185,7 +26185,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2013,
                 'isPublished' => 0,
-                'link' => '/recipe/112664/chicken-cheese-sub-sandwiches?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/112664/chicken-cheese-sub-sandwiches?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26198,7 +26198,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2014,
                 'isPublished' => 0,
-                'link' => '/recipe/075547/chicken-arepas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075547/chicken-arepas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26211,7 +26211,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2015,
                 'isPublished' => 0,
-                'link' => '/recipe/147812/chicken-bruschetta-pasta?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/147812/chicken-bruschetta-pasta?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26224,7 +26224,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2016,
                 'isPublished' => 0,
-                'link' => '/recipe/130387/chicken-fajita-wrap?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/130387/chicken-fajita-wrap?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26237,7 +26237,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2017,
                 'isPublished' => 0,
-                'link' => '/recipe/110654/chilean-style-lentils?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110654/chilean-style-lentils?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26250,7 +26250,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2018,
                 'isPublished' => 0,
-                'link' => '/recipe/200352/chili-cheese-dog-totchos?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/200352/chili-cheese-dog-totchos?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26263,7 +26263,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2019,
                 'isPublished' => 0,
-                'link' => '/recipe/126674/chimichurri-chicken-rice?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126674/chimichurri-chicken-rice?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26276,7 +26276,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2020,
                 'isPublished' => 0,
-                'link' => '/recipe/064083/chimichurri-sauce-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064083/chimichurri-sauce-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26289,7 +26289,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2021,
                 'isPublished' => 0,
-                'link' => '/recipe/069145/chipotle-bean-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/069145/chipotle-bean-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26302,7 +26302,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2022,
                 'isPublished' => 0,
-                'link' => '/recipe/109936/chocolate-chip-cookie-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/109936/chocolate-chip-cookie-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26315,7 +26315,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2023,
                 'isPublished' => 0,
-                'link' => '/recipe/162246/chocolate-ganache-filled-macaroons?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/162246/chocolate-ganache-filled-macaroons?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26328,7 +26328,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2024,
                 'isPublished' => 0,
-                'link' => '/recipe/211978/chocolate-semifreddo?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/211978/chocolate-semifreddo?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26341,7 +26341,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2025,
                 'isPublished' => 0,
-                'link' => '/recipe/148477/chocolate-hazelnut-iced-latte-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/148477/chocolate-hazelnut-iced-latte-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26354,7 +26354,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2026,
                 'isPublished' => 0,
-                'link' => '/recipe/156983/chocolate-raspberry-trifle?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/156983/chocolate-raspberry-trifle?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26367,7 +26367,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2027,
                 'isPublished' => 0,
-                'link' => '/recipe/122159/chocolate-strawberry-parfait-for-two?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/122159/chocolate-strawberry-parfait-for-two?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26380,7 +26380,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2028,
                 'isPublished' => 0,
-                'link' => '/recipe/169167/churro-donuts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/169167/churro-donuts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26393,7 +26393,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2029,
                 'isPublished' => 0,
-                'link' => '/recipe/157022/churros-white-chocolate-peanut-butter-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/157022/churros-white-chocolate-peanut-butter-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26406,7 +26406,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2030,
                 'isPublished' => 0,
-                'link' => '/recipe/114442/cinnamon-raisin-fold-over-sandwiches?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114442/cinnamon-raisin-fold-over-sandwiches?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26419,7 +26419,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2031,
                 'isPublished' => 0,
-                'link' => '/recipe/114681/citrus-herb-cream-cheese-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114681/citrus-herb-cream-cheese-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26432,7 +26432,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2032,
                 'isPublished' => 0,
-                'link' => '/recipe/118210/clubhouse-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118210/clubhouse-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26445,7 +26445,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2033,
                 'isPublished' => 0,
-                'link' => '/recipe/186970/coconut-cheesecake-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/186970/coconut-cheesecake-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26458,7 +26458,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2034,
                 'isPublished' => 0,
-                'link' => '/recipe/123197/coconut-rice-krispies-treats?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123197/coconut-rice-krispies-treats?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26471,7 +26471,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2035,
                 'isPublished' => 0,
-                'link' => '/recipe/063482/coconut-caramel-rice-pudding?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063482/coconut-caramel-rice-pudding?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26484,7 +26484,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2036,
                 'isPublished' => 0,
-                'link' => '/recipe/186143/cod-veggie-foil-pack?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/186143/cod-veggie-foil-pack?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26497,7 +26497,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2037,
                 'isPublished' => 0,
-                'link' => '/recipe/054412/coffee-cordial?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054412/coffee-cordial?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26510,7 +26510,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2038,
                 'isPublished' => 0,
-                'link' => '/recipe/120101/collard-greens-artichoke-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120101/collard-greens-artichoke-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26523,7 +26523,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2039,
                 'isPublished' => 0,
-                'link' => '/recipe/052486/concert-on-the-square-special?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052486/concert-on-the-square-special?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26536,7 +26536,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2040,
                 'isPublished' => 0,
-                'link' => '/recipe/051424/confetti-potatoes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/051424/confetti-potatoes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26549,7 +26549,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2041,
                 'isPublished' => 0,
-                'link' => '/recipe/120131/cookie-cinnamon-snack-mix?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120131/cookie-cinnamon-snack-mix?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26562,7 +26562,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2042,
                 'isPublished' => 0,
-                'link' => '/recipe/118918/cool-creamy-vegetable-bagel-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118918/cool-creamy-vegetable-bagel-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26575,7 +26575,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2043,
                 'isPublished' => 0,
-                'link' => '/recipe/107507/cool-whip-football-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107507/cool-whip-football-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26588,7 +26588,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2044,
                 'isPublished' => 0,
-                'link' => '/recipe/169159/cordon-bleu-chicken-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/169159/cordon-bleu-chicken-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26601,7 +26601,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2045,
                 'isPublished' => 0,
-                'link' => '/recipe/108662/corn-mushroom-crepes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/108662/corn-mushroom-crepes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26614,7 +26614,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2046,
                 'isPublished' => 0,
-                'link' => '/recipe/119294/corn-salmon-chowder-bacon?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/119294/corn-salmon-chowder-bacon?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26627,7 +26627,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2047,
                 'isPublished' => 0,
-                'link' => '/recipe/125160/crab-burgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/125160/crab-burgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26640,7 +26640,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2048,
                 'isPublished' => 0,
-                'link' => '/recipe/179065/crab-rangoon-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/179065/crab-rangoon-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26653,7 +26653,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2049,
                 'isPublished' => 0,
-                'link' => '/recipe/185124/cranberry-cream-cheese-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185124/cranberry-cream-cheese-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26666,7 +26666,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2050,
                 'isPublished' => 0,
-                'link' => '/recipe/199805/cranberry-orange-white-chocolate-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/199805/cranberry-orange-white-chocolate-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26679,7 +26679,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2051,
                 'isPublished' => 0,
-                'link' => '/recipe/055671/cream-cheese-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055671/cream-cheese-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26692,7 +26692,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2052,
                 'isPublished' => 0,
-                'link' => '/recipe/200321/cream-cheese-filled-apple-scones?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/200321/cream-cheese-filled-apple-scones?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26705,7 +26705,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2053,
                 'isPublished' => 0,
-                'link' => '/recipe/200380/cream-of-mushroom-tortellini-soup?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/200380/cream-of-mushroom-tortellini-soup?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26718,7 +26718,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2054,
                 'isPublished' => 0,
-                'link' => '/recipe/207084/creamy-chicken-rice-taco-soup?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/207084/creamy-chicken-rice-taco-soup?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26731,7 +26731,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2055,
                 'isPublished' => 0,
-                'link' => '/recipe/123133/creamy-chive-onion-shrimp-linguine?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123133/creamy-chive-onion-shrimp-linguine?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26744,7 +26744,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2056,
                 'isPublished' => 0,
-                'link' => '/recipe/155067/creamy-eggnog-coffee?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155067/creamy-eggnog-coffee?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26757,7 +26757,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2057,
                 'isPublished' => 0,
-                'link' => '/recipe/184429/creamy-garlic-kale-mashed-potatoes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/184429/creamy-garlic-kale-mashed-potatoes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26770,7 +26770,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2058,
                 'isPublished' => 0,
-                'link' => '/recipe/125128/creamy-gelatin-passion-fruit-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/125128/creamy-gelatin-passion-fruit-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26783,7 +26783,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2059,
                 'isPublished' => 0,
-                'link' => '/recipe/132836/creamy-jigglers-eggs?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/132836/creamy-jigglers-eggs?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26796,7 +26796,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2060,
                 'isPublished' => 0,
-                'link' => '/recipe/155565/gevalia-espresso-one-bowl-brownies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155565/gevalia-espresso-one-bowl-brownies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26809,7 +26809,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2061,
                 'isPublished' => 0,
-                'link' => '/recipe/098084/ginger-cream-meringue-sandwiches?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/098084/ginger-cream-meringue-sandwiches?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26822,7 +26822,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2062,
                 'isPublished' => 0,
-                'link' => '/recipe/062767/gingered-peach-tea-snacks?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062767/gingered-peach-tea-snacks?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26835,7 +26835,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2063,
                 'isPublished' => 0,
-                'link' => '/recipe/127205/gooey-brain-cupcakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127205/gooey-brain-cupcakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26848,7 +26848,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2064,
                 'isPublished' => 0,
-                'link' => '/recipe/143961/gourmet-chipotle-burgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/143961/gourmet-chipotle-burgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26861,7 +26861,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2065,
                 'isPublished' => 0,
-                'link' => '/recipe/053102/gourmet-parmesan-italian-pesto?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053102/gourmet-parmesan-italian-pesto?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26874,7 +26874,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2066,
                 'isPublished' => 0,
-                'link' => '/recipe/054127/grape-nuts-carb-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054127/grape-nuts-carb-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26887,7 +26887,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2067,
                 'isPublished' => 0,
-                'link' => '/recipe/154353/greek-quinoa-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154353/greek-quinoa-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26900,7 +26900,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2068,
                 'isPublished' => 0,
-                'link' => '/recipe/123265/greek-yogurt-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123265/greek-yogurt-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26913,7 +26913,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2069,
                 'isPublished' => 0,
-                'link' => '/recipe/210377/green-bean-casserole-amandine?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/210377/green-bean-casserole-amandine?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26926,7 +26926,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2070,
                 'isPublished' => 0,
-                'link' => '/recipe/091658/green-monster-cupcakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/091658/green-monster-cupcakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26939,7 +26939,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2071,
                 'isPublished' => 0,
-                'link' => '/recipe/212168/grilled-shrimp-boil?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/212168/grilled-shrimp-boil?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26952,7 +26952,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2072,
                 'isPublished' => 0,
-                'link' => '/recipe/114958/grilled-chicken-focaccia?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114958/grilled-chicken-focaccia?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26965,7 +26965,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2073,
                 'isPublished' => 0,
-                'link' => '/recipe/135766/grilled-chicken-patty-melt?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/135766/grilled-chicken-patty-melt?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26978,7 +26978,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2074,
                 'isPublished' => 0,
-                'link' => '/recipe/118519/grilled-chicken-creamy-red-pepper-pasta?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118519/grilled-chicken-creamy-red-pepper-pasta?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -26991,7 +26991,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2075,
                 'isPublished' => 0,
-                'link' => '/recipe/208096/grilled-chicken-strawberry-salsa?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/208096/grilled-chicken-strawberry-salsa?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27004,7 +27004,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2076,
                 'isPublished' => 0,
-                'link' => '/recipe/188911/grilled-ore-ida-tater-tots?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/188911/grilled-ore-ida-tater-tots?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27017,7 +27017,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2077,
                 'isPublished' => 0,
-                'link' => '/recipe/124730/grilled-pork-chops-yucatan-style?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124730/grilled-pork-chops-yucatan-style?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27030,7 +27030,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2078,
                 'isPublished' => 0,
-                'link' => '/recipe/075214/grilled-portobello-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075214/grilled-portobello-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27043,7 +27043,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2079,
                 'isPublished' => 0,
-                'link' => '/recipe/111057/grilled-potato-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111057/grilled-potato-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27056,7 +27056,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2080,
                 'isPublished' => 0,
-                'link' => '/recipe/075259/grilled-tomato-salsa-appetizers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075259/grilled-tomato-salsa-appetizers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27069,7 +27069,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2081,
                 'isPublished' => 0,
-                'link' => '/recipe/179732/grilled-white-chicken-pizza?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/179732/grilled-white-chicken-pizza?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27082,7 +27082,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2082,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00459090/groundhog-day-dessert-groundhogs-like-party-too?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00459090/groundhog-day-dessert-groundhogs-like-party-too?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27095,7 +27095,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2083,
                 'isPublished' => 0,
-                'link' => '/recipe/209900/ham-egg-cheese-brunch-sliders?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/209900/ham-egg-cheese-brunch-sliders?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27108,7 +27108,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2084,
                 'isPublished' => 0,
-                'link' => '/recipe/138551/harvest-turkey-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138551/harvest-turkey-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27121,7 +27121,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2085,
                 'isPublished' => 0,
-                'link' => '/recipe/115014/hawaiian-pineapple-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115014/hawaiian-pineapple-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27134,7 +27134,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2086,
                 'isPublished' => 0,
-                'link' => '/recipe/211232/heart-shaped-meatloaf?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/211232/heart-shaped-meatloaf?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27147,7 +27147,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2087,
                 'isPublished' => 0,
-                'link' => '/recipe/209852/heirloom-tomato-tart?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/209852/heirloom-tomato-tart?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27160,7 +27160,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2088,
                 'isPublished' => 0,
-                'link' => '/recipe/179788/heirloom-tomato-feta-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/179788/heirloom-tomato-feta-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27173,7 +27173,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2089,
                 'isPublished' => 0,
-                'link' => '/recipe/209940/herb-sausage-stuffing?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/209940/herb-sausage-stuffing?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27186,7 +27186,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2090,
                 'isPublished' => 0,
-                'link' => '/recipe/138522/holiday-oreo-bark?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138522/holiday-oreo-bark?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27199,7 +27199,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2091,
                 'isPublished' => 0,
-                'link' => '/recipe/136495/homestyle-signature-potato-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/136495/homestyle-signature-potato-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27212,7 +27212,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2092,
                 'isPublished' => 0,
-                'link' => '/recipe/197375/indian-chicken-tikka-masala?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/197375/indian-chicken-tikka-masala?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27225,7 +27225,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2093,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00351409/italian-spaghetti-a-la-kraft?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00351409/italian-spaghetti-a-la-kraft?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27238,7 +27238,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2094,
                 'isPublished' => 0,
-                'link' => '/recipe/136986/italian-sub-wrap?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/136986/italian-sub-wrap?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27251,7 +27251,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2095,
                 'isPublished' => 0,
-                'link' => '/recipe/163120/italian-style-gumbo-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/163120/italian-style-gumbo-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27264,7 +27264,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2096,
                 'isPublished' => 0,
-                'link' => '/recipe/139051/jack-guac-jibarito?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/139051/jack-guac-jibarito?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27277,7 +27277,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2097,
                 'isPublished' => 0,
-                'link' => '/recipe/162470/jalapeno-pepper-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/162470/jalapeno-pepper-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27290,7 +27290,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2098,
                 'isPublished' => 0,
-                'link' => '/recipe/164215/jell-o-gelatin-berry-dessert?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/164215/jell-o-gelatin-berry-dessert?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27303,7 +27303,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2099,
                 'isPublished' => 0,
-                'link' => '/recipe/175175/jell-o-pudding-cookie-cups?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/175175/jell-o-pudding-cookie-cups?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27316,7 +27316,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2100,
                 'isPublished' => 0,
-                'link' => '/recipe/150057/jell-o-pudding-pops?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/150057/jell-o-pudding-pops?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27329,7 +27329,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2101,
                 'isPublished' => 0,
-                'link' => '/recipe/209950/jell-o-smore-mini-pudding-pops?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/209950/jell-o-smore-mini-pudding-pops?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27342,7 +27342,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2102,
                 'isPublished' => 0,
-                'link' => '/recipe/167438/kool-aid-frosting?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/167438/kool-aid-frosting?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27355,7 +27355,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2103,
                 'isPublished' => 0,
-                'link' => '/recipe/147834/kool-aid-popcorn?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/147834/kool-aid-popcorn?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27368,7 +27368,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2104,
                 'isPublished' => 0,
-                'link' => '/recipe/154716/kool-aid-rainbow-drink?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154716/kool-aid-rainbow-drink?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27381,7 +27381,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2105,
                 'isPublished' => 0,
-                'link' => '/recipe/113070/korean-beef-short-ribs?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/113070/korean-beef-short-ribs?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27394,7 +27394,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2106,
                 'isPublished' => 0,
-                'link' => '/recipe/057100/la-orange-coffee?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/057100/la-orange-coffee?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27407,7 +27407,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2107,
                 'isPublished' => 0,
-                'link' => '/recipe/168170/lasagna-stuffed-spaghetti-squash?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/168170/lasagna-stuffed-spaghetti-squash?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27420,7 +27420,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2108,
                 'isPublished' => 0,
-                'link' => '/recipe/144609/layered-peanut-butter-dessert-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144609/layered-peanut-butter-dessert-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27433,7 +27433,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2109,
                 'isPublished' => 0,
-                'link' => '/recipe/155132/lemon-custard-cream-puff-tree?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155132/lemon-custard-cream-puff-tree?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27446,7 +27446,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2110,
                 'isPublished' => 0,
-                'link' => '/recipe/144460/one-eyed-monster-cupcakes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144460/one-eyed-monster-cupcakes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27459,7 +27459,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2111,
                 'isPublished' => 0,
-                'link' => '/recipe/208095/one-pan-chicken-potatoes-snap-peas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/208095/one-pan-chicken-potatoes-snap-peas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27472,7 +27472,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2112,
                 'isPublished' => 0,
-                'link' => '/recipe/187567/one-pan-roasted-salmon-supper?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/187567/one-pan-roasted-salmon-supper?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27485,7 +27485,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2113,
                 'isPublished' => 0,
-                'link' => '/recipe/127207/oozing-eyeball-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127207/oozing-eyeball-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27498,7 +27498,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2114,
                 'isPublished' => 0,
-                'link' => '/recipe/126802/open-face-patty-melts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126802/open-face-patty-melts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27511,7 +27511,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2115,
                 'isPublished' => 0,
-                'link' => '/recipe/063838/open-faced-grilled-swiss-ham-tomato-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063838/open-faced-grilled-swiss-ham-tomato-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27524,7 +27524,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2116,
                 'isPublished' => 0,
-                'link' => '/recipe/054758/orange-easter-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054758/orange-easter-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27537,7 +27537,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2117,
                 'isPublished' => 0,
-                'link' => '/recipe/094927/orange-pumpkin-mousse-squares?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/094927/orange-pumpkin-mousse-squares?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27550,7 +27550,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2118,
                 'isPublished' => 0,
-                'link' => '/recipe/055788/orangey-angel-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055788/orangey-angel-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27563,7 +27563,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2119,
                 'isPublished' => 0,
-                'link' => '/recipe/095403/oreo-crunch-sundae?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/095403/oreo-crunch-sundae?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27576,7 +27576,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2120,
                 'isPublished' => 0,
-                'link' => '/recipe/144395/oreo-milkshake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144395/oreo-milkshake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27589,7 +27589,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2121,
                 'isPublished' => 0,
-                'link' => '/recipe/185178/pan-roasted-butternut-squash?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185178/pan-roasted-butternut-squash?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27602,7 +27602,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2122,
                 'isPublished' => 0,
-                'link' => '/recipe/162740/pancakes-blueberry-cream-cheese-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/162740/pancakes-blueberry-cream-cheese-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27615,7 +27615,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2123,
                 'isPublished' => 0,
-                'link' => '/recipe/052533/panna-cotta?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052533/panna-cotta?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27628,7 +27628,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2124,
                 'isPublished' => 0,
-                'link' => '/recipe/050974/passover-macaroons-a-citrus-twist?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/050974/passover-macaroons-a-citrus-twist?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27641,7 +27641,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2125,
                 'isPublished' => 0,
-                'link' => '/recipe/210359/pasta-e-fagioli?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/210359/pasta-e-fagioli?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27654,7 +27654,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2126,
                 'isPublished' => 0,
-                'link' => '/recipe/152026/pasta-salad-blue-cheese-walnuts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/152026/pasta-salad-blue-cheese-walnuts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27667,7 +27667,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2127,
                 'isPublished' => 0,
-                'link' => '/recipe/123662/pasta-wilted-greens-crumbles?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123662/pasta-wilted-greens-crumbles?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27680,7 +27680,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2128,
                 'isPublished' => 0,
-                'link' => '/recipe/063358/patagonian-roasted-lamb-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063358/patagonian-roasted-lamb-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27693,7 +27693,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2129,
                 'isPublished' => 0,
-                'link' => '/recipe/190533/peanut-butter-cheesecake-brownies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/190533/peanut-butter-cheesecake-brownies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27706,7 +27706,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2130,
                 'isPublished' => 0,
-                'link' => '/recipe/074187/peanut-butter-creme-cookie-treats?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074187/peanut-butter-creme-cookie-treats?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27719,7 +27719,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2131,
                 'isPublished' => 0,
-                'link' => '/recipe/206750/peanut-butter-mug-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/206750/peanut-butter-mug-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27732,7 +27732,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2132,
                 'isPublished' => 0,
-                'link' => '/recipe/144583/peanut-butter-double-chocolate-chunk-pecan-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144583/peanut-butter-double-chocolate-chunk-pecan-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27745,7 +27745,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2133,
                 'isPublished' => 0,
-                'link' => '/recipe/111229/pear-cheese-plate?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111229/pear-cheese-plate?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27758,7 +27758,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2134,
                 'isPublished' => 0,
-                'link' => '/recipe/051628/peppermint-parfaits?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/051628/peppermint-parfaits?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27771,7 +27771,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2135,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00476669/philadelphia-bagel-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00476669/philadelphia-bagel-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27784,7 +27784,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2136,
                 'isPublished' => 0,
-                'link' => '/recipe/168029/philadelphia-smores-dessert-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/168029/philadelphia-smores-dessert-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27797,7 +27797,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2137,
                 'isPublished' => 0,
-                'link' => '/recipe/146291/philly-cheesesteak-velveeta?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/146291/philly-cheesesteak-velveeta?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27810,7 +27810,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2138,
                 'isPublished' => 0,
-                'link' => '/recipe/057476/pickle-rye-toppers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/057476/pickle-rye-toppers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27823,7 +27823,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2139,
                 'isPublished' => 0,
-                'link' => '/recipe/171657/pineapple-tiramisu?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/171657/pineapple-tiramisu?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27836,7 +27836,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2140,
                 'isPublished' => 0,
-                'link' => '/recipe/211808/pink-sparkling-punch?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/211808/pink-sparkling-punch?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27849,7 +27849,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2141,
                 'isPublished' => 0,
-                'link' => '/recipe/121843/pizza-bread-roasted-tomatoes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121843/pizza-bread-roasted-tomatoes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27862,7 +27862,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2142,
                 'isPublished' => 0,
-                'link' => '/recipe/091503/planters-mr-peanut-100th-anniversary-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/091503/planters-mr-peanut-100th-anniversary-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27875,7 +27875,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2143,
                 'isPublished' => 0,
-                'link' => '/recipe/114644/poached-eggs-in-ancho-tomato-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114644/poached-eggs-in-ancho-tomato-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27888,7 +27888,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2144,
                 'isPublished' => 0,
-                'link' => '/recipe/074416/poblano-refried-bean-burritos?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074416/poblano-refried-bean-burritos?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27901,7 +27901,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2145,
                 'isPublished' => 0,
-                'link' => '/recipe/074412/pork-burritos?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074412/pork-burritos?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27914,7 +27914,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2146,
                 'isPublished' => 0,
-                'link' => '/recipe/109808/pork-picadillo?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/109808/pork-picadillo?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27927,7 +27927,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2147,
                 'isPublished' => 0,
-                'link' => '/recipe/209881/pork-pozole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/209881/pork-pozole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27940,7 +27940,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2148,
                 'isPublished' => 0,
-                'link' => '/recipe/107919/pork-roast-rack-cilantro-honey-glaze?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107919/pork-roast-rack-cilantro-honey-glaze?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27953,7 +27953,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2149,
                 'isPublished' => 0,
-                'link' => '/recipe/069076/posada-platter?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/069076/posada-platter?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27966,7 +27966,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2150,
                 'isPublished' => 0,
-                'link' => '/recipe/053537/pot-roast-vegetables?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053537/pot-roast-vegetables?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27979,7 +27979,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2151,
                 'isPublished' => 0,
-                'link' => '/recipe/120307/potato-gratin-mixed-mushrooms?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120307/potato-gratin-mixed-mushrooms?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -27992,7 +27992,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2152,
                 'isPublished' => 0,
-                'link' => '/recipe/055600/pound-cake-peach-pudding?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055600/pound-cake-peach-pudding?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28005,7 +28005,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2153,
                 'isPublished' => 0,
-                'link' => '/recipe/184764/pumpkin-banana-bread-spiced-cream-cheese-glaze?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/184764/pumpkin-banana-bread-spiced-cream-cheese-glaze?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28018,7 +28018,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2154,
                 'isPublished' => 0,
-                'link' => '/recipe/204028/pumpkin-cheesecake-truffles?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/204028/pumpkin-cheesecake-truffles?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28031,7 +28031,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2155,
                 'isPublished' => 0,
-                'link' => '/recipe/204044/pumpkin-gnocchi-bacon-sage-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/204044/pumpkin-gnocchi-bacon-sage-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28044,7 +28044,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2156,
                 'isPublished' => 0,
-                'link' => '/recipe/185130/pumpkin-eclair-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185130/pumpkin-eclair-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28057,7 +28057,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2157,
                 'isPublished' => 0,
-                'link' => '/recipe/164452/pumpkin-apple-streusel-muffins?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/164452/pumpkin-apple-streusel-muffins?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28070,7 +28070,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2158,
                 'isPublished' => 0,
-                'link' => '/recipe/161366/pumpkin-cranberry-muffins?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/161366/pumpkin-cranberry-muffins?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28083,7 +28083,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2159,
                 'isPublished' => 0,
-                'link' => '/recipe/186455/pumpkin-gingersnap-sandwich-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/186455/pumpkin-gingersnap-sandwich-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28096,7 +28096,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2160,
                 'isPublished' => 0,
-                'link' => '/recipe/118975/smoked-tilapia-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118975/smoked-tilapia-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28109,7 +28109,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2161,
                 'isPublished' => 0,
-                'link' => '/recipe/118704/smoky-swiss-turkey?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118704/smoky-swiss-turkey?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28122,7 +28122,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2162,
                 'isPublished' => 0,
-                'link' => '/recipe/177761/smoky-tomato-chicken-breasts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/177761/smoky-tomato-chicken-breasts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28135,7 +28135,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2163,
                 'isPublished' => 0,
-                'link' => '/recipe/056853/snappy-sausage-cheddar-melts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056853/snappy-sausage-cheddar-melts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28148,7 +28148,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2164,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00393418/snow-on-the-mountain?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00393418/snow-on-the-mountain?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28161,7 +28161,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2165,
                 'isPublished' => 0,
-                'link' => '/recipe/186542/snowflake-sugar-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/186542/snowflake-sugar-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28174,7 +28174,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2166,
                 'isPublished' => 0,
-                'link' => '/recipe/119256/sonoran-style-hot-dog?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/119256/sonoran-style-hot-dog?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28187,7 +28187,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2167,
                 'isPublished' => 0,
-                'link' => '/recipe/053970/southern-custard-pecan-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053970/southern-custard-pecan-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28200,7 +28200,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2168,
                 'isPublished' => 0,
-                'link' => '/recipe/126821/southwest-chicken-panini?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126821/southwest-chicken-panini?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28213,7 +28213,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2169,
                 'isPublished' => 0,
-                'link' => '/recipe/124711/southwest-dog?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124711/southwest-dog?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28226,7 +28226,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2170,
                 'isPublished' => 0,
-                'link' => '/recipe/166348/sparkling-watermelon-mojito-punch?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/166348/sparkling-watermelon-mojito-punch?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28239,7 +28239,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2171,
                 'isPublished' => 0,
-                'link' => '/recipe/118789/spiced-lamb-kabobs-orange-onion-arugula-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118789/spiced-lamb-kabobs-orange-onion-arugula-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28252,7 +28252,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2172,
                 'isPublished' => 0,
-                'link' => '/recipe/050956/spiced-mexican-hot-chocolate?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/050956/spiced-mexican-hot-chocolate?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28265,7 +28265,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2173,
                 'isPublished' => 0,
-                'link' => '/member-recipe/00523827/spicy-bacon-pumpkin-chili?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/member-recipe/00523827/spicy-bacon-pumpkin-chili?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28278,7 +28278,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2174,
                 'isPublished' => 0,
-                'link' => '/recipe/115661/spicy-beef-melts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115661/spicy-beef-melts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28291,7 +28291,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2175,
                 'isPublished' => 0,
-                'link' => '/recipe/169255/spicy-cheesy-mini-meatloaves?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/169255/spicy-cheesy-mini-meatloaves?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28304,7 +28304,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2176,
                 'isPublished' => 0,
-                'link' => '/recipe/195548/spicy-salmon-vegetable-bowl?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/195548/spicy-salmon-vegetable-bowl?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28317,7 +28317,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2177,
                 'isPublished' => 0,
-                'link' => '/recipe/118977/spicy-toasted-pumpkin-seed-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118977/spicy-toasted-pumpkin-seed-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28330,7 +28330,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2178,
                 'isPublished' => 0,
-                'link' => '/recipe/070377/spinach-nests?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/070377/spinach-nests?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28343,7 +28343,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2179,
                 'isPublished' => 0,
-                'link' => '/recipe/106473/spring-cookie-blossoms?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106473/spring-cookie-blossoms?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28356,7 +28356,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2180,
                 'isPublished' => 0,
-                'link' => '/recipe/185120/sriracha-shrimp-endive-appetizers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185120/sriracha-shrimp-endive-appetizers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28369,7 +28369,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2181,
                 'isPublished' => 0,
-                'link' => '/recipe/138536/steak-brandy-peppercorn-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138536/steak-brandy-peppercorn-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28382,7 +28382,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2182,
                 'isPublished' => 0,
-                'link' => '/recipe/169584/stove-top-cranberry-apple-stuffing?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/169584/stove-top-cranberry-apple-stuffing?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28395,7 +28395,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2183,
                 'isPublished' => 0,
-                'link' => '/recipe/169544/stove-top-meat-lovers-stuffing?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/169544/stove-top-meat-lovers-stuffing?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28408,7 +28408,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2184,
                 'isPublished' => 0,
-                'link' => '/recipe/062657/stove-top-stuffing-apples-pecans?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062657/stove-top-stuffing-apples-pecans?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28421,7 +28421,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2185,
                 'isPublished' => 0,
-                'link' => '/recipe/075551/strawberry-arepas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075551/strawberry-arepas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28434,7 +28434,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2186,
                 'isPublished' => 0,
-                'link' => '/recipe/180511/strawberry-cheesecake-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/180511/strawberry-cheesecake-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28447,7 +28447,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2187,
                 'isPublished' => 0,
-                'link' => '/recipe/185224/strawberry-cream-filling-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/185224/strawberry-cream-filling-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28460,7 +28460,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2188,
                 'isPublished' => 0,
-                'link' => '/recipe/144537/strawberry-flan-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144537/strawberry-flan-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28473,7 +28473,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2189,
                 'isPublished' => 0,
-                'link' => '/recipe/055808/strawberry-refresher?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055808/strawberry-refresher?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28486,7 +28486,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2190,
                 'isPublished' => 0,
-                'link' => '/recipe/165409/strawberry-cream-cheese-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/165409/strawberry-cream-cheese-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28499,7 +28499,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2191,
                 'isPublished' => 0,
-                'link' => '/recipe/074985/strawberry-lemonade-summer-slushies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074985/strawberry-lemonade-summer-slushies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28512,7 +28512,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2192,
                 'isPublished' => 0,
-                'link' => '/recipe/064190/strawberry-rhubarb-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064190/strawberry-rhubarb-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28525,7 +28525,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2193,
                 'isPublished' => 0,
-                'link' => '/recipe/115672/stuffed-ancho-chiles?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115672/stuffed-ancho-chiles?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28538,7 +28538,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2194,
                 'isPublished' => 0,
-                'link' => '/recipe/154760/stuffed-pasta-shells-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154760/stuffed-pasta-shells-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28551,7 +28551,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2195,
                 'isPublished' => 0,
-                'link' => '/recipe/107935/stuffed-pork-cutlets?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107935/stuffed-pork-cutlets?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28564,7 +28564,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2196,
                 'isPublished' => 0,
-                'link' => '/recipe/120748/sunshine-citrus-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120748/sunshine-citrus-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28577,7 +28577,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2197,
                 'isPublished' => 0,
-                'link' => '/recipe/152036/super-broccoli-side-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/152036/super-broccoli-side-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28590,7 +28590,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2198,
                 'isPublished' => 0,
-                'link' => '/recipe/184593/super-easy-slow-cooker-pork?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/184593/super-easy-slow-cooker-pork?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28603,7 +28603,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2199,
                 'isPublished' => 0,
-                'link' => '/recipe/113181/super-mini-burgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/113181/super-mini-burgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28616,7 +28616,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2200,
                 'isPublished' => 0,
-                'link' => '/recipe/114625/sushi-style-vegetable-rolls?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114625/sushi-style-vegetable-rolls?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28629,7 +28629,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2201,
                 'isPublished' => 0,
-                'link' => '/recipe/154664/sweet-tangy-bbq-pork-sliders?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/154664/sweet-tangy-bbq-pork-sliders?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28642,7 +28642,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2202,
                 'isPublished' => 0,
-                'link' => '/recipe/110428/sweet-dijon-cheddar-pear-snacks?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110428/sweet-dijon-cheddar-pear-snacks?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28655,7 +28655,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2203,
                 'isPublished' => 0,
-                'link' => '/recipe/123060/sweet-little-fruit-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123060/sweet-little-fruit-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28668,7 +28668,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2204,
                 'isPublished' => 0,
-                'link' => '/recipe/166324/sweet-potato-pie-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/166324/sweet-potato-pie-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28681,7 +28681,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2205,
                 'isPublished' => 0,
-                'link' => '/recipe/065996/taco-sandwich?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/065996/taco-sandwich?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28694,7 +28694,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2206,
                 'isPublished' => 0,
-                'link' => '/recipe/126843/tailgate-turkey-pile-on?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126843/tailgate-turkey-pile-on?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28707,7 +28707,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2207,
                 'isPublished' => 0,
-                'link' => '/recipe/210323/taquito-lasagna-bake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/210323/taquito-lasagna-bake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28720,7 +28720,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2208,
                 'isPublished' => 0,
-                'link' => '/recipe/211704/tex-mex-one-pan-chicken-fajitas?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/211704/tex-mex-one-pan-chicken-fajitas?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28733,7 +28733,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2209,
                 'isPublished' => 0,
-                'link' => '/recipe/191163/tex-mex-tamale-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/191163/tex-mex-tamale-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28746,7 +28746,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2210,
                 'isPublished' => 0,
-                'link' => '/recipe/120203/nutty-oreo-ice-cream-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120203/nutty-oreo-ice-cream-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28759,7 +28759,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2211,
                 'isPublished' => 0,
-                'link' => '/recipe/062437/our-favorite-creamy-pumpkin-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062437/our-favorite-creamy-pumpkin-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28772,7 +28772,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2212,
                 'isPublished' => 0,
-                'link' => '/recipe/143602/spicy-jalapeno-bacon-flatbread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/143602/spicy-jalapeno-bacon-flatbread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28785,7 +28785,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2213,
                 'isPublished' => 0,
-                'link' => '/recipe/091913/chocolate-french-silk-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/091913/chocolate-french-silk-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28798,7 +28798,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2214,
                 'isPublished' => 0,
-                'link' => '/recipe/127864/peanut-butter-cookies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127864/peanut-butter-cookies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28811,7 +28811,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2215,
                 'isPublished' => 0,
-                'link' => '/recipe/076195/praline-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/076195/praline-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28824,7 +28824,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2216,
                 'isPublished' => 0,
-                'link' => '/recipe/196022/creamy-eggplant-parmesan-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/196022/creamy-eggplant-parmesan-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28837,7 +28837,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2217,
                 'isPublished' => 0,
-                'link' => '/recipe/060169/creamy-strawberry-snacks?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/060169/creamy-strawberry-snacks?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28850,7 +28850,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2218,
                 'isPublished' => 0,
-                'link' => '/recipe/133846/easy-potato-skewers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133846/easy-potato-skewers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28863,7 +28863,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2219,
                 'isPublished' => 0,
-                'link' => '/recipe/094446/grey-poupon-filet-mignon-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/094446/grey-poupon-filet-mignon-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28876,7 +28876,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2220,
                 'isPublished' => 0,
-                'link' => '/recipe/133838/tomato-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133838/tomato-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28889,7 +28889,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2221,
                 'isPublished' => 0,
-                'link' => '/recipe/053291/eggnog-trifle?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053291/eggnog-trifle?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28902,7 +28902,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2222,
                 'isPublished' => 0,
-                'link' => '/recipe/056347/chocolate-marshmallow-creme-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056347/chocolate-marshmallow-creme-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28915,7 +28915,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2223,
                 'isPublished' => 0,
-                'link' => '/recipe/052858/creamy-chicken-pastry-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052858/creamy-chicken-pastry-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28928,7 +28928,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2224,
                 'isPublished' => 0,
-                'link' => '/recipe/074685/criollo-shrimp?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/074685/criollo-shrimp?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28941,7 +28941,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2225,
                 'isPublished' => 0,
-                'link' => '/recipe/051386/double-coffee-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/051386/double-coffee-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28954,7 +28954,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2226,
                 'isPublished' => 0,
-                'link' => '/recipe/119300/italian-style-pot-roast?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/119300/italian-style-pot-roast?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28967,7 +28967,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2227,
                 'isPublished' => 0,
-                'link' => '/recipe/120177/spinach-triple-cheese-stuffed-manicotti?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120177/spinach-triple-cheese-stuffed-manicotti?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28980,7 +28980,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2228,
                 'isPublished' => 0,
-                'link' => '/recipe/053803/velvet-chocolate-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053803/velvet-chocolate-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -28993,7 +28993,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2229,
                 'isPublished' => 0,
-                'link' => '/recipe/115039/philadelphia-vanilla-bean-mousse-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115039/philadelphia-vanilla-bean-mousse-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29006,7 +29006,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2230,
                 'isPublished' => 0,
-                'link' => '/recipe/156817/easy-cheddar-funeral-potatoes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/156817/easy-cheddar-funeral-potatoes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29019,7 +29019,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2231,
                 'isPublished' => 0,
-                'link' => '/recipe/159401/sweet-chili-cream-cheese-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/159401/sweet-chili-cream-cheese-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29032,7 +29032,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2232,
                 'isPublished' => 0,
-                'link' => '/recipe/123031/layered-coconut-cream-cheesecake-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123031/layered-coconut-cream-cheesecake-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29045,7 +29045,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2233,
                 'isPublished' => 0,
-                'link' => '/recipe/124705/chocolate-banana-split-dessert?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/124705/chocolate-banana-split-dessert?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29058,7 +29058,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2234,
                 'isPublished' => 0,
-                'link' => '/recipe/106400/layered-strawberry-salad-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/106400/layered-strawberry-salad-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29071,7 +29071,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2235,
                 'isPublished' => 0,
-                'link' => '/recipe/053174/toasted-romano-crostini?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053174/toasted-romano-crostini?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29084,7 +29084,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2236,
                 'isPublished' => 0,
-                'link' => '/recipe/132789/carrot-cake-whoopie-pies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/132789/carrot-cake-whoopie-pies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29097,7 +29097,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2237,
                 'isPublished' => 0,
-                'link' => '/recipe/121836/chicken-biryani-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121836/chicken-biryani-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29110,7 +29110,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2238,
                 'isPublished' => 0,
-                'link' => '/recipe/131238/creamy-baked-cauliflower?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/131238/creamy-baked-cauliflower?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29123,7 +29123,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2239,
                 'isPublished' => 0,
-                'link' => '/recipe/052346/fresh-athenos-salsa?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052346/fresh-athenos-salsa?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29136,7 +29136,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2240,
                 'isPublished' => 0,
-                'link' => '/recipe/127032/fresh-grated-parmesan-meatballs-spaghetti?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127032/fresh-grated-parmesan-meatballs-spaghetti?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29149,7 +29149,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2241,
                 'isPublished' => 0,
-                'link' => '/recipe/139148/sunday-morning-chilaquiles?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/139148/sunday-morning-chilaquiles?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29162,7 +29162,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2242,
                 'isPublished' => 0,
-                'link' => '/recipe/144610/tex-mex-tortilla-pockets?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144610/tex-mex-tortilla-pockets?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29175,7 +29175,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2243,
                 'isPublished' => 0,
-                'link' => '/recipe/075003/two-bite-fried-chicken?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075003/two-bite-fried-chicken?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29188,7 +29188,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2244,
                 'isPublished' => 0,
-                'link' => '/recipe/133036/oreo-ice-cream-sandwich-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/133036/oreo-ice-cream-sandwich-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29201,7 +29201,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2245,
                 'isPublished' => 0,
-                'link' => '/recipe/066265/shrimp-canapes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/066265/shrimp-canapes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29214,7 +29214,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2246,
                 'isPublished' => 0,
-                'link' => '/recipe/144730/velveeta-shepherds-pie-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/144730/velveeta-shepherds-pie-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29227,7 +29227,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2247,
                 'isPublished' => 0,
-                'link' => '/recipe/110854/chocolate-irish-cream-mousse?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110854/chocolate-irish-cream-mousse?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29240,7 +29240,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2248,
                 'isPublished' => 0,
-                'link' => '/recipe/120206/chocolate-peppermint-striped-delight?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120206/chocolate-peppermint-striped-delight?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29253,7 +29253,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2249,
                 'isPublished' => 0,
-                'link' => '/recipe/062576/white-chocolate-cranberry-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062576/white-chocolate-cranberry-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29266,7 +29266,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2250,
                 'isPublished' => 0,
-                'link' => '/recipe/126816/easy-mexican-meatloaves?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126816/easy-mexican-meatloaves?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29279,7 +29279,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2251,
                 'isPublished' => 0,
-                'link' => '/recipe/127774/caramel-apple-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/127774/caramel-apple-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29292,7 +29292,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2252,
                 'isPublished' => 0,
-                'link' => '/recipe/138545/cranberry-apple-pilgrim-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138545/cranberry-apple-pilgrim-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29305,7 +29305,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2253,
                 'isPublished' => 0,
-                'link' => '/recipe/155155/french-onion-meatloaf-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/155155/french-onion-meatloaf-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29318,7 +29318,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2254,
                 'isPublished' => 0,
-                'link' => '/recipe/150207/thanksgiving-leftovers-casserole?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/150207/thanksgiving-leftovers-casserole?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29331,7 +29331,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2255,
                 'isPublished' => 0,
-                'link' => '/recipe/063830/summer-berry-trifle?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/063830/summer-berry-trifle?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29344,7 +29344,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2256,
                 'isPublished' => 0,
-                'link' => '/recipe/062803/classic-california-cobb?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062803/classic-california-cobb?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29357,7 +29357,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2257,
                 'isPublished' => 0,
-                'link' => '/recipe/115941/asparagus-parmesan-tart?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115941/asparagus-parmesan-tart?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29370,7 +29370,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2258,
                 'isPublished' => 0,
-                'link' => '/recipe/128125/apple-cranberry-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/128125/apple-cranberry-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29383,7 +29383,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2259,
                 'isPublished' => 0,
-                'link' => '/recipe/110153/asparagus-tomato-goat-cheese-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110153/asparagus-tomato-goat-cheese-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29396,7 +29396,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2260,
                 'isPublished' => 0,
-                'link' => '/recipe/062457/smothered-ham-n-cheese-griller?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/062457/smothered-ham-n-cheese-griller?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29409,7 +29409,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2261,
                 'isPublished' => 0,
-                'link' => '/recipe/120174/strawberry-cheesecake-ice-cream?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120174/strawberry-cheesecake-ice-cream?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29422,7 +29422,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2262,
                 'isPublished' => 0,
-                'link' => '/recipe/057418/taco-bell-cheesy-bean-dip-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/057418/taco-bell-cheesy-bean-dip-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29435,7 +29435,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2263,
                 'isPublished' => 0,
-                'link' => '/recipe/064391/tropical-fruit-trifle?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064391/tropical-fruit-trifle?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29448,7 +29448,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2264,
                 'isPublished' => 0,
-                'link' => '/recipe/107468/two-minute-banana-pie-cups-for-two?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/107468/two-minute-banana-pie-cups-for-two?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29461,7 +29461,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2265,
                 'isPublished' => 0,
-                'link' => '/recipe/121451/valentines-chocolate-covered-crackers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121451/valentines-chocolate-covered-crackers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29474,7 +29474,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2266,
                 'isPublished' => 0,
-                'link' => '/recipe/052350/holiday-feta-cheese-ball?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052350/holiday-feta-cheese-ball?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29487,7 +29487,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2267,
                 'isPublished' => 0,
-                'link' => '/recipe/056705/white-chocolate-cherry-pecan-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056705/white-chocolate-cherry-pecan-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29500,7 +29500,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2268,
                 'isPublished' => 0,
-                'link' => '/recipe/064856/frozen-strawberry-kiwi-tini?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064856/frozen-strawberry-kiwi-tini?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29513,7 +29513,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2269,
                 'isPublished' => 0,
-                'link' => '/recipe/051315/strawberry-preserve-topped-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/051315/strawberry-preserve-topped-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29526,7 +29526,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2270,
                 'isPublished' => 0,
-                'link' => '/recipe/064893/creamy-mandarin-orange-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064893/creamy-mandarin-orange-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29539,7 +29539,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2271,
                 'isPublished' => 0,
-                'link' => '/recipe/116585/zesty-penne-sausage-peppers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/116585/zesty-penne-sausage-peppers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29552,7 +29552,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2272,
                 'isPublished' => 0,
-                'link' => '/recipe/050315/rainbow-ribbon-mold?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/050315/rainbow-ribbon-mold?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29565,7 +29565,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2273,
                 'isPublished' => 0,
-                'link' => '/recipe/090957/bold-spicy-steak-chipotle-butter?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/090957/bold-spicy-steak-chipotle-butter?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29578,7 +29578,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2274,
                 'isPublished' => 0,
-                'link' => '/recipe/052851/e-z-cannoli-ice-cream-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/052851/e-z-cannoli-ice-cream-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29591,7 +29591,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2275,
                 'isPublished' => 0,
-                'link' => '/recipe/118562/grilled-salsa-melts?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118562/grilled-salsa-melts?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29604,7 +29604,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2276,
                 'isPublished' => 0,
-                'link' => '/recipe/137446/mini-cheese-stuffed-turkey-meatloaves?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/137446/mini-cheese-stuffed-turkey-meatloaves?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29617,7 +29617,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2277,
                 'isPublished' => 0,
-                'link' => '/recipe/116144/special-weeknight-pasta-skillet?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/116144/special-weeknight-pasta-skillet?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29630,7 +29630,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2278,
                 'isPublished' => 0,
-                'link' => '/recipe/138237/crispy-coconut-shrimp-with-dipping-sauce?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/138237/crispy-coconut-shrimp-with-dipping-sauce?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29643,7 +29643,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2279,
                 'isPublished' => 0,
-                'link' => '/recipe/065930/luscious-four-layer-pumpkin-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/065930/luscious-four-layer-pumpkin-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29656,7 +29656,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2280,
                 'isPublished' => 0,
-                'link' => '/recipe/114122/grams-best-brown-sugar-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/114122/grams-best-brown-sugar-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29669,7 +29669,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2281,
                 'isPublished' => 0,
-                'link' => '/recipe/094512/harvest-salad-go?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/094512/harvest-salad-go?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29682,7 +29682,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2282,
                 'isPublished' => 0,
-                'link' => '/recipe/122703/roasted-potatoes?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/122703/roasted-potatoes?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29695,7 +29695,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2283,
                 'isPublished' => 0,
-                'link' => '/recipe/064384/blueberry-croissant-puff?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064384/blueberry-croissant-puff?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29708,7 +29708,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2284,
                 'isPublished' => 0,
-                'link' => '/recipe/095085/easy-oreo-truffles?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/095085/easy-oreo-truffles?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29721,7 +29721,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2285,
                 'isPublished' => 0,
-                'link' => '/recipe/051183/philadelphia-new-york-cheesecake-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/051183/philadelphia-new-york-cheesecake-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29734,7 +29734,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2286,
                 'isPublished' => 0,
-                'link' => '/recipe/064170/construction-birthday-cake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064170/construction-birthday-cake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29747,7 +29747,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2287,
                 'isPublished' => 0,
-                'link' => '/recipe/111215/layered-mousse-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/111215/layered-mousse-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29760,7 +29760,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2288,
                 'isPublished' => 0,
-                'link' => '/recipe/094189/chunky-vegetable-hummus-spread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/094189/chunky-vegetable-hummus-spread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29773,7 +29773,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2289,
                 'isPublished' => 0,
-                'link' => '/recipe/064928/spiked-peach-iced-tea?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/064928/spiked-peach-iced-tea?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29786,7 +29786,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2290,
                 'isPublished' => 0,
-                'link' => '/recipe/115778/tropical-strawberry-cream-pie?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/115778/tropical-strawberry-cream-pie?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29799,7 +29799,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2291,
                 'isPublished' => 0,
-                'link' => '/recipe/121333/bourbon-cheesecake-shots?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121333/bourbon-cheesecake-shots?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29812,7 +29812,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2292,
                 'isPublished' => 0,
-                'link' => '/recipe/054745/double-peanut-bars?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/054745/double-peanut-bars?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29825,7 +29825,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2293,
                 'isPublished' => 0,
-                'link' => '/recipe/150577/easy-cheesy-buffalo-dip?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/150577/easy-cheesy-buffalo-dip?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29838,7 +29838,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2294,
                 'isPublished' => 0,
-                'link' => '/recipe/118013/heirloom-tomato-salad?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118013/heirloom-tomato-salad?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29851,7 +29851,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2295,
                 'isPublished' => 0,
-                'link' => '/recipe/110751/layered-margarita-bites?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/110751/layered-margarita-bites?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29864,7 +29864,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2296,
                 'isPublished' => 0,
-                'link' => '/recipe/121852/saucy-shrimp-a-la-diabla?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/121852/saucy-shrimp-a-la-diabla?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29877,7 +29877,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2297,
                 'isPublished' => 0,
-                'link' => '/recipe/118700/shrimp-orzo-pasta?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/118700/shrimp-orzo-pasta?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29890,7 +29890,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2298,
                 'isPublished' => 0,
-                'link' => '/recipe/056585/sirloin-steak-red-onion-relish?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056585/sirloin-steak-red-onion-relish?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29903,7 +29903,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2299,
                 'isPublished' => 0,
-                'link' => '/recipe/126327/tiramisu-cookie-balls?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/126327/tiramisu-cookie-balls?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29916,7 +29916,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2300,
                 'isPublished' => 0,
-                'link' => '/recipe/060838/tropical-salsa-burgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/060838/tropical-salsa-burgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29929,7 +29929,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2301,
                 'isPublished' => 0,
-                'link' => '/recipe/053441/3d-brownies?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/053441/3d-brownies?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29942,7 +29942,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2302,
                 'isPublished' => 0,
-                'link' => '/recipe/056298/almond-cheesecake?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/056298/almond-cheesecake?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29955,7 +29955,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2303,
                 'isPublished' => 0,
-                'link' => '/recipe/075378/asian-sesame-salad-seared-tuna?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/075378/asian-sesame-salad-seared-tuna?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29968,7 +29968,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2304,
                 'isPublished' => 0,
-                'link' => '/recipe/120758/bacon-wrapped-almond-stuffed-dates?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120758/bacon-wrapped-almond-stuffed-dates?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29981,7 +29981,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2305,
                 'isPublished' => 0,
-                'link' => '/recipe/055215/california-cheeseburgers?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/055215/california-cheeseburgers?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -29994,7 +29994,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2306,
                 'isPublished' => 0,
-                'link' => '/recipe/123139/cheesy-hamburger-pizza?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/123139/cheesy-hamburger-pizza?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -30007,7 +30007,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2307,
                 'isPublished' => 0,
-                'link' => '/recipe/057298/chocolate-swirl-cheesecake-recipe?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/057298/chocolate-swirl-cheesecake-recipe?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -30020,7 +30020,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2308,
                 'isPublished' => 0,
-                'link' => '/recipe/120299/chocolate-glazed-banana-bread?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/120299/chocolate-glazed-banana-bread?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,
@@ -30033,7 +30033,7 @@ class CrawlLinksTableSeeder extends Seeder
             array (
                 'id' => 2309,
                 'isPublished' => 0,
-                'link' => '/recipe/050496/country-ham-apple-sandwiches?categoryid=2',
+                'link' => 'https://www.kraftrecipes.com/recipe/050496/country-ham-apple-sandwiches?categoryid=2',
                 'website' => 'kraftrecipes',
                 'category_id' => NULL,
                 'category_txt' => NULL,

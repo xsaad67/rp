@@ -58,7 +58,7 @@ class CrawlService{
         foreach($scrapeInstructions as $instruction){
             $step = new RecipeInstruction();
             $step->description = $instruction;
-            $step->recipe_id = $recipe->id;
+            $step->recipe_id = $recipeId;
             $step->save();
         }
     }
@@ -68,11 +68,15 @@ class CrawlService{
         foreach($scrapeIngredients as $ingredient){
 
             $recipeIngrident = new RecipeIngridents();
+
+
             $taggedIng =ingredientsToLink($this->ingredientsArray,$ingredient);
             $recipeIngrident->note =  $ingredient;
             $recipeIngrident->displayNote = $taggedIng['note'];
             $recipeIngrident->ingrident = $taggedIng['matched'];
             $recipeIngrident->recipe_id = $recipeId;
+            
+            $recipeIngrident['displayNote'] = \DB::connection()->getPdo()->quote(utf8_encode($recipeIngrident['displayNote']));
             $recipeIngrident->save();
         }
 
@@ -83,7 +87,6 @@ class CrawlService{
 
 		$scrapeRecipe = $this->scrapeJsonSchema($url);
 		$recipe = new Recipe();
-
 	    $recipe->title = issetOrNull($scrapeRecipe->name);
 	    $recipe->description = issetOrNull($scrapeRecipe->description);
 	    $recipe->user_id = rand(1,20);
@@ -91,7 +94,7 @@ class CrawlService{
 	    $recipe->features = ["nutrition"=>issetOrNull($scrapeRecipe->nutrition)];
 	    $recipe->cookingTime= issetOrNull($scrapeRecipe->cookTime);
 	    $recipe->preprationTime = issetOrNull($scrapeRecipe->cookTime);
-	    $recipe->serves = issetOrNull($scrapeRecipe->recipeYield);
+	    $recipe->serves = extractFractionOrNumber(issetOrNull($scrapeRecipe->recipeYield));
 	    $recipe->cuisine_txt = issetOrNull($scrapeRecipe->recipeCuisine);
 	    $recipe->tags = issetOrNull($scrapeRecipe->keywords);
 	    $recipe->category_txt = issetOrNull($scrapeRecipe->recipeCategory);

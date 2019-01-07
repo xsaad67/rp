@@ -5,10 +5,10 @@ use Illuminate\Http\Request;
 
 use App\CrawlLinks;
 use App\Service\Crawl\CrawlService;
+use App\Recipe;
 
 
-
-ini_set('max_execution_time', 180);
+ini_set('max_execution_time', 4800);
 
 class CrawlController extends Controller
 {
@@ -160,26 +160,82 @@ class CrawlController extends Controller
 
 
     public function crawlGeniusKitchen(){
-        $url = "https://www.geniuskitchen.com/recipe/kittencals-moist-cheddar-garlic-oven-fried-chicken-breast-82102";
-        $jsonService = new CrawlService();
-        $isSave = $jsonService->scrapeJsonSchema($url);
-        dd($isSave);
+
+    	$getLinks = CrawlLinks::
+	    				where('isPublished',0)
+						->where('website','geniuskitchen')
+						->take(50)
+						->get();
+
+
+		foreach($getLinks as $url){
+
+					
+	        $jsonService = new CrawlService();
+	        $scrapeRecipe = $jsonService->scrapeJsonSchema($url->link);
+
+	        $recipe = new Recipe();
+		    $recipe->title = issetOrNull($scrapeRecipe->name);
+		    $recipe->description = issetOrNull($scrapeRecipe->description);
+		    $recipe->user_id = rand(1,20);
+		    $recipe->description = issetOrNull($scrapeRecipe->description);
+		    $recipe->features = ["nutrition"=>issetOrNull($scrapeRecipe->nutrition)];
+		    $recipe->cookingTime= issetOrNull($scrapeRecipe->cookTime);
+		    $recipe->preprationTime = issetOrNull($scrapeRecipe->cookTime);
+		    $recipe->serves = extractFractionOrNumber(issetOrNull($scrapeRecipe->recipeYield));
+		    $recipe->cuisine_txt = issetOrNull($scrapeRecipe->recipeCuisine);
+		    $recipe->tags = issetOrNull($scrapeRecipe->keywords);
+		    $recipe->category_txt = issetOrNull($scrapeRecipe->recipeCategory);
+		    $recipe->featuredImage = issetOrNull($scrapeRecipe->image);
+		    $recipe->website =$url->website;
+		    $recipe->source = $url->link;
+	        $isSave = $recipe->save();
+	        
+		    if($isSave){
+
+		        if(isset($scrapeRecipe->recipeIngredient)){
+		            $jsonService->savingIngredients($scrapeRecipe->recipeIngredient,$recipe->id);
+		        }
+
+		        if(isset($scrapeRecipe->recipeInstructions)){
+
+
+	        		$instructions=[];
+		        	foreach($scrapeRecipe->recipeInstructions as $inst){
+		        		$instructions[]=$inst->text;
+		        	}
+
+		            $jsonService->savingInstructions($instructions,$recipe->id);
+		        }
+
+		        if(isset($scrapeRecipe->keywords)){
+		            $jsonService->savingTags($scrapeRecipe->keywords,$recipe->id);
+		        }
+
+		        $url->isPublished=1;
+		        $url->save();
+		    }
+
+
+	   	}//End of getLinks
+
+	   	// return $publishedRecipe;
     }
 
     public function crawlKraftRecipe(){
 
-
     	$getLinks = CrawlLinks::where('isPublished',0)
     							->where('website','kraftrecipes')
-    							->take(2)->get();
+    							->take(50)
+    							->get();
   
     	foreach($getLinks as $url){
 	        $jsonService = new CrawlService();
 	        $isSave = $jsonService->saveJsonRecipe($url->link,$url->website);
-	        dump($isSave);
-	        $getLinks->isPublished=1;
-	        $getLinks->save();
-
+	        if($isSave){		
+		        $url->isPublished=1;
+		        $url->save();
+	        }
     	}
             
     }
