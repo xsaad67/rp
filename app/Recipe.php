@@ -21,13 +21,14 @@ class Recipe extends Model
     protected $with =['chef'];
 
 	public function getLinkAttribute(){
-    	return url("/") . '/recipe/'.$this->slug;
+    	return url("/") . '/recipes/'.$this->slug;
     }
 	
     public function chef(){
     	return $this->belongsTo(User::class,'user_id');
     }
 
+   
     public function ingredients(){
         return $this->hasMany(RecipeIngridents::class);
     }
@@ -44,15 +45,24 @@ class Recipe extends Model
 
 
     public function scopePopular($query,$count=8){
-        return $query->where('isPublished',1)
+        return $query->where('isPublished',0)
                     ->orderBy('views','Desc')
                     ->take($count)
                     ->get();
     }
+    
+
+    public function getImageAttribute(){
+        if (is_null($this->featuredImage)) { 
+                return "placeholder image";
+        }
+        return filter_var($this->featuredImage, FILTER_VALIDATE_URL) ? $this->featuredImage : "hello world";
+    }
 
     public function scopePublished($query){
-        return $query->where('isPublished',1)
-                    ->latest();
+        return $query->where('isPublished',0)
+                    ->oldest()
+                    ->paginate(15);
     }
 
     public function tags()

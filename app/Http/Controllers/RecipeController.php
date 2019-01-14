@@ -28,7 +28,7 @@ class RecipeController extends Controller
     public function index()
     {
 
-        $recipes = Recipe::with('favoriters')->published()->get(); 
+        $recipes = Recipe::with('favoriters')->published(); 
         $featuredRecipes =  Recipe::popular(15);
         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
@@ -112,8 +112,8 @@ class RecipeController extends Controller
      */
     public function show($slug)
     {
-        
-        $recipe = Recipe::with("ingridents")->where('slug',$slug)->firstOrFail();
+        $recipe = Recipe::with("ingredients",'instructions')->where('slug',$slug)->firstOrFail();
+        // return $recipe;                                                                                                  
         return view("recipes.show",compact("recipe"));
     }
 

@@ -4,50 +4,98 @@
 
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/star-rating/star-rating.css')}}">
 
-
-
 <style>
 
+    .custom-container {
+       display: flex;
+       flex-direction: row;
+    }
 
-
+    .custom-container>div {
+        /*height: 100px;*/
+        width: 100%;
+        /*background-color: #b93c2f;*/
+        /*border: 1px solid #626262;*/
+        margin: 3px;
+    }
+    .p-ingredient{
+        margin: 0;
+        padding: 20px;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 16px;
+        padding: 15px 20px 10px 30px;
+    }
+    ol.steps{
+        list-style: none;
+        counter-reset: my-awesome-counter;
+    }
+    ol.steps >li{
+        counter-increment: my-awesome-counter;
+        margin: 0;
+        padding: 20px;
+        border-bottom: 1px solid #e0e0e0;
+        font-size:16px;
+    }   
+    ol.steps >li:before{
+        content: "0" counter(my-awesome-counter);
+        float: left;
+        margin: 0px 13px 0 6px;
+        line-height: 46px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 1;
+        padding-bottom: 2px;
+    }
 </style>
 
 @endsection
 
 @section('content')
 
-    <section class="sub-highlight">
-
-
-        <!-- Detail parallax start -->
-        <div class="parallax-box">
-            <div class="parallax-image" style="background-image: url({{$recipe->featuredImage}});"></div>
-            <article class="post-box">
-                <div class="post-overlay">
-                    <div class="post-overlay-inner">
-                        <a href="#" class="post-category" title="Title of blog post" rel="tag">Technology</a>
-                        <h1 class="post-title">{{$recipe->title}} {{$recipe->id}}</h1>
-                        <div class="post-meta">
-                            <div class="post-meta-author-avatar">
-                                <img alt="avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" class="avatar" height="24" width="24">
-                            </div>
-                            <div class="post-meta-author-info">
-                                <span class="post-meta-author-name">
-                                    <a href="{{$recipe->chef->link}}" title="Posts by John Doe" rel="author">{{$recipe->chef->name}}</a>
-                                </span>
-                                <span class="middot">·</span>
-                                <span class="post-meta-date">
-                                    <abbr class="published updated" title="December 4, 2017">{{$recipe->created_at->diffForHumans()}}</abbr>
-                                </span>
-                            </div>
+    <div class="extra-posts">
+        <div class="extra-post-wrapper">
+            <div class="columns column-2">
+                <article class="extra-post-box">
+                    <a href="#" class="extra-post-link">
+                        <div class="post-image">
+                            <span><img src="img/news-test-images/news-img9.jpg" width="80" height="80"></span>
                         </div>
-                    </div>
-                </div>
-            </article>
+                        <div class="post-title">
+                            Web Design Common Mistakes and Lessons Learned
+                            <span class="post-date">September 14, 2018</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <div class="columns column-2">
+                <article class="extra-post-box">
+                    <a href="#" class="extra-post-link">
+                        <div class="post-image">
+                            <span><img src="img/news-test-images/news-img11.jpg" width="80" height="80"></span>
+                        </div>
+                        <div class="post-title">
+                            Web Design Common Mistakes and Lessons Learned
+                            <span class="post-date">September 14, 2018</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <div class="columns column-2">
+                <article class="extra-post-box">
+                    <a href="#" class="extra-post-link">
+                        <div class="post-image">
+                            <span><img src="img/news-test-images/news-img3.jpg" width="80" height="80"></span>
+                        </div>
+                        <div class="post-title">
+                            Web Design Common Mistakes and Lessons Learned
+                            <span class="post-date">September 14, 2018</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
         </div>
-        <!-- Detail parallax end -->
+    </div>
 
-    </section>
     <section class="main-content">
         <div class="main-content-wrapper">
             <div class="content-body">
@@ -59,70 +107,43 @@
                             <ul>
                                 <li><a href="#"><span>Home</span></a> <i class="material-icons">&#xE315;</i></li>
                                 <li><a href="#"><span>Technology</span></a> <i class="material-icons">&#xE315;</i></li>
-                                <li><span>{{$recipe->title}}</span></li>
+                                <li><span>{{ html_entity_decode($recipe->title) }}</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="article-content"> <!-- adbox120 or adbox160 -->
-                        <div class="article-left-box">
-                            <div class="article-left-box-inner">
-                                <div class="article-share">
-                                    <a href="#" class="facebook"></a>
-                                    <a href="#" class="twitter"></a>
-                                    <a href="#" class="google-plus"></a>
-                                </div>
-                                <span class="add-to-favorite" data-zebra-tooltip title="Ad to favorite">
-                                    <i class="material-icons">&#xE866;</i>
-                                </span>
-                                <ul class="article-emoticons">
-                                    <li>
-                                        <a href="#" class="popular happy"></a><span>13</span>
-                                        <ul>
-                                            <li><a href="#" class="love"></a><span>7</span></li>
-                                            <li><a href="#" class="shocked"></a><span>5</span></li>
-                                            <li><a href="#" class="angry"></a><span>4</span></li>
-                                            <li><a href="#" class="crying"></a><span>1</span></li>
-                                            <li><a href="#" class="sleepy"></a><span>0</span></li>
-                                        </ul>
-                                    </li>                                       
-                                </ul>
-                            </div>
+                        <div class="article-header-title">
+                            <h1 class="article-title">{!! $recipe->title !!}</h1>
                         </div>
+
                         <div class="article-inner">
-                            <div class="article-description">
-                                {{$recipe->description}}
-                            </div>
-                           
-                            <ul>
-                                <li>galley of type and scrambled</li>
-                                <li>text of the printing</li>
-                                <li>lorem Ipsum has been the industry</li>
-                                <li>and more recently with desktop</li>
-                            </ul>
-                           
-                          
-                            <!-- article sources area start -->
-                            <div class="article-source-box">
-                                <div class="source-item">
-                                    <span class="source-subtitle">Source : </span>
-                                    <span class="source-url">https://themeforest.net/item/ideabox-mobile-web-ui-template/20489553</span>
+                            <figure>
+                                <img src="{{$recipe->image}}">
+                            </figure>
+                            <div class="custom-container">
+                                <div>
+                                    <h2>Ingredients</h2>
+                                    
+                                        @foreach($recipe->ingredients as $ingredient)
+                                            <p class="p-ingredient">
+                                                {!! $ingredient->note !!}
+                                            </p>
+
+                                        @endforeach
+                                  
                                 </div>
-                                <div class="source-item">
-                                    <span class="source-subtitle">Source : </span>
-                                    <span class="source-url">https://help.market.envato.com/hc/en-us/articles/202499864-How-to-Withdraw-Earnings</span>
+
+                                <div>
+                                    <h2>Instructions</h2>
+                                        <ol class="steps">
+                                            @foreach($recipe->instructions as $instruction)
+                                                <li>{{$instruction->description}}</li>
+                                            @endforeach
+                                        </ol>
                                 </div>
                             </div>
-                            <!-- article sources area end -->
-                            
-                            <!-- article tags area start -->
-                            <div class="article-tags">
-                                <span class="tag-subtitle">Tags : </span>
-                                <a href="#">theme</a><span class="tag-dot"></span>
-                                <a href="#">template</a><span class="tag-dot"></span>
-                                <a href="#">mobile ui</a>
-                            </div>
-                            <!-- article tags area end -->
                         </div>
+                       
 
                         <!--this is important for the left ad box or share box fixer -->
                         <div id="endOfTheArticle"></div>
@@ -265,10 +286,8 @@
 
                     </div>
                 </article>
-                
-
             </div>
-            @include('layouts.main-sidebar')
+            @include('layouts.content-sidebar')
         </div>
     </section>
     
@@ -279,32 +298,26 @@
 
 <script type="text/javascript" src="{{asset('plugins/star-rating/star-rating.min.js')}}"></script>
 <script>
-
-   
-
     $(function(){
-
-        printToast();
-
 
         //Initialize Rating plugin
 
-        var rating = "";
-        var recipeId = "{{$recipe->id}}";
+            var rating = "";
+            var recipeId = "{{$recipe->id}}";
 
-        var reviewLink = "/reviews/recipe/"+recipeId;
+            var reviewLink = "/reviews/recipe/"+recipeId;
 
-        $(".my-rating").starRating({
-          totalStars: 5,
-          starShape: 'rounded',
-          starSize: 40,
-          activeColor: '#000',
-          disableAfterRate: false,
-            onLeave: function(currentIndex, currentRating, $el){
-              rating = currentRating;
+            $(".my-rating").starRating({
+              totalStars: 5,
+              starShape: 'rounded',
+              starSize: 40,
+              activeColor: '#000',
+              disableAfterRate: false,
+                onLeave: function(currentIndex, currentRating, $el){
+                  rating = currentRating;
 
-            }
-        });
+                }
+            });
 
         //Ends Initialize
         
@@ -317,29 +330,27 @@
 
 
         $("#reviewBtn").click(function(){
+            $("#reviewTxt").val();
+            $.ajax({
+                type:'POST',
+                url:reviewLink,
+                data:{ rating: rating, review: $("#reviewTxt").val() },
+                context: this,
+                success:function(data){
+                    $(".all-comments").prepend(data.html);
+                    loadStarSvg();
         
-        $("#reviewTxt").val();
+                },
+                error: function (xhr) {
+                   $('#validation-errors').html('');
+                   $.each(xhr.responseJSON.errors, function(key,value) {
+                     $('#validation-errors').append('<div class="alert alert-danger">'+value+'</div');
+                 }); 
+                },
+            });
 
-        $.ajax({
-            type:'POST',
-            url:reviewLink,
-            data:{ rating: rating, review: $("#reviewTxt").val() },
-            context: this,
-            success:function(data){
-                $(".all-comments").prepend(data.html);
-                loadStarSvg();
-    
-            },
-            error: function (xhr) {
-               $('#validation-errors').html('');
-               $.each(xhr.responseJSON.errors, function(key,value) {
-                 $('#validation-errors').append('<div class="alert alert-danger">'+value+'</div');
-             }); 
-            },
         });
 
-        
-        });
     });
 </script>
 

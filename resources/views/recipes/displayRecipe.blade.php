@@ -2,7 +2,7 @@
 
 <div class="col-lg-3 d-flex align-items-stretch" style="margin-bottom:25px;" >
     <div class="card shadow-sm shadow--hover " style="width:100%;">
-        <img alt="Image placeholder" src="{{asset('img/any.jpg')}}" class="card-img-top">
+        <img alt="Image placeholder" src="{{$recipe->image}}" class="card-img-top">
         <div class="card-body row">
 
             <a href="{{$recipe->link}}" class="col-12 text-truncate no-padding">{{$recipe->title}}</a>

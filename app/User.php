@@ -43,7 +43,6 @@ class User extends Authenticatable
     }
 
     public function getAvatarAttribute(){
-
          return is_null($this->dp) ? \Avatar::create($this->name)->setBorder(0,'adf'): asset('img/avatars/'.$this->dp);
     }
     
