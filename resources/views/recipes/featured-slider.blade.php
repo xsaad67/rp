@@ -8,9 +8,9 @@
                 
                 <div class="item">
 
-                    <article class="post-box" style="background-image: url(/img/news-test-images/news-img5.jpg);">
+                    <article class="post-box lazy" style="background-image: url({{$featured->image}});">
                         <div class="post-overlay">
-                            <a href="#" class="post-category" title="Title of blog post" rel="tag">{{$key}}</a>
+                            {{-- <a href="" class="post-category" title="Title of blog post" rel="tag"</a> --}}
                             <h3 class="post-title">{{$featured->title}}</h3>
                             <div class="post-meta">
                                 <div class="post-meta-author-avatar">
@@ -18,7 +18,7 @@
                                 </div>
                                 <div class="post-meta-author-info">
                                     <span class="post-meta-author-name">
-                                        {{-- <a href="{{$recipe->chef->link}}" title="Posts by John Doe" rel="author">John Doe</a> --}}
+                                        <a href="{{$featured->chef->link}}" title="Posts by John Doe" rel="author">John Doe</a>
                                     </span>
                                     <span class="middot">·</span>
                                     <span class="post-meta-date">
@@ -30,7 +30,7 @@
 
                             </div>
                         </div>
-                        <a href="#" class="post-overlayLink"></a>
+                        <a href="{{$featured->link}}" class="post-overlayLink"></a>
                     </article>
                 </div>
                 @php

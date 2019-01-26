@@ -546,7 +546,7 @@ a{
 *------------------------------------------------------------------*/
 .main-container{
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 80px;
 }
 .main-highlight{
 	height: auto;
@@ -1857,7 +1857,6 @@ a{
 }
 
 .article-inner{
-	margin-left: 80px;
 	margin-bottom: 30px;
 }
 .article-description{
@@ -2871,3 +2870,5 @@ textarea.frm-input{
 .item-rated > .jq-star{
     cursor:inherit !important;
 }
+.color-red{color: #c22c4b;}
+.color-purple{color: #84408d;}

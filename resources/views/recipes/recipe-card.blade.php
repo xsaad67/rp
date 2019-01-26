@@ -2,12 +2,13 @@
     <div class="post-list-item">
         <div class="post-top">
             <img class="post-image lazy" data-src="{{$recipe->image}}">
-             <span class="cornerimage unfavorite" data-zebra-tooltip="" title="Add to favorite">
+            {{-- @php dump($recipe->favorite) @endphp --}}
+             <a href="javascript:void(0)" class="cornerimage {{ $recipe->favoriters->contains('id',auth()->id()) ? 'favorited' : 'favorite' }}" data-id="{{$recipe->id}}">
                 <i class="material-icons">favorite</i>
-            </span>
+            </a>
             <h3 class="post-title">
                 <a href="{{$recipe->link}}">
-                    <span>{!! $recipe->title !!}</span>
+                    <span>{{ $recipe->title }}</span>
                 </a>
             </h3>
         </div>

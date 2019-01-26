@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\RecipeIngridents;
 use App\Recipe;
+use App\Search;
 
 class SearchController extends Controller
 {
@@ -24,12 +25,21 @@ class SearchController extends Controller
                     
     	if(!empty($recipeIng)){
     		$ingredientRecipes = Recipe::whereIn('id',$recipeIng)->get();
-    		 
     	}
         $searchCount = count($recipes) + count($ingredientRecipes);
+
+        $search = new Search();
+        $search->ip = $request->ip();
+        if(auth()->check()){
+            $search->ip = auth()->id();
+            $search->isGuest = 0;
+        }
+        $search->keyword = $request->search;
+        $search->resultCount = $searchCount;
+        
+        $search->save();
+
         return view('pages.search',compact('recipes','ingredientRecipes','searchCount'));
-
-
     }
 
 

@@ -23,7 +23,8 @@ class RatingController extends Controller
      */
     public function index()
     {
-        //
+        $user = auth()->user();
+        return $user;
     }
 
     /**

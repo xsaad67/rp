@@ -27,9 +27,9 @@ class RecipeController extends Controller
      */
     public function index()
     {
-
-        $recipes = Recipe::with('favoriters')->published(); 
-        $featuredRecipes =  Recipe::popular(15);
+        $recipes = Recipe::with('favoriters')->published()->oldest()->paginate(); 
+        // return $recipes;
+        $featuredRecipes =  Recipe::inRandomOrder()->take(15)->get();;
         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
@@ -53,8 +53,6 @@ class RecipeController extends Controller
     {
 
         $userId = is_null(auth()->id()) ? 1 : auth()->id();
-
-        
 
         $photo = $request->file('image');
         $saveName = sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
@@ -113,7 +111,9 @@ class RecipeController extends Controller
     public function show($slug)
     {
         $recipe = Recipe::with("ingredients",'instructions')->where('slug',$slug)->firstOrFail();
-        // return $recipe;                                                                                                  
+        // return $recipe->id;
+        // dd($recipe->averageRating);
+        return $recipe;                                                                                       
         return view("recipes.show",compact("recipe"));
     }
 

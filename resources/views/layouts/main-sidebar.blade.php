@@ -9,9 +9,8 @@
 
             @php
                if(!isset($featuredRecipes)){
-                    $featuredRecipes = App\Recipe::popular()->take(5)->get();
+                    $featuredRecipes = \App\Recipe::popular();
                }
-               $i=1;
             @endphp 
              
             <ul class="w-post-list">
@@ -21,15 +20,14 @@
                     <a href="#">
                         <div class="w-post-image">
                             <img src="/img/news-test-images/news-img1.jpg" width="80" height="80">
-                            <span>{{$i}}</span>
+                            <span>{{$loop->iteration}}</span>
                         </div>
                         <div class="w-post-content">
                             <span class="w-post-title">{{$featured->title}}</span>
-                            <span class="w-post-views">356 views</span>
+                            <span class="w-post-views">{{$featured->views}} {{ str_plural("view",$featured->views) }}</span>
                         </div>
                     </a>
                 </li>
-                    @php $i++; @endphp
                 @endforeach
             </ul>
         </div>

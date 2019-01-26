@@ -74,6 +74,7 @@ if(!function_exists('getDomainName')){
 *
 **/
 
+
 if(!function_exists('ingredientsToLink')){
 
 function ingredientsToLink($ingredients,$string){

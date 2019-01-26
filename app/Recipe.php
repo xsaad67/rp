@@ -5,11 +5,12 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Overtrue\LaravelFollow\Traits\CanBeFavorited;
 use App\Traits\Sluggable;
+use App\Traits\Rateable;
 
 class Recipe extends Model
 {
 
-    use CanBeFavorited, Sluggable;
+    use CanBeFavorited, Sluggable,Rateable;
   
     public function sluggable() {
         return [ 'source' => 'title' ];
@@ -38,10 +39,7 @@ class Recipe extends Model
     	return $this->hasMany(RecipeInstruction::class);
     }
 
-    public function ratings(){
-        return $this->morphMany('App\Rating','rateable')->newest();
-    }
-
+   
 
 
     public function scopePopular($query,$count=8){
@@ -60,14 +58,16 @@ class Recipe extends Model
     }
 
     public function scopePublished($query){
-        return $query->where('isPublished',0)
-                    ->oldest()
-                    ->paginate(15);
+        return $query->where('isPublished',0);
     }
 
     public function tags()
     {
         return $this->morphToMany('App\Tag', 'taggable');
     }
-   
+    
+    public function getTitleAttribute(){
+        return htmlspecialchars_decode($this->attributes['title']);
+    }
+
 }

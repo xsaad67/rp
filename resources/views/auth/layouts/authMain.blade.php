@@ -12,7 +12,25 @@
     @yield('css')
 </head>
 <body>
+	 <div class="form-body">
+        <div class="website-logo">
+            <a href="{{url('/')}}">
+                <div class="logo">
+                    <img class="logo-size" src="/img/logo.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <img src="img/chef.png" alt="">
+                </div>
+            </div>
    @yield('content')
+
+   </div>
+    </div>
 <script src="/js/jquery-3.2.1.min.js"></script>
 <script src="/js/popper.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>

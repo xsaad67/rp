@@ -1,5 +1,13 @@
 @extends('layouts.main')
 
+@section('css')
+
+<style>
+    ul.pagination{
+        display:none !important;
+    }
+</style>
+@endsection
 
 @section('content')
         
@@ -9,33 +17,32 @@
         <section class="main-content">
             <div class="main-content-wrapper">
                 <div class="content-body">
-                    <div class="content-timeline">
+                    <div class="content-timeline"> 
                         <!--Timeline header area start -->
                         <div class="post-list-header">
-                            <span class="post-list-title alert alert-success">Latest stories</span>
-                            <select class="frm-input">
+                            <span class="post-list-title alert alert-success">Latest Recipes</span>
+                            {{-- <select class="frm-input">
                                 <option value="1">Technology</option>
                                 <option value="1">Book</option>
                                 <option value="1">Cinema</option>
-                            </select>
+                            </select> --}}
                         </div>
                       
                         <div class="post-lists">
-                            @foreach($recipes as $recipe)
-                                @include('recipes.recipe-card')
+                            <div class="infinite-scroll">
+                                @foreach($recipes as $recipe)
+                                    @include('recipes.recipe-card')
+                                @endforeach
 
-                            @endforeach
+                            {{$recipes->links()}}
+                            </div>
+
 
                         </div>
                         <!--Timeline items end -->
 
                         <!--Data load more button start  -->
-                        <div class="load-more">
-                            <button class="load-more-button material-button" type="button">
-                                <i class="material-icons">&#xE5D5;</i>
-                                <span>Load More</span>
-                            </button>
-                        </div>
+                       
                         <!--Data load more button start  -->
                     </div>
 
@@ -57,7 +64,7 @@
 
 @section('footer')
 
-
+    <script type="text/javascript" src="{{asset('js/jscroll.min.js')}}"></script>
     <script type="text/javascript">
 
         //Owl carousel initializing
@@ -92,9 +99,48 @@
             dots:true,
             nav:false,
             items:1
-        })
+        });
 
+        $(function() {
+            // $('.infinite-scroll').jscroll({
+            //     autoTrigger: true,
+            //     debug : true,
+            //     loadingHtml: ' <div class="load-more"><img src="{{asset('images/loading.gif')}}"></div>',
+            //     padding: 0,
+            //     nextSelector: '.pagination li.active + li a',
+            //     contentSelector: 'div.infinite-scroll',
+            //     callback: function() {
+            //         $('ul.pagination').remove();
+            //     }
+            // });
+            $(".cornerimage").click(function(){
+                var id = $(this).data("id");
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                    }
+                });
+
+                $.ajax({
+                    type:'POST',
+                    url: '{{action('FollowableController@favorite')}}',
+                    data:{id:id},
+                    context: this,
+                    success:function(data){
+                        if(data.unauth==1){
+                            showLoginForm();
+                        }                        
+
+                        $(this).attr('class','cornerimage '+data.class);
+                        
+                        console.log(data);
+                    }
+                });
+            });
+        });
+
+        function showLoginForm(){
+            window.location.replace("/login");
+        }
     </script>
-
-
 @endsection

@@ -24,28 +24,16 @@ Route::prefix('recipes')->group(function() {
     Route::post('/delete/{recipe}','RecipeController@delete');
 });
 
-
 Route::resource('cuisines','CuisineController');
 Route::resource('meals','CategoryController');
 
-Route::prefix('crawl')->group(function () {
-    Route::get("/kraft","CrawlController@crawlKraftRecipe");
-    Route::get('/genius','CrawlController@crawlGeniusKitchen');
-});
-
-
-
-Route::prefix('page')->group(function () {
-    Route::post('/newsletter','NewsLetterController@store');
-    Route::post('/unsub','NewsLetterController@destroy');
-});
-
 
 Route::group(['prefix' => 'member/', 'middleware' => ['auth']], function(){
+    Route::post('/reviews/{model}/{id}','RatingController@store');
     Route::get('reviews','RatingController@index');
-    Route::post('/{model}/{id}','RatingController@store');
-    Route::get('/edit/{user}','ProfileController@edit');
-    Route::get('/update/{user}','ProfileController@update');
+    Route::get('favorites','FollowableController@listFavorite');
+    Route::get('/edit/','ProfileController@edit');
+    Route::get('/profile/update/','ProfileController@update');
 });
 
 
@@ -72,5 +60,17 @@ Route::group(['prefix' => 'area51', 'middleware' => ['admin']], function(){
     Route::resource("/recipes","Admin\RecipeController");
 });
 
+
+
+Route::prefix('crawl')->group(function () {
+    Route::get("/kraft","CrawlController@crawlKraftRecipe");
+    Route::get('/genius','CrawlController@crawlGeniusKitchen');
+});
+
+
+Route::prefix('page')->group(function () {
+    Route::post('/newsletter','NewsLetterController@store');
+    Route::post('/unsub','NewsLetterController@destroy');
+});
 
 Route::get('/home', 'HomeController@index')->name('home');

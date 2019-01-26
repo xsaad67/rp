@@ -12,11 +12,17 @@
     }
 
     .custom-container>div {
-        /*height: 100px;*/
         width: 100%;
-        /*background-color: #b93c2f;*/
-        /*border: 1px solid #626262;*/
         margin: 3px;
+    }
+    .p-ingredient > a{
+        text-decoration: none;
+        font-weight: 600;
+
+    }
+    .p-ingredient >a:hover{
+        font-size:18px;
+        color:#84408d;
     }
     .p-ingredient{
         margin: 0;
@@ -33,11 +39,11 @@
         counter-increment: my-awesome-counter;
         margin: 0;
         padding: 20px;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px dotted #bdb6b7;
         font-size:16px;
     }   
     ol.steps >li:before{
-        content: "0" counter(my-awesome-counter);
+        content: counter(my-awesome-counter);
         float: left;
         margin: 0px 13px 0 6px;
         line-height: 46px;
@@ -45,7 +51,87 @@
         font-weight: 700;
         line-height: 1;
         padding-bottom: 2px;
+        color:#84408d;
     }
+
+.user-avatar {
+    position: relative;
+}
+.user-avatar{
+    margin-right: 0;
+    width: auto;
+    display: block;
+    padding-right: 0;
+}
+.user-avatar > a{
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-font-smoothing: antialiased;
+    transition: transform .3s,box-shadow .3s;
+    top:-50px;
+    left:45%;
+    position:absolute;
+}
+.user-avatar > a:hover{
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+
+}
+.user-avatar > a> img{
+    border-radius: 50%;
+    margin: 0;
+    border: 3px solid #84408d;
+    max-width: 100px;
+}
+.featuredMedia{
+    width:100%;
+    box-shadow: 0 0 7px rgba(0,0,0,.25);
+    border-radius: 5px;
+    max-height:350px;
+}
+.author-info{
+    margin-top:60px;
+    font-size:16px;
+    font-weight:600;
+}
+.author-info > a.name{
+    font-weight: 700;
+    font-size:18px;
+    text-decoration: none;
+}
+.author-info > a.name:hover{
+    font-size:22px;
+}
+.cm-1{
+    margin-top:15px;
+}
+.single-meta{
+    background-color: #ecf6f6;
+    padding: 10px 0px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+}
+.single-meta ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+.single-meta ul li{
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    padding: 0 16px;
+}
+.single-meta ul li:last-child {
+   border-right: 0;
+}
+.single-meta ul li span{
+    vertical-align: middle;
+        color: #7d4294;
+    font-weight: 600;
+}
 </style>
 
 @endsection
@@ -108,33 +194,75 @@
                                 <li><a href="#"><span>Home</span></a> <i class="material-icons">&#xE315;</i></li>
                                 <li><a href="#"><span>Technology</span></a> <i class="material-icons">&#xE315;</i></li>
                                 <li><span>{{ html_entity_decode($recipe->title) }}</span></li>
+
                             </ul>
                         </div>
                     </div>
-                    <div class="article-content"> <!-- adbox120 or adbox160 -->
+                    <div class="article-content"> 
                         <div class="article-header-title">
-                            <h1 class="article-title">{!! $recipe->title !!}</h1>
+                            
                         </div>
 
                         <div class="article-inner">
                             <figure>
-                                <img src="{{$recipe->image}}">
+                                <img src="{{$recipe->image}}" class="featuredMedia">
                             </figure>
+
+
+                            <div class="user-avatar">
+                                <a href="//www.foodnetwork.com/profiles/talent/ina-garten" class="user-avatar">
+                                    <img class="o-Attribution__a-Image" src="/images/avatars/avatar-0B0B183A-3F37-674D-0A69-B8AF3B67A19E-1544945290.jpg">
+                                </a>
+                            </div>
+
+                            <div class="txt-center author-info">
+                                Recipe by <a href="{{$recipe->chef->link}}" class="name color-red"> {{ucwords($recipe->chef->name)}} 
+                                </a>
+                            </div>
+
+                            <div class="txt-center article-header-title cm-1">
+                                <h1 class="article-title">{!! $recipe->title !!}</h1>
+                                <p class="description"><i>{!! $recipe->description !!}</i></p>
+                            </div>
+
+
+                            <div class="single-meta">
+
+                                <ul>
+                                    <li class="single-meta-cooking-time">
+                                        <b>Prep:</b>
+                                        <span>{{ \Carbon\CarbonInterval::make($recipe->preprationTime)->forHumans() }}</span>
+                                    </li>
+
+                                    <li class="single-meta-serves">
+                                        <b>Serves:</b>
+                                        <span>{{$recipe->serves}} {{ str_plural("serving", $recipe->serves) }}</span>
+                                    </li>   
+
+                                    <li class="single-meta-difficulty">
+                                        <b>Cook Time: </b>
+                                        <span>{{ \Carbon\CarbonInterval::make($recipe->cookingTime)->forHumans() }}</span>
+                                    </li>     
+
+
+                                </ul>
+
+                            </div>
+
                             <div class="custom-container">
                                 <div>
-                                    <h2>Ingredients</h2>
-                                    
+                                    <h2 class="txt-center color-red">Ingredients</h2>
                                         @foreach($recipe->ingredients as $ingredient)
                                             <p class="p-ingredient">
-                                                {!! $ingredient->note !!}
+                                               
+                                                {!! preg_replace('/\b'.$ingredient->ingrident.'\b/', '<a href="/ingredient/'.$ingredient->ingrident.'">'.$ingredient->ingrident.'</a>', trim(strtolower($ingredient->note))) !!}    
                                             </p>
-
                                         @endforeach
                                   
                                 </div>
 
                                 <div>
-                                    <h2>Instructions</h2>
+                                    <h2 class="txt-center color-red">Instructions</h2>
                                         <ol class="steps">
                                             @foreach($recipe->instructions as $instruction)
                                                 <li>{{$instruction->description}}</li>
@@ -305,7 +433,7 @@
             var rating = "";
             var recipeId = "{{$recipe->id}}";
 
-            var reviewLink = "/reviews/recipe/"+recipeId;
+            var reviewLink = "/member/reviews/recipe/"+recipeId;
 
             $(".my-rating").starRating({
               totalStars: 5,

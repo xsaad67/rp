@@ -51,6 +51,10 @@ class User extends Authenticatable
     }
 
     public function isAdmin(){
-        return $user->is_admin ==1 ? TRUE : FALSE;
+        return $this->is_admin ==1 ? TRUE : FALSE;
+    }
+
+    public function rated(){
+        return $this->
     }
 }
