@@ -111,10 +111,9 @@ class RecipeController extends Controller
     public function show($slug)
     {
         $recipe = Recipe::with("ingredients",'instructions')->where('slug',$slug)->firstOrFail();
-        // return $recipe->id;
-        // dd($recipe->averageRating);
-        // return $recipe;                                                                                       
-        return view("recipes.show",compact("recipe"));
+        $preprationTime=checkIso($recipe->preprationTime);
+        $cookingTime = checkIso($recipe->cookingTime);                                                                                 
+        return view("recipes.show",compact("recipe",'preprationTime','cookingTime'));
     }
 
     /**

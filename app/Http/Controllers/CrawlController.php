@@ -221,7 +221,7 @@ class CrawlController extends Controller
 	   	// return $publishedRecipe;
     }
 
-    public function crawlKraftRecipe(){
+    public function crawlKraftRecipe(){ 
 
     	$getLinks = CrawlLinks::where('isPublished',0)
     							->where('website','kraftrecipes')

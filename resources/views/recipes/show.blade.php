@@ -192,7 +192,6 @@
                         <div class="breadcrumb">
                             <ul>
                                 <li><a href="#"><span>Home</span></a> <i class="material-icons">&#xE315;</i></li>
-                                <li><a href="#"><span>Technology</span></a> <i class="material-icons">&#xE315;</i></li>
                                 <li><span>{{ html_entity_decode($recipe->title) }}</span></li>
 
                             </ul>
@@ -229,20 +228,26 @@
                             <div class="single-meta">
 
                                 <ul>
-                                    <li class="single-meta-cooking-time">
-                                        <b>Prep:</b>
-                                        <span>{{ \Carbon\CarbonInterval::make($recipe->preprationTime)->forHumans() }}</span>
-                                    </li>
+                                    @if(!is_null($preprationTime))
+
+                                        <li class="single-meta-cooking-time">
+                                            <b>Prep:</b>
+                                            <span>{{$preprationTime}}</span>
+                                        </li>
+
+                                    @endif
 
                                     <li class="single-meta-serves">
                                         <b>Serves:</b>
                                         <span>{{$recipe->serves}} {{ str_plural("serving", $recipe->serves) }}</span>
                                     </li>   
+                                    @if(!is_null($cookingTime))
 
-                                    <li class="single-meta-difficulty">
-                                        <b>Cook Time: </b>
-                                        <span>{{ \Carbon\CarbonInterval::make($recipe->cookingTime)->forHumans() }}</span>
-                                    </li>     
+                                        <li class="single-meta-difficulty">
+                                            <b>Cook Time: </b>
+                                            <span>{{$cookingTime}}</span>
+                                        </li>   
+                                    @endif  
 
 
                                 </ul>
@@ -415,7 +420,7 @@
                     </div>
                 </article>
             </div>
-            @include('layouts.content-sidebar')
+            @include('layouts.main-sidebar')
         </div>
     </section>
     
