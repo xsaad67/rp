@@ -18,6 +18,17 @@ use App\Taggable;
 class CrawlService{
 
 	private $ingredientsArray;
+
+	public function uploadImgur($image){
+        $upload = new \App\Service\Upload\Imgur();
+        try{
+            $im = $upload->upload($image);
+            $imgurImage = $im->link();
+        }catch(\Exception $ex){
+            return $image;
+        }
+        return $imgurImage;
+    }
 	
 	public function __construct(){
 	    $this->ingredientsArray = Ingrident::pluck("name","slug");

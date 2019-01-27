@@ -9,7 +9,7 @@
 
             @php
                if(!isset($featuredRecipes)){
-                    $featuredRecipes = \App\Recipe::popular();
+                    $featuredRecipes = \App\Recipe::popular(5);
                }
             @endphp 
              

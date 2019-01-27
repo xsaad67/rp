@@ -63,6 +63,7 @@ Route::group(['prefix' => 'area51', 'middleware' => ['admin']], function(){
 
 
 Route::prefix('crawl')->group(function () {
+    Route::get('/','CrawlController@index');
     Route::get("/kraft","CrawlController@crawlKraftRecipe");
     Route::get('/genius','CrawlController@crawlGeniusKitchen');
 });

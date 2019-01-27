@@ -85,6 +85,8 @@ function ingredientsToLink($ingredients,$string){
         if(preg_match('/\b'.$ing.'\b/',$string,$matches)){
         	$matchedWord = $matches[0];
             $url = "<a href='/ingridients/".urlencode(trim($ingKey))."'>".trim($ing)."</a>";
+
+            $url = "<a href='/ingridients/".urlencode(trim($ingKey))."'>".trim($ing)."</a>";
             $string= str_replace($ing," ".$url." ",$string);
         }
 

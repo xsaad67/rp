@@ -20,4 +20,7 @@ class Rating extends Model
     public function scopeNewest($query){
         return $query->orderBy('created_at','Desc');
     }
+
+   
+
 }

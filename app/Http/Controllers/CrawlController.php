@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\CrawlLinks;
 use App\Service\Crawl\CrawlService;
 use App\Recipe;
+use App\Service\Upload\Imgur;
 
 
 ini_set('max_execution_time', 4800);
@@ -13,13 +14,6 @@ ini_set('max_execution_time', 4800);
 class CrawlController extends Controller
 {
     private $ingredientsArray;
-
-   
-
-    
-  
-
-
 
     public function epicriciousSingle(){
 
@@ -57,9 +51,14 @@ class CrawlController extends Controller
                 $link->save();
             }
 
-        }
-    	
-         
+        }  
+    }
+
+
+   
+
+    public function index(){
+      dd( $this->uploadImgur("https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/89/72/z1waTloRRUeZkdkAPS7A_rvcc1.jpg"));
     }
 
     public function getIng(){

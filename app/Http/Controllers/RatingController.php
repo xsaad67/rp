@@ -23,9 +23,13 @@ class RatingController extends Controller
      */
     public function index()
     {
-        $user = auth()->user();
-        return $user;
-    }
+        $ratings = Rating::with('rateable')
+                    ->where('user_id',auth()->id())
+                    ->where('rateable_type','App\Recipe')
+                    ->get();
+                    
+        return view("reviews.index",compact("ratings"));
+    }  
 
     /**
      * Show the form for creating a new resource.

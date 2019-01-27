@@ -113,7 +113,7 @@ class RecipeController extends Controller
         $recipe = Recipe::with("ingredients",'instructions')->where('slug',$slug)->firstOrFail();
         // return $recipe->id;
         // dd($recipe->averageRating);
-        return $recipe;                                                                                       
+        // return $recipe;                                                                                       
         return view("recipes.show",compact("recipe"));
     }
 
