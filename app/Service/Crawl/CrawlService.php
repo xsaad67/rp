@@ -12,6 +12,7 @@ use App\RecipeIngridents;
 use App\Cuisine;
 use App\Tag;
 use App\Taggable;
+use App\Category;
 
 
 
@@ -19,19 +20,20 @@ class CrawlService{
 
 	private $ingredientsArray;
 
-	public function uploadImgur($image){
-        $upload = new \App\Service\Upload\Imgur();
-        try{
-            $im = $upload->upload($image);
-            $imgurImage = $im->link();
-        }catch(\Exception $ex){
-            return $image;
-        }
-        return $imgurImage;
-    }
 	
 	public function __construct(){
 	    $this->ingredientsArray = Ingrident::pluck("name","slug");
+	}
+
+	public function isCuisineExist($cuisineName)
+	{
+		$cuisine = Cuisine::where('name','LIKE','%'.$cuisineName.'%')->first();
+		return is_null($cuisine) ? NULL : $cuisine->id;
+	}
+	public function isCategoryExist($categoryName)
+	{
+		$category = Category::where('name','LIKE','%'.$categoryName.'%')->first();
+		return is_null($category) ? NULL : $category->id;
 	}
 
 	public function scrapeJsonSchema($url,$lookUp = 0){
@@ -79,22 +81,37 @@ class CrawlService{
         foreach($scrapeIngredients as $ingredient){
 
             $recipeIngrident = new RecipeIngridents();
-
-
             $taggedIng =ingredientsToLink($this->ingredientsArray,$ingredient);
             $recipeIngrident->note =  $ingredient;
             $recipeIngrident->displayNote = $taggedIng['note'];
             $recipeIngrident->ingrident = $taggedIng['matched'];
             $recipeIngrident->recipe_id = $recipeId;
             
-            $recipeIngrident['displayNote'] = \DB::connection()->getPdo()->quote(utf8_encode($recipeIngrident['displayNote']));
             $recipeIngrident->save();
         }
+    }
 
+     public function afterSave($isSave,$recipeId,$recipeIngredient,$recipeInstruction,$keywords)
+    {
+        if($isSave){
+        	
+            if(isset($recipeIngredient)){
+                $this->savingIngredients($recipeIngredient,$recipeId);
+            }
+
+            if(isset($recipeInstruction)){
+                $this->savingInstructions($recipeInstruction,$recipeId);
+            }
+
+            if(isset($keywords)){
+                $this->savingTags($keywords,$recipeId);
+            }
+            return true;
+        }
     }
 
 
-	public function SaveJsonRecipe($url,$website){
+	public function SaveJsonRecipe($url,$website,$recipeIngredient,$recipeInstruction,$keywords){
 
 		$scrapeRecipe = $this->scrapeJsonSchema($url);
 		$recipe = new Recipe();
@@ -116,15 +133,15 @@ class CrawlService{
 	    $isSave = $recipe->save();
 
 	    if($isSave){
-	        if(isset($scrapeRecipe->recipeIngredient)){
+	        if(isset($recipeIngredient)){
 	            $this->savingIngredients($scrapeRecipe->recipeIngredient,$recipe->id);
 	        }
 
-	        if(isset($scrapeRecipe->recipeInstruction)){
+	        if(isset($recipeInstruction)){
 	            $this->savingIngredients($scrapeRecipe->recipeIngredient,$recipe->id);
 	        }
 
-	        if(isset($scrapeRecipe->keywords)){
+	        if(isset($keywords)){
 	            $this->savingTags($scrapeRecipe->keywords,$recipe->id);
 	        }
 	        return true;
