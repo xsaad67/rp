@@ -27,6 +27,7 @@ class CreateRecipesTable extends Migration
             $table->string('serves')->nullable();
             $table->string('preprationTime')->nullable();
             $table->string('cookingTime')->nullable();
+            $table->string('totalTime')->nullable();
             $table->string('cookingTemprature')->nullable();
             $table->string('featuredImage')->nullable();
             $table->longText('tags')->nullable();

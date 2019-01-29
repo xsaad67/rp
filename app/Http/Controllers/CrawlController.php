@@ -4,9 +4,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\CrawlLinks;
-use App\Service\Crawl\CrawlService;
+ use App\Service\Crawl\CrawlService;
 use App\Recipe;
 use App\Service\Upload\Imgur;
+use App\Service\Crawl\CrawlJson;
 
 
 ini_set('max_execution_time', 4800);
@@ -14,6 +15,16 @@ ini_set('max_execution_time', 4800);
 class CrawlController extends Controller
 {
     private $ingredientsArray;
+
+    public function index(){
+
+        $service = new CrawlJson();
+        $json = $service->saveFoodNetwork("https://www.foodnetwork.com/recipes/a-bologna-calamari-scallops-and-clams-with-roasted-fingerlings-and-arugula-salad-recipe-2040576");
+        dd($json);
+       
+    }
+
+   
 
     public function epicriciousSingle(){
 
@@ -55,30 +66,6 @@ class CrawlController extends Controller
     }
 
 
-   
-
-    public function index(){
-      dd( $this->uploadImgur("https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/89/72/z1waTloRRUeZkdkAPS7A_rvcc1.jpg"));
-    }
-
-    public function getIng(){
-
-
-
-            $page = "http://recipe.localhost/ing";
-
-            $crawler = Goutte::request('GET', $page);
-            $crawler->filter("p.ing")->each(function($node) {
-               // echo $node->text();
-
-                $ing = new Ingrident();
-                $ing->name=$node->text();
-                $ing->parent_id=request('q');
-                $ing->save();
-
-            });
-    }
-
     public function getCat()
     {
 
@@ -92,36 +79,6 @@ class CrawlController extends Controller
 
             $cat = Category::firstOrNew(['name'=>$catName]);
             $cat->save();
-
-        });
-    }
-
-    /**
-    *   This method is to crawl campbells recipe categories 
-    *    But Right now in no use just maintaining it for legacy 
-    *    so in future if supposed to have a need
-    *
-    **/
-    public function campbellsRecipeCategory(){
-
-        $link = "https://www.campbells.com/kitchen/categories/";
-
-        $crawler = Goutte::request('GET',$link);
-        $crawler->filter('div.other-category')->eq(2)->each(function($node){
-
-            $catName = ucwords(strtolower($node->filter('p.category-title')->text()));
-            // dd($catName);
-            $parent = Category::firstOrNew(['name'=>$catName]);
-            $parent->save();
-            $parent_id = $parent->id;
-
-            $node->filter('ul > li > a')->each(function($hello) use($parent_id){
-                $cat = Category::firstOrNew(['name'=>$hello->text()]);
-                $cat->parent_id=$parent_id;
-                $cat->save();
-                dump($hello->text());
-            });
-
 
         });
     }
@@ -144,9 +101,6 @@ class CrawlController extends Controller
         });
         
     }
-
-
-
 
 
     public function crawlFoodNetwork()
@@ -191,14 +145,11 @@ class CrawlController extends Controller
 	        $isSave = $recipe->save();
 	        
 		    if($isSave){
-
 		        if(isset($scrapeRecipe->recipeIngredient)){
 		            $jsonService->savingIngredients($scrapeRecipe->recipeIngredient,$recipe->id);
 		        }
 
 		        if(isset($scrapeRecipe->recipeInstructions)){
-
-
 	        		$instructions=[];
 		        	foreach($scrapeRecipe->recipeInstructions as $inst){
 		        		$instructions[]=$inst->text;
@@ -214,8 +165,6 @@ class CrawlController extends Controller
 		        $url->isPublished=1;
 		        $url->save();
 		    }
-
-
 	   	}//End of getLinks
 
 	   	// return $publishedRecipe;
