@@ -110,10 +110,11 @@ class RecipeController extends Controller
      */
     public function show($slug)
     {
+        $featuredRecipes =  Recipe::inRandomOrder()->take(15)->get();;
         $recipe = Recipe::with("ingredients",'instructions')->where('slug',$slug)->firstOrFail();
         $preprationTime=checkIso($recipe->preprationTime);
         $cookingTime = checkIso($recipe->cookingTime);                                                                                 
-        return view("recipes.show",compact("recipe",'preprationTime','cookingTime'));
+        return view("recipes.show",compact("recipe",'preprationTime','cookingTime','featuredRecipes'));
     }
 
     /**

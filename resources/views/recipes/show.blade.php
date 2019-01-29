@@ -140,45 +140,25 @@
 
     <div class="extra-posts">
         <div class="extra-post-wrapper">
-            <div class="columns column-2">
-                <article class="extra-post-box">
-                    <a href="#" class="extra-post-link">
-                        <div class="post-image">
-                            <span><img src="img/news-test-images/news-img9.jpg" width="80" height="80"></span>
-                        </div>
-                        <div class="post-title">
-                            Web Design Common Mistakes and Lessons Learned
-                            <span class="post-date">September 14, 2018</span>
-                        </div>
-                    </a>
-                </article>
-            </div>
-            <div class="columns column-2">
-                <article class="extra-post-box">
-                    <a href="#" class="extra-post-link">
-                        <div class="post-image">
-                            <span><img src="img/news-test-images/news-img11.jpg" width="80" height="80"></span>
-                        </div>
-                        <div class="post-title">
-                            Web Design Common Mistakes and Lessons Learned
-                            <span class="post-date">September 14, 2018</span>
-                        </div>
-                    </a>
-                </article>
-            </div>
-            <div class="columns column-2">
-                <article class="extra-post-box">
-                    <a href="#" class="extra-post-link">
-                        <div class="post-image">
-                            <span><img src="img/news-test-images/news-img3.jpg" width="80" height="80"></span>
-                        </div>
-                        <div class="post-title">
-                            Web Design Common Mistakes and Lessons Learned
-                            <span class="post-date">September 14, 2018</span>
-                        </div>
-                    </a>
-                </article>
-            </div>
+            @foreach($featuredRecipes as $key=>$featured)
+                <div class="columns column-2 ">
+                    <article class="extra-post-box">
+                        <a href="#" class="extra-post-link">
+                            <div class="post-image">
+                                <span><img src="{{$featured->image}}" width="80" height="80"></span>
+                            </div>
+                            <div class="post-title">
+                                {{$featured->title}}
+                                <span class="post-date">{{$featured->created_at->diffForHumans()}}</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+            @php $featuredRecipes->forget($key); if($key==2){break;} @endphp
+
+            @endforeach
+          
         </div>
     </div>
 
@@ -267,7 +247,7 @@
                                 </div>
 
                                 <div>
-                                    <h2 class="txt-center color-red">Instructions</h2>
+                                    <h2 class="txt-center color-red">Instructions {{$recipe->source}}</h2>
                                         <ol class="steps">
                                             @foreach($recipe->instructions as $instruction)
                                                 <li>{{$instruction->description}}</li>
@@ -288,83 +268,34 @@
                                 <div class="w-seperator"></div>
                             </div>
                             <div class="more-posts">
-                                <div class="columns column-2">
+                                @foreach($featuredRecipes as $key=>$featured)
+                                    <div class="columns column-2">
 
-                                    <article class="post-box" style="background-image: url(/img/news-test-images/news-img5.jpg);">
-                                        <div class="post-overlay">
-                                            <a href="#" class="post-category" title="Title of blog post" rel="tag">Technology</a>
-                                            <h3 class="post-title">Slipknot’s Concert in Phoenix Showed Why Mayhem Fest Died</h3>
-                                            <div class="post-meta">
-                                                <div class="post-meta-author-avatar">
-                                                    <img alt="avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" class="avatar" height="24" width="24">
-                                                </div>
-                                                <div class="post-meta-author-info">
-                                                    <span class="post-meta-author-name">
-                                                        <a href="#" title="Posts by John Doe" rel="author">John Doe</a>
-                                                    </span>
-                                                    <span class="middot">·</span>
-                                                    <span class="post-meta-date">
-                                                        <abbr class="published updated" title="December 4, 2017">12 November 2018</abbr>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="#" class="post-overlayLink"></a>
-                                    </article>
-
-                                </div>
-                                <div class="columns column-2">
-
-                                    <article class="post-box" style="background-image: url(/img/news-test-images/news-img1.jpg);">
-                                        <div class="post-overlay">
-                                            <a href="#" class="post-category" title="Title of blog post" rel="tag">Technology</a>
-                                            <h3 class="post-title">Slipknot’s Concert in Phoenix Showed Why Mayhem Fest Died</h3>
-                                            <div class="post-meta">
-                                                <div class="post-meta-author-avatar">
-                                                    <img alt="avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" class="avatar" height="24" width="24">
-                                                </div>
-                                                <div class="post-meta-author-info">
-                                                    <span class="post-meta-author-name">
-                                                        <a href="#" title="Posts by John Doe" rel="author">John Doe</a>
-                                                    </span>
-                                                    <span class="middot">·</span>
-                                                    <span class="post-meta-date">
-                                                        <abbr class="published updated" title="December 4, 2017">12 November 2018</abbr>
-                                                    </span>
+                                        <article class="post-box" style="background-image: url({{$featured->image}});">
+                                            <div class="post-overlay">
+                                                <h3 class="post-title">{{$featured->title}}</h3>
+                                                <div class="post-meta">
+                                                    <div class="post-meta-author-avatar">
+                                                        <img alt="avatar" src="{{$featured->chef->dp}}" class="avatar" height="24" width="24">
+                                                    </div>
+                                                    <div class="post-meta-author-info">
+                                                        <span class="post-meta-author-name">
+                                                            <a href="{{$featured->chef->link}}" title="Posts by {{$featured->chef->name}}" rel="author">{{$featured->chef->name}}</a>
+                                                        </span>
+                                                        <span class="middot">·</span>
+                                                        <span class="post-meta-date">
+                                                            <abbr class="published updated" title="{{$featured->created_at->diffForHumans()}}">{{$featured->created_at->diffForHumans()}}</abbr>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <a href="#" class="post-overlayLink"></a>
-                                    </article>
+                                            <a href="#" class="post-overlayLink"></a>
+                                        </article>
+                                    </div>
 
-                                </div>
-                                <div class="columns column-2">
-
-                                    <article class="post-box" style="background-image: url(/img/news-test-images/news-img6.jpg);">
-                                        <div class="post-overlay">
-                                            <a href="#" class="post-category" title="Title of blog post" rel="tag">Technology</a>
-                                            <h3 class="post-title">Slipknot’s Concert in Phoenix Showed Why Mayhem Fest Died</h3>
-                                            <div class="post-meta">
-                                                <div class="post-meta-author-avatar">
-                                                    <img alt="avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" class="avatar" height="24" width="24">
-                                                </div>
-                                                <div class="post-meta-author-info">
-                                                    <span class="post-meta-author-name">
-                                                        <a href="#" title="Posts by John Doe" rel="author">John Doe</a>
-                                                    </span>
-                                                    <span class="middot">·</span>
-                                                    <span class="post-meta-date">
-                                                        <abbr class="published updated" title="December 4, 2017">12 November 2018</abbr>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="#" class="post-overlayLink"></a>
-                                    </article>
-
-                                </div>
-                                
-
+                                @if($loop->iteration===3) @php break; @endphp @endif
+                                @endforeach
+                            
                             </div>
                         </div>
                         <!-- More article unit end -->
