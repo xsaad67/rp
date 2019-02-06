@@ -29,7 +29,7 @@ class CreateRecipesTable extends Migration
             $table->string('cookingTime')->nullable();
             $table->string('totalTime')->nullable();
             $table->string('cookingTemprature')->nullable();
-            $table->string('featuredImage')->nullable();
+            $table->text('featuredImage')->nullable();
             $table->longText('tags')->nullable();
             $table->longText('features')->nullable();
             $table->longText('dirtyIng')->nullable()->comment('will be removed once design changed');

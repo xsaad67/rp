@@ -6,9 +6,11 @@ use App\Recipe;
 
 class CrawlJson extends CrawlService{
 
+
 	public function saveKraftRecipe($url,$website="kraftrecipes"){
 
 		$scrapeRecipe = $this->scrapeJsonSchema($url);
+		if(is_null($scrapeRecipe)){return;}
 		$recipe = new Recipe();
 	    $recipe->title = issetOrNull($scrapeRecipe->name);
 	    $recipe->category_id = $this->isCategoryExist(issetOrNull($scrapeRecipe->recipeCategory));
@@ -45,8 +47,8 @@ class CrawlJson extends CrawlService{
 
 	public function saveGeniusKitchen($url,$website="geniuskitchen"){
 
-	  	$jsonService = new CrawlService();
-        $scrapeRecipe = $jsonService->scrapeJsonSchema($url);
+        $scrapeRecipe = $this->scrapeJsonSchema($url);
+        if(is_null($scrapeRecipe)){return;}
         $recipe = new Recipe();
 	    $recipe->title = issetOrNull($scrapeRecipe->name);
 	    $recipe->category_id = $this->isCategoryExist(issetOrNull($scrapeRecipe->recipeCategory));
@@ -86,6 +88,7 @@ class CrawlJson extends CrawlService{
 
 		$jsonService = new CrawlService();
         $scrapeRecipe = $jsonService->scrapeJsonSchema($url);
+        if(is_null($scrapeRecipe)){return;}
         $recipe = new Recipe();
 	    $recipe->title = issetOrNull($scrapeRecipe->name);
 	    $recipe->category_id = $this->isCategoryExist(issetOrNull($scrapeRecipe->recipeCategory));

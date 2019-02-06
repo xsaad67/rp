@@ -19,7 +19,9 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->longText('body');
-            $table->integer('postType')->default(1);
+            $table->string('featuredImage')->nullable();
+            $table->boolean('postType')->default(1)->comment("1 for Post 0 for for pages");
+            $table->boolean('isMenu')->default(0);
             $table->string('featured')->nullable();
             $table->timestamps();
         });

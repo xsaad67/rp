@@ -19,4 +19,8 @@ class Tag extends Model
     {
         return $this->morphedByMany('App\Recipe', 'taggable')->withTimestamps();
     }
+
+    public function getLinkAttribute(){
+    	return url("/tags/".$this->slug);
+    }
 }

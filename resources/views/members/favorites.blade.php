@@ -8,18 +8,26 @@
                     <div class="content-timeline"> 
                         <!--Timeline header area start -->
                         <div class="post-list-header">
-                            <span class="post-list-title alert alert-success">Your Favorites</span>
+                            <div class="post-list-title alert alert-success txt-center">Your Favorites</div>
                            
                         </div>
                       
                         <div class="post-lists">
                             <div class="infinite-scroll">
-                                @foreach($favorites as $recipe)
-                                    @include('recipes.recipe-card')
+                                @forelse($favorites as $recipe)
+                                    {{-- @include('recipes.recipe-card') --}}
+                                @empty
+                                    <div class="alert alert-warning">
+                                       <h3 class="txt-center">Barm! You don't have favorited anything yet  <i class="material-icons">free_breakfast</i>  </h3>
+                                        <p class="txt-center">
+                                            <button class="bg-transparent btn btn-danger text-grey-darkest font-bold uppercase tracking-wide py-3 px-6 border-2 border-grey-light hover:border-grey rounded-lg">Go Home</button>
+                                        </p>
+                                    </div>
+                                
 
-                                @endforeach
+                                @endforelse
 
-                            {{-- {{$recipes->links()}} --}}
+                            
                             </div>
 
 

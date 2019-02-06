@@ -11,6 +11,7 @@ use App\Service\Crawl\CrawlJson;
 
 
 ini_set('max_execution_time', 4800);
+ini_set('memory_limit', '1024M');
 
 class CrawlController extends Controller
 {
@@ -66,41 +67,7 @@ class CrawlController extends Controller
     }
 
 
-    public function getCat()
-    {
-
-        $link = "https://myfoodbook.com.au/recipes/categories?sort_by=name&sort_order=DESC";
-        $crawler = Goutte::request('GET',$link);
-
-        $crawler->filter('div.field-item > h2 > a')->each(function($node){
-
-
-            $catName = ucwords(strtolower($node->text()));
-
-            $cat = Category::firstOrNew(['name'=>$catName]);
-            $cat->save();
-
-        });
-    }
-
-
-
-    public function getCuisine()
-    {
-        $link = "https://www.listchallenges.com/world-cuisines";
-
-        $crawler = Goutte::request('GET',$link);
-
-        $crawler->filter('div.item-name')->each(function($node){
-
-            $cuiName = trim(str_replace(" Food","", $node->text()));
-
-            $cuisine = \App\Cuisine::firstOrNew(['name'=>$cuiName]);
-            $cuisine->save();
-            dump($cuiName); 
-        });
-        
-    }
+  
 
 
     public function crawlFoodNetwork()
@@ -114,60 +81,25 @@ class CrawlController extends Controller
 
     public function crawlGeniusKitchen(){
 
-    	$getLinks = CrawlLinks::
-	    				where('isPublished',0)
-						->where('website','geniuskitchen')
-						->take(50)
-						->get();
+        // $service = new CrawlJson();
+        // $endResult = $service->saveGeniusKitchen("https://www.geniuskitchen.com/recipe/laundry-detergent-powder-76779");
 
+    	$getLinks = CrawlLinks::where('isPublished',0)->where('website','geniuskitchen')
+                    ->chunk(50,function($links){
+                        foreach($links as $key => $link){
+                            $service = new CrawlJson();
+                            $endResult = $service->saveGeniusKitchen($link->link);
+                            if($endResult){
+                                $link->isPublished=1;
+                                $link->save();
+                            }
+                            echo $link->link;
+                            echo "<br>";
+                           
+                        }
+                    });
+ 
 
-		foreach($getLinks as $url){
-
-					
-	        $jsonService = new CrawlService();
-	        $scrapeRecipe = $jsonService->scrapeJsonSchema($url->link);
-
-	        $recipe = new Recipe();
-		    $recipe->title = issetOrNull($scrapeRecipe->name);
-		    $recipe->description = issetOrNull($scrapeRecipe->description);
-		    $recipe->user_id = rand(1,20);
-		    $recipe->description = issetOrNull($scrapeRecipe->description);
-		    $recipe->features = ["nutrition"=>issetOrNull($scrapeRecipe->nutrition)];
-		    $recipe->cookingTime= issetOrNull($scrapeRecipe->cookTime);
-		    $recipe->preprationTime = issetOrNull($scrapeRecipe->cookTime);
-		    $recipe->serves = extractFractionOrNumber(issetOrNull($scrapeRecipe->recipeYield));
-		    $recipe->cuisine_txt = issetOrNull($scrapeRecipe->recipeCuisine);
-		    $recipe->tags = issetOrNull($scrapeRecipe->keywords);
-		    $recipe->category_txt = issetOrNull($scrapeRecipe->recipeCategory);
-		    $recipe->featuredImage = issetOrNull($scrapeRecipe->image);
-		    $recipe->website =$url->website;
-		    $recipe->source = $url->link;
-	        $isSave = $recipe->save();
-	        
-		    if($isSave){
-		        if(isset($scrapeRecipe->recipeIngredient)){
-		            $jsonService->savingIngredients($scrapeRecipe->recipeIngredient,$recipe->id);
-		        }
-
-		        if(isset($scrapeRecipe->recipeInstructions)){
-	        		$instructions=[];
-		        	foreach($scrapeRecipe->recipeInstructions as $inst){
-		        		$instructions[]=$inst->text;
-		        	}
-
-		            $jsonService->savingInstructions($instructions,$recipe->id);
-		        }
-
-		        if(isset($scrapeRecipe->keywords)){
-		            $jsonService->savingTags($scrapeRecipe->keywords,$recipe->id);
-		        }
-
-		        $url->isPublished=1;
-		        $url->save();
-		    }
-	   	}//End of getLinks
-
-	   	// return $publishedRecipe;
     }
 
     public function crawlKraftRecipe(){ 

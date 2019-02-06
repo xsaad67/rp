@@ -73,15 +73,17 @@
         @csrf
         <div class="container">
             <h1 class="text-center mb-50" style="color:#cd283f;">Create Your amazing Recipe</h1>
+            
             @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-@endif
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
             <div class="row row-grid">
                 <div class="col-lg-4 order-last order-sm-0">
 
@@ -270,7 +272,7 @@
 @section('footer')
 
 <script src="/asset/js/upload-preview.min.js"></script>
-<script src="/plugins/dirty/dirty.min.js"></script>
+{{-- <script src="/plugins/dirty/dirty.min.js"></script> --}}
 <script type="text/javascript">
 $(document).ready(function() {
 

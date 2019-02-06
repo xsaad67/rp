@@ -4,7 +4,9 @@
         <div class="top-bar">
           <!-- .top-bar-brand -->
           <div class="top-bar-brand">
-            <a href="index.html"><img src="/member/images/brand-inverse.png" alt="" style="height: 32px;width: auto;"></a>
+            <a href="index.html">
+              {{env('APP_NAME')}}
+            </a>
           </div><!-- /.top-bar-brand -->
           <!-- .top-bar-list -->
           <div class="top-bar-list">

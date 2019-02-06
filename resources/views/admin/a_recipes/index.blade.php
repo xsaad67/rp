@@ -1,6 +1,5 @@
 @extends('admin.a_layouts.admin_main')
 
-
 @section('css')
 
 @endsection

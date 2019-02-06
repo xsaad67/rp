@@ -75,6 +75,6 @@
     <!-- BEGIN THEME JS -->
     <script src="/member/javascript/theme.min.js"></script> <!-- END THEME JS -->
     
-    @yield('footer')
+    @yield('js')
   </body>
 </html>

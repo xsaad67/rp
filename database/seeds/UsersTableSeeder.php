@@ -917,6 +917,21 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2018-12-16 07:28:51',
                 'updated_at' => '2018-12-16 07:28:51',
             ),
+            60 => 
+            array (
+                'id' => 60,
+                'name' => 'Jon Doe',
+                'dp' => 'main.jpg',
+                'slug' => 'jon-doe',
+                'email' => 'jondoe@admin.com',
+                'password' => '$2y$10$1PY6StCs.nnCXw9CTfoUUOqJkDTLpQfNckxO6SjyIxRcY2gy4AH3S',
+                'isAdmin' => 1,
+                'bio' => NULL,
+                'social' => NULL,
+                'remember_token' => NULL,
+                'created_at' => '2018-12-16 07:28:51',
+                'updated_at' => '2018-12-16 07:28:51',
+            ),
         ));
         
         

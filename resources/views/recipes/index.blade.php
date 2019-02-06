@@ -21,11 +21,7 @@
                         <!--Timeline header area start -->
                         <div class="post-list-header">
                             <span class="post-list-title alert alert-success">Latest Recipes</span>
-                            {{-- <select class="frm-input">
-                                <option value="1">Technology</option>
-                                <option value="1">Book</option>
-                                <option value="1">Cinema</option>
-                            </select> --}}
+                       
                         </div>
                       
                         <div class="post-lists">
@@ -65,6 +61,7 @@
 @section('footer')
 
     <script type="text/javascript" src="{{asset('js/jscroll.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset("js/admin-ajax.js")}}"></script>
     <script type="text/javascript">
 
         //Owl carousel initializing
@@ -113,34 +110,8 @@
             //         $('ul.pagination').remove();
             //     }
             // });
-            $(".cornerimage").click(function(){
-                var id = $(this).data("id");
-                $.ajaxSetup({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
-                    }
-                });
-
-                $.ajax({
-                    type:'POST',
-                    url: '{{action('FollowableController@favorite')}}',
-                    data:{id:id},
-                    context: this,
-                    success:function(data){
-                        if(data.unauth==1){
-                            showLoginForm();
-                        }                        
-
-                        $(this).attr('class','cornerimage '+data.class);
-                        
-                        console.log(data);
-                    }
-                });
-            });
+           
         });
 
-        function showLoginForm(){
-            window.location.replace("/login");
-        }
     </script>
 @endsection

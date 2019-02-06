@@ -20,7 +20,7 @@ class CrawlLinksTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/old-fashioned-linguine-with-white-clam-sauce-17722',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -33,7 +33,7 @@ class CrawlLinksTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/italian-salad-dressing-43522',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -46,7 +46,7 @@ class CrawlLinksTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/korean-roast-chicken-thighs-83203',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -59,7 +59,7 @@ class CrawlLinksTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 4,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/mama-iuliuccis-famous-meat-a-balls-italian-meatballs-32618',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -72,7 +72,7 @@ class CrawlLinksTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 5,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/spinach-feta-stuffed-chicken-breast-quick-easy-224947',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -85,7 +85,7 @@ class CrawlLinksTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 6,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/caramelized-chicken-wings-44888',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -98,7 +98,7 @@ class CrawlLinksTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 7,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/simple-sweet-scones-66409',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -111,7 +111,7 @@ class CrawlLinksTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 8,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/best-twice-baked-potatoes-79595',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -124,7 +124,7 @@ class CrawlLinksTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 9,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/german-apple-cake-16883',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -137,7 +137,7 @@ class CrawlLinksTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 10,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/oatmeal-cottage-cheese-pancakes-43072',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -150,7 +150,7 @@ class CrawlLinksTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 11,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/dark-chocolate-cake-2496',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -163,7 +163,7 @@ class CrawlLinksTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 12,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/chewy-chocolate-cookies-5049',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -176,7 +176,7 @@ class CrawlLinksTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 13,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/kittencals-chocolate-frosting-icing-89207',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -189,7 +189,7 @@ class CrawlLinksTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 14,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/cinnamon-cookies-48241',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -202,7 +202,7 @@ class CrawlLinksTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 15,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/baked-salmon-28199',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -215,7 +215,7 @@ class CrawlLinksTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 16,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/oreo-balls-52035',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -228,7 +228,7 @@ class CrawlLinksTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 17,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/cheesy-ham-and-potato-soup-262140',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -241,7 +241,7 @@ class CrawlLinksTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 18,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/bevs-spaghetti-sauce-26217',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -254,7 +254,7 @@ class CrawlLinksTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 19,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-only-chocolate-cake-recipe-youll-ever-need-devils-food-26370',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -267,7 +267,7 @@ class CrawlLinksTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 20,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/ground-beef-stuffed-green-bell-peppers-with-cheese-1356',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -280,7 +280,7 @@ class CrawlLinksTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 21,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-best-browned-beef-stew-ever-36984',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -293,7 +293,7 @@ class CrawlLinksTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 22,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/macaroni-salad-63733',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -306,7 +306,7 @@ class CrawlLinksTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 23,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/chilis-salsa-59635',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -319,7 +319,7 @@ class CrawlLinksTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 24,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/southern-sweet-iced-tea-63785',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -332,7 +332,7 @@ class CrawlLinksTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 25,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-cheesecake-factory-pumpkin-cheesecake-by-todd-wilbur-46780',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -345,7 +345,7 @@ class CrawlLinksTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 26,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/slow-cooker-beef-short-ribs-32147',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -358,7 +358,7 @@ class CrawlLinksTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 27,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/puppy-chow-or-monkey-munch-74048',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -371,7 +371,7 @@ class CrawlLinksTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 28,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/easy-moist-banana-blueberry-muffins-153642',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -384,7 +384,7 @@ class CrawlLinksTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 29,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/impossible-peanut-butter-cookies-15411',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -397,7 +397,7 @@ class CrawlLinksTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 30,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/the-very-best-salisbury-steak-56694',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -410,7 +410,7 @@ class CrawlLinksTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 31,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/unbelievably-easy-potato-soup-74275',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -423,7 +423,7 @@ class CrawlLinksTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 32,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/green-bean-casserole-47102',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -436,7 +436,7 @@ class CrawlLinksTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 33,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/creamy-turkey-tetrazzini-57505',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -449,7 +449,7 @@ class CrawlLinksTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 34,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/old-fashioned-vegetable-beef-soup-58901',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -462,7 +462,7 @@ class CrawlLinksTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 35,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/vegan-cornbread-115929',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -475,7 +475,7 @@ class CrawlLinksTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 36,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/quot-ant-quot-kellys-london-broil-marinade-155959',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -488,7 +488,7 @@ class CrawlLinksTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 37,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/greek-salad-dressing-57642',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -501,7 +501,7 @@ class CrawlLinksTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 38,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/pumpkin-chocolate-chip-muffins-3564',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -514,7 +514,7 @@ class CrawlLinksTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 39,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/barilla-no-boil-lasagna-80435',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -527,7 +527,7 @@ class CrawlLinksTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 40,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/dumplings-30965',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -540,7 +540,7 @@ class CrawlLinksTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 41,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/peanut-butter-no-bake-cookies-129040',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -553,7 +553,7 @@ class CrawlLinksTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 42,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/real-english-fish-and-chips-with-yorkshire-beer-batter-183399',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -566,7 +566,7 @@ class CrawlLinksTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 43,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/alfredo-sauce-64196',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -579,7 +579,7 @@ class CrawlLinksTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 44,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/alton-browns-baked-brown-rice-177017',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -592,7 +592,7 @@ class CrawlLinksTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 45,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/potato-kielbasa-skillet-34688',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -605,7 +605,7 @@ class CrawlLinksTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 46,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/chocolate-eclair-dessert-9240',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -618,7 +618,7 @@ class CrawlLinksTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 47,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/naan-203261',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -631,7 +631,7 @@ class CrawlLinksTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 48,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/waldorf-astoria-red-velvet-cake-8972',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -644,7 +644,7 @@ class CrawlLinksTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 49,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/red-chili-sauce-to-be-used-with-traditional-tamales-15301',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -657,7 +657,7 @@ class CrawlLinksTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 50,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/cauliflower-popcorn-roasted-cauliflower-115153',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -670,7 +670,7 @@ class CrawlLinksTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 51,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/skylike-chili-skyline-chili-copycat-110548',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -683,7 +683,7 @@ class CrawlLinksTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 52,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/kittencals-extreme-chocolate-brownies-87925',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -696,7 +696,7 @@ class CrawlLinksTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 53,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/roast-beef-horseradish-spirals-14106',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -709,7 +709,7 @@ class CrawlLinksTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 54,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/breakfast-casserole-supreme-35775',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -722,7 +722,7 @@ class CrawlLinksTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 55,
-                'isPublished' => 1,
+                'isPublished' => 0,
                 'link' => 'https://www.geniuskitchen.com/recipe/cross-rib-roast-61718',
                 'website' => 'geniuskitchen',
                 'category_id' => NULL,
@@ -6521,15610 +6521,6 @@ class CrawlLinksTableSeeder extends Seeder
         \DB::table('crawl_links')->insert(array (
             0 => 
             array (
-                'id' => 501,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-bologna-calamari-scallops-and-clams-with-roasted-fingerlings-and-arugula-salad-recipe-2040576',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            1 => 
-            array (
-                'id' => 502,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/a-piece-of-turkey-easy-roasted-thanksgiving-turkey-3170836',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            2 => 
-            array (
-                'id' => 503,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-star-is-born-cupcakes-recipe-2017694',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            3 => 
-            array (
-                'id' => 504,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aarti-party-aka-savory-sling-recipe-1924818',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            4 => 
-            array (
-                'id' => 505,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acqua-pazza-with-sea-bass-and-clams-recipe-1910802',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            5 => 
-            array (
-                'id' => 506,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/all-crabmeat-crab-cakes-1926139',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            6 => 
-            array (
-                'id' => 507,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/almost-famous-strawberry-lemonade-3364127',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            7 => 
-            array (
-                'id' => 508,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ayuh-seafood-paella-recipe-1939810',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            8 => 
-            array (
-                'id' => 509,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-great-pye-recipe-1955265',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            9 => 
-            array (
-                'id' => 510,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/almost-my-grandmas-rouladen-recipe-2015024',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:45',
-                'updated_at' => '2019-01-06 04:45:45',
-            ),
-            10 => 
-            array (
-                'id' => 511,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/a-big-decadent-hot-dog-recipe-2109521',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            11 => 
-            array (
-                'id' => 512,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-big-delicious-chocolate-mess-5393121',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            12 => 
-            array (
-                'id' => 513,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/a-birthday-cake-recipe-2047270',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            13 => 
-            array (
-                'id' => 514,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-bowl-of-gluten-free-oatmeal-recipe-2109230',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            14 => 
-            array (
-                'id' => 515,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/a-burger-for-rachael-recipe-1950559',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            15 => 
-            array (
-                'id' => 516,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/a-burger-for-rachael-recipe2-1917699',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            16 => 
-            array (
-                'id' => 517,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-chocolate-cake-thats-got-it-all-recipe-2013573',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            17 => 
-            array (
-                'id' => 518,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/a-gooey-decadent-chocolate-cake-recipe-2102926',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            18 => 
-            array (
-                'id' => 519,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-great-pye-recipe0-2013546',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            19 => 
-            array (
-                'id' => 520,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-great-seafood-burger-recipe-2012165',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            20 => 
-            array (
-                'id' => 521,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-horse-rode-in-on-a-turkey-quesadilla-recipe-1952413',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:46',
-                'updated_at' => '2019-01-06 04:45:46',
-            ),
-            21 => 
-            array (
-                'id' => 522,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/a-little-fruit-with-my-crisp-3908766',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            22 => 
-            array (
-                'id' => 523,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-luau-recipe-2104780',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            23 => 
-            array (
-                'id' => 524,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-meaningful-beaning-ful-bean-salad-recipe-1937677',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            24 => 
-            array (
-                'id' => 525,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-modern-version-of-an-ancient-paella-saffron-rice-with-chicken-shrimp-stringbeans-and-snails-recipe-1962717',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            25 => 
-            array (
-                'id' => 526,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/a-nice-italian-girls-salad-recipe-2103631',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            26 => 
-            array (
-                'id' => 527,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/a-peachy-dessert-recipe-1906670',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            27 => 
-            array (
-                'id' => 528,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-peanut-picnic-2111169',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            28 => 
-            array (
-                'id' => 529,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-peanut-picnic-recipe-3381336',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            29 => 
-            array (
-                'id' => 530,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-potato-soup-with-flaky-potato-knish-recipe-2013331',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            30 => 
-            array (
-                'id' => 531,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-quick-cookie-glaze-1957700',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            31 => 
-            array (
-                'id' => 532,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/a-salad-with-crunch-and-substance-bean-and-vegetable-tostadas-1956554',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            32 => 
-            array (
-                'id' => 533,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/a-salad-with-crunch-and-substance-bean-and-vegetable-tostadas-recipe-1940368',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            33 => 
-            array (
-                'id' => 534,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-simple-stuffing-for-hard-boiled-eggs-recipe-1963520',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            34 => 
-            array (
-                'id' => 535,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-southern-north-african-sandwich-recipe-1911110',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            35 => 
-            array (
-                'id' => 536,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/tuna-artichoke-stuffed-tomatoes-red-pepper-feta-chick-pea-stuffed-zucchini-recipe-1942414',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            36 => 
-            array (
-                'id' => 537,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/a-trio-of-bruschetta-recipe-1948561',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:47',
-                'updated_at' => '2019-01-06 04:45:47',
-            ),
-            37 => 
-            array (
-                'id' => 538,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-vegetable-pie-filled-with-spinach-raisins-and-ras-el-hanout-topped-with-herbed-bulgar-walnut-crust-recipe-1951840',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            38 => 
-            array (
-                'id' => 539,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-very-berry-brazilian-recipe-2104656',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            39 => 
-            array (
-                'id' => 540,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-wicked-broken-egg-2108167',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            40 => 
-            array (
-                'id' => 541,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/winter-salad-beets-fennel-apples-stilton-maple-candied-pecans-recipe-1951943',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            41 => 
-            array (
-                'id' => 542,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-little-nutty-chicken-pita-recipe-1960180',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            42 => 
-            array (
-                'id' => 543,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a-ns-slow-shoulder-of-lamb-recipe-1952373',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            43 => 
-            array (
-                'id' => 544,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-baked-potatoes-3415176',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            44 => 
-            array (
-                'id' => 545,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-cheesesteak-dip-3416783',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            45 => 
-            array (
-                'id' => 546,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-orange-barbeque-ribs-3414805',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            46 => 
-            array (
-                'id' => 547,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-pepper-egg-sandwich-3414543',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            47 => 
-            array (
-                'id' => 548,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-skillet-chicken-3415720',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:48',
-                'updated_at' => '2019-01-06 04:45:48',
-            ),
-            48 => 
-            array (
-                'id' => 549,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-sweet-fire-porterhouse-pork-chops-3416774',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            49 => 
-            array (
-                'id' => 550,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/a1-veggie-kabobs-3416237',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            50 => 
-            array (
-                'id' => 551,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ajs-christmas-punch-recipe-2040520',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            51 => 
-            array (
-                'id' => 552,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/abs-beefy-broth-recipe-1938212',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            52 => 
-            array (
-                'id' => 553,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/abs-chili-powder-recipe-1943055',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            53 => 
-            array (
-                'id' => 554,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/abs-martini-recipe-1945331',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            54 => 
-            array (
-                'id' => 555,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/abc-sandwich-recipe-2012027',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:49',
-                'updated_at' => '2019-01-06 04:45:49',
-            ),
-            55 => 
-            array (
-                'id' => 556,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ah-ha-mac-n-cheese-recipe-1949699',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            56 => 
-            array (
-                'id' => 557,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/avocado-blueberry-muffins-sponsored-3361570',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            57 => 
-            array (
-                'id' => 558,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/aaron-mccargo-jrs-steak-fajita-chili-recipe-1972946',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            58 => 
-            array (
-                'id' => 559,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-sanchez/aaron-sanchezs-mexican-brownies-recipe-1972919',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            59 => 
-            array (
-                'id' => 560,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aarti-sequeira/aartis-easy-tandoori-chicken-recipe-2124410',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            60 => 
-            array (
-                'id' => 561,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aarti-sequeira/aartis-hot-not-heavy-homemade-garam-masala-recipe-1924927',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            61 => 
-            array (
-                'id' => 562,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/abs-b-and-bs-recipe-1908804',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:50',
-                'updated_at' => '2019-01-06 04:45:50',
-            ),
-            62 => 
-            array (
-                'id' => 563,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/abalone-attack-abalone-poke-recipe-2012950',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            63 => 
-            array (
-                'id' => 564,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/abalone-cakes-2010250',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            64 => 
-            array (
-                'id' => 565,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/abalone-hors-doeuvres-recipe-1952191',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            65 => 
-            array (
-                'id' => 566,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/abalone-victoria-recipe-1937596',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            66 => 
-            array (
-                'id' => 567,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/abc-noodle-soup-recipe-1910147',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            67 => 
-            array (
-                'id' => 568,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/abruzzo-summer-minestrone-3786982',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            68 => 
-            array (
-                'id' => 569,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/absinthe-appletinis-recipe-2112522',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            69 => 
-            array (
-                'id' => 570,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/absinthe-almond-black-currant-and-cherry-cupcakes-with-poppy-seeds-recipe-2102340',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            70 => 
-            array (
-                'id' => 571,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/absolute-perfection-recipe-1946117',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            71 => 
-            array (
-                'id' => 572,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/absolutely-fabulous-frise-easy-salad-recipe-1914938',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            72 => 
-            array (
-                'id' => 573,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/academy-cocktail-recipe-1944214',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            73 => 
-            array (
-                'id' => 574,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/acadian-style-crab-salad-on-croissants-recipe-1941900',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            74 => 
-            array (
-                'id' => 575,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acai-berry-pisco-sour-recipe-1918407',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            75 => 
-            array (
-                'id' => 576,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acai-berry-smoothie-bowl-3414989',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:51',
-                'updated_at' => '2019-01-06 04:45:51',
-            ),
-            76 => 
-            array (
-                'id' => 577,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/acai-breakfast-bowl-3363448',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            77 => 
-            array (
-                'id' => 578,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/acai-margarita-recipe-1924009',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            78 => 
-            array (
-                'id' => 579,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acai-blackberry-and-cacao-smoothie-3415768',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            79 => 
-            array (
-                'id' => 580,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/acai-banana-sorbet-3364060',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            80 => 
-            array (
-                'id' => 581,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acapulco-grilled-red-snapper-with-pesto-mayonnaise-recipe-1911573',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            81 => 
-            array (
-                'id' => 582,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acaraje-recipe-2014175',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            82 => 
-            array (
-                'id' => 583,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/accidental-make-ahead-turkey-5489602',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            83 => 
-            array (
-                'id' => 584,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/accidental-turkey-recipe-2109167',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            84 => 
-            array (
-                'id' => 585,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/accidental-turkey-3645571',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            85 => 
-            array (
-                'id' => 586,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acciugata-di-renato-1960825',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            86 => 
-            array (
-                'id' => 587,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/accordion-potatoes-2807602',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            87 => 
-            array (
-                'id' => 588,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-chicken-and-cilantro-dumplings-recipe-1970530',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            88 => 
-            array (
-                'id' => 589,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-citrus-marinade-recipe-1970455',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            89 => 
-            array (
-                'id' => 590,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-marinated-baby-chickens-stuffed-with-chorizo-and-mustard-greens-recipe-1951241',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            90 => 
-            array (
-                'id' => 591,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-sanchez/achiote-marinated-cornish-hens-stuffed-with-chorizo-and-mustard-greens-recipe-1952748',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:52',
-                'updated_at' => '2019-01-06 04:45:52',
-            ),
-            91 => 
-            array (
-                'id' => 592,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-sanchez/achiote-marinated-cornish-hens-stuffed-with-chorizo-and-mustard-greens-recipe2-1922787',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            92 => 
-            array (
-                'id' => 593,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-marinated-pork-loin-with-pulled-pork-tamales-hoisin-key-lime-syrup-recipe-1923386',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            93 => 
-            array (
-                'id' => 594,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-marinated-quail-recipe-1951390',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            94 => 
-            array (
-                'id' => 595,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-marinated-shrimp-salad-recipe-1964534',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            95 => 
-            array (
-                'id' => 596,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-paste-recipe-1970190',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            96 => 
-            array (
-                'id' => 597,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/achiote-sauce-recipe-1969443',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            97 => 
-            array (
-                'id' => 598,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/achiote-potato-croquettes-recipe-1922387',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            98 => 
-            array (
-                'id' => 599,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/acid-jellies-recipe-1941929',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            99 => 
-            array (
-                'id' => 600,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acini-di-pepe-salad-recipe-1942368',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            100 => 
-            array (
-                'id' => 601,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ackee-and-cod-stewart-loaf-ackee-saltfish-codfish-bacalao-loaf-recipe-2085388',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            101 => 
-            array (
-                'id' => 602,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ackee-and-potato-soup-with-crab-salad-recipe-1910433',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            102 => 
-            array (
-                'id' => 603,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ackee-and-salted-codfish-saltfish-recipe-1911263',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            103 => 
-            array (
-                'id' => 604,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ackee-and-saltfish-recipe-2085381',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            104 => 
-            array (
-                'id' => 605,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/acme-buttered-noodles-recipe-1952742',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            105 => 
-            array (
-                'id' => 606,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acorda-recipe-1970303',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            106 => 
-            array (
-                'id' => 607,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/katie-lee/acorn-squash-agrodolce-3119334',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            107 => 
-            array (
-                'id' => 608,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acorn-squash-chips-3361573',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            108 => 
-            array (
-                'id' => 609,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acorn-squash-galette-recipe-1943947',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:53',
-                'updated_at' => '2019-01-06 04:45:53',
-            ),
-            109 => 
-            array (
-                'id' => 610,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acorn-squash-rings-recipe-1947722',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            110 => 
-            array (
-                'id' => 611,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/acorn-squash-soup-recipe-1949058',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            111 => 
-            array (
-                'id' => 612,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acorn-squash-soup-in-a-squash-bowl-2043239',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            112 => 
-            array (
-                'id' => 613,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acorn-squash-in-roasted-apples-recipe-1926337',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            113 => 
-            array (
-                'id' => 614,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/valerie-bertinelli/acorn-squash-with-baby-bitter-greens-3161530',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            114 => 
-            array (
-                'id' => 615,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/acorn-squash-with-pomegranate-glaze-5477835',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            115 => 
-            array (
-                'id' => 616,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/acorn-squash-with-raspberry-stuffing-recipe-1948047',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            116 => 
-            array (
-                'id' => 617,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/acorn-squash-with-sweet-maple-glaze-recipe-1922044',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            117 => 
-            array (
-                'id' => 618,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acquacotta-2012672',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            118 => 
-            array (
-                'id' => 619,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/acras-de-morue-recipe-1927290',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            119 => 
-            array (
-                'id' => 620,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adam-perry-langs-sweet-and-sticky-kansas-city-style-ribs-recipe-2119921',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            120 => 
-            array (
-                'id' => 621,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adam-and-eve-on-a-raft-poached-eggs-with-roasted-tomatoes-mushrooms-and-ham-1914971',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            121 => 
-            array (
-                'id' => 622,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/adams-apple-mashed-potatoes-recipe-1948658',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:54',
-                'updated_at' => '2019-01-06 04:45:54',
-            ),
-            122 => 
-            array (
-                'id' => 623,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/add-thyme-for-whipped-potatoes-recipe-1949415',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            123 => 
-            array (
-                'id' => 624,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ademas-dos-saute-gourmandise-recipe-1927260',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            124 => 
-            array (
-                'id' => 625,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/adirondack-bacon-bbq-chicken-apples-and-onions-recipe-2120098',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            125 => 
-            array (
-                'id' => 626,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobe-beef-tacos-with-pickled-red-onions-small-plates-big-taste-recipe-1951124',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            126 => 
-            array (
-                'id' => 627,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-recipe-1970097',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            127 => 
-            array (
-                'id' => 628,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-recipe2-1970709',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            128 => 
-            array (
-                'id' => 629,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-buffalo-wings-2198422',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            129 => 
-            array (
-                'id' => 630,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-chicken-wrap-recipe-1960193',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            130 => 
-            array (
-                'id' => 631,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-chicken-with-margarita-salsa-recipe-1911336',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            131 => 
-            array (
-                'id' => 632,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-glazed-lobster-on-filled-black-bean-arepas-recipe-2047653',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            132 => 
-            array (
-                'id' => 633,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ingrid-hoffmann/adobo-grilled-chicken-salad-in-a-tortilla-bowl-recipe-1939899',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:55',
-                'updated_at' => '2019-01-06 04:45:55',
-            ),
-            133 => 
-            array (
-                'id' => 634,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/adobo-grilled-veal-flank-steak-recipe-1910145',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            134 => 
-            array (
-                'id' => 635,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-pork-shanks-with-fried-rice-2042084',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            135 => 
-            array (
-                'id' => 636,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-quesadilla-burger-with-grilled-corn-salsa-recipe-2013831',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            136 => 
-            array (
-                'id' => 637,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robin-miller/adobo-rice-and-black-beans-recipe-1945041',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            137 => 
-            array (
-                'id' => 638,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-rubbed-turkey-breast-with-chorizo-cornbread-stuffing-recipe-1954051',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            138 => 
-            array (
-                'id' => 639,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-seasoned-chicken-and-rice-recipe-1938320',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            139 => 
-            array (
-                'id' => 640,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-shrimp-tacos-with-smoked-bbq-chipotle-coleslaw-recipe-2105253',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            140 => 
-            array (
-                'id' => 641,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adobo-brined-turkey-with-caramelized-onion-gravy-3416363',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            141 => 
-            array (
-                'id' => 642,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/adobo-rubbed-chicken-recipe-1924781',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            142 => 
-            array (
-                'id' => 643,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/adobo-style-cornish-hens-3363827',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:56',
-                'updated_at' => '2019-01-06 04:45:56',
-            ),
-            143 => 
-            array (
-                'id' => 644,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adovado-carne-marinated-strip-steak-recipe-1926422',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            144 => 
-            array (
-                'id' => 645,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adrianas-pasta-pie-recipe-1914871',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            145 => 
-            array (
-                'id' => 646,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adriatic-grilled-shrimp-recipe-1915261',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            146 => 
-            array (
-                'id' => 647,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aduki-orzo-and-pepper-salad-recipe-1913194',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            147 => 
-            array (
-                'id' => 648,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adult-cocktails-recipe-2121751',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            148 => 
-            array (
-                'id' => 649,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/adult-shirley-temple-recipe-1910951',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            149 => 
-            array (
-                'id' => 650,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aerial-1960349',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:45:57',
-                'updated_at' => '2019-01-06 04:45:57',
-            ),
-            150 => 
-            array (
-                'id' => 651,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/affogato-recipe-1915786',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            151 => 
-            array (
-                'id' => 652,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/affogato-recipe2-2103454',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            152 => 
-            array (
-                'id' => 653,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/affogato-recipe-1940349',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            153 => 
-            array (
-                'id' => 654,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/affogato-recipe2-1942760',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            154 => 
-            array (
-                'id' => 655,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/affogato-recipe-2106285',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            155 => 
-            array (
-                'id' => 656,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/affogato-recipe-2120848',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            156 => 
-            array (
-                'id' => 657,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/affogato-recipe-1941761',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            157 => 
-            array (
-                'id' => 658,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/affogato-recipe3-1915810',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            158 => 
-            array (
-                'id' => 659,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/affogato-recipe2-1948710',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            159 => 
-            array (
-                'id' => 660,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/valerie-bertinelli/affogato-3106834',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            160 => 
-            array (
-                'id' => 661,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/affogato-sundae-recipe-2012182',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            161 => 
-            array (
-                'id' => 662,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/affogato-sundaes-recipe-2120341',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:01',
-                'updated_at' => '2019-01-06 04:46:01',
-            ),
-            162 => 
-            array (
-                'id' => 663,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/affogato-with-chucks-coffee-cigars-1961609',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            163 => 
-            array (
-                'id' => 664,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/afghani-chicken-recipe-1944295',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            164 => 
-            array (
-                'id' => 665,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/african-chop-recipe-1916434',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            165 => 
-            array (
-                'id' => 666,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/african-ground-nut-stew-recipe-1938189',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            166 => 
-            array (
-                'id' => 667,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/african-peanut-soup-3646181',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            167 => 
-            array (
-                'id' => 668,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/african-stew-recipe-1909973',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            168 => 
-            array (
-                'id' => 669,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/after-dinner-mints-recipe-1913818',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            169 => 
-            array (
-                'id' => 670,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/after-midnight-cocktail-recipe-1924621',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            170 => 
-            array (
-                'id' => 671,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/afternoon-ramen-3529178',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            171 => 
-            array (
-                'id' => 672,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/herb-mesa/agave-kettle-corn-recipe-1960797',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            172 => 
-            array (
-                'id' => 673,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/amy-thielen/aged-cheddar-fondue-with-grilled-tomatoes-bacon-and-onions-2216145',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            173 => 
-            array (
-                'id' => 674,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aged-sherry-vinaigrette-recipe-2012990',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            174 => 
-            array (
-                'id' => 675,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aggies-orange-coconut-scones-recipe-1943229',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            175 => 
-            array (
-                'id' => 676,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agnolotti-bolognese-3074050',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            176 => 
-            array (
-                'id' => 677,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/agnolotti-with-artichoke-sauce-recipe-1973556',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:02',
-                'updated_at' => '2019-01-06 04:46:02',
-            ),
-            177 => 
-            array (
-                'id' => 678,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agua-fresca-1960958',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            178 => 
-            array (
-                'id' => 679,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agua-fresca-recipe-1939117',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            179 => 
-            array (
-                'id' => 680,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agua-fresca-recipe0-2129416',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            180 => 
-            array (
-                'id' => 681,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agua-fresca-de-pepino-cold-cucumber-drink-recipe-1910740',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            181 => 
-            array (
-                'id' => 682,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/agua-de-jamaica-2549023',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            182 => 
-            array (
-                'id' => 683,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/agua-de-palapa-joes-recipe-1950702',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            183 => 
-            array (
-                'id' => 684,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agua-de-pina-con-perejil-pineapple-parsley-cooler-3414762',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            184 => 
-            array (
-                'id' => 685,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/agua-de-sandia-watermelon-recipe-1961209',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            185 => 
-            array (
-                'id' => 686,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/aguas-frescas-recipe-2108444',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            186 => 
-            array (
-                'id' => 687,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/agujas-recipe-1909060',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            187 => 
-            array (
-                'id' => 688,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-hash-recipe-1908307',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            188 => 
-            array (
-                'id' => 689,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-palette-dancer-recipe-2095620',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            189 => 
-            array (
-                'id' => 690,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-poke-recipe0-1941767',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:03',
-                'updated_at' => '2019-01-06 04:46:03',
-            ),
-            190 => 
-            array (
-                'id' => 691,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-poke-recipe-1937627',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            191 => 
-            array (
-                'id' => 692,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/anne-burrell/ahi-poke-3482741',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            192 => 
-            array (
-                'id' => 693,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/anne-burrell/ahi-poke-recipe-2040776',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            193 => 
-            array (
-                'id' => 694,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-poke-crunch-wrap-5343816',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            194 => 
-            array (
-                'id' => 695,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-poke-moco-recipe-1947947',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            195 => 
-            array (
-                'id' => 696,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/ahi-poke-and-seaweed-salad-recipe-2109201',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            196 => 
-            array (
-                'id' => 697,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-roll-ups-with-wasabi-guacamole-and-javanese-sauce-recipe-2040201',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            197 => 
-            array (
-                'id' => 698,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-salad-with-macadamia-nuts-and-cilantro-chili-oil-recipe-1909253',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            198 => 
-            array (
-                'id' => 699,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tartare-recipe-1912466',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            199 => 
-            array (
-                'id' => 700,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-recipe-1944832',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            200 => 
-            array (
-                'id' => 701,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-cadiz-recipe-1945940',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            201 => 
-            array (
-                'id' => 702,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-martinis-recipe-1944686',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            202 => 
-            array (
-                'id' => 703,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jernard-wells/ahi-tuna-melt-3358765',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            203 => 
-            array (
-                'id' => 704,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-napoleon-3415705',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            204 => 
-            array (
-                'id' => 705,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-parfait-with-two-caviars-recipe-1955881',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            205 => 
-            array (
-                'id' => 706,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-parfait-with-wasabi-tobiko-vinaigrette-recipe-1917547',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            206 => 
-            array (
-                'id' => 707,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-poke-5290729',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            207 => 
-            array (
-                'id' => 708,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-pot-stickers-recipe-2012265',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            208 => 
-            array (
-                'id' => 709,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/ahi-tuna-slider-with-kimchi-and-cucumber-3308512',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:04',
-                'updated_at' => '2019-01-06 04:46:04',
-            ),
-            209 => 
-            array (
-                'id' => 710,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-tartar-with-sesame-asparagus-vinaigrette-recipe-1938374',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            210 => 
-            array (
-                'id' => 711,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-tartar-with-wasabi-caviar-and-spicy-ginger-vinaigrette-recipe-1939686',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            211 => 
-            array (
-                'id' => 712,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tom-pizzica/ahi-tuna-tartare-with-herbed-brown-butter-and-fresh-apples-recipe-2118296',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            212 => 
-            array (
-                'id' => 713,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-and-shrimp-poke-recipe-1910500',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            213 => 
-            array (
-                'id' => 714,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-with-curried-summer-squash-chayote-slaw-and-coconut-cream-recipe-2102874',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            214 => 
-            array (
-                'id' => 715,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ahi-tuna-with-napa-cabbage-salad-recipe-1941299',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            215 => 
-            array (
-                'id' => 716,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aida-mollenkamp/aidas-corn-tomato-and-avocado-salad-recipe-1972712',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            216 => 
-            array (
-                'id' => 717,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aida-mollenkamp/aidas-scalloped-zucchini-recipe-1946869',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            217 => 
-            array (
-                'id' => 718,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/aint-no-thing-butta-chicken-wing-recipe2-2105512',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            218 => 
-            array (
-                'id' => 719,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/aint-no-thing-butta-chicken-wing-recipe-1922049',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            219 => 
-            array (
-                'id' => 720,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jamie-oliver/aioli-recipe-2009340',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            220 => 
-            array (
-                'id' => 721,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aioli-3620269',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            221 => 
-            array (
-                'id' => 722,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aioli-recipe-1951838',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            222 => 
-            array (
-                'id' => 723,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/aioli-recipe-2104266',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            223 => 
-            array (
-                'id' => 724,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/aioli-with-roasted-vegetables-recipe-2012932',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            224 => 
-            array (
-                'id' => 725,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/air-fries-with-chili-cheese-2103117',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            225 => 
-            array (
-                'id' => 726,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/air-fries-with-nacho-cheese-2103022',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            226 => 
-            array (
-                'id' => 727,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-banana-bread-5277841',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            227 => 
-            array (
-                'id' => 728,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-fried-rice-with-sesame-sriracha-sauce-5277890',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:05',
-                'updated_at' => '2019-01-06 04:46:05',
-            ),
-            228 => 
-            array (
-                'id' => 729,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-teriyaki-salmon-fillets-with-broccoli-5277868',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            229 => 
-            array (
-                'id' => 730,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-thanksgiving-turkey-5457884',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            230 => 
-            array (
-                'id' => 731,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/air-fried-okra-1942343',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            231 => 
-            array (
-                'id' => 732,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/air-fried-pork-chops-1942365',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            232 => 
-            array (
-                'id' => 733,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-chicken-tenders-5463231',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            233 => 
-            array (
-                'id' => 734,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-fried-pickles-5463233',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            234 => 
-            array (
-                'id' => 735,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-hard-boiled-eggs-5463232',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            235 => 
-            array (
-                'id' => 736,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-pork-chops-5463246',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            236 => 
-            array (
-                'id' => 737,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/airline-cookie-sheet-cake-5510090',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            237 => 
-            array (
-                'id' => 738,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sunny-anderson/airman-andersons-chicken-recipe-2014389',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            238 => 
-            array (
-                'id' => 739,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/airplane-sugar-cookies-with-royal-icing-2646704',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            239 => 
-            array (
-                'id' => 740,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/aji-chile-salsa-recipe-2108610',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            240 => 
-            array (
-                'id' => 741,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aji-de-gallina-chicken-in-a-spicy-sauce-recipe-2118557',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:06',
-                'updated_at' => '2019-01-06 04:46:06',
-            ),
-            241 => 
-            array (
-                'id' => 742,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aji-beef-short-ribs-with-golden-herbed-quinoa-nuevo-latino-beef-dishes-recipe-2041929',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            242 => 
-            array (
-                'id' => 743,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ajiaco-1923553',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            243 => 
-            array (
-                'id' => 744,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/ajiaco-colombian-chicken-potato-and-corn-soup-3631024',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            244 => 
-            array (
-                'id' => 745,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ajiaco-criollo-cuban-creole-stew-recipe-2013263',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            245 => 
-            array (
-                'id' => 746,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ajiaco-cuban-soup-made-with-beef-pork-and-tropical-vegetables-recipe-1910181',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            246 => 
-            array (
-                'id' => 747,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ajo-blanco-white-garlic-soup-with-grapes-1909947',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            247 => 
-            array (
-                'id' => 748,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ajo-blanco-white-garlic-soup-with-grapes-recipe-1909947',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            248 => 
-            array (
-                'id' => 749,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/akara-recipe-1945417',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            249 => 
-            array (
-                'id' => 750,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/al-frankens-spare-ribs-recipe-1927529',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            250 => 
-            array (
-                'id' => 751,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/al-fredos-popcorn-recipe-1942457',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            251 => 
-            array (
-                'id' => 752,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/al-pastor-marinated-pork-3084287',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            252 => 
-            array (
-                'id' => 753,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/al-pastor-tacos-with-pineapple-jalapeno-salsa-3541083',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            253 => 
-            array (
-                'id' => 754,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/al-pastor-tacos-with-roasted-tomatillo-avocado-salsa-2292601',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            254 => 
-            array (
-                'id' => 755,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/als-breakfast-french-toast-batter-recipe-2118684',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            255 => 
-            array (
-                'id' => 756,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/als-rub-recipe-1955149',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:07',
-                'updated_at' => '2019-01-06 04:46:07',
-            ),
-            256 => 
-            array (
-                'id' => 757,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/als-rub-recipe0-2203506',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            257 => 
-            array (
-                'id' => 758,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/al-tamar-al-mahshi-stuffed-dates-recipe-1927630',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            258 => 
-            array (
-                'id' => 759,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alabama-chicken-sandwich-5438155',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            259 => 
-            array (
-                'id' => 760,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaska-cod-acqua-pazza-recipe-2111715',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            260 => 
-            array (
-                'id' => 761,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaska-pollock-a-la-plancha-recipe-2126438',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            261 => 
-            array (
-                'id' => 762,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaska-salmon-burgers-with-rhubarb-chutney-3416530',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            262 => 
-            array (
-                'id' => 763,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaska-sockeye-salmon-with-herbs-and-garlic-recipe-2121339',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            263 => 
-            array (
-                'id' => 764,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaskan-black-cod-with-acacia-hone-recipe-1939102',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            264 => 
-            array (
-                'id' => 765,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaskan-halibut-salmon-and-crab-roulade-recipe-2014052',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            265 => 
-            array (
-                'id' => 766,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/alaskan-king-crab-tempura-recipe-1937221',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            266 => 
-            array (
-                'id' => 767,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaskan-scallops-and-striped-shrimp-in-savignon-blanc-and-tarragon-recipe-2047645',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            267 => 
-            array (
-                'id' => 768,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/alaskan-smoked-salmon-dip-5195752',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:08',
-                'updated_at' => '2019-01-06 04:46:08',
-            ),
-            268 => 
-            array (
-                'id' => 769,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alaskan-sushi-recipe-1911401',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            269 => 
-            array (
-                'id' => 770,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/albacore-tartare-with-carrots-garlic-and-pomegranate-recipe-1957901',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            270 => 
-            array (
-                'id' => 771,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/albacore-tuna-burgers-recipe-1938341',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            271 => 
-            array (
-                'id' => 772,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/albacore-tuna-with-celery-and-walnuts-2684064',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            272 => 
-            array (
-                'id' => 773,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/albonbigas-reception-meat-ball-stew-recipe-1911001',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            273 => 
-            array (
-                'id' => 774,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/albondigas-5400385',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            274 => 
-            array (
-                'id' => 775,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/albondigas-estilo-mama-meatballs-like-mama-makes-recipe-1915361',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            275 => 
-            array (
-                'id' => 776,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-sanchez/albondigas-tacos-4664337',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            276 => 
-            array (
-                'id' => 777,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/albondigas-in-chipotle-tomato-sauce-recipe-2103787',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            277 => 
-            array (
-                'id' => 778,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alcapurias-recipe-2014240',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            278 => 
-            array (
-                'id' => 779,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nigella-lawson/alcoholic-hot-chocolate-recipe-1946473',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            279 => 
-            array (
-                'id' => 780,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nigella-lawson/alcoholic-hot-chocolate-recipe2-1917422',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            280 => 
-            array (
-                'id' => 781,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alder-grilled-fresh-alaskan-king-salmon-with-a-light-juniper-and-sage-marinade-recipe-1911596',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            281 => 
-            array (
-                'id' => 782,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alder-grilled-fresh-alaskan-king-salmon-with-a-light-juniper-and-sage-marinade-recipe2-2011813',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            282 => 
-            array (
-                'id' => 783,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/alder-roasted-king-salmon-with-wild-fennel-pollen-recipe-1911809',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            283 => 
-            array (
-                'id' => 784,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alder-roasted-salmon-with-rosemary-polenta-and-wild-mushroom-pearl-onion-ragout-recipe-2131317',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:09',
-                'updated_at' => '2019-01-06 04:46:09',
-            ),
-            284 => 
-            array (
-                'id' => 785,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/alder-planked-salmon-with-egg-sauce-recipe-2047343',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            285 => 
-            array (
-                'id' => 786,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/ale-brined-roasted-turkey-sandwich-recipe-1921609',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            286 => 
-            array (
-                'id' => 787,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/ale-house-burgers-with-red-onion-compote-recipe-1947813',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            287 => 
-            array (
-                'id' => 788,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/ale-poached-halibut-recipe-1916310',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            288 => 
-            array (
-                'id' => 789,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/ale-and-cheddar-biscuits-2719828',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            289 => 
-            array (
-                'id' => 790,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/ale-brined-roasted-turkey-sandwich-with-red-pepper-pesto-recipe-1973603',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            290 => 
-            array (
-                'id' => 791,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/ale-simmered-chicken-with-dried-plums-recipe-1917127',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            291 => 
-            array (
-                'id' => 792,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/scott-conant/aleppo-popcorn-with-parmesan-and-herbs-3364482',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            292 => 
-            array (
-                'id' => 793,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alessias-favorite-mushroom-sauce-recipe-1963828',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            293 => 
-            array (
-                'id' => 794,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/alexs-anchovy-buccatini-recipe-1922544',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            294 => 
-            array (
-                'id' => 795,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alfs-colorado-red-recipe-1942941',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            295 => 
-            array (
-                'id' => 796,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alfred-portales-tuna-tartare-with-herb-salad-cucumber-lime-scallion-and-ginger-recipe-2117946',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            296 => 
-            array (
-                'id' => 797,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alfreds-diver-scallops-with-vegetable-ragout-and-osetra-caviar-1912609',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            297 => 
-            array (
-                'id' => 798,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alfredo-linguine-2103730',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            298 => 
-            array (
-                'id' => 799,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alfredo-primavera-recipe-1970499',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:10',
-                'updated_at' => '2019-01-06 04:46:10',
-            ),
-            299 => 
-            array (
-                'id' => 800,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/alfredo-sauce-2165760',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:46:11',
-                'updated_at' => '2019-01-06 04:46:11',
-            ),
-            300 => 
-            array (
-                'id' => 801,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/trisha-yearwood/barbie-q-chicken-sliders-3262582',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            301 => 
-            array (
-                'id' => 802,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bawlmer-crab-cakes-recipe-1927540',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            302 => 
-            array (
-                'id' => 803,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/belge-ette-de-veau-1959124',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            303 => 
-            array (
-                'id' => 804,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/birthday-carrot-cake-with-cream-cheese-frosting-and-cointreau-carrots-recipe-1956359',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            304 => 
-            array (
-                'id' => 805,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/biscuits-and-gravy-orange-ginger-biscuits-with-scallion-pork-sausage-gravy-sesame-mustard-greens-and-soy-glazed-bacon-recipe-2040581',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            305 => 
-            array (
-                'id' => 806,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/blanched-basil-pesto-recipe-1916315',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            306 => 
-            array (
-                'id' => 807,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blazing-big-rice-noodles-with-beef-recipe-1955775',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            307 => 
-            array (
-                'id' => 808,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blondie-bars-with-peanut-butter-filled-delightfulls-3416714',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            308 => 
-            array (
-                'id' => 809,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blue-thunder-turkey-drumsticks-recipe-3381204',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            309 => 
-            array (
-                'id' => 810,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/boosted-muffins-recipe-2172351',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            310 => 
-            array (
-                'id' => 811,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/amanda-freitag/born-to-run-savory-breakfast-hand-pies-3168934',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:42',
-                'updated_at' => '2019-01-06 04:47:42',
-            ),
-            311 => 
-            array (
-                'id' => 812,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/amanda-freitag/born-to-run-sweet-breakfast-hand-pies-3168935',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            312 => 
-            array (
-                'id' => 813,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robin-miller/braised-halibut-with-grilled-corn-cakes-recipe-1948133',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            313 => 
-            array (
-                'id' => 814,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/brat-n-brau-sliders-recipe-2012262',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            314 => 
-            array (
-                'id' => 815,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/buo-luo-ji-sweet-and-sour-chicken-3415969',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            315 => 
-            array (
-                'id' => 816,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bella-asada-fajitas-recipe-1925511',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            316 => 
-            array (
-                'id' => 817,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/b-and-tea-1962310',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            317 => 
-            array (
-                'id' => 818,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/b-and-w-chocolate-dipped-shortbread-cookies-2663666',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            318 => 
-            array (
-                'id' => 819,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bstella-with-squab-recipe-1939325',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            319 => 
-            array (
-                'id' => 820,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/b-line-diner-chicken-potpie-recipe-2013562',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            320 => 
-            array (
-                'id' => 821,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/b-man-salad-2351400',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            321 => 
-            array (
-                'id' => 822,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/b-smiths-cornmeal-dipped-pan-fried-whiting-1910331',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            322 => 
-            array (
-                'id' => 823,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/b-smiths-skillet-apple-pie-recipe0-1938487',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            323 => 
-            array (
-                'id' => 824,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/b-smiths-skillet-apple-pie-recipe-1955983',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            324 => 
-            array (
-                'id' => 825,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/b-smiths-sugar-cookies-1909034',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            325 => 
-            array (
-                'id' => 826,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bs-recipe-for-basil-risotto-1908578',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            326 => 
-            array (
-                'id' => 827,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-garlic-crab-recipe-1945480',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            327 => 
-            array (
-                'id' => 828,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-quail-recipe-1911174',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            328 => 
-            array (
-                'id' => 829,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bed-of-scallops-and-nori-egg-roll-with-champagne-cavier-sauce-recipe-1914243',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            329 => 
-            array (
-                'id' => 830,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/beg-sandwiches-bacon-egg-griddle-sandwiches-3363724',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:43',
-                'updated_at' => '2019-01-06 04:47:43',
-            ),
-            330 => 
-            array (
-                'id' => 831,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/belt-bacon-egg-lettuce-and-tomato-2403778',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            331 => 
-            array (
-                'id' => 832,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-cocktail-recipe-2126371',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            332 => 
-            array (
-                'id' => 833,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-salad-1908320',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            333 => 
-            array (
-                'id' => 834,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-cicloacutentrade-spiked-salsa-recipe-2119606',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            334 => 
-            array (
-                'id' => 835,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-blue-hawaiian-recipe-2085374',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            335 => 
-            array (
-                'id' => 836,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-cucumberita-recipe-2085473',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            336 => 
-            array (
-                'id' => 837,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-mai-tai-recipe-2105741',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            337 => 
-            array (
-                'id' => 838,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-raspberry-rita-recipe-2108017',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            338 => 
-            array (
-                'id' => 839,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-san-juan-swizzle-recipe-2119850',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            339 => 
-            array (
-                'id' => 840,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-sparkling-margarita-recipe-2105715',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            340 => 
-            array (
-                'id' => 841,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-strawberry-lemonade-recipe-2085371',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            341 => 
-            array (
-                'id' => 842,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-strawberry-lemonade-recipe2-2108134',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            342 => 
-            array (
-                'id' => 843,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacardireg-mixers-watermelon-rickey-recipe-2042628',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            343 => 
-            array (
-                'id' => 844,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbb-bacon-in-the-batter-buttermilk-waffle-bourbon-ice-cream-bacon-toffee-5509956',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            344 => 
-            array (
-                'id' => 845,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jamie-deen/bbq-baby-back-ribs-recipe-2102603',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            345 => 
-            array (
-                'id' => 846,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-baby-back-ribs-recipe-1947795',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            346 => 
-            array (
-                'id' => 847,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-baby-back-ribs-recipe0-1945189',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:44',
-                'updated_at' => '2019-01-06 04:47:44',
-            ),
-            347 => 
-            array (
-                'id' => 848,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/eddie-jackson/bbq-baby-back-ribs-5257638',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            348 => 
-            array (
-                'id' => 849,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-bacon-wrapped-mushrooms-recipe-1948066',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            349 => 
-            array (
-                'id' => 850,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-baked-beans-bruschetta-with-cilantro-pesto-on-cheesy-texas-cut-toast-2108193',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            350 => 
-            array (
-                'id' => 851,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-barbie-mini-chicken-sliders-recipe-1948115',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            351 => 
-            array (
-                'id' => 852,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beans-1956729',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            352 => 
-            array (
-                'id' => 853,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beans-recipe2-1941366',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            353 => 
-            array (
-                'id' => 854,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beans-2103238',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            354 => 
-            array (
-                'id' => 855,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beef-brisket-sandwich-with-watercress-salad-with-shaved-fennel-and-grapefruit-recipe-1917894',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            355 => 
-            array (
-                'id' => 856,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beef-chili-3416665',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            356 => 
-            array (
-                'id' => 857,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-beef-ribs-recipe-1924883',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            357 => 
-            array (
-                'id' => 858,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/bbq-beef-stir-fry-recipe-1949094',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            358 => 
-            array (
-                'id' => 859,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beer-chicken-recipe-1944110',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            359 => 
-            array (
-                'id' => 860,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-beer-sauce-3672205',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            360 => 
-            array (
-                'id' => 861,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-bologna-sandwich-recipe-1915341',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            361 => 
-            array (
-                'id' => 862,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/bbq-braised-brisket-sandwiches-3083393',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:45',
-                'updated_at' => '2019-01-06 04:47:45',
-            ),
-            362 => 
-            array (
-                'id' => 863,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-brisket-recipe-1944506',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            363 => 
-            array (
-                'id' => 864,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/bbq-brisket-reuben-sandwiches-recipe-2200929',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            364 => 
-            array (
-                'id' => 865,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-brisket-shepherds-pie-recipe-2102336',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            365 => 
-            array (
-                'id' => 866,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/damaris-phillips/bbq-brownies-2648787',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            366 => 
-            array (
-                'id' => 867,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-buffalo-burger-with-mango-ketchup-and-red-slaw-recipe-1914340',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            367 => 
-            array (
-                'id' => 868,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-buffalo-burger-with-mango-ketchup-and-red-slaw-recipe2-1926431',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            368 => 
-            array (
-                'id' => 869,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-burger-bites-recipe-1958996',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            369 => 
-            array (
-                'id' => 870,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-burger-pocket-3362380',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            370 => 
-            array (
-                'id' => 871,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-burger-with-pork-2272958',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            371 => 
-            array (
-                'id' => 872,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-burgers-5485984',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            372 => 
-            array (
-                'id' => 873,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-canapes-recipe-1944557',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            373 => 
-            array (
-                'id' => 874,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-cauliflower-wings-3348138',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            374 => 
-            array (
-                'id' => 875,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/bbq-cheese-straws-recipe-1924544',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            375 => 
-            array (
-                'id' => 876,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-chicken-3181352',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            376 => 
-            array (
-                'id' => 877,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-recipe-1946045',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            377 => 
-            array (
-                'id' => 878,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-recipe0-1946040',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            378 => 
-            array (
-                'id' => 879,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/bbq-chicken-burgers-with-slaw-recipe-1917239',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            379 => 
-            array (
-                'id' => 880,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/valerie-bertinelli/bbq-chicken-kabobs-with-tequila-lime-cilantro-3087147',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            380 => 
-            array (
-                'id' => 881,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-kupcakes-3415761',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:46',
-                'updated_at' => '2019-01-06 04:47:46',
-            ),
-            381 => 
-            array (
-                'id' => 882,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-chicken-macaroni-salad-3764804',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            382 => 
-            array (
-                'id' => 883,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-chicken-marinade-5512965',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            383 => 
-            array (
-                'id' => 884,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-packed-pita-recipe-2013329',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            384 => 
-            array (
-                'id' => 885,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/bbq-chicken-pizza-recipe-1942779',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            385 => 
-            array (
-                'id' => 886,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/bbq-chicken-pizza-recipe-1925196',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            386 => 
-            array (
-                'id' => 887,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-pizza-recipe-1951455',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            387 => 
-            array (
-                'id' => 888,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-pizza-roll-3416306',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            388 => 
-            array (
-                'id' => 889,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-pizza-snacks-recipe-1957382',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            389 => 
-            array (
-                'id' => 890,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/bbq-chicken-pizza-with-spicy-slaw-3325314',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            390 => 
-            array (
-                'id' => 891,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-potpie-with-cornbread-crust-recipe-1956299',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            391 => 
-            array (
-                'id' => 892,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-quesadilla-recipe-1951743',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            392 => 
-            array (
-                'id' => 893,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/bbq-chicken-quesadilla-with-smoked-tomato-relish-and-buttermilk-dressing-recipe-1950826',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            393 => 
-            array (
-                'id' => 894,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-quesadillas-recipe-1953421',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            394 => 
-            array (
-                'id' => 895,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/farm-rich-bbq-chicken-roll-ups-3414532',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            395 => 
-            array (
-                'id' => 896,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/bbq-chicken-slaw-3833178',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            396 => 
-            array (
-                'id' => 897,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/bbq-chicken-toes-recipe-1944708',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            397 => 
-            array (
-                'id' => 898,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/bbq-chicken-wings-with-blue-cheese-butter-2290945',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:47',
-                'updated_at' => '2019-01-06 04:47:47',
-            ),
-            398 => 
-            array (
-                'id' => 899,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-wings-with-pineapple-ginger-teriyaki-sauce-3444511',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            399 => 
-            array (
-                'id' => 900,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-and-fresh-strawberry-salad-2103689',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            400 => 
-            array (
-                'id' => 901,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-and-ranch-salad-3416821',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            401 => 
-            array (
-                'id' => 902,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/bbq-chicken-in-cornbread-cups-recipe-1923257',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            402 => 
-            array (
-                'id' => 903,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-with-orange-garlic-sauce-recipe-2125156',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            403 => 
-            array (
-                'id' => 904,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-with-peach-barbecue-sauce-3642091',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            404 => 
-            array (
-                'id' => 905,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-chicken-with-trish-lynns-grandmas-famous-bbq-sauce-recipe-1916557',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            405 => 
-            array (
-                'id' => 906,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/bbq-chicken-red-bean-and-corn-country-chowder-recipe-2201060',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            406 => 
-            array (
-                'id' => 907,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-corned-beef-and-cabbage-recipe-1938179',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            407 => 
-            array (
-                'id' => 908,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/farm-rich-bbq-courtside-sliders-3416179',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            408 => 
-            array (
-                'id' => 909,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/bbq-crunch-burger-recipe-2108868',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            409 => 
-            array (
-                'id' => 910,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-dogs-recipe-2105146',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            410 => 
-            array (
-                'id' => 911,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/bbq-duck-and-sauteed-shiitake-mushroom-filled-blue-corn-pancakes-with-habanero-sauce-recipe-1947928',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            411 => 
-            array (
-                'id' => 912,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-duck-on-corn-cakes-recipe-2103370',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            412 => 
-            array (
-                'id' => 913,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-duck-filled-yellow-corn-pancakes-with-habanero-sauce-recipe-1922453',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            413 => 
-            array (
-                'id' => 914,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-elk-brisket-3051493',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            414 => 
-            array (
-                'id' => 915,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-glazed-roast-chicken-2256669',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:48',
-                'updated_at' => '2019-01-06 04:47:48',
-            ),
-            415 => 
-            array (
-                'id' => 916,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-glazed-salmon-with-black-bean-compote-recipe-2014568',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            416 => 
-            array (
-                'id' => 917,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/damaris-phillips/bbq-glazed-shrimp-2766362',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            417 => 
-            array (
-                'id' => 918,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-glazed-smoked-chicken-2138139',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            418 => 
-            array (
-                'id' => 919,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-goat-or-lamb-barbacoa-de-cordero-recipe-1937952',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            419 => 
-            array (
-                'id' => 920,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/bbq-grill-cubed-sirloin-steak-with-jalapeno-bbq-sauce-recipe-1946956',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            420 => 
-            array (
-                'id' => 921,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-grilled-corn-recipe-1939260',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            421 => 
-            array (
-                'id' => 922,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-jerk-chicken-with-caribbean-mango-slaw-3722089',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            422 => 
-            array (
-                'id' => 923,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/bbq-kale-chips-recipe-2043534',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            423 => 
-            array (
-                'id' => 924,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-lasagna-3742432',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            424 => 
-            array (
-                'id' => 925,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-mango-tilapia-recipe-2106125',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            425 => 
-            array (
-                'id' => 926,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-meatloaf-with-creme-fraiche-potatoes-brown-butter-peas-with-shallots-and-red-onion-rings-2386741',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            426 => 
-            array (
-                'id' => 927,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-mini-meatballs-recipe-1956262',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            427 => 
-            array (
-                'id' => 928,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-nachos-recipe-1957147',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            428 => 
-            array (
-                'id' => 929,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/trisha-yearwood/bbq-peach-pulled-pork-5386742',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            429 => 
-            array (
-                'id' => 930,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robin-miller/bbq-pizza-recipe-1945759',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            430 => 
-            array (
-                'id' => 931,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-pork-burger-recipe-2120828',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            431 => 
-            array (
-                'id' => 932,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-pork-chardonnay-recipe-2013431',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            432 => 
-            array (
-                'id' => 933,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/bbq-pork-fried-rice-recipe-1947031',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:49',
-                'updated_at' => '2019-01-06 04:47:49',
-            ),
-            433 => 
-            array (
-                'id' => 934,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-pork-panini-sandwich-recipe-1953187',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            434 => 
-            array (
-                'id' => 935,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/bbq-pork-sandwich-recipe-1949483',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            435 => 
-            array (
-                'id' => 936,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-pork-sandwich-on-grilled-jalapeno-corn-flat-bread-recipe-2014231',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            436 => 
-            array (
-                'id' => 937,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-pot-stickers-recipe-1948918',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            437 => 
-            array (
-                'id' => 938,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/katie-lee/bbq-potato-chip-crusted-salmon-with-watercress-salad-3298409',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            438 => 
-            array (
-                'id' => 939,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/katie-lee/bbq-potato-chip-crusted-salmon-with-watercress-salad-1-3298409',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            439 => 
-            array (
-                'id' => 940,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/bbq-potato-chips-3501250',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            440 => 
-            array (
-                'id' => 941,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/bbq-potato-salad-5257098',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            441 => 
-            array (
-                'id' => 942,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-pulled-jackfruit-sandwiches-3686824',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            442 => 
-            array (
-                'id' => 943,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-pulled-pork-bruschetta-recipe-1953394',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            443 => 
-            array (
-                'id' => 944,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/bbq-pulled-pork-frito-pie-3442324',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            444 => 
-            array (
-                'id' => 945,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/bbq-pulled-pork-sandwich-recipe-2043204',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            445 => 
-            array (
-                'id' => 946,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-pulled-pork-sandwiches-recipe-1946753',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            446 => 
-            array (
-                'id' => 947,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-pulled-pork-and-cheese-rollups-2308656',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            447 => 
-            array (
-                'id' => 948,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-pulled-pork-with-carolina-sauce-recipe-1949034',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            448 => 
-            array (
-                'id' => 949,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-pulled-pork-with-carolina-sauce-3381700',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:50',
-                'updated_at' => '2019-01-06 04:47:50',
-            ),
-            449 => 
-            array (
-                'id' => 950,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-quesadilla-recipe-1961701',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:51',
-                'updated_at' => '2019-01-06 04:47:51',
-            ),
-            450 => 
-            array (
-                'id' => 951,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/bbq-ranch-deviled-eggs-recipe-1923401',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:54',
-                'updated_at' => '2019-01-06 04:47:54',
-            ),
-            451 => 
-            array (
-                'id' => 952,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-ranch-dipping-sauce-recipe-1938755',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:54',
-                'updated_at' => '2019-01-06 04:47:54',
-            ),
-            452 => 
-            array (
-                'id' => 953,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-rib-eye-steak-recipe-1926825',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:54',
-                'updated_at' => '2019-01-06 04:47:54',
-            ),
-            453 => 
-            array (
-                'id' => 954,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-ribs-recipe-2049012',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            454 => 
-            array (
-                'id' => 955,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-ribs-with-root-beer-bbq-sauce-2158466',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            455 => 
-            array (
-                'id' => 956,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/bbq-roast-beef-nachos-2406248',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            456 => 
-            array (
-                'id' => 957,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-roast-pork-recipe-1921546',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            457 => 
-            array (
-                'id' => 958,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-rub-roasted-chicken-recipe-2012554',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            458 => 
-            array (
-                'id' => 959,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-salmon-recipe-1946084',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            459 => 
-            array (
-                'id' => 960,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-salmon-cobb-salad-3721303',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            460 => 
-            array (
-                'id' => 961,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/bbq-sauce-recipe-1948539',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            461 => 
-            array (
-                'id' => 962,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-sauce-2783494',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            462 => 
-            array (
-                'id' => 963,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/bbq-shortribs-recipe-1915531',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            463 => 
-            array (
-                'id' => 964,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-shrimp-cocktail-recipe2-2042753',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            464 => 
-            array (
-                'id' => 965,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robin-miller/bbq-shrimp-pizza-with-onions-bacon-and-jack-blue-cheese-coleslaw-recipe-1947846',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            465 => 
-            array (
-                'id' => 966,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-shrimp-po-boy-3415428',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            466 => 
-            array (
-                'id' => 967,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-shrimp-roll-ups-3363386',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            467 => 
-            array (
-                'id' => 968,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/yaku-moton-spruill/bbq-shrimp-salad-5281731',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:55',
-                'updated_at' => '2019-01-06 04:47:55',
-            ),
-            468 => 
-            array (
-                'id' => 969,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-shrimp-scampi-recipe-1953268',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            469 => 
-            array (
-                'id' => 970,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-shrimp-with-cocktail-sauce-recipe-1938441',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            470 => 
-            array (
-                'id' => 971,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-shrimp-with-grilled-vegetable-slaw-and-roasted-potatoes-recipe-1918561',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            471 => 
-            array (
-                'id' => 972,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-snapper-fillet-filete-de-huachinango-sarandeado-recipe-1915291',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            472 => 
-            array (
-                'id' => 973,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-soft-shell-crabs-with-grilled-vidalia-onions-recipe-1916963',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            473 => 
-            array (
-                'id' => 974,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-spaghetti-recipe0-1915520',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            474 => 
-            array (
-                'id' => 975,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-spaghetti-recipe-1937436',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            475 => 
-            array (
-                'id' => 976,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/bbq-spaghetti-squash-sliders-5266438',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            476 => 
-            array (
-                'id' => 977,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/bbq-spiced-chicken-salsa-salad-and-pumpkin-chipotle-polenta-recipe-1937866',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            477 => 
-            array (
-                'id' => 978,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-spiced-french-fries-recipe-2011205',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            478 => 
-            array (
-                'id' => 979,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/eddie-jackson/bbq-spiced-nuts-5257637',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            479 => 
-            array (
-                'id' => 980,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-stuffed-peppers-recipe-1961379',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            480 => 
-            array (
-                'id' => 981,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-totchos-3838674',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            481 => 
-            array (
-                'id' => 982,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/bbq-tri-tips-recipe-1946959',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            482 => 
-            array (
-                'id' => 983,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-turkey-recipe-1910953',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            483 => 
-            array (
-                'id' => 984,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-turkey-drumsticks-with-chipotle-glaze-2107417',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            484 => 
-            array (
-                'id' => 985,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/bbq-turkey-meatloaf-recipe-1909291',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            485 => 
-            array (
-                'id' => 986,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-turkey-sandwiches-1957720',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            486 => 
-            array (
-                'id' => 987,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/bbq-turkey-sliders-recipe-1922264',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:56',
-                'updated_at' => '2019-01-06 04:47:56',
-            ),
-            487 => 
-            array (
-                'id' => 988,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/bbq-turkey-or-chicken-gumbo-recipe-2121010',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            488 => 
-            array (
-                'id' => 989,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-vegetable-medley-recipe-1944602',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            489 => 
-            array (
-                'id' => 990,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-volcano-chipotle-wings-recipe-1993598',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            490 => 
-            array (
-                'id' => 991,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/bbq-western-bacon-beer-can-burger-3857460',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            491 => 
-            array (
-                'id' => 992,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbq-yellow-bean-chicken-with-grilled-chinese-long-beans-2125814',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            492 => 
-            array (
-                'id' => 993,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bbqs-soft-shell-crabs-recipe-1945617',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            493 => 
-            array (
-                'id' => 994,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/bbqd-cauliflower-5418439',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            494 => 
-            array (
-                'id' => 995,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bc-seafood-chowder-poutine-recipe-2042526',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            495 => 
-            array (
-                'id' => 996,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bc-seafood-chowder-poutine-3381520',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            496 => 
-            array (
-                'id' => 997,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/beef-and-black-bean-tacodiles-3362628',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            497 => 
-            array (
-                'id' => 998,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/blat-pizza-5291075',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            498 => 
-            array (
-                'id' => 999,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aarti-sequeira/blc-bacon-lettuce-and-cucumber-with-spicy-cumin-mint-mayo-recipe-2105258',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            499 => 
-            array (
-                'id' => 1000,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blcc-berries-lemon-curd-cakes-recipe-1945404',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-        ));
-        \DB::table('crawl_links')->insert(array (
-            0 => 
-            array (
-                'id' => 1001,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/bld-recipe-2041578',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            1 => 
-            array (
-                'id' => 1002,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-braised-bacon-collards-and-tomato-jam-2145627',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            2 => 
-            array (
-                'id' => 1003,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-appetizer-recipe-1916715',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            3 => 
-            array (
-                'id' => 1004,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/blt-bar-5423315',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            4 => 
-            array (
-                'id' => 1005,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-biscuit-sliders-3811988',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            5 => 
-            array (
-                'id' => 1006,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/blt-bites-4698116',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:57',
-                'updated_at' => '2019-01-06 04:47:57',
-            ),
-            6 => 
-            array (
-                'id' => 1007,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-bread-salad-recipe-2268682',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            7 => 
-            array (
-                'id' => 1008,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-burger-3414965',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            8 => 
-            array (
-                'id' => 1009,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-burger-with-bacon-mayonnaise-1961417',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            9 => 
-            array (
-                'id' => 1010,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-burgers-with-bacon-mayonnaise-3362529',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            10 => 
-            array (
-                'id' => 1011,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-caesar-2012794',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            11 => 
-            array (
-                'id' => 1012,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blt-chicken-soup-recipe-2200964',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            12 => 
-            array (
-                'id' => 1013,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-club-cake-3362448',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            13 => 
-            array (
-                'id' => 1014,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-crostini-recipe-2040549',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            14 => 
-            array (
-                'id' => 1015,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/blt-deviled-eggs-recipe-1949588',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            15 => 
-            array (
-                'id' => 1016,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-deviled-eggs-3657175',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            16 => 
-            array (
-                'id' => 1017,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/blt-dip-recipe-1950312',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            17 => 
-            array (
-                'id' => 1018,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-dogs-recipe-2105201',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            18 => 
-            array (
-                'id' => 1019,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-dogs-2108082',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            19 => 
-            array (
-                'id' => 1020,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blt-frittata-recipe-1941563',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            20 => 
-            array (
-                'id' => 1021,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-lobster-rolls-3362708',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:58',
-                'updated_at' => '2019-01-06 04:47:58',
-            ),
-            21 => 
-            array (
-                'id' => 1022,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/blt-macaroni-and-cheese-2621166',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            22 => 
-            array (
-                'id' => 1023,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-meatball-sliders-3414422',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            23 => 
-            array (
-                'id' => 1024,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-pasta-salad-recipe-1972691',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            24 => 
-            array (
-                'id' => 1025,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/healthy-blt-pasta-skillet-recipe-2109459',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            25 => 
-            array (
-                'id' => 1026,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-quinoa-bowls-3764844',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            26 => 
-            array (
-                'id' => 1027,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/katie-lee/blt-ranch-burger-2807603',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            27 => 
-            array (
-                'id' => 1028,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/katie-lee/blt-ranch-burgers-3414744',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            28 => 
-            array (
-                'id' => 1029,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-salad-recipe-2271344',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            29 => 
-            array (
-                'id' => 1030,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blt-salad-recipe-1944841',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            30 => 
-            array (
-                'id' => 1031,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-salad-bites-3606292',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            31 => 
-            array (
-                'id' => 1032,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sunny-anderson/blt-sandwich-salad-recipe-1973639',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            32 => 
-            array (
-                'id' => 1033,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/scott-conant/blt-skewers-5175765',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            33 => 
-            array (
-                'id' => 1034,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/blt-soup-recipe-1944716',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            34 => 
-            array (
-                'id' => 1035,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-deen/blt-steak-salad-2106733',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            35 => 
-            array (
-                'id' => 1036,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-tomatoes-recipe-2105057',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            36 => 
-            array (
-                'id' => 1037,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/blt-wedges-recipe-1973493',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            37 => 
-            array (
-                'id' => 1038,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-wonton-crunchies-recipe-1952916',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            38 => 
-            array (
-                'id' => 1039,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/blt-wraps-recipe-1922273',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            39 => 
-            array (
-                'id' => 1040,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blt-and-p-bacon-leek-tomato-and-potato-soup-recipe-1952324',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            40 => 
-            array (
-                'id' => 1041,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/blt-with-blue-buffalo-aioli-recipe-1924643',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            41 => 
-            array (
-                'id' => 1042,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/blt-with-fried-red-tomatoes-and-shrimp-remoulade-3438167',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            42 => 
-            array (
-                'id' => 1043,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-with-sauted-ramps-5126448',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:47:59',
-                'updated_at' => '2019-01-06 04:47:59',
-            ),
-            43 => 
-            array (
-                'id' => 1044,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blt-with-welsh-rarebit-macaroni-recipe-1922061',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            44 => 
-            array (
-                'id' => 1045,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-rific-mac-n-cheese-recipe-1925588',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            45 => 
-            array (
-                'id' => 1046,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/blt-beef-leek-and-tomato-salad-with-bacon-dressing-an-extra-b-recipe-1948416',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            46 => 
-            array (
-                'id' => 1047,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/blt-buster-crab-lettuce-and-tomato-sandwich-recipe-1914905',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            47 => 
-            array (
-                'id' => 1048,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/bltas-2625977',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            48 => 
-            array (
-                'id' => 1049,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/blts-with-blue-cheese-buffalo-aioli-recipe-2118703',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            49 => 
-            array (
-                'id' => 1050,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/trisha-yearwood/bpt-bacon-pimiento-and-tomato-sandwich-2545242',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            50 => 
-            array (
-                'id' => 1051,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bacorn-cheese-3500698',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            51 => 
-            array (
-                'id' => 1052,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/baba-ganoush-and-pita-crisps-recipe-1942875',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            52 => 
-            array (
-                'id' => 1053,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/baba-ghannouj-recipe-1939564',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            53 => 
-            array (
-                'id' => 1054,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baba-ghanoush-with-warm-pita-recipe-1938778',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            54 => 
-            array (
-                'id' => 1055,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baba-au-rhum-recipe-2111706',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            55 => 
-            array (
-                'id' => 1056,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/baba-au-rhum-recipe-2103678',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            56 => 
-            array (
-                'id' => 1057,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/baba-au-rhum-tart-recipe-1942500',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            57 => 
-            array (
-                'id' => 1058,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ellie-krieger/babaganoush-recipe-1947858',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            58 => 
-            array (
-                'id' => 1059,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/babcock-peach-or-braeburn-apple-pancake-tatins-recipe-1915107',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            59 => 
-            array (
-                'id' => 1060,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/babganoush-hummus-pasta-recipe-1939683',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            60 => 
-            array (
-                'id' => 1061,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-animal-cupcakes-recipe-2112035',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:00',
-                'updated_at' => '2019-01-06 04:48:00',
-            ),
-            61 => 
-            array (
-                'id' => 1062,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-artichoke-salad-recipe-1917911',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            62 => 
-            array (
-                'id' => 1063,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-artichoke-salad-recipe0-1942954',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            63 => 
-            array (
-                'id' => 1064,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-artichokes-with-aioli-recipe-2011664',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            64 => 
-            array (
-                'id' => 1065,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-artichokes-with-lemon-garlic-vinaigrette-1915092',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            65 => 
-            array (
-                'id' => 1066,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/baby-back-racks-recipe-2103723',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            66 => 
-            array (
-                'id' => 1067,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/baby-back-racks-recipe2-1947779',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            67 => 
-            array (
-                'id' => 1068,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/baby-back-rib-crown-roast-3887314',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            68 => 
-            array (
-                'id' => 1069,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-back-ribs-3415905',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            69 => 
-            array (
-                'id' => 1070,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/baby-back-ribs-recipe-3381755',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            70 => 
-            array (
-                'id' => 1071,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-back-ribs-recipe-1915807',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            71 => 
-            array (
-                'id' => 1072,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/valerie-bertinelli/baby-back-ribs-5171906',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            72 => 
-            array (
-                'id' => 1073,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/baby-back-ribs-recipe-2040830',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            73 => 
-            array (
-                'id' => 1074,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/baby-back-ribs-recipe2-2009423',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            74 => 
-            array (
-                'id' => 1075,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/baby-back-ribs-2103366',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            75 => 
-            array (
-                'id' => 1076,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/baby-back-ribs-recipe-1951610',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            76 => 
-            array (
-                'id' => 1077,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/baby-back-ribs-and-young-collards-braised-in-apple-juice-recipe-1917529',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            77 => 
-            array (
-                'id' => 1078,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-back-ribs-with-sofrito-glaze-recipe-1970017',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            78 => 
-            array (
-                'id' => 1079,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-back-ribs-with-tropical-bbq-sauce-recipe-1939412',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            79 => 
-            array (
-                'id' => 1080,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-back-ribs-with-tuscan-bbq-sauce-recipe-1959248',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            80 => 
-            array (
-                'id' => 1081,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-baked-fingerling-potatoes-1962558',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            81 => 
-            array (
-                'id' => 1082,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/baby-banana-splits-recipe-2109260',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            82 => 
-            array (
-                'id' => 1083,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-beets-and-pistachio-crusted-goat-cheese-on-a-bed-of-frisee-with-pinot-noir-vinaigrette-recipe-1913032',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            83 => 
-            array (
-                'id' => 1084,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/baby-beets-pistachio-crusted-goat-cheese-bed-frisee-pinot-noir-vinaigrette-recipe-1909219',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            84 => 
-            array (
-                'id' => 1085,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/baby-bell-peppers-with-feta-and-mint-recipe-2105862',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:01',
-                'updated_at' => '2019-01-06 04:48:01',
-            ),
-            85 => 
-            array (
-                'id' => 1086,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/baby-bok-choy-with-bacon-onion-and-butter-beans-3361681',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            86 => 
-            array (
-                'id' => 1087,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/baby-broccoli-with-oyster-sauce-recipe-2104091',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            87 => 
-            array (
-                'id' => 1088,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/baby-carrots-recipe-1939523',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            88 => 
-            array (
-                'id' => 1089,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/baby-carrots-with-sweet-ginger-butter-recipe-1946363',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            89 => 
-            array (
-                'id' => 1090,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/baby-chick-cupcakes-3362187',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            90 => 
-            array (
-                'id' => 1091,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-chicken-with-red-wine-sauce-recipe-1926493',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            91 => 
-            array (
-                'id' => 1092,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/baby-clams-steamed-in-green-onion-broth-recipe-1949599',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            92 => 
-            array (
-                'id' => 1093,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/baby-clams-steamed-cataplana-white-wine-tomato-sauce-almeijoas-na-cataplana-recipe-1941182',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            93 => 
-            array (
-                'id' => 1094,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-corn-and-snow-pea-saute-1926899',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            94 => 
-            array (
-                'id' => 1095,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-eels-in-garlic-sauce-recipe-1912247',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            95 => 
-            array (
-                'id' => 1096,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-egg-rolls-with-soy-sesame-dipping-sauce-recipe-1940213',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            96 => 
-            array (
-                'id' => 1097,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/baby-fondant-packages-recipe-2124609',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            97 => 
-            array (
-                'id' => 1098,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-food-mix-and-mash-1960745',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            98 => 
-            array (
-                'id' => 1099,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/baby-food-perfect-puree-1960777',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            99 => 
-            array (
-                'id' => 1100,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/baby-greens-salad-with-ham-quiche-croutons-and-maple-cider-vinaigrette-3452219',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:48:02',
-                'updated_at' => '2019-01-06 04:48:02',
-            ),
-            100 => 
-            array (
-                'id' => 1101,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cakeice-cream-cones-recipe2-1957000',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            101 => 
-            array (
-                'id' => 1102,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/george-duran/canned-quiches-recipe-1917167',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            102 => 
-            array (
-                'id' => 1103,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daisy-martinez/caribbean-breeze-brisas-del-caribe-recipe-1948802',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            103 => 
-            array (
-                'id' => 1104,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/caribou-stew-recipe-1947533',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            104 => 
-            array (
-                'id' => 1105,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/anne-burrell/cheaters-duck-confit-recipe2-1948111',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            105 => 
-            array (
-                'id' => 1106,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/anne-burrell/cheaters-duck-confit-recipe-1948153',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            106 => 
-            array (
-                'id' => 1107,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cochinitos-caramel-and-chili-glazed-pork-belly-3617025',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            107 => 
-            array (
-                'id' => 1108,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/coffee-and-doughnuts-cappuccino-semifreddo-with-cinnamon-sugar-doughnuts-recipe-1955614',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            108 => 
-            array (
-                'id' => 1109,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/cowboy-stew-recipe-1946727',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            109 => 
-            array (
-                'id' => 1110,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/crabby-potato-chips-2341436',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            110 => 
-            array (
-                'id' => 1111,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cuisinart-yellow-tomato-gazpacho-2203455',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            111 => 
-            array (
-                'id' => 1112,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cuisinart-yellow-tomato-gazpacho-recipe-1956028',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            112 => 
-            array (
-                'id' => 1113,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cup-of-happiness-classic-lemonade-3364115',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            113 => 
-            array (
-                'id' => 1114,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cake-ice-cream-cones-recipe-1917354',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:24',
-                'updated_at' => '2019-01-06 04:51:24',
-            ),
-            114 => 
-            array (
-                'id' => 1115,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cakeice-cream-cones-recipe-1941473',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            115 => 
-            array (
-                'id' => 1116,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cue-the-pulled-pork-recipe-2200787',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            116 => 
-            array (
-                'id' => 1117,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/california-avocado-toast-three-ways-sponsored-3362011',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            117 => 
-            array (
-                'id' => 1118,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/california-steakhouse-burger-sponsored-3361786',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            118 => 
-            array (
-                'id' => 1119,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/candied-pecan-maple-recipe0-1939570',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            119 => 
-            array (
-                'id' => 1120,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/cblts-recipe-1949044',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            120 => 
-            array (
-                'id' => 1121,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cat-cora/ccq-pit-beans-recipe-1951916',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            121 => 
-            array (
-                'id' => 1122,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/chaimomile-4542508',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            122 => 
-            array (
-                'id' => 1123,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/chicken-vesuvio-recipe0-1913872',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            123 => 
-            array (
-                'id' => 1124,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/emeril-lagasse/chilled-mousse-of-pike-with-a-truffle-and-lobster-salad-3646155',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            124 => 
-            array (
-                'id' => 1125,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/chipotle-cheeseburgers-3416522',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            125 => 
-            array (
-                'id' => 1126,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cio-filipino-recipe-2048978',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            126 => 
-            array (
-                'id' => 1127,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cjs-orange-cranberries-and-rosemary-pecans-5509444',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            127 => 
-            array (
-                'id' => 1128,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/clt-salad-3908752',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            128 => 
-            array (
-                'id' => 1129,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/emeril-lagasse/cornmeal-crusted-lemonfish-with-grilled-onion-and-potato-lyonnaise-and-crabmeat-ravigote-3645992',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            129 => 
-            array (
-                'id' => 1130,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cuban-pastelito-de-guayaba-recipe-1940341',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            130 => 
-            array (
-                'id' => 1131,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/amanda-freitag/cabanal-breakfast-burrito-3251758',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:25',
-                'updated_at' => '2019-01-06 04:51:25',
-            ),
-            131 => 
-            array (
-                'id' => 1132,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-pickle-baechu-kimchi-recipe-1926506',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            132 => 
-            array (
-                'id' => 1133,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/cabbage-roll-phyllo-pockets-2341457',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            133 => 
-            array (
-                'id' => 1134,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-rolls-recipe2-2107617',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            134 => 
-            array (
-                'id' => 1135,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cabbage-rolls-recipe-2013326',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            135 => 
-            array (
-                'id' => 1136,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-rolls-with-red-salsa-recipe-1969732',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            136 => 
-            array (
-                'id' => 1137,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-salad-recipe-1937789',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            137 => 
-            array (
-                'id' => 1138,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cabbage-slaw-recipe-1948127',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            138 => 
-            array (
-                'id' => 1139,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-slaw-recipe-1908756',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            139 => 
-            array (
-                'id' => 1140,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-soup-recipe2-2111918',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            140 => 
-            array (
-                'id' => 1141,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cabbage-soup-3672699',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            141 => 
-            array (
-                'id' => 1142,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-soup-with-paprika-kielbasa-and-raisins-recipe-1927703',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            142 => 
-            array (
-                'id' => 1143,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-strudel-recipe-1908897',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            143 => 
-            array (
-                'id' => 1144,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-stuffed-with-barley-and-pomegranate-seeds-recipe-1927243',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            144 => 
-            array (
-                'id' => 1145,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cabbage-and-beet-slaw-5173947',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            145 => 
-            array (
-                'id' => 1146,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-and-green-bean-salad-recipe-1927075',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            146 => 
-            array (
-                'id' => 1147,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-and-potato-bake-3645617',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            147 => 
-            array (
-                'id' => 1148,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/cabbage-and-straw-recipe-1946975',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            148 => 
-            array (
-                'id' => 1149,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-apple-and-almond-slaw-recipe-2107507',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            149 => 
-            array (
-                'id' => 1150,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cabbage-kohlrabi-slaw-recipe-2108512',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:26',
-                'updated_at' => '2019-01-06 04:51:26',
-            ),
-            150 => 
-            array (
-                'id' => 1151,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cabbage-potato-mash-recipe-2107365',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            151 => 
-            array (
-                'id' => 1152,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbage-potato-soup-3645000',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            152 => 
-            array (
-                'id' => 1153,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabbagetown-market-banh-mi-sandwich-recipe-1940460',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            153 => 
-            array (
-                'id' => 1154,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabernet-steak-and-mushrooms-recipe-1942865',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            154 => 
-            array (
-                'id' => 1155,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/cabo-wabo-cocktail-recipe-1946933',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            155 => 
-            array (
-                'id' => 1156,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabot-cheddar-cream-biscuits-recipe-2106631',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            156 => 
-            array (
-                'id' => 1157,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabot-reduced-fat-butternut-squash-soup-recipe-2119061',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            157 => 
-            array (
-                'id' => 1158,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabot-seriously-sharp-shrimp-focaccia-recipe-2106772',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            158 => 
-            array (
-                'id' => 1159,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cabrales-stuffed-poached-pears-peras-cabrales-recipe-1940109',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            159 => 
-            array (
-                'id' => 1160,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cacao-nib-caramel-corn-1960805',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            160 => 
-            array (
-                'id' => 1161,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cacao-nibs-rub-on-tri-tip-or-skirt-steak-recipe-1945806',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            161 => 
-            array (
-                'id' => 1162,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cachaca-and-lime-syllabub-1914518',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            162 => 
-            array (
-                'id' => 1163,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cachaca-and-lime-syllabub-recipe-1914518',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            163 => 
-            array (
-                'id' => 1164,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cacio-e-pepe-fritters-5506884',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            164 => 
-            array (
-                'id' => 1165,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cacio-e-pepe-gnocchi-3612433',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            165 => 
-            array (
-                'id' => 1166,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cacio-e-pepe-pizza-3612434',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            166 => 
-            array (
-                'id' => 1167,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/cacio-e-pepe-5176183',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            167 => 
-            array (
-                'id' => 1168,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cacio-e-pepe-biscuits-3565582',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            168 => 
-            array (
-                'id' => 1169,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cacio-e-pepe-pasta-5458001',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:27',
-                'updated_at' => '2019-01-06 04:51:27',
-            ),
-            169 => 
-            array (
-                'id' => 1170,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/cacio-e-pepe-vinaigrette-4638494',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            170 => 
-            array (
-                'id' => 1171,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/cacio-e-pepe-e-zucca-5455818',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            171 => 
-            array (
-                'id' => 1172,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/cacio-e-pepe-with-crispy-pancetta-2684185',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            172 => 
-            array (
-                'id' => 1173,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/cacio-e-pepe-with-pancetta-and-arugula-4664617',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            173 => 
-            array (
-                'id' => 1174,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cacio-e-pepe-with-peas-3568168',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            174 => 
-            array (
-                'id' => 1175,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cactus-pear-fizz-recipe-1917230',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            175 => 
-            array (
-                'id' => 1176,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cactus-pear-fizz-recipe2-1923660',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            176 => 
-            array (
-                'id' => 1177,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cactus-pear-margaritas-recipe-1913090',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            177 => 
-            array (
-                'id' => 1178,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cactus-rose-cocktail-recipe-1973042',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            178 => 
-            array (
-                'id' => 1179,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cactus-salad-recipe-1969679',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            179 => 
-            array (
-                'id' => 1180,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cactus-sorbet-recipe-1911299',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            180 => 
-            array (
-                'id' => 1181,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cadbury-deviled-eggs-5119490',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            181 => 
-            array (
-                'id' => 1182,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-chicken-pizza-recipe-1940194',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            182 => 
-            array (
-                'id' => 1183,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-chicken-pizza-recipe2-2117686',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            183 => 
-            array (
-                'id' => 1184,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-chicken-salad-recipe-1911715',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            184 => 
-            array (
-                'id' => 1185,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-chicken-wings-3736975',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            185 => 
-            array (
-                'id' => 1186,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-chicken-wrap-recipe-1953176',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            186 => 
-            array (
-                'id' => 1187,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/caesar-club-sandwich-recipe-1947048',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            187 => 
-            array (
-                'id' => 1188,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/caesar-deviled-6-minute-eggs-5116836',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            188 => 
-            array (
-                'id' => 1189,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-dressing-5496991',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            189 => 
-            array (
-                'id' => 1190,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/caesar-pasta-salad-recipe-1952573',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            190 => 
-            array (
-                'id' => 1191,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe0-1969104',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            191 => 
-            array (
-                'id' => 1192,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe1-1952941',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:28',
-                'updated_at' => '2019-01-06 04:51:28',
-            ),
-            192 => 
-            array (
-                'id' => 1193,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe5-1953365',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            193 => 
-            array (
-                'id' => 1194,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/caesar-salad-recipe-1946047',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            194 => 
-            array (
-                'id' => 1195,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/caesar-salad-recipe-2117924',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            195 => 
-            array (
-                'id' => 1196,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe20-2009553',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            196 => 
-            array (
-                'id' => 1197,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe-1957009',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            197 => 
-            array (
-                'id' => 1198,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/caesar-salad-recipe-2040807',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            198 => 
-            array (
-                'id' => 1199,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/caesar-salad-recipe-2041542',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            199 => 
-            array (
-                'id' => 1200,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/caesar-salad-3284019',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            200 => 
-            array (
-                'id' => 1201,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe6-2047826',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            201 => 
-            array (
-                'id' => 1202,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe3-1938757',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            202 => 
-            array (
-                'id' => 1203,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/caesar-salad-5450511',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            203 => 
-            array (
-                'id' => 1204,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-recipe2-1927288',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            204 => 
-            array (
-                'id' => 1205,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-salad-recipe-2103794',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            205 => 
-            array (
-                'id' => 1206,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nigella-lawson/caesar-salad-recipe-2203726',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            206 => 
-            array (
-                'id' => 1207,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad0-1953460',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            207 => 
-            array (
-                'id' => 1208,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/caesar-salad-recipe-1922241',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            208 => 
-            array (
-                'id' => 1209,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-salad-1957611',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            209 => 
-            array (
-                'id' => 1210,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-101-1914949',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            210 => 
-            array (
-                'id' => 1211,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-salad-cake-5126656',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            211 => 
-            array (
-                'id' => 1212,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-dressing-recipe2-2126510',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            212 => 
-            array (
-                'id' => 1213,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-salad-pizza-3361745',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:29',
-                'updated_at' => '2019-01-06 04:51:29',
-            ),
-            213 => 
-            array (
-                'id' => 1214,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-pizza-3416500',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            214 => 
-            array (
-                'id' => 1215,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/caesar-salad-taco-bites-3214099',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            215 => 
-            array (
-                'id' => 1216,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alexandra-guarnaschelli/caesar-salad-with-bacon-brussels-sprouts-and-basil-recipe-2107756',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            216 => 
-            array (
-                'id' => 1217,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/caesar-salad-with-red-romaine-recipe-2119558',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            217 => 
-            array (
-                'id' => 1218,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/caesar-salad-with-crusty-croutons-recipe-1949174',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            218 => 
-            array (
-                'id' => 1219,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/caesar-salad-with-blue-cheese-and-bacon-3772154',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            219 => 
-            array (
-                'id' => 1220,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/caesar-salad-with-creamy-roasted-garlic-dressing-and-parmesan-crisp-recipe-2118580',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            220 => 
-            array (
-                'id' => 1221,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-with-crouton-collars-recipe-1941613',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            221 => 
-            array (
-                'id' => 1222,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/caesar-salad-with-crunchy-croutons-recipe-2103584',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            222 => 
-            array (
-                'id' => 1223,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ellie-krieger/caesar-salad-with-grilled-shrimp-recipe-1953683',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            223 => 
-            array (
-                'id' => 1224,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-with-grilled-vegetables-recipe-1916413',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            224 => 
-            array (
-                'id' => 1225,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/caesar-salad-with-homemade-dressing-recipe-2120654',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            225 => 
-            array (
-                'id' => 1226,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/caesar-salad-with-pancetta-recipe-1914304',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            226 => 
-            array (
-                'id' => 1227,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/caesar-salad-with-pancetta-recipe2-1956899',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            227 => 
-            array (
-                'id' => 1228,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/caesar-salad-with-pancetta-recipe4-1956947',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            228 => 
-            array (
-                'id' => 1229,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/caesar-salad-with-parmesan-crisps-recipe-1949692',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            229 => 
-            array (
-                'id' => 1230,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-salad-with-spicy-pancetta-and-cornbread-croutons-5513381',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            230 => 
-            array (
-                'id' => 1231,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/caesar-spaghetti-recipe-1949482',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            231 => 
-            array (
-                'id' => 1232,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/caesar-stuffed-eggs-recipe-2106760',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            232 => 
-            array (
-                'id' => 1233,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/caesar-t-bone-steak-with-stout-pan-sauce-2269308',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:30',
-                'updated_at' => '2019-01-06 04:51:30',
-            ),
-            233 => 
-            array (
-                'id' => 1234,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-tofu-salad-recipe-1910174',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            234 => 
-            array (
-                'id' => 1235,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesars-palace-salad-recipe-1953052',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            235 => 
-            array (
-                'id' => 1236,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/caesars-pasta-salad-5308788',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            236 => 
-            array (
-                'id' => 1237,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/caesars-scampi-recipe-1947936',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            237 => 
-            array (
-                'id' => 1238,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caesar-mississippi-salad-recipe-1964012',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            238 => 
-            array (
-                'id' => 1239,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/caesar-roasted-fish-recipe-1923095',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            239 => 
-            array (
-                'id' => 1240,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cafe-americano-1994810',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            240 => 
-            array (
-                'id' => 1241,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-au-lait-with-chocolate-dipped-spoons-recipe-1949921',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            241 => 
-            array (
-                'id' => 1242,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daphne-brogdon/cafe-bengali-2686285',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            242 => 
-            array (
-                'id' => 1243,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-brulot-recipe-1926426',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            243 => 
-            array (
-                'id' => 1244,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cafe-con-leche-1960500',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            244 => 
-            array (
-                'id' => 1245,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cafe-con-leche-shake-recipe-1916666',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            245 => 
-            array (
-                'id' => 1246,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/cafe-correcto-espresso-with-a-pop-recipe-1916815',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            246 => 
-            array (
-                'id' => 1247,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/cafe-green-salad-recipe-1948349',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            247 => 
-            array (
-                'id' => 1248,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-hons-mixed-berry-pie-recipe-1946394',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            248 => 
-            array (
-                'id' => 1249,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-lattes-turtle-cake-recipe-1914762',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            249 => 
-            array (
-                'id' => 1250,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/cafe-mexicano-spiced-cafe-de-olla-coffee-recipe-1949300',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:31',
-                'updated_at' => '2019-01-06 04:51:31',
-            ),
-            250 => 
-            array (
-                'id' => 1251,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/trisha-yearwood/cafe-mocha-3623271',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            251 => 
-            array (
-                'id' => 1252,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-ponte-lobster-salad-recipe-1980383',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            252 => 
-            array (
-                'id' => 1253,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cafe-roma-martini-recipe-1947580',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            253 => 
-            array (
-                'id' => 1254,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-select-truffle-fondue-recipe-2135660',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            254 => 
-            array (
-                'id' => 1255,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-au-lait-1926847',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            255 => 
-            array (
-                'id' => 1256,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/cafe-au-lait-pots-de-creme-recipe-1949884',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            256 => 
-            array (
-                'id' => 1257,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-au-lait-pots-de-creme-recipe-1916099',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            257 => 
-            array (
-                'id' => 1258,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-de-olla-recipe2-1970120',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            258 => 
-            array (
-                'id' => 1259,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-de-olla-recipe-1970373',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            259 => 
-            array (
-                'id' => 1260,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/cafe-de-la-olla-french-toast-3298251',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            260 => 
-            array (
-                'id' => 1261,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cafe-du-monde-smoothie-recipe-1963444',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            261 => 
-            array (
-                'id' => 1262,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cafeteria-sloppy-joes-recipe-2104183',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            262 => 
-            array (
-                'id' => 1263,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danny-boome/caffe-lorange-recipe-1942708',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            263 => 
-            array (
-                'id' => 1264,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aida-mollenkamp/caffe-shakerato-recipe-1940343',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            264 => 
-            array (
-                'id' => 1265,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caihpirinha-recipe-1908317',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            265 => 
-            array (
-                'id' => 1266,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caillison-daix-recipe-1951633',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            266 => 
-            array (
-                'id' => 1267,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caipirhinas-recipe-1915048',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            267 => 
-            array (
-                'id' => 1268,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/caipirinha-3384601',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            268 => 
-            array (
-                'id' => 1269,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/caipirinha-recipe-1945040',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:34',
-                'updated_at' => '2019-01-06 04:51:34',
-            ),
-            269 => 
-            array (
-                'id' => 1270,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caipirinha-recipe-1969994',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            270 => 
-            array (
-                'id' => 1271,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/caipirinha-recipe-1944527',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            271 => 
-            array (
-                'id' => 1272,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caipirinha-2111885',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            272 => 
-            array (
-                'id' => 1273,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caipirinha-recipe4-1917257',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            273 => 
-            array (
-                'id' => 1274,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ingrid-hoffmann/caipirinha-recipe-1940297',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            274 => 
-            array (
-                'id' => 1275,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/caipirinha-recipe-1941334',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            275 => 
-            array (
-                'id' => 1276,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caipirinha-recipe0-1914244',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            276 => 
-            array (
-                'id' => 1277,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/caipirinha-brazil-3645105',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            277 => 
-            array (
-                'id' => 1278,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/caipirinha-cocktail-recipe-1916023',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            278 => 
-            array (
-                'id' => 1279,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/caipirissima-recipe-2103775',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            279 => 
-            array (
-                'id' => 1280,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/caipiroska-recipe-1944384',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            280 => 
-            array (
-                'id' => 1281,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/caja-china-roasted-peking-pekin-pulled-duck-sliders-with-bbq-creme-fraiche-and-pickled-grilled-green-onions-2176181',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            281 => 
-            array (
-                'id' => 1282,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/cajeta-gelatin-recipe-2122041',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            282 => 
-            array (
-                'id' => 1283,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/cajeta-pineapple-empanadas-3573526',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            283 => 
-            array (
-                'id' => 1284,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/cajun-bbq-prawns-2666164',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            284 => 
-            array (
-                'id' => 1285,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-bbq-sauce-recipe-2105586',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            285 => 
-            array (
-                'id' => 1286,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-baked-eggs-with-polenta-5507747',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            286 => 
-            array (
-                'id' => 1287,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-beef-southwestern-salad-new-dynamic-beef-dishes-recipe-1937387',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            287 => 
-            array (
-                'id' => 1288,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-blackened-steak-with-sugar-snap-peas-1960603',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            288 => 
-            array (
-                'id' => 1289,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/cajun-brined-turkey-two-ways-recipe-2125928',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            289 => 
-            array (
-                'id' => 1290,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cajun-brisket-2829978',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            290 => 
-            array (
-                'id' => 1291,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cajun-catfish-cakes-with-remoulade-recipe-1923452',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            291 => 
-            array (
-                'id' => 1292,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-caviar-marinated-salad-recipe2-2012744',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            292 => 
-            array (
-                'id' => 1293,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-cheeseburger-with-grilled-onions-and-praline-bacon0-3047496',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:35',
-                'updated_at' => '2019-01-06 04:51:35',
-            ),
-            293 => 
-            array (
-                'id' => 1294,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-chicken-alfredo-recipe-1952381',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            294 => 
-            array (
-                'id' => 1295,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/cajun-chicken-alfredo-2-2095695',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            295 => 
-            array (
-                'id' => 1296,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/cajun-chicken-alfredo-2-recipe-2095695',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            296 => 
-            array (
-                'id' => 1297,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-chicken-mustard-recipe-1927119',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            297 => 
-            array (
-                'id' => 1298,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cajun-chicken-pasta-recipe-2109871',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            298 => 
-            array (
-                'id' => 1299,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-chicken-and-sausage-jambalaya-recipe-1953599',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            299 => 
-            array (
-                'id' => 1300,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-chicken-with-pinto-beans-3363332',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            300 => 
-            array (
-                'id' => 1301,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-corn-maque-choux-recipe-2131600',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            301 => 
-            array (
-                'id' => 1302,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-corn-pudding-recipe-1924050',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            302 => 
-            array (
-                'id' => 1303,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-cornmeal-crusted-chicken-recipe-2013840',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            303 => 
-            array (
-                'id' => 1304,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-cornmeal-andouille-pigs-in-blankets-3364238',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            304 => 
-            array (
-                'id' => 1305,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-crab-cakes-recipe-2040430',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            305 => 
-            array (
-                'id' => 1306,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-crab-stuffed-pepperoncini-recipe-1944293',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            306 => 
-            array (
-                'id' => 1307,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/cajun-crab-and-asparagus-pie-recipe-2010444',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            307 => 
-            array (
-                'id' => 1308,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-crawfish-fried-rice-3364307',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            308 => 
-            array (
-                'id' => 1309,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/cajun-crudite-recipe-1943257',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            309 => 
-            array (
-                'id' => 1310,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-crusted-ahi-in-sake-to-me-shoyu-sauce-recipe-1946813',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            310 => 
-            array (
-                'id' => 1311,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-filets-5421545',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            311 => 
-            array (
-                'id' => 1312,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-fillet-of-sole-with-sauce-remoulade-recipe-1915487',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            312 => 
-            array (
-                'id' => 1313,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cajun-fried-okra-recipe-2014407',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:36',
-                'updated_at' => '2019-01-06 04:51:36',
-            ),
-            313 => 
-            array (
-                'id' => 1314,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-fried-shrimp-recipe-1962796',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            314 => 
-            array (
-                'id' => 1315,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-grilled-chicken-recipe-2010041',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            315 => 
-            array (
-                'id' => 1316,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-grilled-shrimp-and-grits-recipe-2129024',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            316 => 
-            array (
-                'id' => 1317,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-gumbo-recipe-2203620',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            317 => 
-            array (
-                'id' => 1318,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cajun-hollandaise-5515467',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            318 => 
-            array (
-                'id' => 1319,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-injector-cajun-roast-beef-3416274',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            319 => 
-            array (
-                'id' => 1320,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-injector-ultimate-fried-turkey-3414589',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            320 => 
-            array (
-                'id' => 1321,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-jambalaya-3645831',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            321 => 
-            array (
-                'id' => 1322,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/amanda-freitag/cajun-jambalaya-3213181',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            322 => 
-            array (
-                'id' => 1323,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-lobster-recipe-2103925',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            323 => 
-            array (
-                'id' => 1324,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-mac-and-cheese-recipe-2107073',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            324 => 
-            array (
-                'id' => 1325,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-macaroni-salad-3812072',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            325 => 
-            array (
-                'id' => 1326,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-martini-recipe-1908559',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            326 => 
-            array (
-                'id' => 1327,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cajun-mashed-potatoes-2371537',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            327 => 
-            array (
-                'id' => 1328,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-mushroom-loaf-recipe-2014308',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            328 => 
-            array (
-                'id' => 1329,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-omelet-recipe-1914731',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            329 => 
-            array (
-                'id' => 1330,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cajun-onion-bloomers-recipe-1943583',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            330 => 
-            array (
-                'id' => 1331,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/cajun-oven-fries-recipe-1940154',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            331 => 
-            array (
-                'id' => 1332,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-pecans-5484270',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            332 => 
-            array (
-                'id' => 1333,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/cajun-pork-burgers-recipe-1911857',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            333 => 
-            array (
-                'id' => 1334,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cajun-pork-burgers-with-spicy-remoulade-sauce-recipe-1945523',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:37',
-                'updated_at' => '2019-01-06 04:51:37',
-            ),
-            334 => 
-            array (
-                'id' => 1335,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-pork-chops-with-kale-3362363',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            335 => 
-            array (
-                'id' => 1336,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-pork-tenderloin-with-braised-greens-recipe-1944647',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            336 => 
-            array (
-                'id' => 1337,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-pork-tenderloin-with-braised-greens-recipe-2125730',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            337 => 
-            array (
-                'id' => 1338,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paul-young/cajun-pork-tenderloin-with-lambic-beer-sauce-and-cheesy-spaetzle-recipe-1920786',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            338 => 
-            array (
-                'id' => 1339,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-pork-with-spicy-beans-recipe-1914427',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            339 => 
-            array (
-                'id' => 1340,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-potato-planks-recipe-1909816',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            340 => 
-            array (
-                'id' => 1341,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-rice-pilaf-recipe-2109148',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            341 => 
-            array (
-                'id' => 1342,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-rice-salad-with-shrimp-and-okra-3689873',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            342 => 
-            array (
-                'id' => 1343,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-rice-with-sausage-recipe-1973813',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            343 => 
-            array (
-                'id' => 1344,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-rub-for-deep-fried-turkey-recipe-1961048',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            344 => 
-            array (
-                'id' => 1345,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/cajun-salmon-sandwich-with-goat-cheese-and-lemon-mayonnaise-on-ciabatta-recipe-1939414',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            345 => 
-            array (
-                'id' => 1346,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-scallops-and-rice-3363048',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            346 => 
-            array (
-                'id' => 1347,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cajun-seafood-balls-recipe-1917121',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            347 => 
-            array (
-                'id' => 1348,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-seared-scallops-with-roasted-onion-and-fennel-consomme-2014978',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            348 => 
-            array (
-                'id' => 1349,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-select-seasoning-5421544',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            349 => 
-            array (
-                'id' => 1350,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-shrimp-recipe-1917310',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            350 => 
-            array (
-                'id' => 1351,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-shrimp-po-boys-1961112',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            351 => 
-            array (
-                'id' => 1352,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-shrimp-skewers-5421542',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            352 => 
-            array (
-                'id' => 1353,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-shrimp-and-corn-3363732',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            353 => 
-            array (
-                'id' => 1354,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-shrimp-and-rice-recipe-1972850',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            354 => 
-            array (
-                'id' => 1355,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-slow-cooker-pulled-pork-recipe-2121095',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            355 => 
-            array (
-                'id' => 1356,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-smothered-pork-chops-3414586',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            356 => 
-            array (
-                'id' => 1357,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/cajun-snapper-and-shrimp-over-bacon-cheddar-cheese-grits-with-red-pepper-coulis-recipe-1953702',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:38',
-                'updated_at' => '2019-01-06 04:51:38',
-            ),
-            357 => 
-            array (
-                'id' => 1358,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robert-irvine/cajun-snapper-and-shrimp-over-bacon-cheddar-cheese-grits-with-red-pepper-coulis-recipe2-1953957',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            358 => 
-            array (
-                'id' => 1359,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-spelt-3362979',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            359 => 
-            array (
-                'id' => 1360,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-spice-mix-recipe-1908454',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            360 => 
-            array (
-                'id' => 1361,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-spiced-burgers-3362729',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            361 => 
-            array (
-                'id' => 1362,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-spiced-nuts-5496756',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            362 => 
-            array (
-                'id' => 1363,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jamie-oliver/cajun-spicy-rub-recipe-1910046',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            363 => 
-            array (
-                'id' => 1364,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-stuffed-peppers-recipe-2106842',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            364 => 
-            array (
-                'id' => 1365,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-style-crayfish-scallion-rice-cakes-recipe-1910681',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            365 => 
-            array (
-                'id' => 1366,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cajun-surf-and-turf-2371538',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            366 => 
-            array (
-                'id' => 1367,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-tasso-corn-maque-choux-with-grilled-shrimp-2821892',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            367 => 
-            array (
-                'id' => 1368,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/cajun-tempura-okra-with-scallion-dipping-sauce-recipe-1945044',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            368 => 
-            array (
-                'id' => 1369,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-trail-mix-recipe-1916199',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            369 => 
-            array (
-                'id' => 1370,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cajun-turkey-burgers-with-cayenne-curly-fries-recipe-1953465',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            370 => 
-            array (
-                'id' => 1371,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-turkey-injection-brine-recipe-1961274',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            371 => 
-            array (
-                'id' => 1372,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cajun-veggie-pasta-5403547',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            372 => 
-            array (
-                'id' => 1373,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-zucchini-fries-3364712',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            373 => 
-            array (
-                'id' => 1374,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cajun-catfish-tacos-5486896',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            374 => 
-            array (
-                'id' => 1375,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-injected-spicy-turkey-3644662',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            375 => 
-            array (
-                'id' => 1376,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cajun-spiced-burgers-3414441',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            376 => 
-            array (
-                'id' => 1377,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cake-chips-and-dip-5167719',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            377 => 
-            array (
-                'id' => 1378,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/cake-doughnut-bread-pudding-recipe-2103954',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            378 => 
-            array (
-                'id' => 1379,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cake-doughnuts-2269004',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            379 => 
-            array (
-                'id' => 1380,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/cake-eyeballs-2269193',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            380 => 
-            array (
-                'id' => 1381,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cake-mix-cranberry-orange-muffins-3362436',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:39',
-                'updated_at' => '2019-01-06 04:51:39',
-            ),
-            381 => 
-            array (
-                'id' => 1382,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cake-mix-holiday-cookies-3363918',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            382 => 
-            array (
-                'id' => 1383,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/cake-petit-fours-recipe-1943303',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            383 => 
-            array (
-                'id' => 1384,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cake-pizza-recipe-1917282',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            384 => 
-            array (
-                'id' => 1385,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/cake-and-berries-with-melted-ice-cream-sauce-recipe-1946481',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            385 => 
-            array (
-                'id' => 1386,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cake-mix-blueberry-pancakes-3362297',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            386 => 
-            array (
-                'id' => 1387,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cake-mix-ice-cream-sundae-cake-3362486',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            387 => 
-            array (
-                'id' => 1388,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cake-mix-mint-chocolate-sandwich-cookies-3362392',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            388 => 
-            array (
-                'id' => 1389,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cakey-brownies-3623214',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            389 => 
-            array (
-                'id' => 1390,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aida-mollenkamp/cakey-buttermilk-pancakes-recipe-1940218',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            390 => 
-            array (
-                'id' => 1391,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cakey-chocolate-chip-cookies-3364333',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            391 => 
-            array (
-                'id' => 1392,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/cakey-chocolate-chip-cookies-recipe-2107121',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            392 => 
-            array (
-                'id' => 1393,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/cal-italia-pizza-recipe-1946588',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            393 => 
-            array (
-                'id' => 1394,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/calabacita-cups-recipe-1912453',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            394 => 
-            array (
-                'id' => 1395,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/calabacitas-casserole-with-polenta-and-cheese-recipe-1915081',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            395 => 
-            array (
-                'id' => 1396,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/calabaza-fritters-with-mango-sour-orange-sauce-recipe-2015120',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            396 => 
-            array (
-                'id' => 1397,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/calabaza-soup-cinnamon-creme-fraiche-sopa-de-calabaza-con-canela-crema-fresca-recipe-1911460',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            397 => 
-            array (
-                'id' => 1398,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/calabaza-soup-sopa-de-calabaza-recipe-1911161',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            398 => 
-            array (
-                'id' => 1399,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/calabrese-antipasto-recipe-1941823',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            399 => 
-            array (
-                'id' => 1400,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/calabrese-broad-beans-and-roasted-potatoes-recipe-1947512',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 04:51:40',
-                'updated_at' => '2019-01-06 04:51:40',
-            ),
-            400 => 
-            array (
-                'id' => 1401,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/da-beef-italian-pot-roast-sandwich-3852934',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            401 => 
-            array (
-                'id' => 1402,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/damaris-phillips/dance-the-night-away-energy-bars-2665676',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            402 => 
-            array (
-                'id' => 1403,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/deconstructed-italian-cheesecake-3416342',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            403 => 
-            array (
-                'id' => 1404,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dee-dees-home-run-chicken-pollo-guisado-recipe-2012273',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            404 => 
-            array (
-                'id' => 1405,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dixie-polenta-ie-creamy-roasted-garlic-grits-recipe-1956174',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            405 => 
-            array (
-                'id' => 1406,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dressed-american-wagyu-flat-iron-steak-3617019',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            406 => 
-            array (
-                'id' => 1407,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/drunken-shrimp-style-quick-marinade-recipe-1946185',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            407 => 
-            array (
-                'id' => 1408,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/da-pork-chop-recipe-1938684',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            408 => 
-            array (
-                'id' => 1409,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/da-pork-chop-1938684',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            409 => 
-            array (
-                'id' => 1410,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dabrigini-recipe-1927056',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            410 => 
-            array (
-                'id' => 1411,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dagnello-scottadito-burn-your-fingers-lamb-recipe-1939339',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            411 => 
-            array (
-                'id' => 1412,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/decorative-centerpieces-port-wine-meringues-with-swirls-bouquet-recipe-1922522',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            412 => 
-            array (
-                'id' => 1413,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/decorative-centerpieces-pumpkin-patch-centerpiece-recipe-2124652',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            413 => 
-            array (
-                'id' => 1414,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/diy-chocolate-shell-coating-3363283',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            414 => 
-            array (
-                'id' => 1415,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/diy-instant-minestrone-soup-5540264',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            415 => 
-            array (
-                'id' => 1416,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/diy-instant-potato-bacon-and-chive-soup-5540276',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            416 => 
-            array (
-                'id' => 1417,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/diy-instant-tomato-soup-5540277',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            417 => 
-            array (
-                'id' => 1418,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/diy-mummy-serving-bowl-featuring-farm-richandreg-mozzarella-sticks-3416189',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:38',
-                'updated_at' => '2019-01-06 05:04:38',
-            ),
-            418 => 
-            array (
-                'id' => 1419,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/diy-pumpkin-spice-blend-5458009',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            419 => 
-            array (
-                'id' => 1420,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/diy-taco-salad-lunch-box-bowl-3415005',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            420 => 
-            array (
-                'id' => 1421,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/diy-vodka-bar-with-spicy-pomegranate-and-lemongrass-limeade-mixers-2124913',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            421 => 
-            array (
-                'id' => 1422,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dover-sole-a-la-meuniere-recipe0-1940788',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            422 => 
-            array (
-                'id' => 1423,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dq-bourbon-pecan-pie-recipe-1912188',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            423 => 
-            array (
-                'id' => 1424,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dutch-oven-potatoes-recipe0-1951763',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            424 => 
-            array (
-                'id' => 1425,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/da-famous-broke-da-mouth-garlic-furikake-chicken-5423352',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            425 => 
-            array (
-                'id' => 1426,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/da-kine-diegos-chipotle-sour-cream-recipe-1945811',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            426 => 
-            array (
-                'id' => 1427,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/da-kine-diegos-shaka-salsa-recipe-1917260',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            427 => 
-            array (
-                'id' => 1428,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/da-bus-beef-roast-recipe-1949308',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            428 => 
-            array (
-                'id' => 1429,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-mccargo-jr/daspot-chicken-sandwich-recipe-1948772',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            429 => 
-            array (
-                'id' => 1430,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/davero-meyer-lemon-olive-oil-cake-recipe-1941789',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            430 => 
-            array (
-                'id' => 1431,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daal-curry-recipe-2129353',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            431 => 
-            array (
-                'id' => 1432,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dad-pages-macaroni-and-cheese-recipe-1940186',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            432 => 
-            array (
-                'id' => 1433,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/dads-chicken-sandwich-recipe-1949675',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            433 => 
-            array (
-                'id' => 1434,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-symon/dads-death-by-chocolate-2107370',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:39',
-                'updated_at' => '2019-01-06 05:04:39',
-            ),
-            434 => 
-            array (
-                'id' => 1435,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/dads-egg-nog-recipe-1946507',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            435 => 
-            array (
-                'id' => 1436,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-hawaiian-style-beef-short-ribs-2810951',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            436 => 
-            array (
-                'id' => 1437,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-mashed-potato-salad-5515507',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            437 => 
-            array (
-                'id' => 1438,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-meatloaf-recipe-1942257',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            438 => 
-            array (
-                'id' => 1439,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/dads-meatloaf-with-tomato-relish-recipe-1917021',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            439 => 
-            array (
-                'id' => 1440,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-melt-in-your-mouth-cookies-recipe-1944901',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            440 => 
-            array (
-                'id' => 1441,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-mushrooms-3611565',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            441 => 
-            array (
-                'id' => 1442,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/dads-poached-salmon-with-cucumber-sauce-recipe-1953557',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            442 => 
-            array (
-                'id' => 1443,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-potato-cheese-soup-recipe-2011864',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            443 => 
-            array (
-                'id' => 1444,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/robin-miller/dads-red-cabbage-recipe-1946408',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            444 => 
-            array (
-                'id' => 1445,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dave-lieberman/dads-roast-chicken-my-way-with-a-parsley-lemon-juice-oil-recipe-1916485',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            445 => 
-            array (
-                'id' => 1446,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dads-smokin-asian-texas-bbq-sauce-recipe-1956273',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:40',
-                'updated_at' => '2019-01-06 05:04:40',
-            ),
-            446 => 
-            array (
-                'id' => 1447,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alexandra-guarnaschelli/dads-spare-ribs-recipe-1922421',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            447 => 
-            array (
-                'id' => 1448,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daphne-brogdon/dad-hattan-2822421',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            448 => 
-            array (
-                'id' => 1449,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jamie-deen/daddy-deens-brownies-recipe-2124171',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            449 => 
-            array (
-                'id' => 1450,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daddy-warbucks-2215989',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            450 => 
-            array (
-                'id' => 1451,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daddys-bbq-chicken-recipe-1948293',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            451 => 
-            array (
-                'id' => 1452,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/trisha-yearwood/daddys-biscuits-recipe-2041677',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            452 => 
-            array (
-                'id' => 1453,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sunny-anderson/daddys-game-changing-turkey-with-quick-pan-gravy-recipe-1922570',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            453 => 
-            array (
-                'id' => 1454,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/daddys-tangy-grilling-sauce-recipe-1942458',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            454 => 
-            array (
-                'id' => 1455,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/daffodil-driver-recipe-1948494',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            455 => 
-            array (
-                'id' => 1456,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dagwood-sandwich-recipe-2014096',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            456 => 
-            array (
-                'id' => 1457,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dai-mint-and-tomato-salad-recipe-1909854',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            457 => 
-            array (
-                'id' => 1458,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daikon-fettuccine-with-tomato-basil-sauce-recipe-2011757',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            458 => 
-            array (
-                'id' => 1459,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daikon-soup-with-shiitake-cigars-and-steamed-sweet-potatoes-with-green-onion-vinaigrette-2125558',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            459 => 
-            array (
-                'id' => 1460,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/daikon-carrot-salad-recipe-1928312',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            460 => 
-            array (
-                'id' => 1461,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/daiquiri-recipe-2040253',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            461 => 
-            array (
-                'id' => 1462,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daisy-brand-quiche-3363219',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:41',
-                'updated_at' => '2019-01-06 05:04:41',
-            ),
-            462 => 
-            array (
-                'id' => 1463,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/daisy-cake-4694417',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            463 => 
-            array (
-                'id' => 1464,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/daisy-shortbread-cookies-recipe-1924228',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            464 => 
-            array (
-                'id' => 1465,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daisys-mojo-ribs-recipe-1953289',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            465 => 
-            array (
-                'id' => 1466,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daisys-red-potatoes-recipe-1939292',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            466 => 
-            array (
-                'id' => 1467,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daisy-shaped-ravioli-stuffed-with-fennel-black-truffle-sauce-recipe-1916502',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            467 => 
-            array (
-                'id' => 1468,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dak-gui-grilled-chicken-in-a-soy-chili-sauce-recipe-1927491',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            468 => 
-            array (
-                'id' => 1469,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/dakos-greek-bread-salad-recipe-1942358',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            469 => 
-            array (
-                'id' => 1470,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dakota-style-bison-stew-recipe-1917154',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            470 => 
-            array (
-                'id' => 1471,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dal-3372461',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            471 => 
-            array (
-                'id' => 1472,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dal-recipe-1940808',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            472 => 
-            array (
-                'id' => 1473,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dal-soup-2010241',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            473 => 
-            array (
-                'id' => 1474,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dal-indian-split-pea-soup-and-fresh-tomato-relish-recipe-1922112',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            474 => 
-            array (
-                'id' => 1475,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dale-degroffs-hurricane-cocktail-recipe-1959113',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            475 => 
-            array (
-                'id' => 1476,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dali-side-up-egg-dessert-recipe-1912184',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            476 => 
-            array (
-                'id' => 1477,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/dallas-burger-recipe-2012127',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            477 => 
-            array (
-                'id' => 1478,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dallas-mexican-cornbread-recipe-1921337',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            478 => 
-            array (
-                'id' => 1479,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/damaris-phillips/damaris-orange-chocolate-bars-3416481',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            479 => 
-            array (
-                'id' => 1480,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/damn-hot-peppers-recipe-1916206',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            480 => 
-            array (
-                'id' => 1481,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/michael-chiarello/damn-hot-polenta-bread-recipe-1941993',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            481 => 
-            array (
-                'id' => 1482,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dan-dan-mian-dan-dan-noodles-3892612',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:42',
-                'updated_at' => '2019-01-06 05:04:42',
-            ),
-            482 => 
-            array (
-                'id' => 1483,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/dan-dan-noodles-recipe-1924053',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            483 => 
-            array (
-                'id' => 1484,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dan-dan-noodles-3363637',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            484 => 
-            array (
-                'id' => 1485,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dan-dan-sesame-noodles-recipe-1906626',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            485 => 
-            array (
-                'id' => 1486,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dans-shiso-poke-recipe-1922793',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            486 => 
-            array (
-                'id' => 1487,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dan-dan-noodles-3630594',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            487 => 
-            array (
-                'id' => 1488,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dan-dan-noodles-recipe-1973011',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            488 => 
-            array (
-                'id' => 1489,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danas-crispy-coconut-chicken-recipe-1960688',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            489 => 
-            array (
-                'id' => 1490,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danas-dark-chocolate-bark-recipe-2105574',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            490 => 
-            array (
-                'id' => 1491,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dancing-land-and-sea-recipe-2013471',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            491 => 
-            array (
-                'id' => 1492,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/dandelion-green-gumbo-with-good-thyme-rice-recipe-1946297',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            492 => 
-            array (
-                'id' => 1493,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/dandelion-green-salad-recipe-1914018',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            493 => 
-            array (
-                'id' => 1494,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dandelion-salad-with-warm-hazelnut-vinaigrette-1910391',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            494 => 
-            array (
-                'id' => 1495,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dandy-beer-recipe-2013421',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            495 => 
-            array (
-                'id' => 1496,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/dang-cold-asian-noodle-salad-recipe-1949661',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            496 => 
-            array (
-                'id' => 1497,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/danger-dogs-with-spicy-fruit-relish-2371798',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            497 => 
-            array (
-                'id' => 1498,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daniel-bouluds-light-mayonnaise-recipe-2105587',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            498 => 
-            array (
-                'id' => 1499,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daniels-sardine-and-red-pepper-terrine-recipe-1907344',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-            499 => 
-            array (
-                'id' => 1500,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danielas-lemon-cream-scones-recipe-1940072',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:43',
-                'updated_at' => '2019-01-06 05:04:43',
-            ),
-        ));
-        \DB::table('crawl_links')->insert(array (
-            0 => 
-            array (
-                'id' => 1501,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danielas-lemon-cream-scones-1940072',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            1 => 
-            array (
-                'id' => 1502,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danielas-quince-and-cranberry-compote-recipe-1911744',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            2 => 
-            array (
-                'id' => 1503,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danielas-quince-and-cranberry-compote-1911744',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            3 => 
-            array (
-                'id' => 1504,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-apple-and-prune-cake-recipe-1952229',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            4 => 
-            array (
-                'id' => 1505,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-braid-recipe-1926579',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            5 => 
-            array (
-                'id' => 1506,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/danish-burgers-with-herb-caper-sauce-and-a-mod-salad-recipe-1944037',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            6 => 
-            array (
-                'id' => 1507,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-cherries-recipe-1965088',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            7 => 
-            array (
-                'id' => 1508,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-dough-recipe-1955852',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            8 => 
-            array (
-                'id' => 1509,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-dough-3646024',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            9 => 
-            array (
-                'id' => 1510,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-ham-viking-style-recipe-2125718',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            10 => 
-            array (
-                'id' => 1511,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-leaf-cake-2630179',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            11 => 
-            array (
-                'id' => 1512,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-meatball-burgers-with-pickled-red-cabbage-3364168',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            12 => 
-            array (
-                'id' => 1513,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/danish-modern-recipe2-2125527',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            13 => 
-            array (
-                'id' => 1514,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/danish-modern-recipe-1928444',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            14 => 
-            array (
-                'id' => 1515,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-pancake-balls-2630177',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            15 => 
-            array (
-                'id' => 1516,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-pastry-recipe-1952943',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            16 => 
-            array (
-                'id' => 1517,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danish-snails-recipe-1926569',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            17 => 
-            array (
-                'id' => 1518,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/duff-goldman/danish-with-goat-cheese-and-pear-filling-3381840',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            18 => 
-            array (
-                'id' => 1519,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danny-chans-steamed-salmon-with-lemon-recipe-1915895',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            19 => 
-            array (
-                'id' => 1520,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danny-glovers-favorite-lethal-weapon-sauce-recipe-1913221',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:44',
-                'updated_at' => '2019-01-06 05:04:44',
-            ),
-            20 => 
-            array (
-                'id' => 1521,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danny-glovers-seafood-gumbo-1909627',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            21 => 
-            array (
-                'id' => 1522,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/danny-glovers-seafood-gumbo0-1909826',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            22 => 
-            array (
-                'id' => 1523,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dannys-mojo-pork-recipe-2106730',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            23 => 
-            array (
-                'id' => 1524,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/darjeeling-with-ginger-syrup-recipe-1908954',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            24 => 
-            array (
-                'id' => 1525,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/valerie-bertinelli/dark-n-fiery-4638467',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            25 => 
-            array (
-                'id' => 1526,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-cherry-bundt-cake-2122354',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            26 => 
-            array (
-                'id' => 1527,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-bark-recipe-2127838',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            27 => 
-            array (
-                'id' => 1528,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-bark-3362494',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            28 => 
-            array (
-                'id' => 1529,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/dark-chocolate-bark-2237767',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            29 => 
-            array (
-                'id' => 1530,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/dark-chocolate-brownie-bites-3091571',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            30 => 
-            array (
-                'id' => 1531,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/dark-chocolate-brownie-pops-2660165',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            31 => 
-            array (
-                'id' => 1532,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ellie-krieger/dark-chocolate-brownies-recipe-1958034',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            32 => 
-            array (
-                'id' => 1533,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-brownies-with-caramel-filled-delightfulls-3415974',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            33 => 
-            array (
-                'id' => 1534,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-brownies-with-cherry-flavored-filled-delightfulls-3416292',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            34 => 
-            array (
-                'id' => 1535,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-brownies-with-mint-filled-delightfulls-3415290',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            35 => 
-            array (
-                'id' => 1536,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-brownies-with-peanut-butter-filled-delightfulls-3414828',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            36 => 
-            array (
-                'id' => 1537,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-cake-recipe-1946886',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            37 => 
-            array (
-                'id' => 1538,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-cake-3634849',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:45',
-                'updated_at' => '2019-01-06 05:04:45',
-            ),
-            38 => 
-            array (
-                'id' => 1539,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-cake-with-coconut-peanut-butter-italian-buttercream-3667440',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            39 => 
-            array (
-                'id' => 1540,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-caramel-spice-recipe-2119841',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            40 => 
-            array (
-                'id' => 1541,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-chai-2269313',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            41 => 
-            array (
-                'id' => 1542,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-cherry-candies-3362367',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            42 => 
-            array (
-                'id' => 1543,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-cherry-fudge-3362620',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            43 => 
-            array (
-                'id' => 1544,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/dark-chocolate-chipotle-cookies-recipe-1943949',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            44 => 
-            array (
-                'id' => 1545,
-                'isPublished' => 0,
-                'link' => '/content/food-com/en/recipes/no-chef/d/da/dar/dark/dark-chocolate-crumb-bars.html',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            45 => 
-            array (
-                'id' => 1546,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-cups-with-avocado-mousse-3416343',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            46 => 
-            array (
-                'id' => 1547,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/trisha-yearwood/dark-chocolate-filled-angel-food-cupcakes-5507950',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            47 => 
-            array (
-                'id' => 1548,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/dark-chocolate-fondue-recipe-1942004',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            48 => 
-            array (
-                'id' => 1549,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-fudge-with-mint-filled-delightfulls-3416144',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            49 => 
-            array (
-                'id' => 1550,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-ganache-recipe-1965018',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:46',
-                'updated_at' => '2019-01-06 05:04:46',
-            ),
-            50 => 
-            array (
-                'id' => 1551,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-hazelnut-bonbon-spiders-recipe-1925787',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:48',
-                'updated_at' => '2019-01-06 05:04:48',
-            ),
-            51 => 
-            array (
-                'id' => 1552,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-hazelnut-dip-3644461',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            52 => 
-            array (
-                'id' => 1553,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-log-roll-recipe-2125158',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            53 => 
-            array (
-                'id' => 1554,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/giada-de-laurentiis/dark-chocolate-macaron-cake-3238039',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            54 => 
-            array (
-                'id' => 1555,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-chocolate-martini-recipe-2105228',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            55 => 
-            array (
-                'id' => 1556,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-marzipan-scone-loaf-5336090',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            56 => 
-            array (
-                'id' => 1557,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ellie-krieger/dark-chocolate-mousse-recipe-1945893',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            57 => 
-            array (
-                'id' => 1558,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/dark-chocolate-mousse-recipe-1917102',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            58 => 
-            array (
-                'id' => 1559,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/dark-chocolate-mousse-2715389',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            59 => 
-            array (
-                'id' => 1560,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/dark-chocolate-nut-bars-3589662',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            60 => 
-            array (
-                'id' => 1561,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/damaris-phillips/dark-chocolate-oatmeal-3908773',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            61 => 
-            array (
-                'id' => 1562,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-peanut-butter-candies-3362470',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            62 => 
-            array (
-                'id' => 1563,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-chocolate-pecan-bars-5531063',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            63 => 
-            array (
-                'id' => 1564,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-peppermint-pattie-cake-recipe-2012120',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            64 => 
-            array (
-                'id' => 1565,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/geoffrey-zakarian/dark-chocolate-pudding-2310289',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            65 => 
-            array (
-                'id' => 1566,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-pumpkin-seed-peanut-brittle-3414414',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            66 => 
-            array (
-                'id' => 1567,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-smores-recipe-1921586',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:49',
-                'updated_at' => '2019-01-06 05:04:49',
-            ),
-            67 => 
-            array (
-                'id' => 1568,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-samoa-cupcakes-recipe-2064582',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            68 => 
-            array (
-                'id' => 1569,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daphne-brogdon/dark-chocolate-sauce-with-fresh-berries-2683355',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            69 => 
-            array (
-                'id' => 1570,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-sour-cream-hazelnut-cake-3521762',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            70 => 
-            array (
-                'id' => 1571,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/dark-chocolate-terrine-3364992',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            71 => 
-            array (
-                'id' => 1572,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-truffles-recipe-1965208',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            72 => 
-            array (
-                'id' => 1573,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/dark-chocolate-truffles-recipe-1943514',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            73 => 
-            array (
-                'id' => 1574,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/dark-chocolate-truffles-recipe2-1947773',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            74 => 
-            array (
-                'id' => 1575,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/dark-chocolate-waffles-with-white-chocolate-custard-sauce-and-chocolate-espresso-whipped-cream-2711995',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            75 => 
-            array (
-                'id' => 1576,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-walnut-raspberry-cookies-3416488',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            76 => 
-            array (
-                'id' => 1577,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alexandra-guarnaschelli/dark-chocolate-whoopie-pies-with-toasted-almond-cream-recipe-2042275',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            77 => 
-            array (
-                'id' => 1578,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-chocolate-and-cherry-cheesecake-galette-3584722',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            78 => 
-            array (
-                'id' => 1579,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-and-earl-grey-pudding-3182963',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            79 => 
-            array (
-                'id' => 1580,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-chocolate-and-hazelnut-candies-3363575',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            80 => 
-            array (
-                'id' => 1581,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-peppermint-cheesecake-cookie-cups-recipe-2109164',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            81 => 
-            array (
-                'id' => 1582,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-and-walnut-torte-2268764',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            82 => 
-            array (
-                'id' => 1583,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ellie-krieger/dark-chocolate-as-a-snack-recipe-1965519',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            83 => 
-            array (
-                'id' => 1584,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-chocolate-coconut-fondue-3567643',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            84 => 
-            array (
-                'id' => 1585,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ellie-krieger/dark-chocolate-dipped-pretzels-recipe-2105711',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            85 => 
-            array (
-                'id' => 1586,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-chocolate-hazelnut-sables-3564985',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            86 => 
-            array (
-                'id' => 1587,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-german-chocolate-cake-with-toasted-almond-coconut-goo-recipe-1938059',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:50',
-                'updated_at' => '2019-01-06 05:04:50',
-            ),
-            87 => 
-            array (
-                'id' => 1588,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/dark-greens-with-cranberries-recipe-1943681',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            88 => 
-            array (
-                'id' => 1589,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-magic-cupcakes-recipe-2048970',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            89 => 
-            array (
-                'id' => 1590,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-mocha-cookies-recipe-2120127',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            90 => 
-            array (
-                'id' => 1591,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-night-cocktail-recipe-2103458',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            91 => 
-            array (
-                'id' => 1592,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/dark-rum-southsides-5232441',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            92 => 
-            array (
-                'id' => 1593,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/dark-salty-caramels-recipe-1949568',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            93 => 
-            array (
-                'id' => 1594,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dark-and-stormy-3269962',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            94 => 
-            array (
-                'id' => 1595,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/dark-and-stormy-recipe-1943503',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            95 => 
-            array (
-                'id' => 1596,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-and-stormy-recipe-1928133',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            96 => 
-            array (
-                'id' => 1597,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/brian-boitano/dark-and-stormy-recipe-2014045',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            97 => 
-            array (
-                'id' => 1598,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/bobby-flay/dark-and-stormy-2181519',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            98 => 
-            array (
-                'id' => 1599,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/dark-and-stormy-pie-3364855',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            99 => 
-            array (
-                'id' => 1600,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/darling-clementine-recipe-1942992',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            100 => 
-            array (
-                'id' => 1601,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/darwells-crawfish-etouffee-recipe0-1942604',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            101 => 
-            array (
-                'id' => 1602,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/darwells-crawfish-etouffee-recipe-1942800',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            102 => 
-            array (
-                'id' => 1603,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/guy-fieri/das-pear-pineapple-strudel-recipe-1944253',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            103 => 
-            array (
-                'id' => 1604,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alton-brown/dashi-recipe-1949217',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            104 => 
-            array (
-                'id' => 1605,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dashi-recipe0-1907144',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:51',
-                'updated_at' => '2019-01-06 05:04:51',
-            ),
-            105 => 
-            array (
-                'id' => 1606,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dashi-recipe-1918340',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            106 => 
-            array (
-                'id' => 1607,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dashi-recipe2-2105780',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            107 => 
-            array (
-                'id' => 1608,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dashi-recipe1-2102994',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            108 => 
-            array (
-                'id' => 1609,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-bourbon-bbq-sauce-3048473',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            109 => 
-            array (
-                'id' => 1610,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-bar-cookies-recipe-1956596',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            110 => 
-            array (
-                'id' => 1611,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-bars-recipe-1970350',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            111 => 
-            array (
-                'id' => 1612,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-bran-jingle-balls-2118587',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            112 => 
-            array (
-                'id' => 1613,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-bran-jingle-balls0-2012509',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            113 => 
-            array (
-                'id' => 1614,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-bread-from-mulege-recipe-1970410',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            114 => 
-            array (
-                'id' => 1615,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/alexandra-guarnaschelli/date-compote-with-fresh-pears-recipe-1942201',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            115 => 
-            array (
-                'id' => 1616,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-ice-cream-sundae-recipe-1970095',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            116 => 
-            array (
-                'id' => 1617,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-nut-bread-recipe-1965117',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            117 => 
-            array (
-                'id' => 1618,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/date-nut-spice-bread-recipe-1917475',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            118 => 
-            array (
-                'id' => 1619,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-pecan-bars-recipe-2011039',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:52',
-                'updated_at' => '2019-01-06 05:04:52',
-            ),
-            119 => 
-            array (
-                'id' => 1620,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/claire-robinson/date-shake-recipe-1952626',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            120 => 
-            array (
-                'id' => 1621,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/date-shakes-recipe-1914836',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            121 => 
-            array (
-                'id' => 1622,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-squares-1913201',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            122 => 
-            array (
-                'id' => 1623,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-walnut-rugelach-1911262',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            123 => 
-            array (
-                'id' => 1624,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-and-blue-cheese-stuffed-meatballs-3414875',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            124 => 
-            array (
-                'id' => 1625,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-and-walnut-loaf-recipe-1970347',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            125 => 
-            array (
-                'id' => 1626,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-pistachio-and-cardamom-cake-recipe2-2125179',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            126 => 
-            array (
-                'id' => 1627,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-almond-butter-truffles-3415858',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            127 => 
-            array (
-                'id' => 1628,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/date-nut-sticks-recipe-1916624',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            128 => 
-            array (
-                'id' => 1629,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/date-orange-muffins-recipe-1908263',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            129 => 
-            array (
-                'id' => 1630,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dates-fourees-recipe-1910197',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            130 => 
-            array (
-                'id' => 1631,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dates-wrapped-in-bacon-with-marcona-almonds-recipe-1956382',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            131 => 
-            array (
-                'id' => 1632,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/daube-a-la-provencale-recipe-2119277',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:53',
-                'updated_at' => '2019-01-06 05:04:53',
-            ),
-            132 => 
-            array (
-                'id' => 1633,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daube-of-beef-short-ribs-with-horseradish-potato-puree-recipe-1913424',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            133 => 
-            array (
-                'id' => 1634,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daube-of-beef-short-ribs-with-horseradish-potato-puree-recipe2-1965166',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            134 => 
-            array (
-                'id' => 1635,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daves-christmas-crunch-cookies-recipe-1941881',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            135 => 
-            array (
-                'id' => 1636,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/daves-party-potstickers-recipe-1949559',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            136 => 
-            array (
-                'id' => 1637,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/david-roccos-italian-nutella-filled-bomboloni-3415619',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            137 => 
-            array (
-                'id' => 1638,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/david-rosengarten-lobster-fra-diavlo-recipe-1965179',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            138 => 
-            array (
-                'id' => 1639,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/nancy-fuller/davids-favorite-carrot-cake-with-pineapple-cream-cheese-frosting-2266393',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            139 => 
-            array (
-                'id' => 1640,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/davids-sweet-shrimp-kabobs-recipe-2014026',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            140 => 
-            array (
-                'id' => 1641,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/davie-crocketts-ground-beef-wrap-ups-recipe-1911471',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            141 => 
-            array (
-                'id' => 1642,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dawns-scampi-recipe-2011801',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            142 => 
-            array (
-                'id' => 1643,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/day-after-dip-recipe-2104146',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            143 => 
-            array (
-                'id' => 1644,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/aaron-crumbaugh/day-after-hangover-tacos-3347595',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            144 => 
-            array (
-                'id' => 1645,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/day-after-turkey-soup-3361709',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            145 => 
-            array (
-                'id' => 1646,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/de-diablo-margarita-3407386',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            146 => 
-            array (
-                'id' => 1647,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/de-pudged-pigs-in-a-blanket-1960921',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            147 => 
-            array (
-                'id' => 1648,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/de-pudged-pigs-in-a-blanket-recipe-2200807',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            148 => 
-            array (
-                'id' => 1649,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/defalcos-authentic-italian-tomato-sauce-2178295',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            149 => 
-            array (
-                'id' => 1650,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/defalcos-italian-arancini-rice-balls-2178296',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            150 => 
-            array (
-                'id' => 1651,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/dead-man-over-worms-meatloaf-over-spaghetti-noodles-recipe-1946223',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            151 => 
-            array (
-                'id' => 1652,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/deanos-dragon-breath-bombs-recipe-2120666',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            152 => 
-            array (
-                'id' => 1653,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/anne-thornton/death-by-chocolate-recipe-1924950',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:54',
-                'updated_at' => '2019-01-06 05:04:54',
-            ),
-            153 => 
-            array (
-                'id' => 1654,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-assemble-death-by-chocolate-recipe-2011650',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            154 => 
-            array (
-                'id' => 1655,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-assemble-death-by-chocolate',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            155 => 
-            array (
-                'id' => 1656,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-chocolate-ganache-recipe-1937539',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            156 => 
-            array (
-                'id' => 1657,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-chocolate-mousse-recipe-2011503',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            157 => 
-            array (
-                'id' => 1658,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-cocoa-meringue-recipe-1908517',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            158 => 
-            array (
-                'id' => 1659,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-mocha-mousse-recipe-1908600',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            159 => 
-            array (
-                'id' => 1660,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-simply-the-best-chocolate-brownie-layer-recipe-1937574',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            160 => 
-            array (
-                'id' => 1661,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-charge-cupcakes-2737782',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            161 => 
-            array (
-                'id' => 1662,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-1958151',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            162 => 
-            array (
-                'id' => 1663,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-cupcakes-recipe-2037521',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            163 => 
-            array (
-                'id' => 1664,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-cupcakes-recipe2-3381789',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            164 => 
-            array (
-                'id' => 1665,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/death-by-chocolate-cupcakes-2102015',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            165 => 
-            array (
-                'id' => 1666,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/patrick-and-gina-neely/death-by-chocolate-martini-recipe-1923787',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            166 => 
-            array (
-                'id' => 1667,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/death-in-the-afternoon-cocktail-5532346',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            167 => 
-            array (
-                'id' => 1668,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/tyler-florence/death-defying-stuffed-shrimp-with-tasso-ham-and-crab-recipe-1910549',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            168 => 
-            array (
-                'id' => 1669,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/deathly-chocolate-cakesicle-with-peanut-butter-buttercream-3895354',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            169 => 
-            array (
-                'id' => 1670,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/debbys-steamed-banana-cake-recipe-1906507',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            170 => 
-            array (
-                'id' => 1671,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/debi-and-gabrieles-green-gazpacho-3364629',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:55',
-                'updated_at' => '2019-01-06 05:04:55',
-            ),
-            171 => 
-            array (
-                'id' => 1672,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/debis-salad-2120879',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            172 => 
-            array (
-                'id' => 1673,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/debis-yellow-tomato-lumaconi-2106516',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            173 => 
-            array (
-                'id' => 1674,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/deborah-roberts-perry-georgia-potato-salad-recipe-1911827',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            174 => 
-            array (
-                'id' => 1675,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/decadent-gluten-free-chocolate-cake-3364601',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            175 => 
-            array (
-                'id' => 1676,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/anne-thornton/decadent-brownie-pops-recipe-1924984',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            176 => 
-            array (
-                'id' => 1677,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-butterscotch-flan-recipe-1970500',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            177 => 
-            array (
-                'id' => 1678,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-cheese-pie-recipe-1951145',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            178 => 
-            array (
-                'id' => 1679,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-chocolate-cake-recipe0-1957576',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            179 => 
-            array (
-                'id' => 1680,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/marcela-valladolid/decadent-chocolate-cake-3240186',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            180 => 
-            array (
-                'id' => 1681,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-chocolate-cake-recipe-1938503',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            181 => 
-            array (
-                'id' => 1682,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/food-network-kitchen/decadent-chocolate-cake-recipe-2009027',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            182 => 
-            array (
-                'id' => 1683,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/sandra-lee/decadent-chocolate-french-toast-recipe-2119387',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            183 => 
-            array (
-                'id' => 1684,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-chocolate-pecan-pie-recipe-2109556',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            184 => 
-            array (
-                'id' => 1685,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-dirt-cake-signature-grooms-cake-or-special-occasion-cake-recipe2-2108945',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            185 => 
-            array (
-                'id' => 1686,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-dirt-cake-signature-grooms-cake-or-special-occasion-cake-recipe-2104876',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            186 => 
-            array (
-                'id' => 1687,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/paula-deen/decadent-doughnuts-with-white-and-chocolate-glaze-recipe-1923683',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            187 => 
-            array (
-                'id' => 1688,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/decadent-duo-for-decadent-duos-chocolate-cups-with-whipped-cream-recipe-2013472',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            188 => 
-            array (
-                'id' => 1689,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/decadent-peanut-butter-pie-recipe-1970747',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            189 => 
-            array (
-                'id' => 1690,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/declans-salad-with-crusty-croutons-recipe-1970537',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            190 => 
-            array (
-                'id' => 1691,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/declans-salad-with-crusty-croutons-recipe2-1970821',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            191 => 
-            array (
-                'id' => 1692,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/deconstructed-arrabbiata-recipe-2201026',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:56',
-                'updated_at' => '2019-01-06 05:04:56',
-            ),
-            192 => 
-            array (
-                'id' => 1693,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/deconstructed-cannoli-chips-and-dip-recipe-2043311',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            193 => 
-            array (
-                'id' => 1694,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ree-drummond/deconstructed-chicken-pot-pie-4698021',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            194 => 
-            array (
-                'id' => 1695,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/jeff-mauro/deconstructed-eggplant-parmesan-sandwich-recipe-2124870',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            195 => 
-            array (
-                'id' => 1696,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/deconstructed-falafel-salad-2585828',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            196 => 
-            array (
-                'id' => 1697,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/rachael-ray/deconstructed-gazpacho-recipe-1941666',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            197 => 
-            array (
-                'id' => 1698,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/deconstructed-italian-cheesecake-2272889',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            198 => 
-            array (
-                'id' => 1699,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/melissa-darabian/deconstructed-lasagna-3416329',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            199 => 
-            array (
-                'id' => 1700,
-                'isPublished' => 0,
-                'link' => '//www.foodnetwork.com/recipes/ina-garten/deconstructed-lobster-salad-recipe-3381704',
-                'website' => 'foodnetwork',
-                'category_id' => NULL,
-                'category_txt' => NULL,
-                'cuisine_id' => NULL,
-                'cuisine_txt' => NULL,
-                'created_at' => '2019-01-06 05:04:57',
-                'updated_at' => '2019-01-06 05:04:57',
-            ),
-            200 => 
-            array (
                 'id' => 1701,
                 'isPublished' => 0,
                 'link' => 'https://www.allrecipes.com/recipe/102235/baked-paprika-parmesan-chicken/',
@@ -22136,7 +6532,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            201 => 
+            1 => 
             array (
                 'id' => 1702,
                 'isPublished' => 0,
@@ -22149,7 +6545,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            202 => 
+            2 => 
             array (
                 'id' => 1703,
                 'isPublished' => 0,
@@ -22162,7 +6558,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            203 => 
+            3 => 
             array (
                 'id' => 1704,
                 'isPublished' => 0,
@@ -22175,7 +6571,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            204 => 
+            4 => 
             array (
                 'id' => 1705,
                 'isPublished' => 0,
@@ -22188,7 +6584,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            205 => 
+            5 => 
             array (
                 'id' => 1706,
                 'isPublished' => 0,
@@ -22201,7 +6597,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            206 => 
+            6 => 
             array (
                 'id' => 1707,
                 'isPublished' => 0,
@@ -22214,7 +6610,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            207 => 
+            7 => 
             array (
                 'id' => 1708,
                 'isPublished' => 0,
@@ -22227,7 +6623,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            208 => 
+            8 => 
             array (
                 'id' => 1709,
                 'isPublished' => 0,
@@ -22240,7 +6636,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            209 => 
+            9 => 
             array (
                 'id' => 1710,
                 'isPublished' => 0,
@@ -22253,7 +6649,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            210 => 
+            10 => 
             array (
                 'id' => 1711,
                 'isPublished' => 0,
@@ -22266,7 +6662,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            211 => 
+            11 => 
             array (
                 'id' => 1712,
                 'isPublished' => 0,
@@ -22279,7 +6675,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            212 => 
+            12 => 
             array (
                 'id' => 1713,
                 'isPublished' => 0,
@@ -22292,7 +6688,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:45',
                 'updated_at' => '2019-01-06 09:11:45',
             ),
-            213 => 
+            13 => 
             array (
                 'id' => 1714,
                 'isPublished' => 0,
@@ -22305,7 +6701,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:46',
                 'updated_at' => '2019-01-06 09:11:46',
             ),
-            214 => 
+            14 => 
             array (
                 'id' => 1715,
                 'isPublished' => 0,
@@ -22318,7 +6714,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:46',
                 'updated_at' => '2019-01-06 09:11:46',
             ),
-            215 => 
+            15 => 
             array (
                 'id' => 1716,
                 'isPublished' => 0,
@@ -22331,7 +6727,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:46',
                 'updated_at' => '2019-01-06 09:11:46',
             ),
-            216 => 
+            16 => 
             array (
                 'id' => 1717,
                 'isPublished' => 0,
@@ -22344,7 +6740,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:46',
                 'updated_at' => '2019-01-06 09:11:46',
             ),
-            217 => 
+            17 => 
             array (
                 'id' => 1718,
                 'isPublished' => 0,
@@ -22357,7 +6753,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:46',
                 'updated_at' => '2019-01-06 09:11:46',
             ),
-            218 => 
+            18 => 
             array (
                 'id' => 1719,
                 'isPublished' => 0,
@@ -22370,7 +6766,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:11:46',
                 'updated_at' => '2019-01-06 09:11:46',
             ),
-            219 => 
+            19 => 
             array (
                 'id' => 1720,
                 'isPublished' => 0,
@@ -22383,7 +6779,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            220 => 
+            20 => 
             array (
                 'id' => 1721,
                 'isPublished' => 0,
@@ -22396,7 +6792,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            221 => 
+            21 => 
             array (
                 'id' => 1722,
                 'isPublished' => 0,
@@ -22409,7 +6805,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            222 => 
+            22 => 
             array (
                 'id' => 1723,
                 'isPublished' => 0,
@@ -22422,7 +6818,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            223 => 
+            23 => 
             array (
                 'id' => 1724,
                 'isPublished' => 0,
@@ -22435,7 +6831,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            224 => 
+            24 => 
             array (
                 'id' => 1725,
                 'isPublished' => 0,
@@ -22448,7 +6844,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            225 => 
+            25 => 
             array (
                 'id' => 1726,
                 'isPublished' => 0,
@@ -22461,7 +6857,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            226 => 
+            26 => 
             array (
                 'id' => 1727,
                 'isPublished' => 0,
@@ -22474,7 +6870,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            227 => 
+            27 => 
             array (
                 'id' => 1728,
                 'isPublished' => 0,
@@ -22487,7 +6883,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            228 => 
+            28 => 
             array (
                 'id' => 1729,
                 'isPublished' => 0,
@@ -22500,7 +6896,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            229 => 
+            29 => 
             array (
                 'id' => 1730,
                 'isPublished' => 0,
@@ -22513,7 +6909,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            230 => 
+            30 => 
             array (
                 'id' => 1731,
                 'isPublished' => 0,
@@ -22526,7 +6922,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            231 => 
+            31 => 
             array (
                 'id' => 1732,
                 'isPublished' => 0,
@@ -22539,7 +6935,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            232 => 
+            32 => 
             array (
                 'id' => 1733,
                 'isPublished' => 0,
@@ -22552,7 +6948,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            233 => 
+            33 => 
             array (
                 'id' => 1734,
                 'isPublished' => 0,
@@ -22565,7 +6961,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            234 => 
+            34 => 
             array (
                 'id' => 1735,
                 'isPublished' => 0,
@@ -22578,7 +6974,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            235 => 
+            35 => 
             array (
                 'id' => 1736,
                 'isPublished' => 0,
@@ -22591,7 +6987,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            236 => 
+            36 => 
             array (
                 'id' => 1737,
                 'isPublished' => 0,
@@ -22604,7 +7000,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            237 => 
+            37 => 
             array (
                 'id' => 1738,
                 'isPublished' => 0,
@@ -22617,7 +7013,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            238 => 
+            38 => 
             array (
                 'id' => 1739,
                 'isPublished' => 0,
@@ -22630,7 +7026,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:03',
                 'updated_at' => '2019-01-06 09:12:03',
             ),
-            239 => 
+            39 => 
             array (
                 'id' => 1740,
                 'isPublished' => 0,
@@ -22643,7 +7039,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            240 => 
+            40 => 
             array (
                 'id' => 1741,
                 'isPublished' => 0,
@@ -22656,7 +7052,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            241 => 
+            41 => 
             array (
                 'id' => 1742,
                 'isPublished' => 0,
@@ -22669,7 +7065,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            242 => 
+            42 => 
             array (
                 'id' => 1743,
                 'isPublished' => 0,
@@ -22682,7 +7078,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            243 => 
+            43 => 
             array (
                 'id' => 1744,
                 'isPublished' => 0,
@@ -22695,7 +7091,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            244 => 
+            44 => 
             array (
                 'id' => 1745,
                 'isPublished' => 0,
@@ -22708,7 +7104,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            245 => 
+            45 => 
             array (
                 'id' => 1746,
                 'isPublished' => 0,
@@ -22721,7 +7117,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            246 => 
+            46 => 
             array (
                 'id' => 1747,
                 'isPublished' => 0,
@@ -22734,7 +7130,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            247 => 
+            47 => 
             array (
                 'id' => 1748,
                 'isPublished' => 0,
@@ -22747,7 +7143,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            248 => 
+            48 => 
             array (
                 'id' => 1749,
                 'isPublished' => 0,
@@ -22760,7 +7156,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:30',
                 'updated_at' => '2019-01-06 09:12:30',
             ),
-            249 => 
+            49 => 
             array (
                 'id' => 1750,
                 'isPublished' => 0,
@@ -22773,7 +7169,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            250 => 
+            50 => 
             array (
                 'id' => 1751,
                 'isPublished' => 0,
@@ -22786,7 +7182,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            251 => 
+            51 => 
             array (
                 'id' => 1752,
                 'isPublished' => 0,
@@ -22799,7 +7195,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            252 => 
+            52 => 
             array (
                 'id' => 1753,
                 'isPublished' => 0,
@@ -22812,7 +7208,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            253 => 
+            53 => 
             array (
                 'id' => 1754,
                 'isPublished' => 0,
@@ -22825,7 +7221,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            254 => 
+            54 => 
             array (
                 'id' => 1755,
                 'isPublished' => 0,
@@ -22838,7 +7234,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            255 => 
+            55 => 
             array (
                 'id' => 1756,
                 'isPublished' => 0,
@@ -22851,7 +7247,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            256 => 
+            56 => 
             array (
                 'id' => 1757,
                 'isPublished' => 0,
@@ -22864,7 +7260,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            257 => 
+            57 => 
             array (
                 'id' => 1758,
                 'isPublished' => 0,
@@ -22877,7 +7273,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            258 => 
+            58 => 
             array (
                 'id' => 1759,
                 'isPublished' => 0,
@@ -22890,7 +7286,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 09:12:31',
                 'updated_at' => '2019-01-06 09:12:31',
             ),
-            259 => 
+            59 => 
             array (
                 'id' => 1760,
                 'isPublished' => 0,
@@ -22903,7 +7299,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:14',
                 'updated_at' => '2019-01-06 14:03:14',
             ),
-            260 => 
+            60 => 
             array (
                 'id' => 1761,
                 'isPublished' => 0,
@@ -22916,7 +7312,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            261 => 
+            61 => 
             array (
                 'id' => 1762,
                 'isPublished' => 0,
@@ -22929,7 +7325,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            262 => 
+            62 => 
             array (
                 'id' => 1763,
                 'isPublished' => 0,
@@ -22942,7 +7338,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            263 => 
+            63 => 
             array (
                 'id' => 1764,
                 'isPublished' => 0,
@@ -22955,7 +7351,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            264 => 
+            64 => 
             array (
                 'id' => 1765,
                 'isPublished' => 0,
@@ -22968,7 +7364,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            265 => 
+            65 => 
             array (
                 'id' => 1766,
                 'isPublished' => 0,
@@ -22981,7 +7377,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            266 => 
+            66 => 
             array (
                 'id' => 1767,
                 'isPublished' => 0,
@@ -22994,7 +7390,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            267 => 
+            67 => 
             array (
                 'id' => 1768,
                 'isPublished' => 0,
@@ -23007,7 +7403,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            268 => 
+            68 => 
             array (
                 'id' => 1769,
                 'isPublished' => 0,
@@ -23020,7 +7416,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            269 => 
+            69 => 
             array (
                 'id' => 1770,
                 'isPublished' => 0,
@@ -23033,7 +7429,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            270 => 
+            70 => 
             array (
                 'id' => 1771,
                 'isPublished' => 0,
@@ -23046,7 +7442,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            271 => 
+            71 => 
             array (
                 'id' => 1772,
                 'isPublished' => 0,
@@ -23059,7 +7455,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            272 => 
+            72 => 
             array (
                 'id' => 1773,
                 'isPublished' => 0,
@@ -23072,7 +7468,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            273 => 
+            73 => 
             array (
                 'id' => 1774,
                 'isPublished' => 0,
@@ -23085,7 +7481,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            274 => 
+            74 => 
             array (
                 'id' => 1775,
                 'isPublished' => 0,
@@ -23098,7 +7494,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            275 => 
+            75 => 
             array (
                 'id' => 1776,
                 'isPublished' => 0,
@@ -23111,7 +7507,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            276 => 
+            76 => 
             array (
                 'id' => 1777,
                 'isPublished' => 0,
@@ -23124,7 +7520,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            277 => 
+            77 => 
             array (
                 'id' => 1778,
                 'isPublished' => 0,
@@ -23137,7 +7533,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            278 => 
+            78 => 
             array (
                 'id' => 1779,
                 'isPublished' => 0,
@@ -23150,7 +7546,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:15',
                 'updated_at' => '2019-01-06 14:03:15',
             ),
-            279 => 
+            79 => 
             array (
                 'id' => 1780,
                 'isPublished' => 0,
@@ -23163,7 +7559,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            280 => 
+            80 => 
             array (
                 'id' => 1781,
                 'isPublished' => 0,
@@ -23176,7 +7572,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            281 => 
+            81 => 
             array (
                 'id' => 1782,
                 'isPublished' => 0,
@@ -23189,7 +7585,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            282 => 
+            82 => 
             array (
                 'id' => 1783,
                 'isPublished' => 0,
@@ -23202,7 +7598,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            283 => 
+            83 => 
             array (
                 'id' => 1784,
                 'isPublished' => 0,
@@ -23215,7 +7611,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            284 => 
+            84 => 
             array (
                 'id' => 1785,
                 'isPublished' => 0,
@@ -23228,7 +7624,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            285 => 
+            85 => 
             array (
                 'id' => 1786,
                 'isPublished' => 0,
@@ -23241,7 +7637,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            286 => 
+            86 => 
             array (
                 'id' => 1787,
                 'isPublished' => 0,
@@ -23254,7 +7650,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            287 => 
+            87 => 
             array (
                 'id' => 1788,
                 'isPublished' => 0,
@@ -23267,7 +7663,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            288 => 
+            88 => 
             array (
                 'id' => 1789,
                 'isPublished' => 0,
@@ -23280,7 +7676,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            289 => 
+            89 => 
             array (
                 'id' => 1790,
                 'isPublished' => 0,
@@ -23293,7 +7689,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            290 => 
+            90 => 
             array (
                 'id' => 1791,
                 'isPublished' => 0,
@@ -23306,7 +7702,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            291 => 
+            91 => 
             array (
                 'id' => 1792,
                 'isPublished' => 0,
@@ -23319,7 +7715,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            292 => 
+            92 => 
             array (
                 'id' => 1793,
                 'isPublished' => 0,
@@ -23332,7 +7728,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            293 => 
+            93 => 
             array (
                 'id' => 1794,
                 'isPublished' => 0,
@@ -23345,7 +7741,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            294 => 
+            94 => 
             array (
                 'id' => 1795,
                 'isPublished' => 0,
@@ -23358,7 +7754,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            295 => 
+            95 => 
             array (
                 'id' => 1796,
                 'isPublished' => 0,
@@ -23371,7 +7767,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            296 => 
+            96 => 
             array (
                 'id' => 1797,
                 'isPublished' => 0,
@@ -23384,7 +7780,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            297 => 
+            97 => 
             array (
                 'id' => 1798,
                 'isPublished' => 0,
@@ -23397,7 +7793,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            298 => 
+            98 => 
             array (
                 'id' => 1799,
                 'isPublished' => 0,
@@ -23410,7 +7806,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:16',
                 'updated_at' => '2019-01-06 14:03:16',
             ),
-            299 => 
+            99 => 
             array (
                 'id' => 1800,
                 'isPublished' => 0,
@@ -23423,7 +7819,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            300 => 
+            100 => 
             array (
                 'id' => 1801,
                 'isPublished' => 0,
@@ -23436,7 +7832,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            301 => 
+            101 => 
             array (
                 'id' => 1802,
                 'isPublished' => 0,
@@ -23449,7 +7845,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            302 => 
+            102 => 
             array (
                 'id' => 1803,
                 'isPublished' => 0,
@@ -23462,7 +7858,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            303 => 
+            103 => 
             array (
                 'id' => 1804,
                 'isPublished' => 0,
@@ -23475,7 +7871,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            304 => 
+            104 => 
             array (
                 'id' => 1805,
                 'isPublished' => 0,
@@ -23488,7 +7884,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            305 => 
+            105 => 
             array (
                 'id' => 1806,
                 'isPublished' => 0,
@@ -23501,7 +7897,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            306 => 
+            106 => 
             array (
                 'id' => 1807,
                 'isPublished' => 0,
@@ -23514,7 +7910,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            307 => 
+            107 => 
             array (
                 'id' => 1808,
                 'isPublished' => 0,
@@ -23527,7 +7923,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            308 => 
+            108 => 
             array (
                 'id' => 1809,
                 'isPublished' => 0,
@@ -23540,7 +7936,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:17',
                 'updated_at' => '2019-01-06 14:03:17',
             ),
-            309 => 
+            109 => 
             array (
                 'id' => 1810,
                 'isPublished' => 0,
@@ -23553,7 +7949,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            310 => 
+            110 => 
             array (
                 'id' => 1811,
                 'isPublished' => 0,
@@ -23566,7 +7962,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            311 => 
+            111 => 
             array (
                 'id' => 1812,
                 'isPublished' => 0,
@@ -23579,7 +7975,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            312 => 
+            112 => 
             array (
                 'id' => 1813,
                 'isPublished' => 0,
@@ -23592,7 +7988,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            313 => 
+            113 => 
             array (
                 'id' => 1814,
                 'isPublished' => 0,
@@ -23605,7 +8001,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            314 => 
+            114 => 
             array (
                 'id' => 1815,
                 'isPublished' => 0,
@@ -23618,7 +8014,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            315 => 
+            115 => 
             array (
                 'id' => 1816,
                 'isPublished' => 0,
@@ -23631,7 +8027,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:34',
                 'updated_at' => '2019-01-06 14:03:34',
             ),
-            316 => 
+            116 => 
             array (
                 'id' => 1817,
                 'isPublished' => 0,
@@ -23644,7 +8040,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            317 => 
+            117 => 
             array (
                 'id' => 1818,
                 'isPublished' => 0,
@@ -23657,7 +8053,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            318 => 
+            118 => 
             array (
                 'id' => 1819,
                 'isPublished' => 0,
@@ -23670,7 +8066,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            319 => 
+            119 => 
             array (
                 'id' => 1820,
                 'isPublished' => 0,
@@ -23683,7 +8079,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            320 => 
+            120 => 
             array (
                 'id' => 1821,
                 'isPublished' => 0,
@@ -23696,7 +8092,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            321 => 
+            121 => 
             array (
                 'id' => 1822,
                 'isPublished' => 0,
@@ -23709,7 +8105,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            322 => 
+            122 => 
             array (
                 'id' => 1823,
                 'isPublished' => 0,
@@ -23722,7 +8118,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            323 => 
+            123 => 
             array (
                 'id' => 1824,
                 'isPublished' => 0,
@@ -23735,7 +8131,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            324 => 
+            124 => 
             array (
                 'id' => 1825,
                 'isPublished' => 0,
@@ -23748,7 +8144,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            325 => 
+            125 => 
             array (
                 'id' => 1826,
                 'isPublished' => 0,
@@ -23761,7 +8157,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            326 => 
+            126 => 
             array (
                 'id' => 1827,
                 'isPublished' => 0,
@@ -23774,7 +8170,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            327 => 
+            127 => 
             array (
                 'id' => 1828,
                 'isPublished' => 0,
@@ -23787,7 +8183,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            328 => 
+            128 => 
             array (
                 'id' => 1829,
                 'isPublished' => 0,
@@ -23800,7 +8196,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            329 => 
+            129 => 
             array (
                 'id' => 1830,
                 'isPublished' => 0,
@@ -23813,7 +8209,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            330 => 
+            130 => 
             array (
                 'id' => 1831,
                 'isPublished' => 0,
@@ -23826,7 +8222,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            331 => 
+            131 => 
             array (
                 'id' => 1832,
                 'isPublished' => 0,
@@ -23839,7 +8235,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            332 => 
+            132 => 
             array (
                 'id' => 1833,
                 'isPublished' => 0,
@@ -23852,7 +8248,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            333 => 
+            133 => 
             array (
                 'id' => 1834,
                 'isPublished' => 0,
@@ -23865,7 +8261,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:35',
                 'updated_at' => '2019-01-06 14:03:35',
             ),
-            334 => 
+            134 => 
             array (
                 'id' => 1835,
                 'isPublished' => 0,
@@ -23878,7 +8274,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            335 => 
+            135 => 
             array (
                 'id' => 1836,
                 'isPublished' => 0,
@@ -23891,7 +8287,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            336 => 
+            136 => 
             array (
                 'id' => 1837,
                 'isPublished' => 0,
@@ -23904,7 +8300,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            337 => 
+            137 => 
             array (
                 'id' => 1838,
                 'isPublished' => 0,
@@ -23917,7 +8313,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            338 => 
+            138 => 
             array (
                 'id' => 1839,
                 'isPublished' => 0,
@@ -23930,7 +8326,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            339 => 
+            139 => 
             array (
                 'id' => 1840,
                 'isPublished' => 0,
@@ -23943,7 +8339,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            340 => 
+            140 => 
             array (
                 'id' => 1841,
                 'isPublished' => 0,
@@ -23956,7 +8352,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            341 => 
+            141 => 
             array (
                 'id' => 1842,
                 'isPublished' => 0,
@@ -23969,7 +8365,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            342 => 
+            142 => 
             array (
                 'id' => 1843,
                 'isPublished' => 0,
@@ -23982,7 +8378,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            343 => 
+            143 => 
             array (
                 'id' => 1844,
                 'isPublished' => 0,
@@ -23995,7 +8391,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            344 => 
+            144 => 
             array (
                 'id' => 1845,
                 'isPublished' => 0,
@@ -24008,7 +8404,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:36',
                 'updated_at' => '2019-01-06 14:03:36',
             ),
-            345 => 
+            145 => 
             array (
                 'id' => 1846,
                 'isPublished' => 0,
@@ -24021,7 +8417,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            346 => 
+            146 => 
             array (
                 'id' => 1847,
                 'isPublished' => 0,
@@ -24034,7 +8430,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            347 => 
+            147 => 
             array (
                 'id' => 1848,
                 'isPublished' => 0,
@@ -24047,7 +8443,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            348 => 
+            148 => 
             array (
                 'id' => 1849,
                 'isPublished' => 0,
@@ -24060,7 +8456,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            349 => 
+            149 => 
             array (
                 'id' => 1850,
                 'isPublished' => 0,
@@ -24073,7 +8469,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            350 => 
+            150 => 
             array (
                 'id' => 1851,
                 'isPublished' => 0,
@@ -24086,7 +8482,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            351 => 
+            151 => 
             array (
                 'id' => 1852,
                 'isPublished' => 0,
@@ -24099,7 +8495,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            352 => 
+            152 => 
             array (
                 'id' => 1853,
                 'isPublished' => 0,
@@ -24112,7 +8508,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            353 => 
+            153 => 
             array (
                 'id' => 1854,
                 'isPublished' => 0,
@@ -24125,7 +8521,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:37',
                 'updated_at' => '2019-01-06 14:03:37',
             ),
-            354 => 
+            154 => 
             array (
                 'id' => 1855,
                 'isPublished' => 0,
@@ -24138,7 +8534,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:38',
                 'updated_at' => '2019-01-06 14:03:38',
             ),
-            355 => 
+            155 => 
             array (
                 'id' => 1856,
                 'isPublished' => 0,
@@ -24151,7 +8547,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:38',
                 'updated_at' => '2019-01-06 14:03:38',
             ),
-            356 => 
+            156 => 
             array (
                 'id' => 1857,
                 'isPublished' => 0,
@@ -24164,7 +8560,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:38',
                 'updated_at' => '2019-01-06 14:03:38',
             ),
-            357 => 
+            157 => 
             array (
                 'id' => 1858,
                 'isPublished' => 0,
@@ -24177,7 +8573,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:38',
                 'updated_at' => '2019-01-06 14:03:38',
             ),
-            358 => 
+            158 => 
             array (
                 'id' => 1859,
                 'isPublished' => 0,
@@ -24190,7 +8586,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:38',
                 'updated_at' => '2019-01-06 14:03:38',
             ),
-            359 => 
+            159 => 
             array (
                 'id' => 1860,
                 'isPublished' => 0,
@@ -24203,7 +8599,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:51',
                 'updated_at' => '2019-01-06 14:03:51',
             ),
-            360 => 
+            160 => 
             array (
                 'id' => 1861,
                 'isPublished' => 0,
@@ -24216,7 +8612,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            361 => 
+            161 => 
             array (
                 'id' => 1862,
                 'isPublished' => 0,
@@ -24229,7 +8625,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            362 => 
+            162 => 
             array (
                 'id' => 1863,
                 'isPublished' => 0,
@@ -24242,7 +8638,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            363 => 
+            163 => 
             array (
                 'id' => 1864,
                 'isPublished' => 0,
@@ -24255,7 +8651,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            364 => 
+            164 => 
             array (
                 'id' => 1865,
                 'isPublished' => 0,
@@ -24268,7 +8664,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            365 => 
+            165 => 
             array (
                 'id' => 1866,
                 'isPublished' => 0,
@@ -24281,7 +8677,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            366 => 
+            166 => 
             array (
                 'id' => 1867,
                 'isPublished' => 0,
@@ -24294,7 +8690,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            367 => 
+            167 => 
             array (
                 'id' => 1868,
                 'isPublished' => 0,
@@ -24307,7 +8703,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            368 => 
+            168 => 
             array (
                 'id' => 1869,
                 'isPublished' => 0,
@@ -24320,7 +8716,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            369 => 
+            169 => 
             array (
                 'id' => 1870,
                 'isPublished' => 0,
@@ -24333,7 +8729,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            370 => 
+            170 => 
             array (
                 'id' => 1871,
                 'isPublished' => 0,
@@ -24346,7 +8742,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            371 => 
+            171 => 
             array (
                 'id' => 1872,
                 'isPublished' => 0,
@@ -24359,7 +8755,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            372 => 
+            172 => 
             array (
                 'id' => 1873,
                 'isPublished' => 0,
@@ -24372,7 +8768,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            373 => 
+            173 => 
             array (
                 'id' => 1874,
                 'isPublished' => 0,
@@ -24385,7 +8781,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            374 => 
+            174 => 
             array (
                 'id' => 1875,
                 'isPublished' => 0,
@@ -24398,7 +8794,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            375 => 
+            175 => 
             array (
                 'id' => 1876,
                 'isPublished' => 0,
@@ -24411,7 +8807,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            376 => 
+            176 => 
             array (
                 'id' => 1877,
                 'isPublished' => 0,
@@ -24424,7 +8820,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:52',
                 'updated_at' => '2019-01-06 14:03:52',
             ),
-            377 => 
+            177 => 
             array (
                 'id' => 1878,
                 'isPublished' => 0,
@@ -24437,7 +8833,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            378 => 
+            178 => 
             array (
                 'id' => 1879,
                 'isPublished' => 0,
@@ -24450,7 +8846,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            379 => 
+            179 => 
             array (
                 'id' => 1880,
                 'isPublished' => 0,
@@ -24463,7 +8859,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            380 => 
+            180 => 
             array (
                 'id' => 1881,
                 'isPublished' => 0,
@@ -24476,7 +8872,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            381 => 
+            181 => 
             array (
                 'id' => 1882,
                 'isPublished' => 0,
@@ -24489,7 +8885,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            382 => 
+            182 => 
             array (
                 'id' => 1883,
                 'isPublished' => 0,
@@ -24502,7 +8898,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            383 => 
+            183 => 
             array (
                 'id' => 1884,
                 'isPublished' => 0,
@@ -24515,7 +8911,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            384 => 
+            184 => 
             array (
                 'id' => 1885,
                 'isPublished' => 0,
@@ -24528,7 +8924,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            385 => 
+            185 => 
             array (
                 'id' => 1886,
                 'isPublished' => 0,
@@ -24541,7 +8937,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            386 => 
+            186 => 
             array (
                 'id' => 1887,
                 'isPublished' => 0,
@@ -24554,7 +8950,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            387 => 
+            187 => 
             array (
                 'id' => 1888,
                 'isPublished' => 0,
@@ -24567,7 +8963,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            388 => 
+            188 => 
             array (
                 'id' => 1889,
                 'isPublished' => 0,
@@ -24580,7 +8976,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            389 => 
+            189 => 
             array (
                 'id' => 1890,
                 'isPublished' => 0,
@@ -24593,7 +8989,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            390 => 
+            190 => 
             array (
                 'id' => 1891,
                 'isPublished' => 0,
@@ -24606,7 +9002,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            391 => 
+            191 => 
             array (
                 'id' => 1892,
                 'isPublished' => 0,
@@ -24619,7 +9015,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            392 => 
+            192 => 
             array (
                 'id' => 1893,
                 'isPublished' => 0,
@@ -24632,7 +9028,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            393 => 
+            193 => 
             array (
                 'id' => 1894,
                 'isPublished' => 0,
@@ -24645,7 +9041,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            394 => 
+            194 => 
             array (
                 'id' => 1895,
                 'isPublished' => 0,
@@ -24658,7 +9054,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:53',
                 'updated_at' => '2019-01-06 14:03:53',
             ),
-            395 => 
+            195 => 
             array (
                 'id' => 1896,
                 'isPublished' => 0,
@@ -24671,7 +9067,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            396 => 
+            196 => 
             array (
                 'id' => 1897,
                 'isPublished' => 0,
@@ -24684,7 +9080,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            397 => 
+            197 => 
             array (
                 'id' => 1898,
                 'isPublished' => 0,
@@ -24697,7 +9093,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            398 => 
+            198 => 
             array (
                 'id' => 1899,
                 'isPublished' => 0,
@@ -24710,7 +9106,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            399 => 
+            199 => 
             array (
                 'id' => 1900,
                 'isPublished' => 0,
@@ -24723,7 +9119,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            400 => 
+            200 => 
             array (
                 'id' => 1901,
                 'isPublished' => 0,
@@ -24736,7 +9132,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            401 => 
+            201 => 
             array (
                 'id' => 1902,
                 'isPublished' => 0,
@@ -24749,7 +9145,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            402 => 
+            202 => 
             array (
                 'id' => 1903,
                 'isPublished' => 0,
@@ -24762,7 +9158,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            403 => 
+            203 => 
             array (
                 'id' => 1904,
                 'isPublished' => 0,
@@ -24775,7 +9171,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            404 => 
+            204 => 
             array (
                 'id' => 1905,
                 'isPublished' => 0,
@@ -24788,7 +9184,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            405 => 
+            205 => 
             array (
                 'id' => 1906,
                 'isPublished' => 0,
@@ -24801,7 +9197,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            406 => 
+            206 => 
             array (
                 'id' => 1907,
                 'isPublished' => 0,
@@ -24814,7 +9210,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            407 => 
+            207 => 
             array (
                 'id' => 1908,
                 'isPublished' => 0,
@@ -24827,7 +9223,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            408 => 
+            208 => 
             array (
                 'id' => 1909,
                 'isPublished' => 0,
@@ -24840,7 +9236,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:03:54',
                 'updated_at' => '2019-01-06 14:03:54',
             ),
-            409 => 
+            209 => 
             array (
                 'id' => 1910,
                 'isPublished' => 0,
@@ -24853,7 +9249,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            410 => 
+            210 => 
             array (
                 'id' => 1911,
                 'isPublished' => 0,
@@ -24866,7 +9262,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            411 => 
+            211 => 
             array (
                 'id' => 1912,
                 'isPublished' => 0,
@@ -24879,7 +9275,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            412 => 
+            212 => 
             array (
                 'id' => 1913,
                 'isPublished' => 0,
@@ -24892,7 +9288,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            413 => 
+            213 => 
             array (
                 'id' => 1914,
                 'isPublished' => 0,
@@ -24905,7 +9301,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            414 => 
+            214 => 
             array (
                 'id' => 1915,
                 'isPublished' => 0,
@@ -24918,7 +9314,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            415 => 
+            215 => 
             array (
                 'id' => 1916,
                 'isPublished' => 0,
@@ -24931,7 +9327,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            416 => 
+            216 => 
             array (
                 'id' => 1917,
                 'isPublished' => 0,
@@ -24944,7 +9340,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            417 => 
+            217 => 
             array (
                 'id' => 1918,
                 'isPublished' => 0,
@@ -24957,7 +9353,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            418 => 
+            218 => 
             array (
                 'id' => 1919,
                 'isPublished' => 0,
@@ -24970,7 +9366,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            419 => 
+            219 => 
             array (
                 'id' => 1920,
                 'isPublished' => 0,
@@ -24983,7 +9379,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            420 => 
+            220 => 
             array (
                 'id' => 1921,
                 'isPublished' => 0,
@@ -24996,7 +9392,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            421 => 
+            221 => 
             array (
                 'id' => 1922,
                 'isPublished' => 0,
@@ -25009,7 +9405,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:28',
                 'updated_at' => '2019-01-06 14:04:28',
             ),
-            422 => 
+            222 => 
             array (
                 'id' => 1923,
                 'isPublished' => 0,
@@ -25022,7 +9418,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            423 => 
+            223 => 
             array (
                 'id' => 1924,
                 'isPublished' => 0,
@@ -25035,7 +9431,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            424 => 
+            224 => 
             array (
                 'id' => 1925,
                 'isPublished' => 0,
@@ -25048,7 +9444,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            425 => 
+            225 => 
             array (
                 'id' => 1926,
                 'isPublished' => 0,
@@ -25061,7 +9457,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            426 => 
+            226 => 
             array (
                 'id' => 1927,
                 'isPublished' => 0,
@@ -25074,7 +9470,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            427 => 
+            227 => 
             array (
                 'id' => 1928,
                 'isPublished' => 0,
@@ -25087,7 +9483,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            428 => 
+            228 => 
             array (
                 'id' => 1929,
                 'isPublished' => 0,
@@ -25100,7 +9496,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            429 => 
+            229 => 
             array (
                 'id' => 1930,
                 'isPublished' => 0,
@@ -25113,7 +9509,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            430 => 
+            230 => 
             array (
                 'id' => 1931,
                 'isPublished' => 0,
@@ -25126,7 +9522,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            431 => 
+            231 => 
             array (
                 'id' => 1932,
                 'isPublished' => 0,
@@ -25139,7 +9535,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            432 => 
+            232 => 
             array (
                 'id' => 1933,
                 'isPublished' => 0,
@@ -25152,7 +9548,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            433 => 
+            233 => 
             array (
                 'id' => 1934,
                 'isPublished' => 0,
@@ -25165,7 +9561,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            434 => 
+            234 => 
             array (
                 'id' => 1935,
                 'isPublished' => 0,
@@ -25178,7 +9574,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            435 => 
+            235 => 
             array (
                 'id' => 1936,
                 'isPublished' => 0,
@@ -25191,7 +9587,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            436 => 
+            236 => 
             array (
                 'id' => 1937,
                 'isPublished' => 0,
@@ -25204,7 +9600,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            437 => 
+            237 => 
             array (
                 'id' => 1938,
                 'isPublished' => 0,
@@ -25217,7 +9613,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            438 => 
+            238 => 
             array (
                 'id' => 1939,
                 'isPublished' => 0,
@@ -25230,7 +9626,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:29',
                 'updated_at' => '2019-01-06 14:04:29',
             ),
-            439 => 
+            239 => 
             array (
                 'id' => 1940,
                 'isPublished' => 0,
@@ -25243,7 +9639,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            440 => 
+            240 => 
             array (
                 'id' => 1941,
                 'isPublished' => 0,
@@ -25256,7 +9652,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            441 => 
+            241 => 
             array (
                 'id' => 1942,
                 'isPublished' => 0,
@@ -25269,7 +9665,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            442 => 
+            242 => 
             array (
                 'id' => 1943,
                 'isPublished' => 0,
@@ -25282,7 +9678,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            443 => 
+            243 => 
             array (
                 'id' => 1944,
                 'isPublished' => 0,
@@ -25295,7 +9691,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            444 => 
+            244 => 
             array (
                 'id' => 1945,
                 'isPublished' => 0,
@@ -25308,7 +9704,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            445 => 
+            245 => 
             array (
                 'id' => 1946,
                 'isPublished' => 0,
@@ -25321,7 +9717,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            446 => 
+            246 => 
             array (
                 'id' => 1947,
                 'isPublished' => 0,
@@ -25334,7 +9730,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            447 => 
+            247 => 
             array (
                 'id' => 1948,
                 'isPublished' => 0,
@@ -25347,7 +9743,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            448 => 
+            248 => 
             array (
                 'id' => 1949,
                 'isPublished' => 0,
@@ -25360,7 +9756,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            449 => 
+            249 => 
             array (
                 'id' => 1950,
                 'isPublished' => 0,
@@ -25373,7 +9769,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            450 => 
+            250 => 
             array (
                 'id' => 1951,
                 'isPublished' => 0,
@@ -25386,7 +9782,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            451 => 
+            251 => 
             array (
                 'id' => 1952,
                 'isPublished' => 0,
@@ -25399,7 +9795,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            452 => 
+            252 => 
             array (
                 'id' => 1953,
                 'isPublished' => 0,
@@ -25412,7 +9808,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            453 => 
+            253 => 
             array (
                 'id' => 1954,
                 'isPublished' => 0,
@@ -25425,7 +9821,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            454 => 
+            254 => 
             array (
                 'id' => 1955,
                 'isPublished' => 0,
@@ -25438,7 +9834,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:30',
                 'updated_at' => '2019-01-06 14:04:30',
             ),
-            455 => 
+            255 => 
             array (
                 'id' => 1956,
                 'isPublished' => 0,
@@ -25451,7 +9847,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:31',
                 'updated_at' => '2019-01-06 14:04:31',
             ),
-            456 => 
+            256 => 
             array (
                 'id' => 1957,
                 'isPublished' => 0,
@@ -25464,7 +9860,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:31',
                 'updated_at' => '2019-01-06 14:04:31',
             ),
-            457 => 
+            257 => 
             array (
                 'id' => 1958,
                 'isPublished' => 0,
@@ -25477,7 +9873,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:31',
                 'updated_at' => '2019-01-06 14:04:31',
             ),
-            458 => 
+            258 => 
             array (
                 'id' => 1959,
                 'isPublished' => 0,
@@ -25490,7 +9886,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:31',
                 'updated_at' => '2019-01-06 14:04:31',
             ),
-            459 => 
+            259 => 
             array (
                 'id' => 1960,
                 'isPublished' => 0,
@@ -25503,7 +9899,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            460 => 
+            260 => 
             array (
                 'id' => 1961,
                 'isPublished' => 0,
@@ -25516,7 +9912,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            461 => 
+            261 => 
             array (
                 'id' => 1962,
                 'isPublished' => 0,
@@ -25529,7 +9925,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            462 => 
+            262 => 
             array (
                 'id' => 1963,
                 'isPublished' => 0,
@@ -25542,7 +9938,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            463 => 
+            263 => 
             array (
                 'id' => 1964,
                 'isPublished' => 0,
@@ -25555,7 +9951,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            464 => 
+            264 => 
             array (
                 'id' => 1965,
                 'isPublished' => 0,
@@ -25568,7 +9964,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            465 => 
+            265 => 
             array (
                 'id' => 1966,
                 'isPublished' => 0,
@@ -25581,7 +9977,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            466 => 
+            266 => 
             array (
                 'id' => 1967,
                 'isPublished' => 0,
@@ -25594,7 +9990,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            467 => 
+            267 => 
             array (
                 'id' => 1968,
                 'isPublished' => 0,
@@ -25607,7 +10003,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            468 => 
+            268 => 
             array (
                 'id' => 1969,
                 'isPublished' => 0,
@@ -25620,7 +10016,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            469 => 
+            269 => 
             array (
                 'id' => 1970,
                 'isPublished' => 0,
@@ -25633,7 +10029,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            470 => 
+            270 => 
             array (
                 'id' => 1971,
                 'isPublished' => 0,
@@ -25646,7 +10042,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            471 => 
+            271 => 
             array (
                 'id' => 1972,
                 'isPublished' => 0,
@@ -25659,7 +10055,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            472 => 
+            272 => 
             array (
                 'id' => 1973,
                 'isPublished' => 0,
@@ -25672,7 +10068,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            473 => 
+            273 => 
             array (
                 'id' => 1974,
                 'isPublished' => 0,
@@ -25685,7 +10081,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            474 => 
+            274 => 
             array (
                 'id' => 1975,
                 'isPublished' => 0,
@@ -25698,7 +10094,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            475 => 
+            275 => 
             array (
                 'id' => 1976,
                 'isPublished' => 0,
@@ -25711,7 +10107,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            476 => 
+            276 => 
             array (
                 'id' => 1977,
                 'isPublished' => 0,
@@ -25724,7 +10120,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            477 => 
+            277 => 
             array (
                 'id' => 1978,
                 'isPublished' => 0,
@@ -25737,7 +10133,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            478 => 
+            278 => 
             array (
                 'id' => 1979,
                 'isPublished' => 0,
@@ -25750,7 +10146,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:50',
                 'updated_at' => '2019-01-06 14:04:50',
             ),
-            479 => 
+            279 => 
             array (
                 'id' => 1980,
                 'isPublished' => 0,
@@ -25763,7 +10159,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            480 => 
+            280 => 
             array (
                 'id' => 1981,
                 'isPublished' => 0,
@@ -25776,7 +10172,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            481 => 
+            281 => 
             array (
                 'id' => 1982,
                 'isPublished' => 0,
@@ -25789,7 +10185,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            482 => 
+            282 => 
             array (
                 'id' => 1983,
                 'isPublished' => 0,
@@ -25802,7 +10198,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            483 => 
+            283 => 
             array (
                 'id' => 1984,
                 'isPublished' => 0,
@@ -25815,7 +10211,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            484 => 
+            284 => 
             array (
                 'id' => 1985,
                 'isPublished' => 0,
@@ -25828,7 +10224,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            485 => 
+            285 => 
             array (
                 'id' => 1986,
                 'isPublished' => 0,
@@ -25841,7 +10237,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            486 => 
+            286 => 
             array (
                 'id' => 1987,
                 'isPublished' => 0,
@@ -25854,7 +10250,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            487 => 
+            287 => 
             array (
                 'id' => 1988,
                 'isPublished' => 0,
@@ -25867,7 +10263,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            488 => 
+            288 => 
             array (
                 'id' => 1989,
                 'isPublished' => 0,
@@ -25880,7 +10276,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            489 => 
+            289 => 
             array (
                 'id' => 1990,
                 'isPublished' => 0,
@@ -25893,7 +10289,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            490 => 
+            290 => 
             array (
                 'id' => 1991,
                 'isPublished' => 0,
@@ -25906,7 +10302,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            491 => 
+            291 => 
             array (
                 'id' => 1992,
                 'isPublished' => 0,
@@ -25919,7 +10315,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            492 => 
+            292 => 
             array (
                 'id' => 1993,
                 'isPublished' => 0,
@@ -25932,7 +10328,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            493 => 
+            293 => 
             array (
                 'id' => 1994,
                 'isPublished' => 0,
@@ -25945,7 +10341,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            494 => 
+            294 => 
             array (
                 'id' => 1995,
                 'isPublished' => 0,
@@ -25958,7 +10354,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            495 => 
+            295 => 
             array (
                 'id' => 1996,
                 'isPublished' => 0,
@@ -25971,7 +10367,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            496 => 
+            296 => 
             array (
                 'id' => 1997,
                 'isPublished' => 0,
@@ -25984,7 +10380,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            497 => 
+            297 => 
             array (
                 'id' => 1998,
                 'isPublished' => 0,
@@ -25997,7 +10393,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            498 => 
+            298 => 
             array (
                 'id' => 1999,
                 'isPublished' => 0,
@@ -26010,7 +10406,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-            499 => 
+            299 => 
             array (
                 'id' => 2000,
                 'isPublished' => 0,
@@ -26023,9 +10419,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:51',
                 'updated_at' => '2019-01-06 14:04:51',
             ),
-        ));
-        \DB::table('crawl_links')->insert(array (
-            0 => 
+            300 => 
             array (
                 'id' => 2001,
                 'isPublished' => 0,
@@ -26038,7 +10432,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            1 => 
+            301 => 
             array (
                 'id' => 2002,
                 'isPublished' => 0,
@@ -26051,7 +10445,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            2 => 
+            302 => 
             array (
                 'id' => 2003,
                 'isPublished' => 0,
@@ -26064,7 +10458,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            3 => 
+            303 => 
             array (
                 'id' => 2004,
                 'isPublished' => 0,
@@ -26077,7 +10471,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            4 => 
+            304 => 
             array (
                 'id' => 2005,
                 'isPublished' => 0,
@@ -26090,7 +10484,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            5 => 
+            305 => 
             array (
                 'id' => 2006,
                 'isPublished' => 0,
@@ -26103,7 +10497,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            6 => 
+            306 => 
             array (
                 'id' => 2007,
                 'isPublished' => 0,
@@ -26116,7 +10510,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            7 => 
+            307 => 
             array (
                 'id' => 2008,
                 'isPublished' => 0,
@@ -26129,7 +10523,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            8 => 
+            308 => 
             array (
                 'id' => 2009,
                 'isPublished' => 0,
@@ -26142,7 +10536,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:52',
                 'updated_at' => '2019-01-06 14:04:52',
             ),
-            9 => 
+            309 => 
             array (
                 'id' => 2010,
                 'isPublished' => 0,
@@ -26155,7 +10549,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            10 => 
+            310 => 
             array (
                 'id' => 2011,
                 'isPublished' => 0,
@@ -26168,7 +10562,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            11 => 
+            311 => 
             array (
                 'id' => 2012,
                 'isPublished' => 0,
@@ -26181,7 +10575,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            12 => 
+            312 => 
             array (
                 'id' => 2013,
                 'isPublished' => 0,
@@ -26194,7 +10588,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            13 => 
+            313 => 
             array (
                 'id' => 2014,
                 'isPublished' => 0,
@@ -26207,7 +10601,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            14 => 
+            314 => 
             array (
                 'id' => 2015,
                 'isPublished' => 0,
@@ -26220,7 +10614,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            15 => 
+            315 => 
             array (
                 'id' => 2016,
                 'isPublished' => 0,
@@ -26233,7 +10627,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            16 => 
+            316 => 
             array (
                 'id' => 2017,
                 'isPublished' => 0,
@@ -26246,7 +10640,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            17 => 
+            317 => 
             array (
                 'id' => 2018,
                 'isPublished' => 0,
@@ -26259,7 +10653,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            18 => 
+            318 => 
             array (
                 'id' => 2019,
                 'isPublished' => 0,
@@ -26272,7 +10666,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            19 => 
+            319 => 
             array (
                 'id' => 2020,
                 'isPublished' => 0,
@@ -26285,7 +10679,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:57',
                 'updated_at' => '2019-01-06 14:04:57',
             ),
-            20 => 
+            320 => 
             array (
                 'id' => 2021,
                 'isPublished' => 0,
@@ -26298,7 +10692,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            21 => 
+            321 => 
             array (
                 'id' => 2022,
                 'isPublished' => 0,
@@ -26311,7 +10705,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            22 => 
+            322 => 
             array (
                 'id' => 2023,
                 'isPublished' => 0,
@@ -26324,7 +10718,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            23 => 
+            323 => 
             array (
                 'id' => 2024,
                 'isPublished' => 0,
@@ -26337,7 +10731,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            24 => 
+            324 => 
             array (
                 'id' => 2025,
                 'isPublished' => 0,
@@ -26350,7 +10744,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            25 => 
+            325 => 
             array (
                 'id' => 2026,
                 'isPublished' => 0,
@@ -26363,7 +10757,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            26 => 
+            326 => 
             array (
                 'id' => 2027,
                 'isPublished' => 0,
@@ -26376,7 +10770,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            27 => 
+            327 => 
             array (
                 'id' => 2028,
                 'isPublished' => 0,
@@ -26389,7 +10783,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            28 => 
+            328 => 
             array (
                 'id' => 2029,
                 'isPublished' => 0,
@@ -26402,7 +10796,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            29 => 
+            329 => 
             array (
                 'id' => 2030,
                 'isPublished' => 0,
@@ -26415,7 +10809,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            30 => 
+            330 => 
             array (
                 'id' => 2031,
                 'isPublished' => 0,
@@ -26428,7 +10822,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            31 => 
+            331 => 
             array (
                 'id' => 2032,
                 'isPublished' => 0,
@@ -26441,7 +10835,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            32 => 
+            332 => 
             array (
                 'id' => 2033,
                 'isPublished' => 0,
@@ -26454,7 +10848,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            33 => 
+            333 => 
             array (
                 'id' => 2034,
                 'isPublished' => 0,
@@ -26467,7 +10861,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            34 => 
+            334 => 
             array (
                 'id' => 2035,
                 'isPublished' => 0,
@@ -26480,7 +10874,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            35 => 
+            335 => 
             array (
                 'id' => 2036,
                 'isPublished' => 0,
@@ -26493,7 +10887,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            36 => 
+            336 => 
             array (
                 'id' => 2037,
                 'isPublished' => 0,
@@ -26506,7 +10900,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            37 => 
+            337 => 
             array (
                 'id' => 2038,
                 'isPublished' => 0,
@@ -26519,7 +10913,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            38 => 
+            338 => 
             array (
                 'id' => 2039,
                 'isPublished' => 0,
@@ -26532,7 +10926,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            39 => 
+            339 => 
             array (
                 'id' => 2040,
                 'isPublished' => 0,
@@ -26545,7 +10939,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:58',
                 'updated_at' => '2019-01-06 14:04:58',
             ),
-            40 => 
+            340 => 
             array (
                 'id' => 2041,
                 'isPublished' => 0,
@@ -26558,7 +10952,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            41 => 
+            341 => 
             array (
                 'id' => 2042,
                 'isPublished' => 0,
@@ -26571,7 +10965,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            42 => 
+            342 => 
             array (
                 'id' => 2043,
                 'isPublished' => 0,
@@ -26584,7 +10978,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            43 => 
+            343 => 
             array (
                 'id' => 2044,
                 'isPublished' => 0,
@@ -26597,7 +10991,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            44 => 
+            344 => 
             array (
                 'id' => 2045,
                 'isPublished' => 0,
@@ -26610,7 +11004,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            45 => 
+            345 => 
             array (
                 'id' => 2046,
                 'isPublished' => 0,
@@ -26623,7 +11017,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            46 => 
+            346 => 
             array (
                 'id' => 2047,
                 'isPublished' => 0,
@@ -26636,7 +11030,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            47 => 
+            347 => 
             array (
                 'id' => 2048,
                 'isPublished' => 0,
@@ -26649,7 +11043,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            48 => 
+            348 => 
             array (
                 'id' => 2049,
                 'isPublished' => 0,
@@ -26662,7 +11056,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            49 => 
+            349 => 
             array (
                 'id' => 2050,
                 'isPublished' => 0,
@@ -26675,7 +11069,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            50 => 
+            350 => 
             array (
                 'id' => 2051,
                 'isPublished' => 0,
@@ -26688,7 +11082,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            51 => 
+            351 => 
             array (
                 'id' => 2052,
                 'isPublished' => 0,
@@ -26701,7 +11095,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            52 => 
+            352 => 
             array (
                 'id' => 2053,
                 'isPublished' => 0,
@@ -26714,7 +11108,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            53 => 
+            353 => 
             array (
                 'id' => 2054,
                 'isPublished' => 0,
@@ -26727,7 +11121,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            54 => 
+            354 => 
             array (
                 'id' => 2055,
                 'isPublished' => 0,
@@ -26740,7 +11134,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            55 => 
+            355 => 
             array (
                 'id' => 2056,
                 'isPublished' => 0,
@@ -26753,7 +11147,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            56 => 
+            356 => 
             array (
                 'id' => 2057,
                 'isPublished' => 0,
@@ -26766,7 +11160,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:04:59',
                 'updated_at' => '2019-01-06 14:04:59',
             ),
-            57 => 
+            357 => 
             array (
                 'id' => 2058,
                 'isPublished' => 0,
@@ -26779,7 +11173,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:00',
                 'updated_at' => '2019-01-06 14:05:00',
             ),
-            58 => 
+            358 => 
             array (
                 'id' => 2059,
                 'isPublished' => 0,
@@ -26792,7 +11186,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:00',
                 'updated_at' => '2019-01-06 14:05:00',
             ),
-            59 => 
+            359 => 
             array (
                 'id' => 2060,
                 'isPublished' => 0,
@@ -26805,7 +11199,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            60 => 
+            360 => 
             array (
                 'id' => 2061,
                 'isPublished' => 0,
@@ -26818,7 +11212,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            61 => 
+            361 => 
             array (
                 'id' => 2062,
                 'isPublished' => 0,
@@ -26831,7 +11225,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            62 => 
+            362 => 
             array (
                 'id' => 2063,
                 'isPublished' => 0,
@@ -26844,7 +11238,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            63 => 
+            363 => 
             array (
                 'id' => 2064,
                 'isPublished' => 0,
@@ -26857,7 +11251,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            64 => 
+            364 => 
             array (
                 'id' => 2065,
                 'isPublished' => 0,
@@ -26870,7 +11264,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            65 => 
+            365 => 
             array (
                 'id' => 2066,
                 'isPublished' => 0,
@@ -26883,7 +11277,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            66 => 
+            366 => 
             array (
                 'id' => 2067,
                 'isPublished' => 0,
@@ -26896,7 +11290,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            67 => 
+            367 => 
             array (
                 'id' => 2068,
                 'isPublished' => 0,
@@ -26909,7 +11303,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            68 => 
+            368 => 
             array (
                 'id' => 2069,
                 'isPublished' => 0,
@@ -26922,7 +11316,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            69 => 
+            369 => 
             array (
                 'id' => 2070,
                 'isPublished' => 0,
@@ -26935,7 +11329,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            70 => 
+            370 => 
             array (
                 'id' => 2071,
                 'isPublished' => 0,
@@ -26948,7 +11342,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:06',
                 'updated_at' => '2019-01-06 14:05:06',
             ),
-            71 => 
+            371 => 
             array (
                 'id' => 2072,
                 'isPublished' => 0,
@@ -26961,7 +11355,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            72 => 
+            372 => 
             array (
                 'id' => 2073,
                 'isPublished' => 0,
@@ -26974,7 +11368,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            73 => 
+            373 => 
             array (
                 'id' => 2074,
                 'isPublished' => 0,
@@ -26987,7 +11381,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            74 => 
+            374 => 
             array (
                 'id' => 2075,
                 'isPublished' => 0,
@@ -27000,7 +11394,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            75 => 
+            375 => 
             array (
                 'id' => 2076,
                 'isPublished' => 0,
@@ -27013,7 +11407,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            76 => 
+            376 => 
             array (
                 'id' => 2077,
                 'isPublished' => 0,
@@ -27026,7 +11420,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            77 => 
+            377 => 
             array (
                 'id' => 2078,
                 'isPublished' => 0,
@@ -27039,7 +11433,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            78 => 
+            378 => 
             array (
                 'id' => 2079,
                 'isPublished' => 0,
@@ -27052,7 +11446,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            79 => 
+            379 => 
             array (
                 'id' => 2080,
                 'isPublished' => 0,
@@ -27065,7 +11459,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            80 => 
+            380 => 
             array (
                 'id' => 2081,
                 'isPublished' => 0,
@@ -27078,7 +11472,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            81 => 
+            381 => 
             array (
                 'id' => 2082,
                 'isPublished' => 0,
@@ -27091,7 +11485,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            82 => 
+            382 => 
             array (
                 'id' => 2083,
                 'isPublished' => 0,
@@ -27104,7 +11498,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            83 => 
+            383 => 
             array (
                 'id' => 2084,
                 'isPublished' => 0,
@@ -27117,7 +11511,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            84 => 
+            384 => 
             array (
                 'id' => 2085,
                 'isPublished' => 0,
@@ -27130,7 +11524,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            85 => 
+            385 => 
             array (
                 'id' => 2086,
                 'isPublished' => 0,
@@ -27143,7 +11537,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            86 => 
+            386 => 
             array (
                 'id' => 2087,
                 'isPublished' => 0,
@@ -27156,7 +11550,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            87 => 
+            387 => 
             array (
                 'id' => 2088,
                 'isPublished' => 0,
@@ -27169,7 +11563,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:07',
                 'updated_at' => '2019-01-06 14:05:07',
             ),
-            88 => 
+            388 => 
             array (
                 'id' => 2089,
                 'isPublished' => 0,
@@ -27182,7 +11576,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            89 => 
+            389 => 
             array (
                 'id' => 2090,
                 'isPublished' => 0,
@@ -27195,7 +11589,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            90 => 
+            390 => 
             array (
                 'id' => 2091,
                 'isPublished' => 0,
@@ -27208,7 +11602,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            91 => 
+            391 => 
             array (
                 'id' => 2092,
                 'isPublished' => 0,
@@ -27221,7 +11615,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            92 => 
+            392 => 
             array (
                 'id' => 2093,
                 'isPublished' => 0,
@@ -27234,7 +11628,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            93 => 
+            393 => 
             array (
                 'id' => 2094,
                 'isPublished' => 0,
@@ -27247,7 +11641,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            94 => 
+            394 => 
             array (
                 'id' => 2095,
                 'isPublished' => 0,
@@ -27260,7 +11654,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            95 => 
+            395 => 
             array (
                 'id' => 2096,
                 'isPublished' => 0,
@@ -27273,7 +11667,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            96 => 
+            396 => 
             array (
                 'id' => 2097,
                 'isPublished' => 0,
@@ -27286,7 +11680,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            97 => 
+            397 => 
             array (
                 'id' => 2098,
                 'isPublished' => 0,
@@ -27299,7 +11693,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            98 => 
+            398 => 
             array (
                 'id' => 2099,
                 'isPublished' => 0,
@@ -27312,7 +11706,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            99 => 
+            399 => 
             array (
                 'id' => 2100,
                 'isPublished' => 0,
@@ -27325,7 +11719,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            100 => 
+            400 => 
             array (
                 'id' => 2101,
                 'isPublished' => 0,
@@ -27338,7 +11732,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            101 => 
+            401 => 
             array (
                 'id' => 2102,
                 'isPublished' => 0,
@@ -27351,7 +11745,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            102 => 
+            402 => 
             array (
                 'id' => 2103,
                 'isPublished' => 0,
@@ -27364,7 +11758,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            103 => 
+            403 => 
             array (
                 'id' => 2104,
                 'isPublished' => 0,
@@ -27377,7 +11771,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            104 => 
+            404 => 
             array (
                 'id' => 2105,
                 'isPublished' => 0,
@@ -27390,7 +11784,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            105 => 
+            405 => 
             array (
                 'id' => 2106,
                 'isPublished' => 0,
@@ -27403,7 +11797,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            106 => 
+            406 => 
             array (
                 'id' => 2107,
                 'isPublished' => 0,
@@ -27416,7 +11810,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            107 => 
+            407 => 
             array (
                 'id' => 2108,
                 'isPublished' => 0,
@@ -27429,7 +11823,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            108 => 
+            408 => 
             array (
                 'id' => 2109,
                 'isPublished' => 0,
@@ -27442,7 +11836,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:08',
                 'updated_at' => '2019-01-06 14:05:08',
             ),
-            109 => 
+            409 => 
             array (
                 'id' => 2110,
                 'isPublished' => 0,
@@ -27455,7 +11849,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            110 => 
+            410 => 
             array (
                 'id' => 2111,
                 'isPublished' => 0,
@@ -27468,7 +11862,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            111 => 
+            411 => 
             array (
                 'id' => 2112,
                 'isPublished' => 0,
@@ -27481,7 +11875,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            112 => 
+            412 => 
             array (
                 'id' => 2113,
                 'isPublished' => 0,
@@ -27494,7 +11888,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            113 => 
+            413 => 
             array (
                 'id' => 2114,
                 'isPublished' => 0,
@@ -27507,7 +11901,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            114 => 
+            414 => 
             array (
                 'id' => 2115,
                 'isPublished' => 0,
@@ -27520,7 +11914,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            115 => 
+            415 => 
             array (
                 'id' => 2116,
                 'isPublished' => 0,
@@ -27533,7 +11927,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            116 => 
+            416 => 
             array (
                 'id' => 2117,
                 'isPublished' => 0,
@@ -27546,7 +11940,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            117 => 
+            417 => 
             array (
                 'id' => 2118,
                 'isPublished' => 0,
@@ -27559,7 +11953,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            118 => 
+            418 => 
             array (
                 'id' => 2119,
                 'isPublished' => 0,
@@ -27572,7 +11966,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            119 => 
+            419 => 
             array (
                 'id' => 2120,
                 'isPublished' => 0,
@@ -27585,7 +11979,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            120 => 
+            420 => 
             array (
                 'id' => 2121,
                 'isPublished' => 0,
@@ -27598,7 +11992,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            121 => 
+            421 => 
             array (
                 'id' => 2122,
                 'isPublished' => 0,
@@ -27611,7 +12005,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            122 => 
+            422 => 
             array (
                 'id' => 2123,
                 'isPublished' => 0,
@@ -27624,7 +12018,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            123 => 
+            423 => 
             array (
                 'id' => 2124,
                 'isPublished' => 0,
@@ -27637,7 +12031,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            124 => 
+            424 => 
             array (
                 'id' => 2125,
                 'isPublished' => 0,
@@ -27650,7 +12044,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            125 => 
+            425 => 
             array (
                 'id' => 2126,
                 'isPublished' => 0,
@@ -27663,7 +12057,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:18',
                 'updated_at' => '2019-01-06 14:05:18',
             ),
-            126 => 
+            426 => 
             array (
                 'id' => 2127,
                 'isPublished' => 0,
@@ -27676,7 +12070,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            127 => 
+            427 => 
             array (
                 'id' => 2128,
                 'isPublished' => 0,
@@ -27689,7 +12083,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            128 => 
+            428 => 
             array (
                 'id' => 2129,
                 'isPublished' => 0,
@@ -27702,7 +12096,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            129 => 
+            429 => 
             array (
                 'id' => 2130,
                 'isPublished' => 0,
@@ -27715,7 +12109,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            130 => 
+            430 => 
             array (
                 'id' => 2131,
                 'isPublished' => 0,
@@ -27728,7 +12122,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            131 => 
+            431 => 
             array (
                 'id' => 2132,
                 'isPublished' => 0,
@@ -27741,7 +12135,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            132 => 
+            432 => 
             array (
                 'id' => 2133,
                 'isPublished' => 0,
@@ -27754,7 +12148,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            133 => 
+            433 => 
             array (
                 'id' => 2134,
                 'isPublished' => 0,
@@ -27767,7 +12161,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            134 => 
+            434 => 
             array (
                 'id' => 2135,
                 'isPublished' => 0,
@@ -27780,7 +12174,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            135 => 
+            435 => 
             array (
                 'id' => 2136,
                 'isPublished' => 0,
@@ -27793,7 +12187,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            136 => 
+            436 => 
             array (
                 'id' => 2137,
                 'isPublished' => 0,
@@ -27806,7 +12200,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            137 => 
+            437 => 
             array (
                 'id' => 2138,
                 'isPublished' => 0,
@@ -27819,7 +12213,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            138 => 
+            438 => 
             array (
                 'id' => 2139,
                 'isPublished' => 0,
@@ -27832,7 +12226,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            139 => 
+            439 => 
             array (
                 'id' => 2140,
                 'isPublished' => 0,
@@ -27845,7 +12239,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            140 => 
+            440 => 
             array (
                 'id' => 2141,
                 'isPublished' => 0,
@@ -27858,7 +12252,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            141 => 
+            441 => 
             array (
                 'id' => 2142,
                 'isPublished' => 0,
@@ -27871,7 +12265,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            142 => 
+            442 => 
             array (
                 'id' => 2143,
                 'isPublished' => 0,
@@ -27884,7 +12278,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:19',
                 'updated_at' => '2019-01-06 14:05:19',
             ),
-            143 => 
+            443 => 
             array (
                 'id' => 2144,
                 'isPublished' => 0,
@@ -27897,7 +12291,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            144 => 
+            444 => 
             array (
                 'id' => 2145,
                 'isPublished' => 0,
@@ -27910,7 +12304,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            145 => 
+            445 => 
             array (
                 'id' => 2146,
                 'isPublished' => 0,
@@ -27923,7 +12317,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            146 => 
+            446 => 
             array (
                 'id' => 2147,
                 'isPublished' => 0,
@@ -27936,7 +12330,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            147 => 
+            447 => 
             array (
                 'id' => 2148,
                 'isPublished' => 0,
@@ -27949,7 +12343,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            148 => 
+            448 => 
             array (
                 'id' => 2149,
                 'isPublished' => 0,
@@ -27962,7 +12356,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            149 => 
+            449 => 
             array (
                 'id' => 2150,
                 'isPublished' => 0,
@@ -27975,7 +12369,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            150 => 
+            450 => 
             array (
                 'id' => 2151,
                 'isPublished' => 0,
@@ -27988,7 +12382,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            151 => 
+            451 => 
             array (
                 'id' => 2152,
                 'isPublished' => 0,
@@ -28001,7 +12395,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            152 => 
+            452 => 
             array (
                 'id' => 2153,
                 'isPublished' => 0,
@@ -28014,7 +12408,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            153 => 
+            453 => 
             array (
                 'id' => 2154,
                 'isPublished' => 0,
@@ -28027,7 +12421,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            154 => 
+            454 => 
             array (
                 'id' => 2155,
                 'isPublished' => 0,
@@ -28040,7 +12434,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            155 => 
+            455 => 
             array (
                 'id' => 2156,
                 'isPublished' => 0,
@@ -28053,7 +12447,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            156 => 
+            456 => 
             array (
                 'id' => 2157,
                 'isPublished' => 0,
@@ -28066,7 +12460,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            157 => 
+            457 => 
             array (
                 'id' => 2158,
                 'isPublished' => 0,
@@ -28079,7 +12473,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            158 => 
+            458 => 
             array (
                 'id' => 2159,
                 'isPublished' => 0,
@@ -28092,7 +12486,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:20',
                 'updated_at' => '2019-01-06 14:05:20',
             ),
-            159 => 
+            459 => 
             array (
                 'id' => 2160,
                 'isPublished' => 0,
@@ -28105,7 +12499,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:31',
                 'updated_at' => '2019-01-06 14:05:31',
             ),
-            160 => 
+            460 => 
             array (
                 'id' => 2161,
                 'isPublished' => 0,
@@ -28118,7 +12512,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:31',
                 'updated_at' => '2019-01-06 14:05:31',
             ),
-            161 => 
+            461 => 
             array (
                 'id' => 2162,
                 'isPublished' => 0,
@@ -28131,7 +12525,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:31',
                 'updated_at' => '2019-01-06 14:05:31',
             ),
-            162 => 
+            462 => 
             array (
                 'id' => 2163,
                 'isPublished' => 0,
@@ -28144,7 +12538,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            163 => 
+            463 => 
             array (
                 'id' => 2164,
                 'isPublished' => 0,
@@ -28157,7 +12551,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            164 => 
+            464 => 
             array (
                 'id' => 2165,
                 'isPublished' => 0,
@@ -28170,7 +12564,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            165 => 
+            465 => 
             array (
                 'id' => 2166,
                 'isPublished' => 0,
@@ -28183,7 +12577,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            166 => 
+            466 => 
             array (
                 'id' => 2167,
                 'isPublished' => 0,
@@ -28196,7 +12590,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            167 => 
+            467 => 
             array (
                 'id' => 2168,
                 'isPublished' => 0,
@@ -28209,7 +12603,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            168 => 
+            468 => 
             array (
                 'id' => 2169,
                 'isPublished' => 0,
@@ -28222,7 +12616,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            169 => 
+            469 => 
             array (
                 'id' => 2170,
                 'isPublished' => 0,
@@ -28235,7 +12629,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            170 => 
+            470 => 
             array (
                 'id' => 2171,
                 'isPublished' => 0,
@@ -28248,7 +12642,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            171 => 
+            471 => 
             array (
                 'id' => 2172,
                 'isPublished' => 0,
@@ -28261,7 +12655,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            172 => 
+            472 => 
             array (
                 'id' => 2173,
                 'isPublished' => 0,
@@ -28274,7 +12668,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            173 => 
+            473 => 
             array (
                 'id' => 2174,
                 'isPublished' => 0,
@@ -28287,7 +12681,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            174 => 
+            474 => 
             array (
                 'id' => 2175,
                 'isPublished' => 0,
@@ -28300,7 +12694,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            175 => 
+            475 => 
             array (
                 'id' => 2176,
                 'isPublished' => 0,
@@ -28313,7 +12707,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            176 => 
+            476 => 
             array (
                 'id' => 2177,
                 'isPublished' => 0,
@@ -28326,7 +12720,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            177 => 
+            477 => 
             array (
                 'id' => 2178,
                 'isPublished' => 0,
@@ -28339,7 +12733,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            178 => 
+            478 => 
             array (
                 'id' => 2179,
                 'isPublished' => 0,
@@ -28352,7 +12746,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            179 => 
+            479 => 
             array (
                 'id' => 2180,
                 'isPublished' => 0,
@@ -28365,7 +12759,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:32',
                 'updated_at' => '2019-01-06 14:05:32',
             ),
-            180 => 
+            480 => 
             array (
                 'id' => 2181,
                 'isPublished' => 0,
@@ -28378,7 +12772,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            181 => 
+            481 => 
             array (
                 'id' => 2182,
                 'isPublished' => 0,
@@ -28391,7 +12785,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            182 => 
+            482 => 
             array (
                 'id' => 2183,
                 'isPublished' => 0,
@@ -28404,7 +12798,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            183 => 
+            483 => 
             array (
                 'id' => 2184,
                 'isPublished' => 0,
@@ -28417,7 +12811,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            184 => 
+            484 => 
             array (
                 'id' => 2185,
                 'isPublished' => 0,
@@ -28430,7 +12824,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            185 => 
+            485 => 
             array (
                 'id' => 2186,
                 'isPublished' => 0,
@@ -28443,7 +12837,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            186 => 
+            486 => 
             array (
                 'id' => 2187,
                 'isPublished' => 0,
@@ -28456,7 +12850,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            187 => 
+            487 => 
             array (
                 'id' => 2188,
                 'isPublished' => 0,
@@ -28469,7 +12863,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            188 => 
+            488 => 
             array (
                 'id' => 2189,
                 'isPublished' => 0,
@@ -28482,7 +12876,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            189 => 
+            489 => 
             array (
                 'id' => 2190,
                 'isPublished' => 0,
@@ -28495,7 +12889,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            190 => 
+            490 => 
             array (
                 'id' => 2191,
                 'isPublished' => 0,
@@ -28508,7 +12902,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            191 => 
+            491 => 
             array (
                 'id' => 2192,
                 'isPublished' => 0,
@@ -28521,7 +12915,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            192 => 
+            492 => 
             array (
                 'id' => 2193,
                 'isPublished' => 0,
@@ -28534,7 +12928,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            193 => 
+            493 => 
             array (
                 'id' => 2194,
                 'isPublished' => 0,
@@ -28547,7 +12941,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            194 => 
+            494 => 
             array (
                 'id' => 2195,
                 'isPublished' => 0,
@@ -28560,7 +12954,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            195 => 
+            495 => 
             array (
                 'id' => 2196,
                 'isPublished' => 0,
@@ -28573,7 +12967,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:33',
                 'updated_at' => '2019-01-06 14:05:33',
             ),
-            196 => 
+            496 => 
             array (
                 'id' => 2197,
                 'isPublished' => 0,
@@ -28586,7 +12980,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            197 => 
+            497 => 
             array (
                 'id' => 2198,
                 'isPublished' => 0,
@@ -28599,7 +12993,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            198 => 
+            498 => 
             array (
                 'id' => 2199,
                 'isPublished' => 0,
@@ -28612,7 +13006,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            199 => 
+            499 => 
             array (
                 'id' => 2200,
                 'isPublished' => 0,
@@ -28625,7 +13019,9 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            200 => 
+        ));
+        \DB::table('crawl_links')->insert(array (
+            0 => 
             array (
                 'id' => 2201,
                 'isPublished' => 0,
@@ -28638,7 +13034,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            201 => 
+            1 => 
             array (
                 'id' => 2202,
                 'isPublished' => 0,
@@ -28651,7 +13047,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            202 => 
+            2 => 
             array (
                 'id' => 2203,
                 'isPublished' => 0,
@@ -28664,7 +13060,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            203 => 
+            3 => 
             array (
                 'id' => 2204,
                 'isPublished' => 0,
@@ -28677,7 +13073,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            204 => 
+            4 => 
             array (
                 'id' => 2205,
                 'isPublished' => 0,
@@ -28690,7 +13086,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            205 => 
+            5 => 
             array (
                 'id' => 2206,
                 'isPublished' => 0,
@@ -28703,7 +13099,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            206 => 
+            6 => 
             array (
                 'id' => 2207,
                 'isPublished' => 0,
@@ -28716,7 +13112,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            207 => 
+            7 => 
             array (
                 'id' => 2208,
                 'isPublished' => 0,
@@ -28729,7 +13125,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            208 => 
+            8 => 
             array (
                 'id' => 2209,
                 'isPublished' => 0,
@@ -28742,7 +13138,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:05:34',
                 'updated_at' => '2019-01-06 14:05:34',
             ),
-            209 => 
+            9 => 
             array (
                 'id' => 2210,
                 'isPublished' => 0,
@@ -28755,7 +13151,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:31',
                 'updated_at' => '2019-01-06 14:06:31',
             ),
-            210 => 
+            10 => 
             array (
                 'id' => 2211,
                 'isPublished' => 0,
@@ -28768,7 +13164,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            211 => 
+            11 => 
             array (
                 'id' => 2212,
                 'isPublished' => 0,
@@ -28781,7 +13177,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            212 => 
+            12 => 
             array (
                 'id' => 2213,
                 'isPublished' => 0,
@@ -28794,7 +13190,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            213 => 
+            13 => 
             array (
                 'id' => 2214,
                 'isPublished' => 0,
@@ -28807,7 +13203,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            214 => 
+            14 => 
             array (
                 'id' => 2215,
                 'isPublished' => 0,
@@ -28820,7 +13216,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            215 => 
+            15 => 
             array (
                 'id' => 2216,
                 'isPublished' => 0,
@@ -28833,7 +13229,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            216 => 
+            16 => 
             array (
                 'id' => 2217,
                 'isPublished' => 0,
@@ -28846,7 +13242,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            217 => 
+            17 => 
             array (
                 'id' => 2218,
                 'isPublished' => 0,
@@ -28859,7 +13255,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            218 => 
+            18 => 
             array (
                 'id' => 2219,
                 'isPublished' => 0,
@@ -28872,7 +13268,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            219 => 
+            19 => 
             array (
                 'id' => 2220,
                 'isPublished' => 0,
@@ -28885,7 +13281,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            220 => 
+            20 => 
             array (
                 'id' => 2221,
                 'isPublished' => 0,
@@ -28898,7 +13294,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            221 => 
+            21 => 
             array (
                 'id' => 2222,
                 'isPublished' => 0,
@@ -28911,7 +13307,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            222 => 
+            22 => 
             array (
                 'id' => 2223,
                 'isPublished' => 0,
@@ -28924,7 +13320,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            223 => 
+            23 => 
             array (
                 'id' => 2224,
                 'isPublished' => 0,
@@ -28937,7 +13333,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            224 => 
+            24 => 
             array (
                 'id' => 2225,
                 'isPublished' => 0,
@@ -28950,7 +13346,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            225 => 
+            25 => 
             array (
                 'id' => 2226,
                 'isPublished' => 0,
@@ -28963,7 +13359,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:32',
                 'updated_at' => '2019-01-06 14:06:32',
             ),
-            226 => 
+            26 => 
             array (
                 'id' => 2227,
                 'isPublished' => 0,
@@ -28976,7 +13372,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            227 => 
+            27 => 
             array (
                 'id' => 2228,
                 'isPublished' => 0,
@@ -28989,7 +13385,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            228 => 
+            28 => 
             array (
                 'id' => 2229,
                 'isPublished' => 0,
@@ -29002,7 +13398,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            229 => 
+            29 => 
             array (
                 'id' => 2230,
                 'isPublished' => 0,
@@ -29015,7 +13411,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            230 => 
+            30 => 
             array (
                 'id' => 2231,
                 'isPublished' => 0,
@@ -29028,7 +13424,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            231 => 
+            31 => 
             array (
                 'id' => 2232,
                 'isPublished' => 0,
@@ -29041,7 +13437,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            232 => 
+            32 => 
             array (
                 'id' => 2233,
                 'isPublished' => 0,
@@ -29054,7 +13450,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            233 => 
+            33 => 
             array (
                 'id' => 2234,
                 'isPublished' => 0,
@@ -29067,7 +13463,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            234 => 
+            34 => 
             array (
                 'id' => 2235,
                 'isPublished' => 0,
@@ -29080,7 +13476,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            235 => 
+            35 => 
             array (
                 'id' => 2236,
                 'isPublished' => 0,
@@ -29093,7 +13489,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            236 => 
+            36 => 
             array (
                 'id' => 2237,
                 'isPublished' => 0,
@@ -29106,7 +13502,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            237 => 
+            37 => 
             array (
                 'id' => 2238,
                 'isPublished' => 0,
@@ -29119,7 +13515,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            238 => 
+            38 => 
             array (
                 'id' => 2239,
                 'isPublished' => 0,
@@ -29132,7 +13528,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            239 => 
+            39 => 
             array (
                 'id' => 2240,
                 'isPublished' => 0,
@@ -29145,7 +13541,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            240 => 
+            40 => 
             array (
                 'id' => 2241,
                 'isPublished' => 0,
@@ -29158,7 +13554,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            241 => 
+            41 => 
             array (
                 'id' => 2242,
                 'isPublished' => 0,
@@ -29171,7 +13567,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            242 => 
+            42 => 
             array (
                 'id' => 2243,
                 'isPublished' => 0,
@@ -29184,7 +13580,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:33',
                 'updated_at' => '2019-01-06 14:06:33',
             ),
-            243 => 
+            43 => 
             array (
                 'id' => 2244,
                 'isPublished' => 0,
@@ -29197,7 +13593,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            244 => 
+            44 => 
             array (
                 'id' => 2245,
                 'isPublished' => 0,
@@ -29210,7 +13606,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            245 => 
+            45 => 
             array (
                 'id' => 2246,
                 'isPublished' => 0,
@@ -29223,7 +13619,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            246 => 
+            46 => 
             array (
                 'id' => 2247,
                 'isPublished' => 0,
@@ -29236,7 +13632,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            247 => 
+            47 => 
             array (
                 'id' => 2248,
                 'isPublished' => 0,
@@ -29249,7 +13645,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            248 => 
+            48 => 
             array (
                 'id' => 2249,
                 'isPublished' => 0,
@@ -29262,7 +13658,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            249 => 
+            49 => 
             array (
                 'id' => 2250,
                 'isPublished' => 0,
@@ -29275,7 +13671,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            250 => 
+            50 => 
             array (
                 'id' => 2251,
                 'isPublished' => 0,
@@ -29288,7 +13684,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            251 => 
+            51 => 
             array (
                 'id' => 2252,
                 'isPublished' => 0,
@@ -29301,7 +13697,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            252 => 
+            52 => 
             array (
                 'id' => 2253,
                 'isPublished' => 0,
@@ -29314,7 +13710,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            253 => 
+            53 => 
             array (
                 'id' => 2254,
                 'isPublished' => 0,
@@ -29327,7 +13723,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            254 => 
+            54 => 
             array (
                 'id' => 2255,
                 'isPublished' => 0,
@@ -29340,7 +13736,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            255 => 
+            55 => 
             array (
                 'id' => 2256,
                 'isPublished' => 0,
@@ -29353,7 +13749,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            256 => 
+            56 => 
             array (
                 'id' => 2257,
                 'isPublished' => 0,
@@ -29366,7 +13762,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            257 => 
+            57 => 
             array (
                 'id' => 2258,
                 'isPublished' => 0,
@@ -29379,7 +13775,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            258 => 
+            58 => 
             array (
                 'id' => 2259,
                 'isPublished' => 0,
@@ -29392,7 +13788,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:34',
                 'updated_at' => '2019-01-06 14:06:34',
             ),
-            259 => 
+            59 => 
             array (
                 'id' => 2260,
                 'isPublished' => 0,
@@ -29405,7 +13801,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:39',
                 'updated_at' => '2019-01-06 14:06:39',
             ),
-            260 => 
+            60 => 
             array (
                 'id' => 2261,
                 'isPublished' => 0,
@@ -29418,7 +13814,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:39',
                 'updated_at' => '2019-01-06 14:06:39',
             ),
-            261 => 
+            61 => 
             array (
                 'id' => 2262,
                 'isPublished' => 0,
@@ -29431,7 +13827,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:39',
                 'updated_at' => '2019-01-06 14:06:39',
             ),
-            262 => 
+            62 => 
             array (
                 'id' => 2263,
                 'isPublished' => 0,
@@ -29444,7 +13840,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:39',
                 'updated_at' => '2019-01-06 14:06:39',
             ),
-            263 => 
+            63 => 
             array (
                 'id' => 2264,
                 'isPublished' => 0,
@@ -29457,7 +13853,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:39',
                 'updated_at' => '2019-01-06 14:06:39',
             ),
-            264 => 
+            64 => 
             array (
                 'id' => 2265,
                 'isPublished' => 0,
@@ -29470,7 +13866,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            265 => 
+            65 => 
             array (
                 'id' => 2266,
                 'isPublished' => 0,
@@ -29483,7 +13879,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            266 => 
+            66 => 
             array (
                 'id' => 2267,
                 'isPublished' => 0,
@@ -29496,7 +13892,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            267 => 
+            67 => 
             array (
                 'id' => 2268,
                 'isPublished' => 0,
@@ -29509,7 +13905,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            268 => 
+            68 => 
             array (
                 'id' => 2269,
                 'isPublished' => 0,
@@ -29522,7 +13918,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            269 => 
+            69 => 
             array (
                 'id' => 2270,
                 'isPublished' => 0,
@@ -29535,7 +13931,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            270 => 
+            70 => 
             array (
                 'id' => 2271,
                 'isPublished' => 0,
@@ -29548,7 +13944,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            271 => 
+            71 => 
             array (
                 'id' => 2272,
                 'isPublished' => 0,
@@ -29561,7 +13957,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            272 => 
+            72 => 
             array (
                 'id' => 2273,
                 'isPublished' => 0,
@@ -29574,7 +13970,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            273 => 
+            73 => 
             array (
                 'id' => 2274,
                 'isPublished' => 0,
@@ -29587,7 +13983,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            274 => 
+            74 => 
             array (
                 'id' => 2275,
                 'isPublished' => 0,
@@ -29600,7 +13996,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            275 => 
+            75 => 
             array (
                 'id' => 2276,
                 'isPublished' => 0,
@@ -29613,7 +14009,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            276 => 
+            76 => 
             array (
                 'id' => 2277,
                 'isPublished' => 0,
@@ -29626,7 +14022,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            277 => 
+            77 => 
             array (
                 'id' => 2278,
                 'isPublished' => 0,
@@ -29639,7 +14035,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            278 => 
+            78 => 
             array (
                 'id' => 2279,
                 'isPublished' => 0,
@@ -29652,7 +14048,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            279 => 
+            79 => 
             array (
                 'id' => 2280,
                 'isPublished' => 0,
@@ -29665,7 +14061,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            280 => 
+            80 => 
             array (
                 'id' => 2281,
                 'isPublished' => 0,
@@ -29678,7 +14074,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:40',
                 'updated_at' => '2019-01-06 14:06:40',
             ),
-            281 => 
+            81 => 
             array (
                 'id' => 2282,
                 'isPublished' => 0,
@@ -29691,7 +14087,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            282 => 
+            82 => 
             array (
                 'id' => 2283,
                 'isPublished' => 0,
@@ -29704,7 +14100,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            283 => 
+            83 => 
             array (
                 'id' => 2284,
                 'isPublished' => 0,
@@ -29717,7 +14113,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            284 => 
+            84 => 
             array (
                 'id' => 2285,
                 'isPublished' => 0,
@@ -29730,7 +14126,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            285 => 
+            85 => 
             array (
                 'id' => 2286,
                 'isPublished' => 0,
@@ -29743,7 +14139,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            286 => 
+            86 => 
             array (
                 'id' => 2287,
                 'isPublished' => 0,
@@ -29756,7 +14152,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            287 => 
+            87 => 
             array (
                 'id' => 2288,
                 'isPublished' => 0,
@@ -29769,7 +14165,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            288 => 
+            88 => 
             array (
                 'id' => 2289,
                 'isPublished' => 0,
@@ -29782,7 +14178,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            289 => 
+            89 => 
             array (
                 'id' => 2290,
                 'isPublished' => 0,
@@ -29795,7 +14191,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            290 => 
+            90 => 
             array (
                 'id' => 2291,
                 'isPublished' => 0,
@@ -29808,7 +14204,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            291 => 
+            91 => 
             array (
                 'id' => 2292,
                 'isPublished' => 0,
@@ -29821,7 +14217,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            292 => 
+            92 => 
             array (
                 'id' => 2293,
                 'isPublished' => 0,
@@ -29834,7 +14230,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            293 => 
+            93 => 
             array (
                 'id' => 2294,
                 'isPublished' => 0,
@@ -29847,7 +14243,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            294 => 
+            94 => 
             array (
                 'id' => 2295,
                 'isPublished' => 0,
@@ -29860,7 +14256,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            295 => 
+            95 => 
             array (
                 'id' => 2296,
                 'isPublished' => 0,
@@ -29873,7 +14269,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            296 => 
+            96 => 
             array (
                 'id' => 2297,
                 'isPublished' => 0,
@@ -29886,7 +14282,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            297 => 
+            97 => 
             array (
                 'id' => 2298,
                 'isPublished' => 0,
@@ -29899,7 +14295,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            298 => 
+            98 => 
             array (
                 'id' => 2299,
                 'isPublished' => 0,
@@ -29912,7 +14308,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            299 => 
+            99 => 
             array (
                 'id' => 2300,
                 'isPublished' => 0,
@@ -29925,7 +14321,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:41',
                 'updated_at' => '2019-01-06 14:06:41',
             ),
-            300 => 
+            100 => 
             array (
                 'id' => 2301,
                 'isPublished' => 0,
@@ -29938,7 +14334,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            301 => 
+            101 => 
             array (
                 'id' => 2302,
                 'isPublished' => 0,
@@ -29951,7 +14347,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            302 => 
+            102 => 
             array (
                 'id' => 2303,
                 'isPublished' => 0,
@@ -29964,7 +14360,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            303 => 
+            103 => 
             array (
                 'id' => 2304,
                 'isPublished' => 0,
@@ -29977,7 +14373,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            304 => 
+            104 => 
             array (
                 'id' => 2305,
                 'isPublished' => 0,
@@ -29990,7 +14386,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            305 => 
+            105 => 
             array (
                 'id' => 2306,
                 'isPublished' => 0,
@@ -30003,7 +14399,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            306 => 
+            106 => 
             array (
                 'id' => 2307,
                 'isPublished' => 0,
@@ -30016,7 +14412,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            307 => 
+            107 => 
             array (
                 'id' => 2308,
                 'isPublished' => 0,
@@ -30029,7 +14425,7 @@ class CrawlLinksTableSeeder extends Seeder
                 'created_at' => '2019-01-06 14:06:42',
                 'updated_at' => '2019-01-06 14:06:42',
             ),
-            308 => 
+            108 => 
             array (
                 'id' => 2309,
                 'isPublished' => 0,

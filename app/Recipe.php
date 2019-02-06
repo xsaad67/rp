@@ -61,7 +61,7 @@ class Recipe extends Model
         return $query->where('isPublished',0);
     }
 
-    public function tags()
+    public function keywords()
     {
         return $this->morphToMany('App\Tag', 'taggable');
     }

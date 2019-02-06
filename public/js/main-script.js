@@ -40,28 +40,7 @@ var createMobileMenu = function (){
 
 
 var scrollPos = 0, scrollTime;
-//show or hide header with scroll position.
-var showHideHeader = function (e){
-	clearTimeout(scrollTime);
 
-	var currentScroll = $(this).scrollTop();
-
-    if (currentScroll < 60) {
-        $('header').removeClass('hide');
-    } else {
-        if (currentScroll <= scrollPos) {
-            $('header').removeClass('hide');    
-        }
-        else {
-            $('header').addClass('hide');
-            $('.search-bar').removeClass('active');
-        }
-    }
-
-    scrollTime = setTimeout(function() {
-        scrollPos = $(window).scrollTop();
-    }, 100);
-}
 
 //add material wave effect to element
 var addWaveEffect = function (self, e){
@@ -290,7 +269,7 @@ $(document).ready(function(){
 
 	//trigger scrollable elements actions
     $(window).on('scroll',function () {
-    	showHideHeader.call(this);
+    	// showHideHeader.call(this);
     	setStickySidebar.call(this);
     	makeParallax.call(this);
     });

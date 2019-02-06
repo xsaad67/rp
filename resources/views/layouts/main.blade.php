@@ -27,8 +27,6 @@
 
 
 
-
-
 <body>
 
 
@@ -43,47 +41,11 @@
 
     </main>
 
-    <!-- Login popup html source start -->
-    <div class="m-modal-box" id="loginModal">
-        <div class="m-modal-overlay"></div>
-        <div class="m-modal-content small">
-            <div class="m-modal-header">
-                <h3 class="m-modal-title">Login</h3>
-                <span class="m-modal-close"><i class="material-icons">&#xE5CD;</i></span>
-            </div>
-            <div class="m-modal-body">
-                <div class="m-modal-social-logins">
-                    <div class="columns column-3">
-                        <button class="frm-button facebook material-button full" type="button">Facebook</button>
-                    </div>
-                    <div class="columns column-3">
-                        <button class="frm-button google material-button full" type="button">Google</button>
-                    </div>
-                </div>
+    <div class="footer"></div>
 
-                <div class="m-modal-seperator"><span>OR</span></div>
 
-                <form>
-                    <div class="frm-row">
-                        <input class="frm-input" type="text" name="email" id="lmail" placeholder="Email">
-                    </div>
-                    <div class="frm-row">
-                        <input class="frm-input" type="text" name="password" id="lpassword" placeholder="Password">
-                    </div>
-                    <div class="frm-row">
-                        <button class="frm-button material-button full" id ="login-btn" type="button">Login</button>
-                    </div>
-                    <div id="validation-errors"></div>
-                </form>
-                <div class="frm-row">
-                    <p class="txt-center">Don't you have an account yet? <a href="#" data-modal="registerModal">Register</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Login popup html source end -->
-
-    <!-- Newsletter popup html source start -->
+       
+ 
     <div class="m-modal-box" id="newsletterModal" displayed="false">
         <div class="m-modal-overlay"></div>
         <div class="m-modal-content small">

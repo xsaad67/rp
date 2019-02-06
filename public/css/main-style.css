@@ -52,7 +52,7 @@ Primary use :	Web & Mobile
 progress,sub,sup{vertical-align:baseline}
 button,hr,input{overflow:visible}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0;} 
+body{margin:0; position:relative;} 
 figcaption, menu,article,aside,details,figure,footer,header,main,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block}
 audio:not([controls]){display:none;height:0} 
@@ -837,6 +837,7 @@ a{
 	width: 100%;
 	margin: 30px auto;
 	line-height: 1.6;
+	margin-top:90px;
 }
 .main-content-wrapper{
 	margin: 0 20px;
@@ -2872,3 +2873,40 @@ textarea.frm-input{
 }
 .color-red{color: #c22c4b;}
 .color-purple{color: #84408d;}
+.btn{
+display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: transparent;
+border: 1px solid transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-danger{
+	background-color: #c82333;
+	color:#fff;
+}
+.footer{
+height: 50px;
+z-index: 9999;
+position: absolute;
+bottom: 0;
+position: relative;
+background: linear-gradient(to right, #dc2430, #7b4397);
+}

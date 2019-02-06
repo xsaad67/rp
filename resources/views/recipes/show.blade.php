@@ -54,84 +54,84 @@
         color:#84408d;
     }
 
-.user-avatar {
-    position: relative;
-}
-.user-avatar{
-    margin-right: 0;
-    width: auto;
-    display: block;
-    padding-right: 0;
-}
-.user-avatar > a{
-    display: inline-block;
-    background: #fff;
-    border-radius: 50%;
-    -webkit-font-smoothing: antialiased;
-    transition: transform .3s,box-shadow .3s;
-    top:-50px;
-    left:45%;
-    position:absolute;
-}
-.user-avatar > a:hover{
-    -ms-transform: scale(1.04);
-    transform: scale(1.04);
+    .user-avatar {
+        position: relative;
+    }
+    .user-avatar{
+        margin-right: 0;
+        width: auto;
+        display: block;
+        padding-right: 0;
+    }
+    .user-avatar > a{
+        display: inline-block;
+        background: #fff;
+        border-radius: 50%;
+        -webkit-font-smoothing: antialiased;
+        transition: transform .3s,box-shadow .3s;
+        top:-50px;
+        left:45%;
+        position:absolute;
+    }
+    .user-avatar > a:hover{
+        -ms-transform: scale(1.04);
+        transform: scale(1.04);
 
-}
-.user-avatar > a> img{
-    border-radius: 50%;
-    margin: 0;
-    border: 3px solid #84408d;
-    max-width: 100px;
-}
-.featuredMedia{
-    width:100%;
-    box-shadow: 0 0 7px rgba(0,0,0,.25);
-    border-radius: 5px;
-    max-height:350px;
-}
-.author-info{
-    margin-top:60px;
-    font-size:16px;
-    font-weight:600;
-}
-.author-info > a.name{
-    font-weight: 700;
-    font-size:18px;
-    text-decoration: none;
-}
-.author-info > a.name:hover{
-    font-size:22px;
-}
-.cm-1{
-    margin-top:15px;
-}
-.single-meta{
-    background-color: #ecf6f6;
-    padding: 10px 0px;
-    margin-bottom: 60px;
-    border-radius: 6px;
-}
-.single-meta ul{
-    list-style: none;
-    padding: 0px;
-    text-align: center;
-}
-.single-meta ul li{
-    font-weight: 400;
-    font-size: 18px;
-    display: inline-block;
-    border-right: 1px solid rgba(0,0,0,0.1);
-    padding: 0 16px;
-}
-.single-meta ul li:last-child {
-   border-right: 0;
-}
-.single-meta ul li span{
-    vertical-align: middle;
-        color: #7d4294;
-    font-weight: 600;
-}
+    }
+    .user-avatar > a> img{
+        border-radius: 50%;
+        margin: 0;
+        border: 3px solid #84408d;
+        max-width: 100px;
+    }
+    .featuredMedia{
+        width:100%;
+        box-shadow: 0 0 7px rgba(0,0,0,.25);
+        border-radius: 5px;
+        max-height:450px;
+    }
+    .author-info{
+        margin-top:60px;
+        font-size:16px;
+        font-weight:600;
+    }
+    .author-info > a.name{
+        font-weight: 700;
+        font-size:18px;
+        text-decoration: none;
+    }
+    .author-info > a.name:hover{
+        font-size:22px;
+    }
+    .cm-1{
+        margin-top:15px;
+    }
+    .single-meta{
+        background-color: #ecf6f6;
+        padding: 10px 0px;
+        margin-bottom: 60px;
+        border-radius: 6px;
+    }
+    .single-meta ul{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+    }
+    .single-meta ul li{
+        font-weight: 400;
+        font-size: 18px;
+        display: inline-block;
+        border-right: 1px solid rgba(0,0,0,0.1);
+        padding: 0 16px;
+    }
+    .single-meta ul li:last-child {
+       border-right: 0;
+    }
+    .single-meta ul li span{
+        vertical-align: middle;
+            color: #7d4294;
+        font-weight: 600;
+    }
 </style>
 
 @endsection
@@ -143,7 +143,7 @@
             @foreach($featuredRecipes as $key=>$featured)
                 <div class="columns column-2 ">
                     <article class="extra-post-box">
-                        <a href="#" class="extra-post-link">
+                        <a href="{{$recipe->link}}" class="extra-post-link">
                             <div class="post-image">
                                 <span><img src="{{$featured->image}}" width="80" height="80"></span>
                             </div>
@@ -171,7 +171,7 @@
                     <div class="article-header">
                         <div class="breadcrumb">
                             <ul>
-                                <li><a href="#"><span>Home</span></a> <i class="material-icons">&#xE315;</i></li>
+                                <li><a href="{{url("/")}}"><span>Home</span></a> <i class="material-icons">&#xE315;</i></li>
                                 <li><span>{{ html_entity_decode($recipe->title) }}</span></li>
 
                             </ul>
@@ -229,6 +229,14 @@
                                         </li>   
                                     @endif  
 
+                                    @if(!is_null($totalTime))
+
+                                        <li class="single-meta-difficulty">
+                                            <b>Total Time: </b>
+                                            <span>{{$totalTime}}</span>
+                                        </li>   
+                                    @endif  
+
 
                                 </ul>
 
@@ -247,14 +255,22 @@
                                 </div>
 
                                 <div>
-                                    <h2 class="txt-center color-red">Instructions {{$recipe->source}}</h2>
+                                    <h2 class="txt-center color-red">Instructions </h2>
                                         <ol class="steps">
                                             @foreach($recipe->instructions as $instruction)
                                                 <li>{{$instruction->description}}</li>
                                             @endforeach
                                         </ol>
                                 </div>
+
                             </div>
+                        </div>
+                        <div class="article-tags">
+                            <span class="tag-subtitle">Tags : </span>
+                            @foreach($recipe->keywords as $tag)
+                                <a href="{{$tag->link}}">{{$tag->name}}</a><span class="tag-dot"></span>
+                            @endforeach
+                           
                         </div>
                        
 
@@ -276,11 +292,12 @@
                                                 <h3 class="post-title">{{$featured->title}}</h3>
                                                 <div class="post-meta">
                                                     <div class="post-meta-author-avatar">
+
                                                         <img alt="avatar" src="{{$featured->chef->dp}}" class="avatar" height="24" width="24">
                                                     </div>
                                                     <div class="post-meta-author-info">
                                                         <span class="post-meta-author-name">
-                                                            <a href="{{$featured->chef->link}}" title="Posts by {{$featured->chef->name}}" rel="author">{{$featured->chef->name}}</a>
+                                                            <a href="{{$featured->chef->link}}" title="Recipes by {{$featured->chef->name}}" rel="author">{{$featured->chef->name}}</a>
                                                         </span>
                                                         <span class="middot">·</span>
                                                         <span class="post-meta-date">
@@ -289,7 +306,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="#" class="post-overlayLink"></a>
+                                            <a href="{{$recipe->link}}" class="post-overlayLink"></a>
                                         </article>
                                     </div>
 

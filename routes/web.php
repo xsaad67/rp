@@ -24,6 +24,10 @@ Route::prefix('recipes')->group(function() {
     Route::post('/delete/{recipe}','RecipeController@delete');
 });
 
+Route::get("/ingredient/{name}","IngridentController@show");
+
+Route::get("/tags/{slug}",'TagController@show');
+
 Route::resource('cuisines','CuisineController');
 Route::resource('meals','CategoryController');
 
@@ -58,6 +62,7 @@ Route::group(['prefix' => 'area51', 'middleware' => ['admin']], function(){
     Route::resource("/cuisine","Admin\CuisineController");
     Route::resource("/category","Admin\CategoryController");
     Route::resource("/recipes","Admin\RecipeController");
+    Route::resource("/posts",'PostController');
 });
 
 
@@ -73,5 +78,4 @@ Route::prefix('page')->group(function () {
     Route::post('/newsletter','NewsLetterController@store');
     Route::post('/unsub','NewsLetterController@destroy');
 });
-
 Route::get('/home', 'HomeController@index')->name('home');

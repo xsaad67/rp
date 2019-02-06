@@ -245,5 +245,34 @@ function generateUniqueFileName() {
     return $guidText;
 }
 
+function savingBlogimage($html,$title){
+	libxml_use_internal_errors(true);
+	$dom = new DomDocument();
+    $dom->loadHtml($html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+    $images = $dom->getElementsByTagName('img');
+        foreach($images as $img){
+			$src = $img->getAttribute('src');
+
+	        // if the img source is 'data-url'
+	        if(preg_match('/data:image/', $src)){
+	            preg_match('/data:image\/(?<mime>.*?)\;/', $src, $groups);
+	            $mimetype = $groups['mime'];
+	            $filename = uniqid();
+	            $filepath = "images/blog/".$filename.".".$mimetype;
+	            $image = Image::make($src)
+	                	->encode($mimetype, 100)  
+	                	->save(public_path($filepath));
+	            $new_src = asset($filepath);
+	            $img->removeAttribute('src');
+	            $img->setAttribute('src', $new_src);
+	            $img->setAttribute('alt',$title);
+	        } 
+    	} 
+
+    	$m = $dom->saveHTML();
+
+    	return $m;
+}
+
 
 ?>

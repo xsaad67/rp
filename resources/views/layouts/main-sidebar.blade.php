@@ -17,9 +17,9 @@
                 @foreach($featuredRecipes as $featured)
 
                 <li>
-                    <a href="#">
+                    <a href="{{$featured->link}}">
                         <div class="w-post-image">
-                            <img src="/img/news-test-images/news-img1.jpg" width="80" height="80">
+                            <img src="{{$featured->image}}" width="80" height="80">
                             <span>{{$loop->iteration}}</span>
                         </div>
                         <div class="w-post-content">

@@ -6,9 +6,9 @@ use App\Ingrident;
 use App\RecipeIngridents;
 use Illuminate\Http\Request;
 
+
 class IngridentController extends Controller
 {
-
 
 
     /**
@@ -18,6 +18,7 @@ class IngridentController extends Controller
      */
     public function index()
     {
+        return abort(404);
         $ingridents = Ingrident::pluck("name","slug");
        
         $recipeIng = RecipeIngridents::where('recipe_id',1)->pluck("note");
@@ -56,9 +57,10 @@ class IngridentController extends Controller
      * @param  \App\Ingrident  $ingrident
      * @return \Illuminate\Http\Response
      */
-    public function show(Ingrident $ingrident)
+    public function show($name)
     {
-        //
+        $recipeIng = RecipeIngridents::with("recipe")->where("ingrident",$name)->get();
+        return $recipeIng;
     }
 
     /**

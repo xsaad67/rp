@@ -37,6 +37,7 @@ class FollowableController extends Controller
     public function listFavorite(){
         $user = auth()->user();
         $favorites = $user->favorites(\App\Recipe::class)->get();
+        
         return view('members.favorites',compact('favorites'));
     }
 }

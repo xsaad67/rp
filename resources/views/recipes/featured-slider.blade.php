@@ -18,11 +18,11 @@
                                 </div>
                                 <div class="post-meta-author-info">
                                     <span class="post-meta-author-name">
-                                        <a href="{{$featured->chef->link}}" title="Posts by John Doe" rel="author">John Doe</a>
+                                        <a href="{{$featured->chef->link}}" title="Posts by John Doe" rel="author">{{ucwords($featured->chef->name)}}</a>
                                     </span>
                                     <span class="middot">·</span>
                                     <span class="post-meta-date">
-                                        <abbr class="published updated" title="December 4, 2017">{{$featured->created_at->diffForHumans()}}</abbr>
+                                        <abbr class="published updated" title="{{$featured->created_at}}">{{$featured->created_at->diffForHumans()}}</abbr>
                                     </span>
                                 </div>
 

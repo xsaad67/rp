@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
+use DomDocument;
 
 class PostController extends Controller
 {
@@ -24,7 +25,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view("admin.posts.create");
     }
 
     /**
@@ -35,7 +36,31 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'bail|required|max:255',
+            'body' => 'required',
+            'image' => 'required|image',
+            'post_type' => 'required',
+            'user' => 'required',
+        ]);
+
+        $fileName = null;
+        if($request->hasFile('image')){
+            $savePath = public_path('/images/blog');
+            $photo = $request->file('image');
+            $fileName = "ft_".sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
+            $photo->move($savePath, $fileName);
+        }
+
+        $body = savingBlogimage($request->body,$request->title);
+        $post = new Post();
+        $post->title = $request->title;
+        $post->postType = $request->post_type;
+        $post->body = $body;
+        $post->user_id = $request->user;
+        $post->featuredImage = $fileName;
+        $post->save();
+        return redirect()->back()->with('message', 'Post Created');
     }
 
     /**
@@ -46,7 +71,6 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        //
     }
 
     /**
@@ -57,7 +81,7 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        return view("admin.posts.edit",compact("post"));
     }
 
     /**
@@ -69,7 +93,31 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $request->validate([
+            'title' => 'bail|required|max:255',
+            'body' => 'required',
+            'post_type' => 'required',
+            'user' => 'required',
+        ]);
+
+        $fileName = $post->featuredImage;
+
+        if($request->hasFile('image')){
+            $savePath = public_path('/images/blog');
+            $photo = $request->file('image');
+            $fileName = "ft_".sha1(date('YmdHis') . str_random(30)) . '.' . $photo->getClientOriginalExtension();
+            $photo->move($savePath, $fileName);
+        }
+
+        $body = savingBlogimage($request->body,$request->title);
+       
+        $post->title = $request->title;
+        $post->postType = $request->post_type;
+        $post->body = $body;
+        $post->user_id = $request->user;
+        $post->featuredImage = $fileName;
+        $post->save();
+        return redirect()->back()->with('message', 'Post Created');
     }
 
     /**
