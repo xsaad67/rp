@@ -13,6 +13,10 @@
 
 Auth::routes();
 
+// Route::get("/",function(){
+//     return view("layouts.main");
+// });
+
 Route::get('/','RecipeController@index');
 
 Route::prefix('recipes')->group(function() {

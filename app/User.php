@@ -57,4 +57,9 @@ class User extends Authenticatable
     public function rated(){
         return $this->hasMany(Rating::class);
     }
+
+    public function getNameAttribute(){
+        return ucwords($this->attributes['name']);
+    }
 }
+

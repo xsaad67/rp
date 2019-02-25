@@ -3,7 +3,7 @@
         <div class="post-top">
             <img class="post-image lazy" data-src="{{$recipe->image}}">
             {{-- @php dump($recipe->favorite) @endphp --}}
-             <a href="javascript:void(0)" class="cornerimage {{ $recipe->favoriters->contains('id',auth()->id()) ? 'favorited' : 'favorite' }}" data-id="{{$recipe->id}}">
+            <a href="javascript:void(0)" class="cornerimage {{ $recipe->favoriters->contains('id',auth()->id()) ? 'favorited' : 'favorite' }}" data-id="{{$recipe->id}}">
                 <i class="material-icons">favorite</i>
             </a>
             <h3 class="post-title">

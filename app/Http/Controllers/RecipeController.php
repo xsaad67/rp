@@ -27,9 +27,10 @@ class RecipeController extends Controller
      */
     public function index()
     {
+        // return view("layouts.main");
         $recipes = Recipe::with('favoriters')->published()->oldest()->paginate(); 
         // return $recipes;
-        $featuredRecipes =  Recipe::inRandomOrder()->take(15)->get();;
+        $featuredRecipes =  Recipe::inRandomOrder()->take(6)->get();;
         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 

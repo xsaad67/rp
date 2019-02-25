@@ -67,7 +67,7 @@ class Recipe extends Model
     }
     
     public function getTitleAttribute(){
-        return htmlspecialchars_decode($this->attributes['title']);
+        return ucwords(htmlspecialchars_decode($this->attributes['title']));
     }
 
 }
