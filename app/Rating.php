@@ -8,6 +8,7 @@ class Rating extends Model
 {
     
 	protected $fillable = ['rating','review','title'];
+    protected $with = ['user'];
 
     public function rateable(){
     	return $this->morphTo();

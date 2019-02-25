@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>@yield('title',env('APP_NAME')) </title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- SEO Meta Tags-->
     <meta name="description" content="CreateX - Multipurpose Bootstrap Theme">
     <meta name="keywords" content="multipurpose, portfolio, blog, shop, e-commerce, modern, flat style, responsive,  business, corporate, mobile, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
@@ -43,7 +44,7 @@
     <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
     <script src="/assets/js/vendor.min.js"></script>
     <script src="/assets/js/theme.min.js"></script>
-    @yield('footer')
+    @yield('js')
   </body>
 
 </html>

@@ -902,7 +902,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2018-12-16 07:28:50',
                 'updated_at' => '2018-12-16 07:28:50',
             ),
-            59 => 
+            60 => 
             array (
                 'id' => 60,
                 'name' => 'axel guillot',
@@ -917,9 +917,9 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2018-12-16 07:28:51',
                 'updated_at' => '2018-12-16 07:28:51',
             ),
-            60 => 
+            61 => 
             array (
-                'id' => 60,
+                'id' => 61,
                 'name' => 'Jon Doe',
                 'dp' => 'main.jpg',
                 'slug' => 'jon-doe',
