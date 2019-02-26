@@ -51,8 +51,11 @@ class Recipe extends Model
     
 
     public function getImageAttribute(){
+
+        return asset("images/recipes/recipe (".rand(1,64).").jpg");
+
         if (is_null($this->featuredImage)) { 
-                return "placeholder image";
+            return "placeholder image";
         }
         return filter_var($this->featuredImage, FILTER_VALIDATE_URL) ? $this->featuredImage : "hello world";
     }
