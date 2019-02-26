@@ -66,6 +66,45 @@
 .cornerimage:hover{ background-color: #dc2430;color: #fff !important;}
 .favorited{ background-color: #dc2430; color: #fff !important; }
 .favorited:hover{ background-color: rgba(0,0,0,0.5); }
+
+.jq-stars {
+  display: inline-block;
+}
+
+.jq-rating-label {
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  font-family: helvetica, arial, verdana;
+}
+
+.jq-star {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jq-star-svg {
+  padding-left: 3px;
+  width: 100%;
+  height: 100% ;
+}
+
+.jq-star:hover .fs-star-svg path {
+}
+
+.jq-star-svg path {
+  /* stroke: #000; */
+  stroke-linejoin: round;
+}
+
+/* un-used */
+.jq-shadow {
+  -webkit-filter: drop-shadow( -2px -2px 2px #888 );
+  filter: drop-shadow( -2px -2px 2px #888 );
+}
 </style>
 @endsection
 
@@ -186,7 +225,7 @@
 
 
            <div class="d-sm-flex justify-content-between align-items-center border-top border-bottom mb-5 py-2">
-
+        
             <div class="py-2">
               @foreach($recipe->keywords as $tag)
                 <a class="tag-link" href="{{$tag->link}}">{{$tag->name}}</a>
@@ -221,10 +260,37 @@
         <div class="row">
           <div class="col-lg-9">
             <h4 class="text-center pb-3">3 people rate</h4>
-          
-            @foreach($recipe->ratings as $review)
-              @include('reviews.show')
-            @endforeach
+              
+              @auth
+                <div class="comment-form">
+                    <form>
+                        <div class="comment-columns">
+                           
+                          <div class="form-group">
+                              <div class="my-rating" data-rating="0"></div>
+                              <span class= "error hide" id="ratedErr"></span>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="reviewTxt" rows="4" placeholder="Your Review.."></textarea>
+                            <span class= "error hide" id="reviewErr"></span>
+                        </div>
+                        <div class="form-group">
+                        
+                            <div class="columns column-2">
+                                <button type="button" class="btn btn-warning" id="reviewBtn">Your Review</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </form>
+                </div>
+              @endauth
+            <div class="all-reviews">
+              @foreach($recipe->ratings as $review)
+                @include('reviews.show')
+              @endforeach
+            </div>
           </div>
         </div>
       </div>
@@ -234,6 +300,62 @@
 
 
 @section('js')
-  {{-- <script src="{{asset('assets/js/admin-ajax.js')}}"></script> --}}
+  <script src="http://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
+  <script>
+    $(function(){
+
+      var rating = "";
+      var recipeId = "{{$recipe->id}}";
+      var reviewLink = "/member/reviews/recipe/"+recipeId;
+
+      $(".item-rated").starRating({
+        totalStars: 5,
+        starShape: 'rounded',
+        starSize: 25,
+        emptyColor: 'lightgray',
+        hoverColor: 'salmon',
+        activeColor: 'crimson',
+        readOnly: true
+      });
+
+      $(".my-rating").starRating({
+        totalStars: 5,
+        starShape: 'rounded',
+        starSize: 40,
+        activeColor: '#000',
+        disableAfterRate: false,
+          onLeave: function(currentIndex, currentRating, $el){
+            rating = currentRating;
+          }
+      });
+
+
+      $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+        $("#reviewBtn").click(function(){
+            $.ajax({
+                type:'POST',
+                url:reviewLink,
+                data:{ rating: rating, review: $("#reviewTxt").val() },
+                context: this,
+                success:function(data){
+                    $(".all-reviews").prepend(data.html);
+                    loadStarSvg();
+                },
+                error: function (xhr) {
+                   $('#validation-errors').html('');
+                   $.each(xhr.responseJSON.errors, function(key,value) {
+                     $('#validation-errors').append('<div class="alert alert-danger">'+value+'</div');
+                 }); 
+                },
+            });
+        });
+
+
+    });
+  </script>
 @endsection
 
