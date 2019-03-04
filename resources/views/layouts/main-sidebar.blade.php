@@ -7,11 +7,7 @@
         <div class="widget-item">
             <h4 class="w-title">Populer Posts</h4>
 
-            @php
-               if(!isset($featuredRecipes)){
-                    $featuredRecipes = \App\Recipe::popular(5);
-               }
-            @endphp 
+           
              
             <ul class="w-post-list">
                 @foreach($featuredRecipes as $featured)

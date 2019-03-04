@@ -27,10 +27,8 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        // return view("layouts.main");
         $recipes = Recipe::with('favoriters')->published()->oldest()->paginate(); 
         $featuredRecipes =  Recipe::inRandomOrder()->take(6)->get();;
-
         return view('recipes.index',compact('recipes','featuredRecipes'));
     }
 
@@ -112,14 +110,14 @@ class RecipeController extends Controller
     public function show($slug)
     {
 
-        $featuredRecipes =  Recipe::inRandomOrder()->take(8)->get();;
         $recipe = Recipe::with("ingredients",'instructions','keywords')->where('slug',$slug)->firstOrFail();
-        // return $recipe->id;
-        // return $recipe->ratings;
+        return $recipe->cat;
         $preprationTime=checkIso($recipe->preprationTime);
         $cookingTime = checkIso($recipe->cookingTime);
         $totalTime = checkIso($recipe->totalTime);
-                                                                                    
+
+
+        $featuredRecipes =  Recipe::where("id","!=",$recipe->id)->inRandomOrder()->take(8)->get();
         return view("recipes.show",compact("recipe",'preprationTime','cookingTime','featuredRecipes','totalTime'));
     }
 

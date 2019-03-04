@@ -15,7 +15,7 @@ class ProfileController extends Controller
     
     public function show($slug){
     	$user = User::where('slug',$slug)->firstOrFail();
-    	$recipes = $user->recipes()->latest()->paginate(5);
+    	$recipes = $user->recipes()->latest()->paginate(8);
     	return view('chefs.show',compact('recipes','user'));
     }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   
 <head>
     <meta charset="utf-8">
@@ -33,7 +34,7 @@
     
     @include('layouts.nav')
     <!-- Page Content-->
-    <div class="content">
+    <div class="content mt-1">
       @yield('content')
     </div>
     

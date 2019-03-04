@@ -39,8 +39,9 @@ class Recipe extends Model
     	return $this->hasMany(RecipeInstruction::class);
     }
 
-   
-
+    public function getCatAttribute(){
+        return str_slug($this->category_id);
+    }
 
     public function scopePopular($query,$count=8){
         return $query->where('isPublished',0)
@@ -71,6 +72,10 @@ class Recipe extends Model
     
     public function getTitleAttribute(){
         return ucwords(htmlspecialchars_decode($this->attributes['title']));
+    }
+
+    public function category(){
+        return $this->belongsTo(Category::class);
     }
 
 }

@@ -15,7 +15,7 @@ class Category extends Model
         return [ 'source' => 'name' ];
     }
 
-    public function posts(){
-    	return $this->hasMany(Post::class);
+    public function recipes(){
+    	return $this->hasMany(Recipe::class);
     }
 }

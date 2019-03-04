@@ -118,8 +118,8 @@
         <div class="col-lg-9">
           <!-- Single Post Meta-->
            
-            <section class="position-relative bg-center bg-norepeat bg-cover pt-sm-5 pb-5 " style="background-image: url({{$recipe->image}});max-height:450px; min-height:350px" >
-              
+            <section class="position-relative bg-center bg-norepeat bg-cover pt-sm-5 pb-5 " style="background-image: url('{{$recipe->image}}');max-height:450px; min-height:350px">
+
             </section>
             <div class="container bg-parallax-content pb-3" style="margin-top: -50px;">
               <figure class="figure d-block rounded-circle p-2 mx-auto" style="width: 100px;"><img class="d-block w-100 rounded-circle" src="{{$recipe->chef->avatar}}" alt="{{$recipe->chef->name}}"></figure>
@@ -224,6 +224,12 @@
           </div>
 
 
+          {{--  @php
+               if(!isset($featuredRecipes)){
+                    $featuredRecipes = \App\Recipe::popular(5);
+               }
+            @endphp  --}}
+
            <div class="d-sm-flex justify-content-between align-items-center border-top border-bottom mb-5 py-2">
         
             <div class="py-2">
@@ -235,21 +241,40 @@
           </div>
           <!-- Entry Nanigation-->
           <nav class="entry-navigation">
-            <div class="prev-btn"><a class="label" href="#"><i class="fe-icon-arrow-left"></i>Prev <span class='d-none d-sm-inline'>post</span></a>
+            <div class="prev-btn">
+              <a class="label" href="{{ $featuredRecipes['0']->link }}">
+                <i class="fe-icon-arrow-left"></i>Prev <span class='d-none d-sm-inline'>Recipe</span></a>
               <div class="post-preview">
-                <div class="post-preview-thumb"><img src="img/blog/navigation/02.jpg" alt="Blog post thumbnail"/>
+                <div class="post-preview-thumb">
+                  <img src="{{ $featuredRecipes['0']->image }}" alt="Blog post thumbnail"/>
                 </div>
-                <div class="post-preview-details"><span class="post-preview-title">Technological breakthrough</span><span class="post-preview-meta"><i class="fe-icon-calendar"></i>May 25, 18</span></div>
+                <div class="post-preview-details"><span class="post-preview-title">{{ $featuredRecipes['0']->title }}</span><span class="post-preview-meta"><i class="fe-icon-calendar"></i>{{ $featuredRecipes['0']->created_at->diffForHumans() }}</span></div>
               </div>
-            </div><a class="back-btn" href="blog-grid-rs.html"><i class="fe-icon-grid"></i></a>
-            <div class="next-btn"><a class="label" href="#">Next <span class='d-none d-sm-inline'>post</span><i class="fe-icon-arrow-right"></i></a>
+
+              @php $featuredRecipes->forget('0'); @endphp
+            </div>
+
+
+
+            <a class="back-btn" href="{{url("/")}}"><i class="fe-icon-grid"></i></a>
+
+
+            <div class="next-btn">
+              <a class="label" href="{{ $featuredRecipes['1']->link }}"> <span class='d-none d-sm-inline'>post</span>
+                <i class="fe-icon-arrow-right"></i>
+              </a>
               <div class="post-preview">
-                <div class="post-preview-details"><span class="post-preview-title">Mother nature is speaking</span><span class="post-preview-meta"><i class="fe-icon-calendar"></i>Jul 30, 18</span></div>
-                <div class="post-preview-thumb"><img src="img/blog/navigation/01.jpg" alt="Blog post thumbnail"/>
+                <div class="post-preview-details"><span class="post-preview-title">{{ $featuredRecipes['1']->title }}</span><span class="post-preview-meta"><i class="fe-icon-calendar"></i>{{ $featuredRecipes['1']->created_at->diffForHumans() }}</span></div>
+                <div class="post-preview-thumb"><img src="{{ $featuredRecipes['1']->image }}" alt="{{ $featuredRecipes['1']->title }}"/>
                 </div>
               </div>
             </div>
+            @php $featuredRecipes->forget('1'); @endphp
           </nav>
+        </div>
+
+        <div class="col-lg-3 mt-3">
+          @include('recipes.recipe-sidebar')
         </div>
         
       </div>
@@ -259,7 +284,7 @@
       <div class="container pb-4">
         <div class="row">
           <div class="col-lg-9">
-            <h4 class="text-center pb-3">3 people rate</h4>
+            
               
               @auth
                 <div class="comment-form">
@@ -285,6 +310,8 @@
 
                     </form>
                 </div>
+              @else
+                <h4 class="text-center pb-3">You must be <a href="/login">Login</a> to write review</h4>
               @endauth
             <div class="all-reviews">
               @foreach($recipe->ratings as $review)
